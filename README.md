@@ -13,18 +13,18 @@ Creada automáticamente a partir de los cuestionarios.
 
 Test alojados en picuino.com:
 
-   https://www.picuino.com/test
+   https://www.picuino.com/test/
 
 
 Test alojados en GitHub:
    
-   https://picuino.github.io/questionary/index.html
+   https://picuino.github.io/test/
 
 
 Créditos y licencias
 ====================
 
-https://github.com/picuino/questionary/blob/master/Licenses.md
+https://github.com/picuino/test/blob/master/Licenses.md
 
 
 Estructura de directorios
