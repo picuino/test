@@ -186,7 +186,7 @@ licencias. Por defecto la licencia de las imágenes será
 lo contrario.
 
 Las siguientes imágenes creadas por Carlos Pardo y que se pueden encontrar 
-en el repositorio  https://github.com/picuino/questionary/images
+en el repositorio  https://github.com/picuino/test/images
 se distribuyen bajo **licencia Creative Commons Attribution-ShareAlike 4.0**.
 Se puede leer el texto de la licencia en el enlace: 
 https://creativecommons.org/licenses/by-sa/4.0/deed.es

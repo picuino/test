@@ -1,5 +1,5 @@
-﻿Questionary
-===========
+﻿Test Picuino
+============
 
 Test de respuesta múltiple guardados en formato 
 [YAML](https://es.wikipedia.org/wiki/YAML) con conversión automática 
@@ -7,8 +7,8 @@ desde este formato a otros útiles como son DOCX, CSV, XML de Moodle
 o formato de página WEB.
 
 
-Página web de questionary
-=========================
+Página web de Test Picuino
+==========================
 Creada automáticamente a partir de los cuestionarios.
 
 Test alojados en picuino.com:

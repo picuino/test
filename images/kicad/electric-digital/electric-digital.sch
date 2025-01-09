@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 1 1
-Title "Circuitos digitales para Questionary"
+Title "Circuitos digitales para Test Picuino"
 Date "16/02/2021"
 Rev ""
 Comp "www.picuino.com"
