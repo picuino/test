@@ -94,7 +94,7 @@ index_template = """<!DOCTYPE html>
       
 	<hr style="margin:20px 0 20px 0">
 	<a class="btn2" href="index.html" target="_blank">Test en Español</a>
-	<a class="btn3" href="https://www.picuino.com/es/" target="_blank"><img src="logo-picuino-bgblue.png" alt="Picuino"></a>
+	<a class="btn3" href="../es/" target="_blank"><img src="logo-picuino-bgblue.png" alt="Picuino"></a>
 	<hr style="margin:20px 0 80px 0">
 
         {% set sp = namespace(section=1, numtest=1, sumtest=0) %}
@@ -121,12 +121,12 @@ index_template = """<!DOCTYPE html>
    
    <!-- FOOTER -->
    <div class="footer">
-   <a href="https://www.picuino.com/en/contacto.html" target="_blank">Contact</a>
-   <a href="https://www.picuino.com/es/legal-aviso.html" target="_blank">Terms Of Service</a>
-   <a href="https://www.picuino.com/en/legal-cookies.html" target="_blank">Cookie policy</a>
+   <a href="../en/contacto.html" target="_blank">Contact</a>
+   <a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a>
+   <a href="../en/legal-cookies.html" target="_blank">Cookie policy</a>
    <a href="https://github.com/picuino/test/blob/master/Licenses.md" target="_blank">Credits</a>
    <a href="https://github.com/picuino/test/" target="_blank">GitHub</a>
-   <a href="https://www.picuino.com/test/index.html" target="_blank">Index</a>
+   <a href="../test/index.html" target="_blank">Index</a>
    <p>Copyright © 2021 by Carlos Félix Pardo Martín.</p>
    <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
    <p>{{ sp.sumtest }} Technology test</p>
@@ -143,6 +143,8 @@ def main():
    data = template.render(data = index_data)
    with codecs.open("index-en.html", 'w', encoding="utf-8") as fo:
        fo.write(data)
+   input('Pulsa Enter')
+
 
 if __name__ == "__main__":
    main()
