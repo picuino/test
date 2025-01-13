@@ -248,7 +248,7 @@
       <text><![CDATA[
          <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Capacidades y velocidades típicas</strong><br> Un {1:SHORTANSWER:=cluster} de ordenadores puede alcanzar varios {1:SHORTANSWER:=petabytes} de capacidad.]]>
+         <strong>Capacidades y velocidades típicas</strong><br> Un {1:SHORTANSWER:=clúster} de ordenadores puede alcanzar varios {1:SHORTANSWER:=petabytes} de capacidad.]]>
       </text>
     </questiontext>
     <generalfeedback format="html">
