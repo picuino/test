@@ -1,0 +1,7835 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "04d94725-ef03-4c54-843a-5c4eaa36edb8")
+	(paper "A4" portrait)
+	(title_block
+		(title "Circuitos digitales para Test Picuino")
+		(date "16/02/2021")
+		(company "www.picuino.com")
+		(comment 1 "Copyright (c) 2021 by Carlos Pardo")
+		(comment 2 "License CC BY-SA 4.0")
+	)
+	(lib_symbols
+		(symbol "electric-digital-rescue:CopyRight-simbolos"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CP"
+				(at 6.35 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "simbolos_CopyRight"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "License" "CC BY-SA 4.0"
+				(at -1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify right)
+				)
+			)
+			(property "Web" "www.picuino.com"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(symbol "CopyRight-simbolos_0_1"
+				(polyline
+					(pts
+						(xy -10.16 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "electric-digital-rescue:conector-simbolos"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "o"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "simbolos_conector"
+				(at -1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.175 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 3.175 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "conector-simbolos_0_1"
+				(circle
+					(center 2.54 0)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "conector-simbolos_1_1"
+				(pin input line
+					(at 0 0 0)
+					(length 1.524)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "electric-digital-rescue:logic_nand-simbolos"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 11.43 -6.35 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "simbolos_logic_nand"
+				(at 7.62 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 -4.445 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -4.445 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "logic_nand-simbolos_0_1"
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 2.54 1.27) (xy 2.54 -6.35) (xy 7.62 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 -6.35)
+					(mid 11.43 -2.54)
+					(end 7.62 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "logic_nand-simbolos_1_1"
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name "O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "logic_nand-simbolos_2_1"
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name "O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "logic_nand-simbolos_3_1"
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name "O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "logic_nand-simbolos_4_1"
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name "O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "electric-digital-rescue:resistencia-simbolos"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.905 -5.08 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "simbolos_resistencia"
+				(at -2.54 -5.715 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "resistencia-simbolos_0_1"
+				(rectangle
+					(start -1.27 -1.905)
+					(end 1.27 -8.255)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "resistencia-simbolos_1_1"
+				(pin input line
+					(at 0 -10.16 90)
+					(length 1.905)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 270)
+					(length 1.905)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "electric-digital-rescue:tierra-simbolos"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "V"
+				(at 0.635 -0.635 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "simbolos_tierra"
+				(at -3.175 -0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 7.62 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 7.62 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "tierra-simbolos_0_0"
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "tierra-simbolos_1_1"
+				(pin input line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "simbolos-electricos:NPN"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 6.985 -5.08 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NPN"
+				(at -1.905 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Campo4" "NPN"
+				(at 27.305 -6.985 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "NPN_0_0"
+				(polyline
+					(pts
+						(xy 4.445 -7.62) (xy 2.54 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "C"
+					(at 7.62 -1.27 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(text "E"
+					(at 7.62 -8.89 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(symbol "NPN_0_1"
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 6.35 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.953 -6.858) (xy 3.937 -8.382) (xy 6.35 -8.89) (xy 4.953 -6.858)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NPN_1_0"
+				(text "B"
+					(at 0.635 -3.81 0)
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(symbol "NPN_1_1"
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 -10.16 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 0 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 55.245 217.805)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d683d43-f5f6-49a6-bfba-082d83ca8909")
+	)
+	(junction
+		(at 169.545 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "111431d3-ab55-4452-8434-488bc285f9ef")
+	)
+	(junction
+		(at 164.465 220.345)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1506d01e-2a3e-44ed-8abb-ce95a25cde9f")
+	)
+	(junction
+		(at 123.19 212.725)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27637217-428a-41b2-b717-c94332828b94")
+	)
+	(junction
+		(at 135.89 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "386f3075-6dca-42d4-ac79-340640c63198")
+	)
+	(junction
+		(at 135.255 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cef46e4-92b4-4a60-95f5-60d9ab3bc2f9")
+	)
+	(junction
+		(at 123.19 227.965)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "468bc9d2-48d6-4d9f-b3a6-ef74d35c1ab5")
+	)
+	(junction
+		(at 130.81 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52c2da40-efde-4863-a2ae-12018ca6d9cd")
+	)
+	(junction
+		(at 73.025 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e94f6fa-6718-4bff-bc8f-da74b7b5a9ce")
+	)
+	(junction
+		(at 60.325 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72a5f1b2-f5a9-4813-8c02-fe59e86e17c5")
+	)
+	(junction
+		(at 73.66 83.185)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bbb52b7-79c5-41c7-8450-b05fb38d7c94")
+	)
+	(junction
+		(at 135.255 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91b36dde-1c7f-426f-8e09-c676807935f5")
+	)
+	(junction
+		(at 57.15 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a6fdbc0-4158-4281-af27-f282932793c6")
+	)
+	(junction
+		(at 145.415 28.575)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a8e381b-2fcb-48b5-a595-4dd083b717ee")
+	)
+	(junction
+		(at 120.65 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4c7b01f-c1a1-45e0-aee7-99b6423dc4cd")
+	)
+	(junction
+		(at 149.225 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd1d1ee9-5e6d-4947-b672-51bae5a0cd9b")
+	)
+	(junction
+		(at 130.81 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d31e2ad9-3391-4e61-8ae5-a36b7979b501")
+	)
+	(junction
+		(at 73.66 62.865)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d979eb79-fe32-4fd3-9fad-0c9d1f5d47f3")
+	)
+	(junction
+		(at 73.025 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e17c9b74-a497-4468-bf6c-b9dca086e702")
+	)
+	(junction
+		(at 120.65 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb7d2bd3-f59e-486d-8ef5-e0284cbb8408")
+	)
+	(junction
+		(at 57.15 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f05c2824-095b-4d96-8b68-0b4a3f1dffbb")
+	)
+	(wire
+		(pts
+			(xy 154.305 69.85) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0085f568-8228-4e0a-8f80-6bd6f72664f8")
+	)
+	(wire
+		(pts
+			(xy 35.56 29.21) (xy 38.1 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0328a86f-2f61-4509-83ed-de08ba5dfe49")
+	)
+	(wire
+		(pts
+			(xy 28.575 177.8) (xy 31.115 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0849f504-9bd8-442e-bf08-712e746d8cf2")
+	)
+	(wire
+		(pts
+			(xy 169.545 175.26) (xy 172.085 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d818177-91bb-4513-9e32-4725fb6e1b15")
+	)
+	(wire
+		(pts
+			(xy 135.255 82.55) (xy 135.255 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e408b74-430d-4e1e-9eae-f57b7be70989")
+	)
+	(wire
+		(pts
+			(xy 38.1 83.185) (xy 73.66 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11295b3d-70e5-46f1-8f93-f1f8ffd21b30")
+	)
+	(wire
+		(pts
+			(xy 167.64 125.73) (xy 167.64 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e19904-13d7-45c2-adb7-cd8bccca70f1")
+	)
+	(wire
+		(pts
+			(xy 164.465 217.805) (xy 166.37 217.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f1b40e-3e9b-4d75-b19b-bef8dba4bb25")
+	)
+	(polyline
+		(pts
+			(xy 205.74 100.33) (xy 5.08 100.33)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "1405740b-c909-449a-9a44-f78d53880629")
+	)
+	(wire
+		(pts
+			(xy 149.225 123.19) (xy 149.225 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16fe2d84-b49b-40ae-b868-5c6efcf15119")
+	)
+	(wire
+		(pts
+			(xy 60.325 266.7) (xy 53.34 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17bd9414-14c3-47af-a19b-65b6cfc5138a")
+	)
+	(wire
+		(pts
+			(xy 16.51 177.8) (xy 18.415 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18205730-977e-4e16-955e-0e49b83de199")
+	)
+	(wire
+		(pts
+			(xy 158.75 69.85) (xy 158.75 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187ed8e3-407d-4eda-a9ac-6179223f626b")
+	)
+	(wire
+		(pts
+			(xy 145.415 28.575) (xy 138.43 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189be98f-6874-4a3d-9345-512baf62d3cb")
+	)
+	(wire
+		(pts
+			(xy 55.245 202.565) (xy 55.245 205.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1dd991-6651-4502-b388-5831e77a88ca")
+	)
+	(wire
+		(pts
+			(xy 139.065 67.31) (xy 135.255 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1daad80e-c005-429b-8df9-6b05fce14879")
+	)
+	(wire
+		(pts
+			(xy 123.19 210.185) (xy 123.19 212.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2282ce-2fcf-4c65-b9dd-fec1c6c6ae5b")
+	)
+	(wire
+		(pts
+			(xy 123.19 212.725) (xy 118.745 212.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2c567e-9828-4ae1-8f3a-9c1ff3cd0b3a")
+	)
+	(wire
+		(pts
+			(xy 46.355 226.06) (xy 48.895 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e765f97-7bed-4861-b405-a7005dc8a44f")
+	)
+	(wire
+		(pts
+			(xy 60.325 266.7) (xy 60.325 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d34f26-f5ab-4e6f-84bc-4303da8fb107")
+	)
+	(wire
+		(pts
+			(xy 146.685 222.885) (xy 146.685 227.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221eb901-9495-4f16-b59b-264c2d57c79b")
+	)
+	(polyline
+		(pts
+			(xy 105.41 5.08) (xy 105.41 290.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "2425727b-f696-40d4-b6c9-f2aa9708416d")
+	)
+	(wire
+		(pts
+			(xy 73.025 170.18) (xy 73.025 173.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fe0452-98c6-4a5c-82c5-601de00114a1")
+	)
+	(wire
+		(pts
+			(xy 38.1 76.835) (xy 38.1 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29db5a79-cd9b-4a80-817a-f0f0197be17c")
+	)
+	(wire
+		(pts
+			(xy 169.545 172.72) (xy 169.545 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a94edba-65f3-4d2c-bf44-8f1bd317ea0d")
+	)
+	(wire
+		(pts
+			(xy 158.75 80.01) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c7352b8-d291-4855-a906-a1109bf2debb")
+	)
+	(polyline
+		(pts
+			(xy 5.08 5.08) (xy 205.74 5.08)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "2c817571-9abe-4fd6-b8bf-df6bd5bff2ef")
+	)
+	(wire
+		(pts
+			(xy 57.15 11.43) (xy 57.15 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3109d707-197f-400c-9d03-ce0945a56b0d")
+	)
+	(wire
+		(pts
+			(xy 146.685 212.725) (xy 146.685 217.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c7e65d-b0cb-4e08-9832-1612640bf7da")
+	)
+	(wire
+		(pts
+			(xy 48.26 19.05) (xy 50.8 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35705437-af02-4403-b040-7066f0fac41e")
+	)
+	(wire
+		(pts
+			(xy 149.225 118.11) (xy 152.4 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cdc9bb-e535-469d-9c48-f6ac120e9524")
+	)
+	(wire
+		(pts
+			(xy 73.025 185.42) (xy 73.025 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f0091b-e3d6-4a51-8375-699ed78badaa")
+	)
+	(wire
+		(pts
+			(xy 55.245 217.805) (xy 55.245 215.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c332214-d30f-46d1-b998-790623184b56")
+	)
+	(wire
+		(pts
+			(xy 114.935 182.88) (xy 120.65 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f79a2c6-9d79-4b31-bdd2-7e757c4a7f2c")
+	)
+	(wire
+		(pts
+			(xy 57.15 120.65) (xy 73.025 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b77fc9-6c5d-4b7e-8839-cf0d5033f7b9")
+	)
+	(wire
+		(pts
+			(xy 73.025 154.94) (xy 73.025 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a12084d-df80-4580-993d-43afbdfcd905")
+	)
+	(wire
+		(pts
+			(xy 60.325 264.16) (xy 60.325 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8e6444-b239-463a-9120-e09febf947c9")
+	)
+	(wire
+		(pts
+			(xy 169.545 172.72) (xy 169.545 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5253c4d4-4e33-455b-8574-21c8b709fd4e")
+	)
+	(wire
+		(pts
+			(xy 146.685 227.965) (xy 142.24 227.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53501c5a-9bdd-4728-9051-ea5a15a26889")
+	)
+	(wire
+		(pts
+			(xy 37.465 185.42) (xy 73.025 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5996a4ef-8de5-4212-a393-31e429001f81")
+	)
+	(wire
+		(pts
+			(xy 135.255 69.85) (xy 135.255 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bafc43e-b3f5-4e9b-be17-d8c58e3e46b8")
+	)
+	(wire
+		(pts
+			(xy 158.75 85.09) (xy 154.305 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616a5da2-6722-467a-8d80-2ccf7c9166f0")
+	)
+	(wire
+		(pts
+			(xy 135.255 85.09) (xy 135.255 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61dc73a6-7fce-495b-8c50-245250d3fdf2")
+	)
+	(wire
+		(pts
+			(xy 38.1 62.865) (xy 38.1 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b95132-d891-44a7-ac81-5bf4f9f3a318")
+	)
+	(wire
+		(pts
+			(xy 37.465 182.88) (xy 37.465 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64db3002-d8bd-488f-8867-e7ea321d7b66")
+	)
+	(polyline
+		(pts
+			(xy 205.74 5.08) (xy 205.74 290.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "6a4f621c-6d60-48f7-a644-9ccf8562bc94")
+	)
+	(wire
+		(pts
+			(xy 135.89 177.8) (xy 139.065 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd331de-9724-4ba0-8361-1c9787efcf4f")
+	)
+	(wire
+		(pts
+			(xy 154.305 165.1) (xy 154.305 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d56b389-c11a-41e4-88f8-8077e8163572")
+	)
+	(wire
+		(pts
+			(xy 123.19 212.725) (xy 123.19 215.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70279526-6112-42c6-87ec-c6b10308806b")
+	)
+	(wire
+		(pts
+			(xy 164.465 220.345) (xy 164.465 222.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702e1920-ce4f-47ac-b43d-c6821d7d85a6")
+	)
+	(wire
+		(pts
+			(xy 145.415 31.115) (xy 148.59 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7300e762-cdd1-4977-bed5-c18d6868b567")
+	)
+	(wire
+		(pts
+			(xy 130.81 113.03) (xy 152.4 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7425519e-4baa-4fd5-82f4-d672f3fdbea4")
+	)
+	(wire
+		(pts
+			(xy 135.255 87.63) (xy 139.065 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7833400a-d891-413a-b543-4f1b402c1d35")
+	)
+	(wire
+		(pts
+			(xy 73.66 83.185) (xy 85.725 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78410a2b-46fd-41ff-a863-6a195a36f001")
+	)
+	(wire
+		(pts
+			(xy 73.66 77.47) (xy 73.66 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78fdf7aa-23f1-4602-8353-560724a89367")
+	)
+	(wire
+		(pts
+			(xy 135.255 72.39) (xy 139.065 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bfbe827-2b04-4bd6-a6b7-021b6abf847a")
+	)
+	(wire
+		(pts
+			(xy 146.05 123.19) (xy 149.225 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d2faa3d-ce3a-4d86-9077-6bf2ef9f2f2b")
+	)
+	(wire
+		(pts
+			(xy 135.89 172.72) (xy 135.89 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81256dca-4073-4410-acf4-b2198240712a")
+	)
+	(polyline
+		(pts
+			(xy 5.08 243.205) (xy 205.74 243.205)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8238a795-da5d-4955-aada-cf4864b6e4ca")
+	)
+	(wire
+		(pts
+			(xy 123.19 215.265) (xy 127 215.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a3f209-a904-4ddb-9de2-8b5ae2fea639")
+	)
+	(wire
+		(pts
+			(xy 33.655 226.06) (xy 36.195 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a7c1f4-8f06-4ddb-b09f-83531984c5a6")
+	)
+	(wire
+		(pts
+			(xy 57.15 107.95) (xy 57.15 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84248a17-fe6e-4607-8a89-c234ae2c61d6")
+	)
+	(wire
+		(pts
+			(xy 164.465 220.345) (xy 164.465 217.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fdab5e-8786-46e0-87c8-803bef8a09b8")
+	)
+	(wire
+		(pts
+			(xy 130.81 113.03) (xy 124.46 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869337a9-4304-4618-811c-66270c734934")
+	)
+	(wire
+		(pts
+			(xy 130.81 125.73) (xy 130.81 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8901e485-0294-4178-b593-58b05da4bf6a")
+	)
+	(wire
+		(pts
+			(xy 127 210.185) (xy 123.19 210.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9e290d-d91f-4d0a-aa2a-9f079db3dc02")
+	)
+	(wire
+		(pts
+			(xy 127 225.425) (xy 123.19 225.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb89e5c-db97-4113-b8fc-7bf60b2a17f0")
+	)
+	(wire
+		(pts
+			(xy 73.66 60.325) (xy 73.66 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e463556-016b-42a8-af22-7bd61cb390f2")
+	)
+	(wire
+		(pts
+			(xy 120.65 162.56) (xy 139.065 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee8720c-7149-4d95-b508-b95467a92d27")
+	)
+	(wire
+		(pts
+			(xy 149.225 128.27) (xy 152.4 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944c4054-9f77-4b9e-9937-9095770821cb")
+	)
+	(wire
+		(pts
+			(xy 73.025 170.18) (xy 73.025 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96433cd6-8bc0-4c34-806c-d5598699aea5")
+	)
+	(wire
+		(pts
+			(xy 135.89 167.64) (xy 139.065 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969bbd88-4479-4ce9-b80b-33c73f2a8e62")
+	)
+	(wire
+		(pts
+			(xy 169.545 170.18) (xy 172.085 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97486325-b189-427e-a8eb-0295129d869e")
+	)
+	(wire
+		(pts
+			(xy 38.1 62.865) (xy 73.66 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ad8b78-c3b0-4d84-88a5-ccc1ec2c03de")
+	)
+	(wire
+		(pts
+			(xy 148.59 26.035) (xy 145.415 26.035)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d25b64-3442-4dc9-b8cd-e8d1ecad6fdd")
+	)
+	(wire
+		(pts
+			(xy 142.24 212.725) (xy 146.685 212.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9abe0d16-c8fb-4a76-ae01-fd111cfe9d19")
+	)
+	(wire
+		(pts
+			(xy 48.26 29.21) (xy 50.8 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da5d4e8-b9cc-44c0-aebe-18393d6111a9")
+	)
+	(wire
+		(pts
+			(xy 163.83 80.01) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b6084b-3a4d-49d9-928f-8d91ae6304bf")
+	)
+	(wire
+		(pts
+			(xy 64.135 178.435) (xy 66.675 178.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a446cec6-1c32-4250-bedf-f33fff766dab")
+	)
+	(polyline
+		(pts
+			(xy 5.08 290.83) (xy 5.08 5.08)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a786c3f9-5f92-4291-8f2d-d34c5529511f")
+	)
+	(wire
+		(pts
+			(xy 123.19 227.965) (xy 118.745 227.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7fd2552-12cb-495b-8263-3d435df4276d")
+	)
+	(wire
+		(pts
+			(xy 48.26 135.89) (xy 50.8 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b7e80a-f211-4871-be6c-5715fcbef97f")
+	)
+	(wire
+		(pts
+			(xy 51.435 178.435) (xy 53.975 178.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2d2326-ff6a-4811-88fa-d77ad9d1e577")
+	)
+	(polyline
+		(pts
+			(xy 205.74 195.58) (xy 5.08 195.58)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "acd9e55c-a303-487d-a021-43b411977173")
+	)
+	(wire
+		(pts
+			(xy 60.325 269.24) (xy 63.5 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b47f94-4d5c-41a4-b296-1af1c0bdbe45")
+	)
+	(wire
+		(pts
+			(xy 152.4 133.35) (xy 130.81 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c007ef-2a54-404f-b293-30bb773fff3b")
+	)
+	(wire
+		(pts
+			(xy 29.21 71.755) (xy 31.75 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b785878b-33c4-4481-9775-d945d30deed6")
+	)
+	(wire
+		(pts
+			(xy 73.025 183.515) (xy 73.025 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d73adb-598a-4ef8-b64f-f6bbb78a8ae7")
+	)
+	(wire
+		(pts
+			(xy 161.925 220.345) (xy 164.465 220.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8872c63-ca3b-4db1-a01d-901b288bf3cf")
+	)
+	(wire
+		(pts
+			(xy 48.26 125.73) (xy 50.8 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca7f97a-391c-4118-a861-e6fabf744c0d")
+	)
+	(wire
+		(pts
+			(xy 167.64 115.57) (xy 167.64 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcbb41b3-923a-4125-930f-2305d5958c1a")
+	)
+	(polyline
+		(pts
+			(xy 5.08 147.955) (xy 205.74 147.955)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "bcd1c09d-df2b-42cf-8276-79e8d930e354")
+	)
+	(polyline
+		(pts
+			(xy 5.08 52.705) (xy 205.74 52.705)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "bd318500-b9b4-4863-a447-00970e08acb6")
+	)
+	(wire
+		(pts
+			(xy 55.245 231.14) (xy 55.245 235.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea34f2a-17a3-4923-836a-6063fd8e8fc1")
+	)
+	(wire
+		(pts
+			(xy 35.56 135.89) (xy 38.1 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc256c7-fb47-4b3e-948b-5e03bb67e9ae")
+	)
+	(wire
+		(pts
+			(xy 63.5 264.16) (xy 60.325 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe0eb25-7a32-4e02-b08f-48873cdbbb4f")
+	)
+	(wire
+		(pts
+			(xy 35.56 125.73) (xy 38.1 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7bc1d4a-9e6b-46ec-bc4b-acd946a88730")
+	)
+	(wire
+		(pts
+			(xy 55.245 217.805) (xy 71.12 217.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c93cfe5c-deb3-4ecb-8d20-d04311f75542")
+	)
+	(wire
+		(pts
+			(xy 135.255 69.85) (xy 130.81 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc822471-648a-419c-8be1-472d38918f90")
+	)
+	(wire
+		(pts
+			(xy 17.145 71.755) (xy 19.05 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd76a0e0-9158-4197-ac20-f50e640df8ea")
+	)
+	(wire
+		(pts
+			(xy 73.025 170.18) (xy 85.09 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdce5424-240c-42fa-b4f0-d7311859628b")
+	)
+	(wire
+		(pts
+			(xy 123.19 230.505) (xy 127 230.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21b9d54-6de8-42fb-8c41-87e702f44d61")
+	)
+	(wire
+		(pts
+			(xy 114.935 162.56) (xy 120.65 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3790458-0c80-4eae-83b0-7579a85c9297")
+	)
+	(wire
+		(pts
+			(xy 135.255 85.09) (xy 130.81 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4437703-36d6-496a-8d4c-8aa231389517")
+	)
+	(wire
+		(pts
+			(xy 57.15 34.29) (xy 73.025 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89534e1-d6df-417f-a6bf-7a1e74ecfaf0")
+	)
+	(wire
+		(pts
+			(xy 52.07 72.39) (xy 54.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d96bdcfc-88c3-425c-8702-8462802e56f4")
+	)
+	(wire
+		(pts
+			(xy 149.225 123.19) (xy 149.225 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a2f724-71fd-491b-b763-0fdf4d31cb1d")
+	)
+	(wire
+		(pts
+			(xy 139.065 82.55) (xy 135.255 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b0300e-b661-41c7-b13c-40042edecd10")
+	)
+	(wire
+		(pts
+			(xy 120.65 175.26) (xy 120.65 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ebbef8-38c9-4a0c-a01f-91cb9ba3bf36")
+	)
+	(wire
+		(pts
+			(xy 158.75 74.93) (xy 163.83 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9f94d9-31d2-4bb5-8fa7-bf7a1b766b6e")
+	)
+	(wire
+		(pts
+			(xy 139.065 182.88) (xy 120.65 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db537933-3273-44e3-b8b5-5e2de2665379")
+	)
+	(wire
+		(pts
+			(xy 64.77 72.39) (xy 67.31 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0efe9fa-c9d8-4588-9c2f-9d2c4992292d")
+	)
+	(polyline
+		(pts
+			(xy 205.74 290.83) (xy 5.08 290.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e140b089-5f4d-47ad-9c86-d33fe9d7a6f2")
+	)
+	(wire
+		(pts
+			(xy 55.245 217.805) (xy 55.245 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1733bd7-3725-4da2-b43f-c9cdfe70c3a7")
+	)
+	(wire
+		(pts
+			(xy 135.89 172.72) (xy 135.89 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f443f1-097f-4382-83e5-9b0f17ee00d8")
+	)
+	(wire
+		(pts
+			(xy 135.255 67.31) (xy 135.255 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32e6224-3c17-4f8d-b15d-b205a8afe90c")
+	)
+	(wire
+		(pts
+			(xy 120.65 170.18) (xy 120.65 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a3d3e7-d676-4901-9ea0-2b6a5b1b3fef")
+	)
+	(wire
+		(pts
+			(xy 73.66 62.865) (xy 73.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b7a365-48a3-44b6-b4a0-5ce98c4548b3")
+	)
+	(wire
+		(pts
+			(xy 130.81 133.35) (xy 123.825 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f8c321-e859-4243-ae0e-9475de966219")
+	)
+	(wire
+		(pts
+			(xy 154.305 175.26) (xy 154.305 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88177a4-27ef-4be6-8b29-59b294b2023b")
+	)
+	(wire
+		(pts
+			(xy 164.465 222.885) (xy 166.37 222.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf1cbe1-5472-44c6-ad50-c247671173c1")
+	)
+	(wire
+		(pts
+			(xy 145.415 26.035) (xy 145.415 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f607d235-96dc-4fd2-9578-d8bff8effa3c")
+	)
+	(wire
+		(pts
+			(xy 35.56 19.05) (xy 38.1 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61a6612-9cb2-4240-81cb-4573bd59f206")
+	)
+	(wire
+		(pts
+			(xy 145.415 28.575) (xy 145.415 31.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c0efcb-f139-4257-b78a-73b6da44b4cd")
+	)
+	(wire
+		(pts
+			(xy 73.025 170.18) (xy 37.465 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a86690-6847-4b69-b4a1-79560014222e")
+	)
+	(wire
+		(pts
+			(xy 130.81 120.65) (xy 130.81 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86c9a59-fb9b-4f61-9493-78bcedb5bc1d")
+	)
+	(wire
+		(pts
+			(xy 123.19 225.425) (xy 123.19 227.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8fd760e-a2f6-4dea-a9d5-2b39776a4284")
+	)
+	(wire
+		(pts
+			(xy 123.19 227.965) (xy 123.19 230.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa78721c-405d-4923-ab1a-75ea7af36c93")
+	)
+	(wire
+		(pts
+			(xy 37.465 170.18) (xy 37.465 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fecdb3bc-e27b-4cea-86f2-19958a2bdce9")
+	)
+	(text "2\n"
+		(exclude_from_sim no)
+		(at -16.51 80.645 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+			(justify left bottom)
+		)
+		(uuid "05cb231f-5b42-4b35-99ad-f6e2accba7cb")
+	)
+	(text "Salida"
+		(exclude_from_sim no)
+		(at 183.515 124.46 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "216ec42f-606b-4a14-8ba9-7607aa8bceee")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 126.365 86.36 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "34d47510-958d-4c76-a1ad-c535a81d1cd1")
+	)
+	(text "8\n"
+		(exclude_from_sim no)
+		(at 215.9 76.2 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+			(justify left bottom)
+		)
+		(uuid "48d5cc81-d5bd-4e4d-b5ad-758f8c2f0dae")
+	)
+	(text "A\n"
+		(exclude_from_sim no)
+		(at 126.365 71.12 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "53931b87-b3b2-4778-86b7-89f7230c8db1")
+	)
+	(text "Salida"
+		(exclude_from_sim no)
+		(at 182.88 221.615 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "7128a86f-61c1-4d47-9c30-b0569b12b771")
+	)
+	(text "Salida"
+		(exclude_from_sim no)
+		(at 80.01 268.605 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "82d6e35d-c510-40a7-a55d-4f46d36c9b8e")
+	)
+	(text "Salida"
+		(exclude_from_sim no)
+		(at 165.1 30.48 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "9233e756-0efb-4304-91cf-d0ac6cd1017f")
+	)
+	(text "Salida"
+		(exclude_from_sim no)
+		(at 179.705 78.74 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "946a1e6b-270f-4b14-bc63-19703f42699e")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 119.38 134.62 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "96a5d6dd-f8ee-4fd0-b9fb-c4e65307ae3d")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 110.49 184.15 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4f12c22-3774-405b-8ff1-a20721a9ea08")
+	)
+	(text "7\n"
+		(exclude_from_sim no)
+		(at 216.535 32.385 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+			(justify left bottom)
+		)
+		(uuid "a902360e-7056-409e-8057-4e1e79fde883")
+	)
+	(text "A\n"
+		(exclude_from_sim no)
+		(at 110.49 163.83 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3f4899d-e219-42db-be2b-8c23ab7ad4d4")
+	)
+	(text "1\n"
+		(exclude_from_sim no)
+		(at -16.51 29.21 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4340543-5191-47f4-a3f5-0f8876d87dd6")
+	)
+	(text "A\n"
+		(exclude_from_sim no)
+		(at 33.655 265.43 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb7ba4d5-5a3f-4c3c-a882-87b7713550fe")
+	)
+	(text "A\n"
+		(exclude_from_sim no)
+		(at 133.985 30.48 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "c702c113-83b9-4fd0-8e53-7c159a84974f")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 114.3 229.235 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd5198a4-4992-42da-8bd3-babe1908547f")
+	)
+	(text "A\n"
+		(exclude_from_sim no)
+		(at 120.015 114.3 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "ceeecfc5-7578-46ef-8e89-31533d1ea3a0")
+	)
+	(text "B\n"
+		(exclude_from_sim no)
+		(at 33.655 271.145 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec8e21a8-0629-41d6-ad9d-dc8a93e9bd68")
+	)
+	(text "A\n"
+		(exclude_from_sim no)
+		(at 114.3 213.995 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "f01e89ff-bc5d-4d79-9634-f3fffd80a9e2")
+	)
+	(text "Salida"
+		(exclude_from_sim no)
+		(at 188.595 173.99 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1e6df7e-d4d1-4995-9bde-afd1d449189e")
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:CopyRight-simbolos")
+		(at 95.885 292.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000602e50e7")
+		(property "Reference" "CP?"
+			(at 106.68 283.845 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CopyRight"
+			(at 100.33 283.845 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.345 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.885 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.885 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "License" "CC BY-SA 4.0"
+			(at 95.885 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 110.49 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Date" ""
+			(at 98.425 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Web" "www.picuino.com"
+			(at 114.935 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "CP?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:resistencia-simbolos")
+		(at 48.26 19.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603113ae")
+		(property "Reference" "R?"
+			(at 43.18 14.8336 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 43.18 14.8336 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bea21b37-16bf-40de-a545-622bda88666f")
+		)
+		(pin ""
+			(uuid "30ca4f0f-3d5e-4787-9951-7af87bf9cd2b")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 57.15 11.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060312126")
+		(property "Reference" "o?"
+			(at 60.96 7.62 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 58.8772 9.8552 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 8.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 8.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d2252cea-a7d3-4e08-a253-96ae5fdca4fb")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:resistencia-simbolos")
+		(at 48.26 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006031341d")
+		(property "Reference" "R?"
+			(at 43.18 24.9936 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 43.18 24.9936 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "11c5d24e-fddf-4394-bc62-8714bc24a9a7")
+		)
+		(pin ""
+			(uuid "02c9bc7c-0001-42fc-8e9a-7e01f9d51fcc")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 35.56 19.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060313ced")
+		(property "Reference" "o?"
+			(at 31.75 15.24 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "A"
+			(at 29.845 19.05 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 32.385 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 32.385 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fc145532-75d9-4b80-9a52-ed7b2a565aa3")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 35.56 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060314334")
+		(property "Reference" "o?"
+			(at 31.75 25.4 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "B"
+			(at 29.845 29.21 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 32.385 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 32.385 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "45ea5d3d-6d7b-4002-9865-e1da757c3ca1")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:resistencia-simbolos")
+		(at 57.15 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060314734")
+		(property "Reference" "R?"
+			(at 61.3664 39.37 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "2k"
+			(at 59.2328 39.37 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5346fb74-1aae-4f85-a6ca-2c5e8a348d91")
+		)
+		(pin ""
+			(uuid "7399633c-9d83-4ea7-a821-0dcd1dc7c9bb")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:tierra-simbolos")
+		(at 57.15 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060314f8b")
+		(property "Reference" "V?"
+			(at 57.785 45.085 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "tierra"
+			(at 53.975 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "473102b0-83da-428a-a07c-258f3f250934")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "V?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 73.025 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060317036")
+		(property "Reference" "o?"
+			(at 76.835 38.1 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Salida"
+			(at 83.185 34.29 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.025 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "474522db-a14d-426f-884b-82f9acacae01")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "electric-digital-rescue:resistencia-simbolos")
+		(lib_id "electric-digital-rescue:resistencia-simbolos")
+		(at 29.21 71.755 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006031b2a7")
+		(property "Reference" "R?"
+			(at 24.13 67.5386 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 24.13 67.5386 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2beb514f-25bf-49d2-a80e-271a62599154")
+		)
+		(pin ""
+			(uuid "1a719083-e2da-4a1f-af7a-3ae0e00a4296")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 73.66 60.325 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006031b2ad")
+		(property "Reference" "o?"
+			(at 77.47 56.515 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 75.3872 58.7502 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "416f9cc6-92d1-423a-a82b-b0ef93d91372")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "electric-digital-rescue:resistencia-simbolos")
+		(lib_id "electric-digital-rescue:resistencia-simbolos")
+		(at 64.77 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006031b2b4")
+		(property "Reference" "R?"
+			(at 59.69 68.1736 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 59.69 68.1736 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "eeebc55d-1947-46b2-a3e0-f75391691265")
+		)
+		(pin ""
+			(uuid "863ee694-0275-46d8-a005-076462ab39fc")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 17.145 71.755 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006031b2bc")
+		(property "Reference" "o?"
+			(at 13.335 67.945 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "A"
+			(at 11.43 71.755 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.97 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.97 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.145 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3b82ab09-7835-4263-b960-bd512f727cb3")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 52.07 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006031b2c3")
+		(property "Reference" "o?"
+			(at 48.26 68.58 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "B"
+			(at 46.355 72.39 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.895 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.895 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "df753f12-f9d5-4b05-b5e2-f2c886ccd739")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "electric-digital-rescue:resistencia-simbolos")
+		(lib_id "electric-digital-rescue:resistencia-simbolos")
+		(at 73.66 93.345 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006031b2ca")
+		(property "Reference" "R?"
+			(at 77.8764 88.265 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "2k"
+			(at 75.7428 88.265 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f0a0b224-552c-4766-aecb-1f7d0ac658fd")
+		)
+		(pin ""
+			(uuid "92afa131-2c65-4202-941c-cb28f4170e6a")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:tierra-simbolos")
+		(at 73.66 93.345 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006031b2d0")
+		(property "Reference" "V?"
+			(at 74.295 93.98 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "tierra"
+			(at 70.485 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "25f254ad-1c16-4341-bb33-31fec193ddca")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "V?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 85.725 83.185 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006031b2d8")
+		(property "Reference" "o?"
+			(at 89.535 86.995 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Salida"
+			(at 95.885 83.185 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.725 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "eb5b9f0f-5e68-4b83-aac4-ac9555c0d4cd")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:resistencia-simbolos")
+		(at 48.26 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060323724")
+		(property "Reference" "R?"
+			(at 43.18 121.5136 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 43.18 121.5136 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "47f503b1-edda-4304-989f-5416e94dc15b")
+		)
+		(pin ""
+			(uuid "91e800bb-3884-4f44-913c-fb57fae9f9d3")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 57.15 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006032372e")
+		(property "Reference" "o?"
+			(at 60.96 104.14 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 58.8772 106.3752 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "4c094984-a80b-4308-9a08-a1841b0a939e")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:resistencia-simbolos")
+		(at 48.26 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060323739")
+		(property "Reference" "R?"
+			(at 43.18 131.6736 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 43.18 131.6736 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "81ad7324-855f-426e-93ec-d683281c830f")
+		)
+		(pin ""
+			(uuid "b9bb93a0-a44f-4de9-9d2c-e629656d6235")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 35.56 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060323745")
+		(property "Reference" "o?"
+			(at 31.75 121.92 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "A"
+			(at 29.845 125.73 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 32.385 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 32.385 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bafa8d57-6055-4d81-83f5-fe850cdc6b38")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 35.56 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060323750")
+		(property "Reference" "o?"
+			(at 31.75 132.08 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "B"
+			(at 29.845 135.89 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 32.385 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 32.385 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "01f2c033-992d-40f3-91d8-8b4996a55641")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:resistencia-simbolos")
+		(at 57.15 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006032375b")
+		(property "Reference" "R?"
+			(at 61.3664 115.57 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "2k"
+			(at 59.2328 115.57 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a1f1724d-a352-47be-b57a-6ceb86dd2397")
+		)
+		(pin ""
+			(uuid "d9f913a9-bfb0-4e29-93ab-b28b8ae07302")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:tierra-simbolos")
+		(at 57.15 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060323765")
+		(property "Reference" "V?"
+			(at 57.785 141.605 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "tierra"
+			(at 53.975 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a585152b-3903-4ba6-87f6-50bd82413192")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "V?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 73.025 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060323771")
+		(property "Reference" "o?"
+			(at 76.835 124.46 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Salida"
+			(at 83.185 120.65 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.025 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "14374e47-6a53-4786-a41d-4e0573ea2371")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:resistencia-simbolos")
+		(at 28.575 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603321a6")
+		(property "Reference" "R?"
+			(at 23.495 173.5836 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 23.495 173.5836 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.035 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.035 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 28.575 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "dd30196e-19da-44ba-b0a9-fa308afc9b65")
+		)
+		(pin ""
+			(uuid "6cedcb6f-ac73-4f8a-aed8-ce5153eefa8c")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 73.025 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603321ac")
+		(property "Reference" "o?"
+			(at 76.835 151.13 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 74.7522 153.3652 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.025 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.025 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.025 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "56c1c4e9-488e-4b89-889c-4edc866e0917")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "electric-digital-rescue:resistencia-simbolos")
+		(lib_id "electric-digital-rescue:resistencia-simbolos")
+		(at 64.135 178.435 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603321b3")
+		(property "Reference" "R?"
+			(at 59.055 174.2186 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 59.055 174.2186 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 61.595 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 61.595 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.135 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "504efe13-2fff-4bcd-b274-6e706608c97d")
+		)
+		(pin ""
+			(uuid "3b06da31-235a-4277-8718-1b2c121e5991")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 16.51 177.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603321bb")
+		(property "Reference" "o?"
+			(at 12.7 173.99 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "A"
+			(at 10.795 177.8 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.335 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.335 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 16.51 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "eae1921d-21db-4019-b98e-97194cd0a53f")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 51.435 178.435 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603321c2")
+		(property "Reference" "o?"
+			(at 47.625 174.625 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "B"
+			(at 45.72 178.435 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 51.435 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5334a9b0-fb0f-4827-bcd1-a7c6cbd85514")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "electric-digital-rescue:resistencia-simbolos")
+		(lib_id "electric-digital-rescue:resistencia-simbolos")
+		(at 73.025 167.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603321c9")
+		(property "Reference" "R?"
+			(at 77.2414 162.56 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "2k"
+			(at 75.1078 162.56 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 70.485 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70.485 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.025 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8f3fcd81-0eb4-436b-bf7f-bd555f3049bc")
+		)
+		(pin ""
+			(uuid "df66d0fc-b81e-4794-bdcc-e25cb9396f95")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:tierra-simbolos")
+		(at 73.025 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603321cf")
+		(property "Reference" "V?"
+			(at 73.66 188.595 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "tierra"
+			(at 69.85 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.645 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.645 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.025 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5602fbef-a4a6-452b-a468-76ddc35ebe90")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "V?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 85.09 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603321d7")
+		(property "Reference" "o?"
+			(at 88.9 173.99 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Salida"
+			(at 95.25 170.18 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.265 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.265 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "227ad78d-3ec8-4830-91d3-902b76353719")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 55.245 202.565 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603407d0")
+		(property "Reference" "o?"
+			(at 59.055 198.755 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 56.9722 200.9902 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.245 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.245 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.245 202.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ce104f4d-48b2-44ff-8603-7c5c41a92fd2")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "electric-digital-rescue:resistencia-simbolos")
+		(lib_id "electric-digital-rescue:resistencia-simbolos")
+		(at 46.355 226.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603407d6")
+		(property "Reference" "R?"
+			(at 41.275 221.8436 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 41.275 221.8436 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.815 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.815 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.355 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "63a19e06-ab1a-440f-958d-04060dd93933")
+		)
+		(pin ""
+			(uuid "e1873932-208e-48e0-81dd-f45af2ba0272")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 33.655 226.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603407dd")
+		(property "Reference" "o?"
+			(at 29.845 222.25 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "A"
+			(at 27.94 226.06 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.655 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "4e9a4579-9c8d-4f9f-81f1-857df5c94a30")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "electric-digital-rescue:resistencia-simbolos")
+		(lib_id "electric-digital-rescue:resistencia-simbolos")
+		(at 55.245 215.265 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603407e4")
+		(property "Reference" "R?"
+			(at 59.4614 210.185 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "2k"
+			(at 57.3278 210.185 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.705 212.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.705 212.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.245 215.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "841675dd-6573-43f9-ba45-b2f4465a97ad")
+		)
+		(pin ""
+			(uuid "1ad5eb9d-702a-41f0-8ef2-723a808f23be")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:tierra-simbolos")
+		(at 55.245 235.585 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603407ea")
+		(property "Reference" "V?"
+			(at 55.88 236.22 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "tierra"
+			(at 52.07 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.865 239.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.865 239.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.245 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "57d01b61-659b-4be4-9966-4cfd794f48fe")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "V?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:conector-simbolos")
+		(at 71.12 217.805 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603407f1")
+		(property "Reference" "o?"
+			(at 74.93 221.615 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Salida"
+			(at 81.28 217.805 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.295 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.295 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "080daf21-05a7-482d-8f41-656e0ebbe2e7")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "o?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 38.1 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006034196b")
+		(property "Reference" "U?"
+			(at 45.72 259.6642 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 45.72 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 268.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 268.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "1ef68102-e838-4d25-a4e4-44e8324976e2")
+		)
+		(pin "4"
+			(uuid "bac53325-39dc-486b-a236-15d7ad1793c7")
+		)
+		(pin "8"
+			(uuid "a0e23800-a731-457c-a34d-69b3fcbbd3a7")
+		)
+		(pin "10"
+			(uuid "ddd97c66-7306-43b4-9dcd-97643ca4a92d")
+		)
+		(pin "9"
+			(uuid "8e876018-e9e7-4766-95a4-ea5e7330de43")
+		)
+		(pin "13"
+			(uuid "ff7c77a6-7ff2-4929-8ca0-6f2e0dd189f3")
+		)
+		(pin ""
+			(uuid "d5f77e6b-0c46-4800-8f61-b312dae20650")
+		)
+		(pin "5"
+			(uuid "fcc35c9b-15c5-4a08-a3a8-b94ff103a08c")
+		)
+		(pin "6"
+			(uuid "4c7ec0ae-277e-4378-a2ca-f75d3dcfe305")
+		)
+		(pin ""
+			(uuid "48769a98-ef84-4b32-b8cc-19c0adec7997")
+		)
+		(pin "11"
+			(uuid "dcd030fd-eadd-4905-90e1-083a8a08c5ce")
+		)
+		(pin ""
+			(uuid "4c02feff-73aa-4e87-bf1f-8144415ac7f2")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 63.5 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006034281d")
+		(property "Reference" "U?"
+			(at 71.12 259.6642 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 71.12 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 268.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 268.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "88a7594f-2379-49fb-b9c2-9e5fdc577371")
+		)
+		(pin ""
+			(uuid "097c36a9-7239-4245-a4e1-9525ec40c721")
+		)
+		(pin "11"
+			(uuid "130c4c44-9dcc-4f62-92b5-c48d314aa3b8")
+		)
+		(pin "6"
+			(uuid "b4ab4b09-3cb4-41c9-aaf5-a6dfdf71ce97")
+		)
+		(pin "9"
+			(uuid "d680ae83-9c7e-441a-aea5-beb11e48f044")
+		)
+		(pin "4"
+			(uuid "5c9bae93-24ba-45c8-bedd-cea615aa981c")
+		)
+		(pin "13"
+			(uuid "d29cd26b-1dd9-43a0-8ed5-469c388b5df5")
+		)
+		(pin "5"
+			(uuid "cc9d4089-f317-474c-aee3-0ca875a69cf3")
+		)
+		(pin ""
+			(uuid "022019a3-012c-4cb9-887e-6099f6837aee")
+		)
+		(pin "8"
+			(uuid "d67ff5e4-b96b-4d79-97b7-d400a9269e48")
+		)
+		(pin "10"
+			(uuid "46fa18fb-16fe-4d00-bbe7-78fc967f65fb")
+		)
+		(pin "12"
+			(uuid "2a2ddb3b-b5bd-49ac-b992-b57d0537229f")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 148.59 26.035 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006034541c")
+		(property "Reference" "U?"
+			(at 156.21 21.5392 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 156.21 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7fb388ab-d0ad-4a45-943a-164631504430")
+		)
+		(pin "10"
+			(uuid "2cddee14-093d-4399-8cb6-90aa117acf4f")
+		)
+		(pin "8"
+			(uuid "dd824daf-4f11-4781-b758-152194ce6c67")
+		)
+		(pin "6"
+			(uuid "24a14f39-489e-454b-be21-d6ccea61bbc0")
+		)
+		(pin "9"
+			(uuid "d8039459-d53d-4b70-a1c2-feaa49a40e77")
+		)
+		(pin "11"
+			(uuid "641e371f-a69c-4523-b79c-e820d0124d92")
+		)
+		(pin "4"
+			(uuid "4efb0e1e-6d80-453d-ac4f-859639307e6a")
+		)
+		(pin ""
+			(uuid "b66d99b0-10dc-4eca-906d-ea5a5efaaea6")
+		)
+		(pin "12"
+			(uuid "516795b1-6255-418c-a34a-54b02f5edc99")
+		)
+		(pin "13"
+			(uuid "5d01eea6-a24e-4c7a-9f22-d35bb0d6e9c0")
+		)
+		(pin ""
+			(uuid "b2b1bcea-7c93-4452-b780-195f405a39db")
+		)
+		(pin "5"
+			(uuid "4fa49532-5a43-4679-a559-34f38780ed4b")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 163.83 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006034828a")
+		(property "Reference" "U?"
+			(at 171.45 70.4342 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 171.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 79.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 79.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "326dd559-5d8a-40c3-b16a-d070e5aa3af8")
+		)
+		(pin ""
+			(uuid "538e844f-443e-4467-9a5d-819e39a8ead7")
+		)
+		(pin "5"
+			(uuid "bc9ee851-fd84-49b5-b4af-bb7250e151ba")
+		)
+		(pin "8"
+			(uuid "d2608bfb-ab9e-4523-8689-c750cd1674e7")
+		)
+		(pin "12"
+			(uuid "4da356a8-ddb6-4828-8145-e4eb68441221")
+		)
+		(pin "6"
+			(uuid "3b354057-afa8-4c7f-ae84-cb4703bd8ca5")
+		)
+		(pin "10"
+			(uuid "8df17a51-405c-4f44-b52b-fe9acafbd560")
+		)
+		(pin ""
+			(uuid "23959d65-6656-47f9-8a9e-8327993073cc")
+		)
+		(pin ""
+			(uuid "28ca661c-b2d6-49db-98ff-f7c99ced94c6")
+		)
+		(pin "9"
+			(uuid "d75ae4a6-5e97-4f65-85d8-ebc58343e85a")
+		)
+		(pin "13"
+			(uuid "d4bbb56b-483b-4bae-b99a-742f3a5e5db5")
+		)
+		(pin "4"
+			(uuid "5dc0a823-315e-48a8-b03b-0107c59f40dd")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 139.065 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006034b4d5")
+		(property "Reference" "U?"
+			(at 146.685 62.8142 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 146.685 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.605 71.755 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.605 71.755 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.065 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "fe336548-c00c-474e-831b-773a3b05d7aa")
+		)
+		(pin ""
+			(uuid "ea8a49a7-67f5-4ccd-9b1d-42c02b4c6059")
+		)
+		(pin ""
+			(uuid "74d0395f-3a68-4044-bb9d-b117e9f889e1")
+		)
+		(pin "5"
+			(uuid "097fa6bc-2b4e-4b80-baa3-c397a0fae0bb")
+		)
+		(pin "4"
+			(uuid "9f4e1d5c-6910-4688-a680-e0e65c4c176c")
+		)
+		(pin "8"
+			(uuid "41dc2da1-cb10-4e91-9e45-85238e8bd461")
+		)
+		(pin "9"
+			(uuid "edfe8ae4-2efb-4ee1-b544-76fadb7e8915")
+		)
+		(pin "6"
+			(uuid "38316283-9b16-4290-9f3e-3644b2281a7c")
+		)
+		(pin "10"
+			(uuid "b0ffb2c5-8eaf-4a45-841b-3da40bac9a22")
+		)
+		(pin "13"
+			(uuid "b04cc855-7388-48f7-a3ae-d883fd719d76")
+		)
+		(pin "12"
+			(uuid "fe4c6603-2f52-4b3c-8c41-348db75708cd")
+		)
+		(pin "11"
+			(uuid "15149d05-cf9c-4051-b9d2-68f08824e531")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 139.065 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006034bd08")
+		(property "Reference" "U?"
+			(at 146.685 78.0542 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 146.685 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.605 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.605 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.065 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "f3e4f4c4-9103-4e70-a128-724c7861c1cd")
+		)
+		(pin ""
+			(uuid "d90e9a73-0942-46ce-ac44-a5cd82b8931b")
+		)
+		(pin ""
+			(uuid "e70c5f48-ea4c-46b1-82a9-9da4c441f56c")
+		)
+		(pin "9"
+			(uuid "6b963566-3669-45b3-8eb0-488253cd8a55")
+		)
+		(pin ""
+			(uuid "1b00c3ee-c677-4c7b-8739-96466dfed748")
+		)
+		(pin "4"
+			(uuid "b7cf0136-a7cd-46f1-9a45-f29158dd31ae")
+		)
+		(pin "10"
+			(uuid "32d7ba11-18e1-4dd9-b6a6-c784a9881c92")
+		)
+		(pin "8"
+			(uuid "d6c7af1b-161a-4b60-abc6-995e1f979dbd")
+		)
+		(pin "11"
+			(uuid "a6cacedf-5eb6-4c0e-9b6e-48dee6339d69")
+		)
+		(pin "5"
+			(uuid "26f3b270-ae70-404a-aa44-fc004c88f069")
+		)
+		(pin "12"
+			(uuid "231ea909-1b32-4edf-9ad2-b316685fe1b6")
+		)
+		(pin "13"
+			(uuid "c5224391-13f2-4afa-9a1a-d938f3097c0d")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 130.81 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060358d27")
+		(property "Reference" "U?"
+			(at 138.43 116.1542 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 138.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 125.095 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 125.095 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "006593da-e2dd-4e4c-b870-5d8fb66e101d")
+		)
+		(pin "5"
+			(uuid "c2004ac6-05e6-447b-8619-284199a4e2e9")
+		)
+		(pin ""
+			(uuid "ea993c72-b95f-4858-885a-f32c23265121")
+		)
+		(pin ""
+			(uuid "8b114024-858f-45f6-a48e-bbbf71e7e224")
+		)
+		(pin "6"
+			(uuid "c1781c91-bfcb-4eb2-a0ef-f0c84865a8b2")
+		)
+		(pin "13"
+			(uuid "496f40fa-f87f-425c-aae1-fd6df2736bee")
+		)
+		(pin "11"
+			(uuid "74c43d49-c548-4b2e-8e3c-c788b0a85f9d")
+		)
+		(pin "8"
+			(uuid "a28b2426-c1de-481c-aa7e-65f7a3b9e392")
+		)
+		(pin "10"
+			(uuid "ee6c2945-36b2-4eaa-9092-a0105c78ddc1")
+		)
+		(pin ""
+			(uuid "82043500-ac61-4d29-a254-0728051f9487")
+		)
+		(pin "4"
+			(uuid "9fe48869-aba6-4bc0-b7c1-aec2ef4c152f")
+		)
+		(pin "12"
+			(uuid "2058fe73-44ba-4fcd-b2ea-9ae1a5d82d66")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 152.4 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060359c21")
+		(property "Reference" "U?"
+			(at 160.02 108.5342 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 160.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7d86da8b-bc51-4b08-9c41-302383c877a0")
+		)
+		(pin ""
+			(uuid "1aa1df03-833d-46b6-ac83-7424111d0f8e")
+		)
+		(pin "5"
+			(uuid "c6868e56-c71b-4487-a903-509193772b3c")
+		)
+		(pin "10"
+			(uuid "85f3dbb0-0bbf-4fd7-91cc-369bb4d8a607")
+		)
+		(pin "13"
+			(uuid "978ea46b-a4bc-4404-a977-ff2205560b4e")
+		)
+		(pin ""
+			(uuid "133e28b1-42f9-46d0-9efc-e1b1a7bf3295")
+		)
+		(pin "4"
+			(uuid "84528641-1d88-4855-b010-88e3d7f571b5")
+		)
+		(pin "8"
+			(uuid "31fba4a6-f48f-44a1-8abb-d76f94e0d3f1")
+		)
+		(pin "9"
+			(uuid "cd171999-089e-4c4a-8ccb-9e1ce334f5f9")
+		)
+		(pin "11"
+			(uuid "b6b5f3d0-9fda-430b-be80-7794e0ddd4dd")
+		)
+		(pin "12"
+			(uuid "597840ec-49d2-4f7a-b631-49fd526ab35d")
+		)
+		(pin "6"
+			(uuid "caf9e3d9-8289-4762-91f7-17ba1c8c52bf")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 152.4 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006035ab2f")
+		(property "Reference" "U?"
+			(at 160.02 123.7742 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 160.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 132.715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 132.715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "44f4e662-68f9-44d9-a96a-a8b2497793d8")
+		)
+		(pin ""
+			(uuid "b0499e03-ad68-4113-bdfd-748fd4ab3e87")
+		)
+		(pin "5"
+			(uuid "52d5ab26-ccd0-4002-bdfe-6c4d9b6d92b5")
+		)
+		(pin "4"
+			(uuid "2492ee47-1307-464b-8615-c244e188d457")
+		)
+		(pin "6"
+			(uuid "33716d21-48d9-4580-9554-2bae08f0a148")
+		)
+		(pin "10"
+			(uuid "970dbb09-04db-455c-bb2f-cf12a43e01a9")
+		)
+		(pin ""
+			(uuid "847aeac3-b22f-4cf7-b84e-1df975075acc")
+		)
+		(pin "12"
+			(uuid "6919221a-6c63-4060-9faa-290399c9649a")
+		)
+		(pin "11"
+			(uuid "a6cee576-4c59-4eb9-b233-ee81907bfd50")
+		)
+		(pin "8"
+			(uuid "9b6ad9c5-3178-430b-afb8-a49427107953")
+		)
+		(pin "13"
+			(uuid "3133a76d-2463-4aef-b497-fff4d52fe98f")
+		)
+		(pin "9"
+			(uuid "54063b21-81bd-495e-9802-614e25727abd")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 167.64 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060366b83")
+		(property "Reference" "U?"
+			(at 175.26 116.1542 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 175.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 125.095 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 125.095 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "daf91f0a-a95c-435f-a256-57bd7b1882b7")
+		)
+		(pin ""
+			(uuid "1c17edca-dbb9-425b-9e35-04f91754c12a")
+		)
+		(pin ""
+			(uuid "07894296-2892-46b6-987e-ff2bf916cb86")
+		)
+		(pin "4"
+			(uuid "21d902c8-751f-495f-8dbb-bdea37c1fb19")
+		)
+		(pin "5"
+			(uuid "da68e609-0541-4a87-9208-b560a545e603")
+		)
+		(pin "6"
+			(uuid "ce57452f-9998-4593-8928-a459631f1801")
+		)
+		(pin "12"
+			(uuid "72e15ae5-34d4-45d0-ab19-43fabbc1a838")
+		)
+		(pin "13"
+			(uuid "6c5cfa72-ff0b-4480-b659-24cb70689299")
+		)
+		(pin "11"
+			(uuid "d158ff84-66a8-47e0-824e-7e3ea549d324")
+		)
+		(pin "10"
+			(uuid "0e3f4802-1dd8-4d1c-8312-01d79e99d990")
+		)
+		(pin "9"
+			(uuid "7ed0b4d5-afbb-4b33-aaa9-0cc9ddcda082")
+		)
+		(pin "8"
+			(uuid "f796da2d-f5ec-47d8-875a-9b8d85fef0e4")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 120.65 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006036f1df")
+		(property "Reference" "U?"
+			(at 128.27 165.6842 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 174.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 174.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b981bbda-99cb-472e-8c23-edd3cef4de57")
+		)
+		(pin ""
+			(uuid "9010920a-7684-444b-bbc9-9aab7161fc87")
+		)
+		(pin ""
+			(uuid "33d7121f-cd60-4efb-9dcf-7609a001a632")
+		)
+		(pin "8"
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a510")
+		)
+		(pin "9"
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd582f7")
+		)
+		(pin "4"
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c40")
+		)
+		(pin "10"
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5eee")
+		)
+		(pin "5"
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a0b")
+		)
+		(pin "6"
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa153d")
+		)
+		(pin "13"
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d06")
+		)
+		(pin "11"
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def594")
+		)
+		(pin "12"
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff119")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 139.065 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006036f639")
+		(property "Reference" "U?"
+			(at 146.685 158.0642 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 146.685 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.605 167.005 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.605 167.005 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.065 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "90a0938a-f593-4bc9-ae2b-27d9f5dca1d1")
+		)
+		(pin "4"
+			(uuid "541b3533-cefa-42f5-951f-9e07586b76ff")
+		)
+		(pin "8"
+			(uuid "a77a4707-8314-40e8-8afa-2b563190e372")
+		)
+		(pin ""
+			(uuid "1a5984a5-4768-4192-967e-833a288a860c")
+		)
+		(pin "12"
+			(uuid "da0cc535-a079-4452-b6c3-5a3db2680e54")
+		)
+		(pin "10"
+			(uuid "c585130b-7da7-45f6-942b-3298b80b5230")
+		)
+		(pin "11"
+			(uuid "0f67e654-bf69-4866-a436-5a7e2434f81e")
+		)
+		(pin "9"
+			(uuid "33992aa9-8e3d-45bd-8bc8-23afabb1bbe7")
+		)
+		(pin "6"
+			(uuid "40fedc29-bf1b-4eeb-bb7a-86fb6726e153")
+		)
+		(pin ""
+			(uuid "64e2c9aa-6aff-4dcd-b559-a1f7b4d4eb4b")
+		)
+		(pin "13"
+			(uuid "5acfb9d3-ca11-4388-9f7e-474f469fcce5")
+		)
+		(pin "5"
+			(uuid "e5d31d49-1345-480c-9a7d-a2a9b4a9efa1")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 139.065 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006036f643")
+		(property "Reference" "U?"
+			(at 146.685 173.3042 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 146.685 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.605 182.245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.605 182.245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.065 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "61b354d5-7907-4404-9517-e6ecf5db95af")
+		)
+		(pin "6"
+			(uuid "19fe2d68-446f-4bad-96cf-5c7682bcbb7c")
+		)
+		(pin "13"
+			(uuid "410bf267-06d3-429c-b135-33eaafaff1f3")
+		)
+		(pin ""
+			(uuid "7540ad90-915e-4718-bade-51f5c879d736")
+		)
+		(pin ""
+			(uuid "497aae25-29c1-4cfc-a160-12f9c50755c9")
+		)
+		(pin "4"
+			(uuid "7477050f-4266-4e4f-98bf-4909fae22ba2")
+		)
+		(pin "9"
+			(uuid "ed50b972-704a-4a5d-a7c0-3deae23775a1")
+		)
+		(pin ""
+			(uuid "106783bf-e20f-4046-b153-a12e43a1469e")
+		)
+		(pin "8"
+			(uuid "b9db332f-4af0-4ea2-afe6-4062fc07ef1e")
+		)
+		(pin "11"
+			(uuid "c06fe2ee-cf0b-4d72-9749-bbd024f44244")
+		)
+		(pin "12"
+			(uuid "e50c94f4-19b2-4c5b-b636-9f75c8d95e5b")
+		)
+		(pin "10"
+			(uuid "75fd18c0-96bb-4ac9-882c-2b3ffc57fb79")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 154.305 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006036f65b")
+		(property "Reference" "U?"
+			(at 161.925 165.6842 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 161.925 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.845 174.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.845 174.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.305 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "4ab7ab01-7fd2-4c58-9f93-35a4a2a8d09b")
+		)
+		(pin ""
+			(uuid "51d0cc83-2bd9-4929-be13-3024d0ee0a9d")
+		)
+		(pin "10"
+			(uuid "7c3175b0-9af3-48c5-a216-0d6cee79dc14")
+		)
+		(pin ""
+			(uuid "c9d8c308-ee4d-4af8-8c29-90673b16fb10")
+		)
+		(pin ""
+			(uuid "d1bc5461-65dd-40a8-bb7a-fd92588bec8d")
+		)
+		(pin "4"
+			(uuid "dde613f7-e447-4235-9450-1455d0999246")
+		)
+		(pin "5"
+			(uuid "094c9df4-e04b-4691-8530-540a32ef72a6")
+		)
+		(pin "6"
+			(uuid "aad121d7-5edd-4991-bf20-5bfa572d9a3d")
+		)
+		(pin "8"
+			(uuid "1caae2f8-be55-4b15-bb2c-779a58a37870")
+		)
+		(pin "9"
+			(uuid "8fe02ad3-fa7b-4977-91c4-eb4aaed9054f")
+		)
+		(pin "12"
+			(uuid "d37ecb9e-53c4-4188-8cf3-59807c4ac276")
+		)
+		(pin "13"
+			(uuid "768e3bb1-02f5-4310-ad96-2ed06b79d733")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 172.085 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060374cff")
+		(property "Reference" "U?"
+			(at 179.705 165.6842 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 179.705 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.625 174.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 174.625 174.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.085 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fb4e7798-8cf8-4860-bc34-d4aa7c5141dc")
+		)
+		(pin "13"
+			(uuid "9c177419-38f9-4989-b35f-8119c8a3c63c")
+		)
+		(pin "6"
+			(uuid "f76f312f-34a6-4525-89fb-b10aa5832e71")
+		)
+		(pin ""
+			(uuid "dc1e892c-de12-41e0-b797-c511552035d5")
+		)
+		(pin ""
+			(uuid "7da7b491-3088-4b55-ac8c-46ca8d6a5697")
+		)
+		(pin "12"
+			(uuid "9d2e7494-ae62-420a-baa6-bd4e366afb87")
+		)
+		(pin "10"
+			(uuid "9cf835e1-446e-460d-9ef2-366857dd8f7d")
+		)
+		(pin "8"
+			(uuid "905c4c4b-6d15-47c3-bf01-ba92c5a6c994")
+		)
+		(pin "9"
+			(uuid "d710ebbf-a1d4-4823-89a1-12916ce559ed")
+		)
+		(pin ""
+			(uuid "42b04d40-884c-4a9b-8c4d-cee39ea59bc4")
+		)
+		(pin "11"
+			(uuid "cb309b85-c5f4-472d-b0d1-ce603a9651d8")
+		)
+		(pin "4"
+			(uuid "60b8946f-7e93-405e-b42d-07cbec263c64")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 146.685 217.805 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060392f7a")
+		(property "Reference" "U?"
+			(at 154.305 213.3092 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 154.305 215.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.225 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.225 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.685 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "02a42031-0a70-4e1b-91ef-2ee7d33edc4d")
+		)
+		(pin ""
+			(uuid "42ea770c-496a-420d-b269-c2ea230e137e")
+		)
+		(pin "8"
+			(uuid "bf4defc4-baac-432f-8c05-f6e5625c2013")
+		)
+		(pin "5"
+			(uuid "523f062c-af50-471c-91d9-b4c4ec448870")
+		)
+		(pin "11"
+			(uuid "410285c2-11e5-4c77-90df-0ca05d61bf7a")
+		)
+		(pin "13"
+			(uuid "f58ef1a1-74ef-4fdf-9962-0e0608b7c381")
+		)
+		(pin "10"
+			(uuid "98543ef1-aea0-4875-83c3-35b4be0ffbc3")
+		)
+		(pin "4"
+			(uuid "025221be-5712-4f62-a33d-a5220d00c7aa")
+		)
+		(pin ""
+			(uuid "2570fa44-0800-4c25-9cbe-9067678f235d")
+		)
+		(pin ""
+			(uuid "6a52c393-3c85-40a8-bcb7-faa815926080")
+		)
+		(pin "9"
+			(uuid "efaea268-b9a7-4438-b84a-693f36704f80")
+		)
+		(pin "6"
+			(uuid "6b088927-33b2-417c-be40-b63ce8fc4a05")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 127 210.185 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060392f80")
+		(property "Reference" "U?"
+			(at 134.62 205.6892 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 134.62 207.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 210.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "1ebf4c10-d121-4340-8d95-ea075569590f")
+		)
+		(pin "5"
+			(uuid "afcd0a24-9be1-4e8d-9200-779a6d7d86db")
+		)
+		(pin ""
+			(uuid "ca7c6f7d-355c-4a2a-8373-1fff99a870a5")
+		)
+		(pin "4"
+			(uuid "8a2bfcb1-e87f-44fd-a8a7-92acf2aeb875")
+		)
+		(pin ""
+			(uuid "182fcf0a-a76b-4979-80e2-aec8434abf90")
+		)
+		(pin "6"
+			(uuid "437491ae-eb8e-4a6c-a245-76a75f6224d3")
+		)
+		(pin "8"
+			(uuid "3074b5dc-08ec-4000-8cba-532fc30451b7")
+		)
+		(pin "9"
+			(uuid "a236e102-3cf3-4e04-8379-f7f266ed5e85")
+		)
+		(pin "13"
+			(uuid "dd99ff71-de10-468d-a3be-008499a0dca3")
+		)
+		(pin ""
+			(uuid "c4cf69aa-2f8c-4495-a04c-8e6ba9bdc328")
+		)
+		(pin "11"
+			(uuid "dc8b5430-6884-4dc2-886b-068e793151f8")
+		)
+		(pin "12"
+			(uuid "c9b7165c-2d98-457e-9c25-ac94645aac0e")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 127 225.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060392f86")
+		(property "Reference" "U?"
+			(at 134.62 220.9292 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 134.62 222.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 225.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "21e44977-be1c-4ce3-985f-c7c46e5c9574")
+		)
+		(pin "11"
+			(uuid "258e4ef8-c6df-4f03-8a63-7b8ed5f0c937")
+		)
+		(pin ""
+			(uuid "47bcacc3-e19c-4f32-9bba-c8df325350fb")
+		)
+		(pin "12"
+			(uuid "1ed04a93-655f-4a75-94cc-e92adde61941")
+		)
+		(pin "10"
+			(uuid "96ca59d4-49bb-4fd1-bc9b-7da78e7f5cce")
+		)
+		(pin "6"
+			(uuid "eb9b4276-281c-4ee5-885f-c88131d144ae")
+		)
+		(pin ""
+			(uuid "186c29af-a137-4f69-8a43-1199a0d7f908")
+		)
+		(pin ""
+			(uuid "29ce5771-29d4-4073-980a-27b38557c83a")
+		)
+		(pin "9"
+			(uuid "c438f337-c205-437b-b02d-9a99cb60bcd4")
+		)
+		(pin "4"
+			(uuid "b2fc61d9-f085-4afe-8e78-1352772c369c")
+		)
+		(pin "13"
+			(uuid "1da9bae6-81be-431f-9bcf-fe0ec73a0f20")
+		)
+		(pin "8"
+			(uuid "b24b5764-9fd7-4af7-8d56-2e7edb20be50")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 166.37 217.805 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060399a14")
+		(property "Reference" "U?"
+			(at 173.99 213.3092 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 173.99 215.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "a507a305-beb3-498e-b106-f96088e6db49")
+		)
+		(pin ""
+			(uuid "7560c1b2-fb8b-4835-8600-525c2308babc")
+		)
+		(pin ""
+			(uuid "f9cf6bd2-fdf3-4de1-a40f-eb9c8ba95601")
+		)
+		(pin "4"
+			(uuid "c0db9468-004a-4654-9e83-e9dff32c5ff9")
+		)
+		(pin "6"
+			(uuid "b2ef408d-689d-4056-bd3c-437c625ff8b0")
+		)
+		(pin "9"
+			(uuid "01682cc4-35d2-4ec9-851f-a1bbc9abbb8f")
+		)
+		(pin "12"
+			(uuid "9253d7a6-6b3d-4b2b-8e55-8db9c0cfd5b2")
+		)
+		(pin "13"
+			(uuid "6c4dbc1d-2e10-4d2a-b244-b7cdbcf080bd")
+		)
+		(pin ""
+			(uuid "d3e48799-8f9a-484f-8d1d-d8a6c3e4e698")
+		)
+		(pin "10"
+			(uuid "99b95ef6-43f2-4975-8c4a-a5d835615b6d")
+		)
+		(pin "8"
+			(uuid "31a7d608-751a-477d-9519-ae108d9bae87")
+		)
+		(pin "11"
+			(uuid "c659fa61-acb8-495b-bba1-426a847943bf")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "simbolos-electricos:NPN")
+		(lib_id "simbolos-electricos:NPN")
+		(at 66.675 173.355 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "082c620c-3a25-469e-9b4c-6c2196ed5fec")
+		(property "Reference" "Q5"
+			(at 76.2 178.4349 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "NPN"
+			(at 64.77 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.215 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.215 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.675 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Campo4" "NPN"
+			(at 93.98 180.34 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "498d50b5-ee80-4ae1-8941-1ae3ae09bf3d")
+		)
+		(pin ""
+			(uuid "30355316-8baf-401e-b9dd-06690cb87e7b")
+		)
+		(pin ""
+			(uuid "7f7656e5-bddc-45f3-b6e8-4db3f633d785")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "simbolos-electricos:NPN")
+		(lib_id "simbolos-electricos:NPN")
+		(at 50.8 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a29ebef-0576-4a47-a238-c9c89c032eef")
+		(property "Reference" "Q7"
+			(at 60.325 135.8899 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "NPN"
+			(at 48.895 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Campo4" "NPN"
+			(at 78.105 137.795 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "97196b59-1361-424b-a16a-175f417068d0")
+		)
+		(pin ""
+			(uuid "6e11612b-a260-4ef7-8460-aafe1ffb6bd7")
+		)
+		(pin ""
+			(uuid "7042cdb5-392f-4408-b7a1-12bbf5041df6")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "simbolos-electricos:NPN")
+		(lib_id "simbolos-electricos:NPN")
+		(at 67.31 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3db607a3-dc94-4a48-b4f7-5d607ba3fdcf")
+		(property "Reference" "Q9"
+			(at 76.835 72.3899 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "NPN"
+			(at 65.405 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Campo4" "NPN"
+			(at 94.615 74.295 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5a12eb4c-515b-40e0-ba26-a9986993ab3f")
+		)
+		(pin ""
+			(uuid "9ee6e4b7-b6ef-4089-a9ed-af81fc93a69a")
+		)
+		(pin ""
+			(uuid "22551f41-cf11-4fd6-a6c2-77daad8be0fe")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "simbolos-electricos:NPN")
+		(lib_id "simbolos-electricos:NPN")
+		(at 48.895 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51de7acd-a992-4f67-80e8-95ae8fe368fa")
+		(property "Reference" "Q3"
+			(at 59.055 226.0599 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "NPN"
+			(at 46.99 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.435 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 51.435 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.895 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Campo4" "NPN"
+			(at 76.2 227.965 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f25ec8e7-19ae-4a86-a17c-e41b30f763f5")
+		)
+		(pin ""
+			(uuid "6f0f9683-4f03-49d1-a633-6742802aa158")
+		)
+		(pin ""
+			(uuid "f8cca5ce-ed1b-4b5e-9514-1b9e93a55810")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "simbolos-electricos:NPN")
+		(lib_id "simbolos-electricos:NPN")
+		(at 31.75 66.675 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "523fdd71-7425-4311-95e2-5389e4eec7da")
+		(property "Reference" "Q8"
+			(at 41.275 71.7549 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "NPN"
+			(at 29.845 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Campo4" "NPN"
+			(at 59.055 73.66 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "749530cf-5362-4014-a244-6980c72943fc")
+		)
+		(pin ""
+			(uuid "e42a7e29-74e1-4d65-8707-1739e25ad333")
+		)
+		(pin ""
+			(uuid "6b1895be-bafb-4d8c-aabe-74abe8c502cb")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "simbolos-electricos:NPN")
+		(lib_id "simbolos-electricos:NPN")
+		(at 31.115 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61bdb356-77cb-4c04-a3f6-20f3055a3d81")
+		(property "Reference" "Q4"
+			(at 40.64 177.7999 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "NPN"
+			(at 29.21 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.655 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.655 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.115 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Campo4" "NPN"
+			(at 58.42 179.705 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "64855b7b-27ab-4c78-bf7d-0362a76cada9")
+		)
+		(pin ""
+			(uuid "a5e5dbb5-9118-4519-b24e-7419f9c13756")
+		)
+		(pin ""
+			(uuid "f0b1756a-f98a-44c4-9826-b7c3fc63b593")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "simbolos-electricos:NPN")
+		(lib_id "simbolos-electricos:NPN")
+		(at 50.8 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93f1acbd-5d57-4dfc-8cc3-96a510ff824e")
+		(property "Reference" "Q6"
+			(at 60.325 125.7299 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "NPN"
+			(at 48.895 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Campo4" "NPN"
+			(at 78.105 127.635 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d80abd54-0e83-42ca-a248-bc8b09c26362")
+		)
+		(pin ""
+			(uuid "f8f2fafb-a7b2-44e1-a042-c8e0d3aecd1d")
+		)
+		(pin ""
+			(uuid "bd6d5540-b938-47f8-adaa-0929640d81a5")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "simbolos-electricos:NPN")
+		(lib_id "simbolos-electricos:NPN")
+		(at 50.8 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bed2447f-debc-4d29-b46a-6e4af0f98f07")
+		(property "Reference" "Q2"
+			(at 60.325 29.2099 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "NPN"
+			(at 48.895 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Campo4" "NPN"
+			(at 78.105 31.115 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "23253b70-bf2a-462d-b331-4dbd551fe391")
+		)
+		(pin ""
+			(uuid "b8f611d6-4efb-4d0a-bb00-4a2bbd0cbe65")
+		)
+		(pin ""
+			(uuid "0176acae-9fed-48d2-8020-4d4c5e6e3ded")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "simbolos-electricos:NPN")
+		(lib_id "simbolos-electricos:NPN")
+		(at 50.8 13.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fff0c8a7-00a6-47f1-856c-7980fdff5f7c")
+		(property "Reference" "Q1"
+			(at 60.325 19.0499 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "NPN"
+			(at 48.895 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Campo4" "NPN"
+			(at 78.105 20.955 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b6e96132-2472-44b5-9fff-5cf38c94b9a2")
+		)
+		(pin ""
+			(uuid "2235c3dc-fd87-4a32-8a66-13669b79e224")
+		)
+		(pin ""
+			(uuid "a33bf14b-8daa-43aa-9244-7cf374b1f491")
+		)
+		(instances
+			(project ""
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

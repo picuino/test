@@ -31,7 +31,7 @@ moodle_template = 'moodle-multichoice-template.xml'
 json_template = 'json-template.json'
 html_template = 'game-template.html'
 
-random_seed = 2024
+random_seed = 2025
 
 
 projects = [
@@ -60,7 +60,7 @@ projects = [
    'filename_output': 'es-material',
    'yaml_category': 'Materiales y Herramientas',
    'yaml_title': 'Test global',
-   'max_questions': 40,
+   'max_questions': 50,
    'random_seed': random_seed,
 },
 
@@ -85,7 +85,7 @@ projects = [
    'filename_output': 'es-hardware',
    'yaml_category': 'Hardware de ordenador',
    'yaml_title': 'Test global',
-   'max_questions': 40,
+   'max_questions': 50,
    'random_seed': random_seed,
 },
 
@@ -105,7 +105,7 @@ projects = [
    'filename_output': 'es-software',
    'yaml_category': 'Software de ordenador',
    'yaml_title': 'Test global',
-   'max_questions': 40,
+   'max_questions': 50,
    'random_seed': random_seed,
 },
 
@@ -121,7 +121,7 @@ projects = [
    'filename_output': 'es-machines',
    'yaml_category': 'Máquinas y Mecanismos',
    'yaml_title': 'Test global',   
-   'max_questions': 40,
+   'max_questions': 50,
    'random_seed': random_seed,
 },
 
@@ -136,7 +136,7 @@ projects = [
    'filename_output': 'es-historia-tecnologia',
    'yaml_category': 'Historia de la Tecnología',
    'yaml_title': 'Test global',   
-   'max_questions': 40,
+   'max_questions': 50,
    'random_seed': random_seed,
 },
 
@@ -150,7 +150,7 @@ projects = [
    'filename_output': 'es-technology-objects',
    'yaml_category': 'Los objetos técnicos',
    'yaml_title': 'Test global',   
-   'max_questions': 40,
+   'max_questions': 50,
    'random_seed': random_seed,
 },
 

@@ -104,7 +104,7 @@
       <text><![CDATA[
          <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Número de bits</strong><br> Cada procesador puede manejar a la vez un número concreto de bits. El número de bits determina la cantidad de {1:SHORTANSWER:=memoria} a la que se puede acceder y la {1:SHORTANSWER:=rapidez} con la que se ejecutarán ciertas operaciones. Un procesador de 8 bits tratará la información cuatro veces más lento que uno de {1:SHORTANSWER:=32} bits.<br> Los procesadores más simples, como los que incorpora un teclado de ordenador o un horno microondas, son de {1:SHORTANSWER:=8} bits.<br> Por encima de ellas están las CPU de 32 bits, mucho más potentes y rápidas. Son las utilizadas en smartphones, smartTV, impresoras, etc.<br> Los ordenadores personales actuales utilizan, en la mayoría de los casos, procesadores y software de {1:SHORTANSWER:=64} bits.]]>
+         <strong>Número de bits</strong><br> Cada procesador puede manejar a la vez un número concreto de bits. El número de bits determina la cantidad de {1:SHORTANSWER:=memoria} a la que se puede acceder y la {1:SHORTANSWER:=rapidez} con la que se ejecutarán ciertas operaciones. Un procesador de 8 bits tratará la información cuatro veces más lento que uno de {1:SHORTANSWER:=32} bits.<br> Los procesadores más simples, como los que incorpora un teclado de ordenador o un horno microondas, son de {1:SHORTANSWER:=8} bits.<br> Por encima de ellas están las CPU de {1:SHORTANSWER:=32} bits, mucho más potentes y rápidas. Son las utilizadas en smartphones, smartTV, impresoras, etc.<br> Los ordenadores personales actuales utilizan, en la mayoría de los casos, procesadores y software de {1:SHORTANSWER:=64} bits.]]>
       </text>
     </questiontext>
     <generalfeedback format="html">
@@ -140,7 +140,7 @@
       <text><![CDATA[
          <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Pruebas de rendimiento</strong><br> Las pruebas de rendimiento, también llamadas {1:SHORTANSWER:=benchmark}, son una técnica para medir el rendimiento de un sistema informático o de sus {1:SHORTANSWER:=componentes} por separado.<br> Son pruebas muy útiles a la hora de comparar procesadores entre sí. Debido a la gran cantidad de parámetros o características que definen a un procesador, no es sencillo calcular su rendimiento final. Sin embargo las pruebas benchmark darán un simple número que representa aproximadamente la {1:SHORTANSWER:=potencia} de un procesador.]]>
+         <strong>Pruebas de rendimiento</strong><br> Las pruebas de rendimiento, también llamadas {1:SHORTANSWER:=benchmark}, son una técnica para medir el rendimiento de un sistema informático o de sus {1:SHORTANSWER:=componentes} por separado.<br> Son pruebas muy útiles a la hora de comparar procesadores entre sí. Debido a la gran cantidad de parámetros o características que definen a un {1:SHORTANSWER:=procesador}, no es sencillo calcular su rendimiento final. Sin embargo las pruebas benchmark darán un simple número que representa aproximadamente la {1:SHORTANSWER:=potencia} de un procesador.]]>
       </text>
     </questiontext>
     <generalfeedback format="html">

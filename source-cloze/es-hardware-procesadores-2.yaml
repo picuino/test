@@ -112,7 +112,7 @@ Show_max: 0
      información cuatro veces más lento que uno de {32} bits.<br> 
      Los procesadores más simples, como los que incorpora un teclado
      de ordenador o un horno microondas, son de {8} bits.<br> 
-     Por encima de ellas están las CPU de 32 bits, mucho más potentes
+     Por encima de ellas están las CPU de {32} bits, mucho más potentes
      y rápidas. Son las utilizadas en smartphones, smartTV,
      impresoras, etc.<br> 
      Los ordenadores personales actuales utilizan, en la mayoría
@@ -144,7 +144,7 @@ Show_max: 0
      o de sus {componentes} por separado.<br> 
      Son pruebas muy útiles a la hora de comparar procesadores entre
      sí. Debido a la gran cantidad de parámetros o características
-     que definen a un procesador, no es sencillo calcular su
+     que definen a un {procesador}, no es sencillo calcular su
      rendimiento final. Sin embargo las pruebas benchmark darán un
      simple número que representa aproximadamente la {potencia} de
      un procesador.

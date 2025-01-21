@@ -255,12 +255,12 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Alrededor de 20 vatios.</text>
+       <text>Alrededor de 5 vatios.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Alrededor de 50 vatios.</text>
+       <text>Alrededor de 20 vatios.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -299,17 +299,17 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Alrededor de 100 vatios.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
        <text>Alrededor de 50 vatios.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Alrededor de 200 vatios.</text>
+       <text>Alrededor de 100 vatios.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Alrededor de 500 vatios.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -646,7 +646,7 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Paralelizando la ejecución de instrucciones en varios núcleos.</text>
+       <text>Paralelizando la ejecución de los programas en varios núcleos.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
@@ -749,7 +749,7 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>De 16 a 32 núcleos.</text>
+       <text>De 32 a 128 núcleos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -757,12 +757,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué son los hilos de ejecución en un procesador?</text> </name>
+    <name> <text>¿Qué son los hilos de ejecución de un procesador?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué son los hilos de ejecución en un procesador?</p>
+         <p>¿Qué son los hilos de ejecución de un procesador?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -778,22 +778,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Permiten ejecutar programas de forma virtual.</text>
+       <text>Son la cantidad de programas que se pueden ejecutar a la vez.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Son programas que solo se ejecutan en un núcleo.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Son el número de programas que se pueden ejecutar en un procesador.</text>
+       <text>Son programas que solo se ejecutan en un núcleo del procesador.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
        <text>Son la cantidad de núcleos de un procesador.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Son la cantidad de accesos físicos a memoria RAM que tiene un procesador.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -837,7 +837,7 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Aceleran la velocidad de ejecución de un programa en un núcleo del procesador.</text>
+       <text>Reducen la cantidad de memoria RAM necesaria por parte del procesador.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -866,22 +866,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>2 hilos de ejecución por núcleo</text>
+       <text>2 hilos de ejecución por núcleo.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>4 hilos de ejecución por núcleo</text>
+       <text>4 hilos de ejecución por núcleo.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>8 hilos de ejecución por núcleo</text>
+       <text>8 hilos de ejecución por núcleo.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>16 hilos de ejecución por núcleo</text>
+       <text>16 hilos de ejecución por núcleo.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     

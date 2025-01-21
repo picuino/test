@@ -1,0 +1,4962 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "29dab14e-5fc8-480d-95f6-76f329724765")
+	(paper "A4" portrait)
+	(title_block
+		(title "Circuitos eléctricos para Test Picuino")
+		(date "16/02/2021")
+		(company "www.picuino.com")
+		(comment 1 "Copyright (c) 2021 by Carlos Pardo")
+		(comment 2 "License CC BY-SA 4.0")
+	)
+	(lib_symbols
+		(symbol "electric-circuits-rescue:CopyRight-simbolos"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CP"
+				(at 6.35 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "simbolos_CopyRight"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "License" "CC BY-SA 4.0"
+				(at -1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify right)
+				)
+			)
+			(property "Web" "www.picuino.com"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+			(symbol "CopyRight-simbolos_0_1"
+				(polyline
+					(pts
+						(xy -10.16 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "electric-circuits-rescue:Pila-simbolos"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "V"
+				(at 5.08 -4.445 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "simbolos_Pila"
+				(at 2.54 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pila-simbolos_0_1"
+				(polyline
+					(pts
+						(xy -4.064 -1.27) (xy -2.286 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.175) (xy 3.81 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -0.381) (xy -3.175 -2.159)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy 1.905 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Pila-simbolos_1_1"
+				(pin input line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 270)
+					(length 3.175)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "electric-circuits-rescue:diodo_led-simbolos"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "simbolos_diodo_led"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "diodo_led-simbolos_0_1"
+				(polyline
+					(pts
+						(xy 1.397 -4.318) (xy 3.429 -5.334)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -5.715) (xy -1.905 -5.715)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -3.048) (xy 4.064 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.429 -5.334) (xy 2.3622 -5.1816)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.429 -5.334) (xy 2.667 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 -4.064) (xy 2.9972 -3.9116)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 -4.064) (xy 3.302 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy -1.905 -1.905) (xy 0 -5.715) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "diodo_led-simbolos_1_1"
+				(pin input line
+					(at 0 -7.62 90)
+					(length 1.905)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 270)
+					(length 1.905)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "electric-circuits-rescue:interruptor-simbolos"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 4.445 3.175 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "simbolos_interruptor"
+				(at 6.35 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "interruptor-simbolos_0_0"
+				(polyline
+					(pts
+						(xy 8.89 3.81) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 9.525 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "interruptor-simbolos_1_1"
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "electric-circuits-rescue:resistencia-simbolos"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.905 -5.08 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "simbolos_resistencia"
+				(at -2.54 -5.715 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "resistencia-simbolos_0_1"
+				(rectangle
+					(start -1.27 -1.905)
+					(end 1.27 -8.255)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "resistencia-simbolos_1_1"
+				(pin input line
+					(at 0 -10.16 90)
+					(length 1.905)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 270)
+					(length 1.905)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 67.945 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21891f16-04da-4e14-99b1-4e588db5dfcf")
+	)
+	(junction
+		(at 63.5 281.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24e332ba-af54-47f3-bb8d-4afd78c481c4")
+	)
+	(junction
+		(at 152.4 279.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3410883a-13d0-4228-851c-99211572ea3b")
+	)
+	(junction
+		(at 159.385 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "348a535e-e266-4d19-b0dd-b393e1d927f9")
+	)
+	(junction
+		(at 165.1 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3567ded8-12a8-456e-8787-918ed7b1e3a0")
+	)
+	(junction
+		(at 63.5 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39b50eee-ac34-41b4-8437-d62e89761c05")
+	)
+	(junction
+		(at 55.88 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40a32195-e736-4c11-bdf7-7e7938e45774")
+	)
+	(junction
+		(at 146.685 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4120f77b-ae07-4cd2-ad9b-3c32261681c7")
+	)
+	(junction
+		(at 152.4 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e116eb0-2cfa-4a42-a483-aece93b47bdc")
+	)
+	(junction
+		(at 50.8 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56719053-e1eb-428e-a741-9b4a5d3be8b0")
+	)
+	(junction
+		(at 152.4 263.525)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cbd72b6-0d5a-4138-92af-fd13620fa193")
+	)
+	(junction
+		(at 50.8 163.195)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60bc8b54-0546-4d16-ad86-b3ccd8afcd3a")
+	)
+	(junction
+		(at 50.8 179.705)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b45157b-8707-486e-9032-51e474d6f8bc")
+	)
+	(junction
+		(at 69.215 69.215)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8487162b-8d72-430e-b7b3-435b2b025f29")
+	)
+	(junction
+		(at 55.88 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f43de6f-c1e8-4064-b780-239f708f96f1")
+	)
+	(junction
+		(at 55.245 133.985)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa626807-cad6-4a37-aea5-eb0f1971d73c")
+	)
+	(junction
+		(at 50.8 281.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abf9d44c-e78b-4ef9-9047-f1221624c18c")
+	)
+	(junction
+		(at 55.245 117.475)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc6846ba-4969-4ee7-8460-969197181635")
+	)
+	(junction
+		(at 69.215 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca5296e7-4a46-4373-a583-e55925abb029")
+	)
+	(junction
+		(at 55.245 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d16322c4-e878-453f-8402-961cbcb123c4")
+	)
+	(junction
+		(at 50.8 69.215)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d970b1c3-68e9-4c83-bfd2-806ac9a7ab47")
+	)
+	(junction
+		(at 50.8 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8de299c-adb5-463d-a240-f078950f54fc")
+	)
+	(junction
+		(at 152.4 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f188da3c-6e70-40c2-8064-c0f95fec2fdf")
+	)
+	(junction
+		(at 120.65 263.525)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa4b1873-a6cd-4883-b213-b5df7fecdc2c")
+	)
+	(wire
+		(pts
+			(xy 50.8 80.01) (xy 50.8 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032fb082-0213-4057-b7d8-b4c81f5ba315")
+	)
+	(wire
+		(pts
+			(xy 55.245 222.25) (xy 55.245 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064fae64-6117-4ca6-8962-c299eaac9671")
+	)
+	(polyline
+		(pts
+			(xy 205.74 290.83) (xy 5.08 290.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "07d19869-8cb6-485c-9e1e-8e08ece395bf")
+	)
+	(wire
+		(pts
+			(xy 165.1 271.78) (xy 165.1 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b418cc8-031c-4ef0-9939-f513b6002c2a")
+	)
+	(wire
+		(pts
+			(xy 55.245 215.9) (xy 55.245 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bdf4747-bb20-4339-97c8-15d91d6834e2")
+	)
+	(wire
+		(pts
+			(xy 76.2 281.94) (xy 76.2 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cdcafeb-18ac-42ce-ab0d-ab2a7b60de22")
+	)
+	(wire
+		(pts
+			(xy 29.845 117.475) (xy 55.245 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9f89c4-d7f9-4b92-a683-a09ba0c1d746")
+	)
+	(wire
+		(pts
+			(xy 50.8 163.195) (xy 50.8 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1036ff69-5d61-4331-aed2-31757434e6f3")
+	)
+	(wire
+		(pts
+			(xy 168.91 158.75) (xy 137.16 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108a0ddb-e07e-4dd2-bce9-b5741825a600")
+	)
+	(wire
+		(pts
+			(xy 63.5 281.94) (xy 76.2 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ccf6dc-24c6-4d00-82d0-ae439be8e2f3")
+	)
+	(wire
+		(pts
+			(xy 152.4 215.9) (xy 152.4 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146c613c-95fe-46ae-8a0c-861bd0eea475")
+	)
+	(wire
+		(pts
+			(xy 38.735 222.25) (xy 31.75 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a30b100-8b3e-4ee6-8394-015663b630fd")
+	)
+	(wire
+		(pts
+			(xy 168.91 181.61) (xy 168.91 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250ddb96-7254-498b-a8c5-8c13a033e8c0")
+	)
+	(wire
+		(pts
+			(xy 165.1 36.195) (xy 165.1 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fd03a3-0fa2-4054-bc76-69212e456b40")
+	)
+	(wire
+		(pts
+			(xy 25.4 168.275) (xy 25.4 163.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b8ab60f-b9a9-4ce8-be67-2617e98d8f6b")
+	)
+	(wire
+		(pts
+			(xy 50.8 72.39) (xy 50.8 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f650ee9-ae39-47c2-8b33-a5cfa2d3f1e7")
+	)
+	(wire
+		(pts
+			(xy 159.385 120.65) (xy 159.385 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a9d376-74c7-469d-ad5b-7efc457d5d7c")
+	)
+	(wire
+		(pts
+			(xy 165.1 279.4) (xy 152.4 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ebc5e0-977a-4deb-bd7b-936419786bbe")
+	)
+	(wire
+		(pts
+			(xy 133.35 40.64) (xy 142.875 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348ecdfd-590b-4c44-9a72-483b8b9ba078")
+	)
+	(wire
+		(pts
+			(xy 50.8 254) (xy 25.4 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3674cafc-70ab-4109-9425-0ee26761a553")
+	)
+	(wire
+		(pts
+			(xy 139.7 90.805) (xy 165.1 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ae0620-ce65-4466-848c-6c3aadec6d62")
+	)
+	(wire
+		(pts
+			(xy 133.35 25.4) (xy 133.35 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b861e50-6b5c-4709-a256-f8df80e74376")
+	)
+	(wire
+		(pts
+			(xy 152.4 222.25) (xy 152.4 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1ddef6-1d9f-4ed1-b794-94042737b0d5")
+	)
+	(wire
+		(pts
+			(xy 29.845 122.555) (xy 29.845 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e117210-e56b-4565-95fd-20648b48c5ec")
+	)
+	(wire
+		(pts
+			(xy 165.735 127) (xy 159.385 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f51e35b-fa8f-4be9-93bf-2a73f334ec59")
+	)
+	(wire
+		(pts
+			(xy 29.845 133.985) (xy 29.845 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d0e7c3-8661-406f-a086-b57ae939affc")
+	)
+	(wire
+		(pts
+			(xy 50.8 254) (xy 50.8 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a63de3-9a2c-4d73-8de5-405164c9135f")
+	)
+	(wire
+		(pts
+			(xy 31.75 80.01) (xy 31.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d8b7b1-0f47-40e4-9cc1-0deda72849d6")
+	)
+	(wire
+		(pts
+			(xy 120.65 263.525) (xy 152.4 263.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "442a5d01-3a93-45f1-be65-3073701f54d9")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.185) (xy 139.7 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468a5c3b-f224-40ff-97bc-708d1aac9ead")
+	)
+	(wire
+		(pts
+			(xy 25.4 271.145) (xy 25.4 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46af542d-63da-4164-9731-33afd32582d1")
+	)
+	(wire
+		(pts
+			(xy 38.1 41.91) (xy 55.88 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f91067-df40-4778-a096-2f0e40c0c44b")
+	)
+	(wire
+		(pts
+			(xy 135.89 222.25) (xy 129.54 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb319df-050d-40aa-9dcc-bfebcd3f37ce")
+	)
+	(wire
+		(pts
+			(xy 69.215 82.55) (xy 82.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1a2b92-9536-442a-aabe-423f54d87f3e")
+	)
+	(wire
+		(pts
+			(xy 139.7 63.5) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5012c07c-b003-46c0-bf86-9ae8d0787b86")
+	)
+	(wire
+		(pts
+			(xy 140.97 254) (xy 152.4 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52882283-376c-4d4d-804e-261c63655eb0")
+	)
+	(wire
+		(pts
+			(xy 168.91 184.15) (xy 137.16 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52cfc300-38c4-4db8-a43b-079b1841403a")
+	)
+	(wire
+		(pts
+			(xy 31.75 72.39) (xy 31.75 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5368f1f4-6d2a-4e07-8c03-38c07080683c")
+	)
+	(wire
+		(pts
+			(xy 74.295 133.985) (xy 55.245 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58375365-ad68-4213-b5bc-e14cdfcb59b7")
+	)
+	(wire
+		(pts
+			(xy 139.7 74.295) (xy 139.7 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d5d7ebc-d9d3-400d-9df6-64ecd361634f")
+	)
+	(polyline
+		(pts
+			(xy 5.08 290.83) (xy 5.08 5.08)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "66d87d58-cbde-433b-bbc3-0894cf1b38e8")
+	)
+	(wire
+		(pts
+			(xy 146.05 222.25) (xy 152.4 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680a807c-02ec-45e6-8f49-7588afc59a0f")
+	)
+	(wire
+		(pts
+			(xy 50.8 281.94) (xy 63.5 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69559afe-58dd-4c31-ac51-038ea649fbf9")
+	)
+	(wire
+		(pts
+			(xy 153.035 40.64) (xy 165.1 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "697d3c2e-031c-4e9d-824c-d81b6c15706a")
+	)
+	(wire
+		(pts
+			(xy 165.1 228.6) (xy 163.83 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d723f8-e7ea-4517-bc83-66dc1b3619ee")
+	)
+	(wire
+		(pts
+			(xy 67.945 222.25) (xy 67.945 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a4e9292-136a-4dd2-9116-3af1541140a9")
+	)
+	(wire
+		(pts
+			(xy 67.945 228.6) (xy 66.675 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0b2d70-049a-4441-8510-aa65c723c77e")
+	)
+	(wire
+		(pts
+			(xy 154.305 19.05) (xy 165.1 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0a5464-67f0-4d99-9028-33fab8d1ee7b")
+	)
+	(wire
+		(pts
+			(xy 55.245 133.985) (xy 29.845 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e5df6a0-440b-4647-b64a-98af3af5c7d2")
+	)
+	(wire
+		(pts
+			(xy 50.8 82.55) (xy 69.215 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "713a7f00-7099-4554-bab2-90cccb1c9ab5")
+	)
+	(wire
+		(pts
+			(xy 59.055 163.195) (xy 50.8 163.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c2afcb-d373-40e4-ad75-24ad38ed8100")
+	)
+	(wire
+		(pts
+			(xy 56.515 228.6) (xy 55.245 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7482b37c-9523-48ba-b242-d4180114f16f")
+	)
+	(wire
+		(pts
+			(xy 165.1 254) (xy 165.1 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765036a5-eb96-4228-aa66-54031c95d654")
+	)
+	(wire
+		(pts
+			(xy 25.4 254) (xy 25.4 263.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c97ce9-34b7-439a-af87-2670ae3e8d0f")
+	)
+	(wire
+		(pts
+			(xy 168.91 161.29) (xy 168.91 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c11f515-ca17-458f-9906-8ae851a30b7a")
+	)
+	(wire
+		(pts
+			(xy 74.295 130.81) (xy 74.295 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e24db61-b217-4607-a2c3-330dc7aeef03")
+	)
+	(wire
+		(pts
+			(xy 69.215 72.39) (xy 69.215 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8031b70e-9319-4d6e-ae87-fb80ef59a1b2")
+	)
+	(wire
+		(pts
+			(xy 76.2 269.24) (xy 76.2 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f64ad8-95df-4329-a951-3c704f4824f6")
+	)
+	(wire
+		(pts
+			(xy 139.7 65.405) (xy 139.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "848b9e47-634d-4c7c-bb72-29051e95020b")
+	)
+	(wire
+		(pts
+			(xy 137.16 158.75) (xy 137.16 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85570828-abb9-4a2d-811f-2b5b3b6a814b")
+	)
+	(wire
+		(pts
+			(xy 63.5 269.24) (xy 63.5 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e779f1-2238-4ad5-a6d5-76f584289f02")
+	)
+	(polyline
+		(pts
+			(xy 205.74 5.08) (xy 205.74 290.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8765a8d7-81b6-4aa2-a0a3-ceaf13a800f4")
+	)
+	(wire
+		(pts
+			(xy 159.385 127) (xy 159.385 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89471878-f672-470c-b27f-33a8abcf45b1")
+	)
+	(wire
+		(pts
+			(xy 50.8 69.215) (xy 69.215 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7e5893-3d05-45ee-a2c2-bef02c229004")
+	)
+	(wire
+		(pts
+			(xy 152.4 263.525) (xy 152.4 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8e8706-7791-4932-b824-93aa125e2138")
+	)
+	(wire
+		(pts
+			(xy 67.945 215.9) (xy 66.675 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1dee48-d9dd-47c2-94c2-b38d2ce197b9")
+	)
+	(wire
+		(pts
+			(xy 152.4 254) (xy 165.1 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbb238a-4196-410b-88be-15f6a72dac78")
+	)
+	(wire
+		(pts
+			(xy 55.245 117.475) (xy 55.245 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8fe330-5f88-4f4c-96ca-47abc54b7da5")
+	)
+	(wire
+		(pts
+			(xy 74.295 222.25) (xy 67.945 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90dd48a8-7e54-4f45-b20f-f6076d66d9b0")
+	)
+	(wire
+		(pts
+			(xy 133.35 279.4) (xy 120.65 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ad2aed-72eb-4f71-bf94-6f847f8a59f9")
+	)
+	(wire
+		(pts
+			(xy 120.65 279.4) (xy 120.65 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91de4a21-1395-4f51-ad69-26bf0d7c4245")
+	)
+	(wire
+		(pts
+			(xy 165.1 23.495) (xy 165.1 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91dfd0af-7d33-482b-a2c8-15ebf58c567c")
+	)
+	(wire
+		(pts
+			(xy 25.4 281.94) (xy 50.8 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c2e1e0-f0e0-4ca4-9a8c-77fa0942e1ec")
+	)
+	(wire
+		(pts
+			(xy 55.245 133.985) (xy 55.245 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9745026c-a8e3-4bde-8635-a00e542f3a28")
+	)
+	(wire
+		(pts
+			(xy 165.1 215.9) (xy 163.83 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d9a409-eca8-4a6a-af57-be64975f9f6a")
+	)
+	(wire
+		(pts
+			(xy 38.1 19.05) (xy 40.64 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e44010d-a7a3-40c5-a364-0b36fc977326")
+	)
+	(wire
+		(pts
+			(xy 55.245 117.475) (xy 74.295 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0ed978-998c-4e4c-8404-348b19784973")
+	)
+	(polyline
+		(pts
+			(xy 5.08 243.205) (xy 205.74 243.205)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "9fbaca16-946f-4382-8b0a-f452bc42714e")
+	)
+	(wire
+		(pts
+			(xy 69.215 69.215) (xy 82.55 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09ddd10-9ac6-455b-86e5-ea68aac6455d")
+	)
+	(wire
+		(pts
+			(xy 25.4 163.195) (xy 50.8 163.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ccec56-08f7-4dda-bfec-54f0955ba35e")
+	)
+	(wire
+		(pts
+			(xy 146.685 120.65) (xy 146.685 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a201d503-e387-4e9d-b3b8-0989073b29b1")
+	)
+	(wire
+		(pts
+			(xy 48.895 222.25) (xy 55.245 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28075bc-5e9d-477d-a159-ea127d8dc2d0")
+	)
+	(wire
+		(pts
+			(xy 25.4 179.705) (xy 25.4 175.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2fcde92-96d4-4299-9bdd-97bf11435451")
+	)
+	(wire
+		(pts
+			(xy 69.215 80.01) (xy 69.215 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3efa589-8bf6-44ea-ab70-e42e08081894")
+	)
+	(wire
+		(pts
+			(xy 147.955 133.35) (xy 146.685 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74629cc-abc3-463e-a11c-8a083c359137")
+	)
+	(wire
+		(pts
+			(xy 68.58 41.91) (xy 55.88 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac23da24-e24c-43b4-bb63-bab2ac5a9f22")
+	)
+	(wire
+		(pts
+			(xy 74.295 117.475) (xy 74.295 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad032f97-8351-4a6b-94dd-5f56c3847148")
+	)
+	(wire
+		(pts
+			(xy 120.65 263.525) (xy 120.65 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf2820b-7452-4ecd-bfd1-6dd4341d9e33")
+	)
+	(wire
+		(pts
+			(xy 120.65 254) (xy 133.35 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b131d778-ff57-47e1-9bd8-38c355104a92")
+	)
+	(polyline
+		(pts
+			(xy 205.74 195.58) (xy 5.08 195.58)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b3373064-f711-455d-9ec9-29d951a97786")
+	)
+	(wire
+		(pts
+			(xy 159.385 120.65) (xy 158.115 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34edc7f-2395-4158-8c97-2a9c864441ca")
+	)
+	(wire
+		(pts
+			(xy 159.385 133.35) (xy 158.115 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b9fdf2-aafb-4a4b-9766-8bc5da566f3b")
+	)
+	(wire
+		(pts
+			(xy 31.75 82.55) (xy 50.8 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b664e197-f315-4180-8b31-cc54033b3605")
+	)
+	(wire
+		(pts
+			(xy 146.685 127) (xy 140.335 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68b2479-eaf6-4618-8245-0d8f601e010e")
+	)
+	(polyline
+		(pts
+			(xy 5.08 5.08) (xy 205.74 5.08)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b9c89553-3b4f-4819-947e-afc15f149b7e")
+	)
+	(wire
+		(pts
+			(xy 152.4 279.4) (xy 140.97 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb296f84-7771-42e9-97c6-23ed3ef44c4e")
+	)
+	(wire
+		(pts
+			(xy 68.58 29.21) (xy 55.88 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdbf5803-10c3-45b2-8803-8a50ac7ccb51")
+	)
+	(wire
+		(pts
+			(xy 76.2 254) (xy 63.5 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0614416-253b-441f-bfd1-1c84bb736154")
+	)
+	(wire
+		(pts
+			(xy 153.67 215.9) (xy 152.4 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c8f81d-d2e7-4f74-9554-51dbdb262987")
+	)
+	(wire
+		(pts
+			(xy 50.8 179.705) (xy 80.645 179.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5cb6e51-b534-4850-a721-c65e331dda01")
+	)
+	(polyline
+		(pts
+			(xy 5.08 147.955) (xy 205.74 147.955)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c5f537bd-5019-4410-8c5a-28ad9c5fd83a")
+	)
+	(wire
+		(pts
+			(xy 71.755 163.195) (xy 80.645 163.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b94892-463d-456c-a491-99fa75c4c864")
+	)
+	(wire
+		(pts
+			(xy 153.67 228.6) (xy 152.4 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c83c0bc5-3052-40ee-aa79-cd3518470a20")
+	)
+	(polyline
+		(pts
+			(xy 5.08 52.705) (xy 205.74 52.705)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c9b278bc-9c74-4f04-bc68-a571985ea55f")
+	)
+	(wire
+		(pts
+			(xy 171.45 222.25) (xy 165.1 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7bc3e1-0ce6-41fe-afdc-4a7af4fa4e67")
+	)
+	(wire
+		(pts
+			(xy 146.685 127) (xy 146.685 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad48543-1234-42b7-a009-ca48f21b4e91")
+	)
+	(wire
+		(pts
+			(xy 50.8 281.94) (xy 50.8 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee7ebae-563c-4030-807b-6f0bd7ac7900")
+	)
+	(wire
+		(pts
+			(xy 137.16 175.26) (xy 137.16 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3241da9-178e-4a18-8f74-d5a5552b70ae")
+	)
+	(wire
+		(pts
+			(xy 63.5 254) (xy 50.8 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d330a096-1cba-49d9-9220-1d8bbbf4c9f7")
+	)
+	(wire
+		(pts
+			(xy 67.945 215.9) (xy 67.945 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d476c243-9dbb-40f2-b87c-eeef9f7ec62e")
+	)
+	(wire
+		(pts
+			(xy 80.645 176.53) (xy 80.645 179.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5c0041-e2ab-4bd9-b746-4ee07de9dd7c")
+	)
+	(wire
+		(pts
+			(xy 38.1 19.05) (xy 38.1 26.035)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa70841-0ecf-4f8c-a0ba-5f55a1769bd3")
+	)
+	(wire
+		(pts
+			(xy 63.5 281.94) (xy 63.5 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc687cf0-590f-4d51-9b67-93c55c046a9c")
+	)
+	(wire
+		(pts
+			(xy 152.4 263.525) (xy 152.4 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee17ef4-a4e5-4687-96ca-34da58bb5506")
+	)
+	(wire
+		(pts
+			(xy 50.8 179.705) (xy 50.8 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06cb856-5f85-4c79-8d83-ff8c19854ef3")
+	)
+	(wire
+		(pts
+			(xy 165.1 222.25) (xy 165.1 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c642bd-5356-4cb1-877c-a703970532c6")
+	)
+	(wire
+		(pts
+			(xy 50.8 179.705) (xy 25.4 179.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5be83f7-6d3e-429a-8e41-51bd305c60b9")
+	)
+	(wire
+		(pts
+			(xy 80.645 163.195) (xy 80.645 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86e7580-e195-419d-93de-f08f0d4261ee")
+	)
+	(polyline
+		(pts
+			(xy 205.74 100.33) (xy 5.08 100.33)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e8950847-189b-4d50-a819-8c2b943b63a7")
+	)
+	(wire
+		(pts
+			(xy 56.515 215.9) (xy 55.245 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90f1fd0-ee91-4725-b1fe-1597f6817022")
+	)
+	(wire
+		(pts
+			(xy 133.35 40.64) (xy 133.35 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec401548-e47d-4436-9e38-588c9cefee3f")
+	)
+	(wire
+		(pts
+			(xy 133.35 19.05) (xy 141.605 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9c912d-664b-4a7b-92ea-ab8984538ef2")
+	)
+	(wire
+		(pts
+			(xy 120.65 266.7) (xy 120.65 263.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef370299-5e88-4317-b1d6-061cef724f4a")
+	)
+	(wire
+		(pts
+			(xy 165.1 215.9) (xy 165.1 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0606820-bc83-4ce5-8f58-fd5d7e985fba")
+	)
+	(polyline
+		(pts
+			(xy 105.41 5.08) (xy 105.41 290.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f37d1a47-548c-4b61-bc45-7aef94889717")
+	)
+	(wire
+		(pts
+			(xy 38.1 33.655) (xy 38.1 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b4e93a-b437-437f-bae9-05449506278e")
+	)
+	(wire
+		(pts
+			(xy 55.88 19.05) (xy 53.34 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fabbc6-c001-484c-9d4f-015efc06e2d3")
+	)
+	(wire
+		(pts
+			(xy 31.75 69.215) (xy 50.8 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77171dd-4353-46db-acdc-58d6dae4edba")
+	)
+	(wire
+		(pts
+			(xy 147.955 120.65) (xy 146.685 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9df2ed8-3e5a-4168-954e-fe21e60d195a")
+	)
+	(wire
+		(pts
+			(xy 55.88 40.005) (xy 55.88 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe504525-1a56-4728-8fce-26c5c2362d07")
+	)
+	(wire
+		(pts
+			(xy 55.88 29.21) (xy 55.88 32.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff25456e-212d-429e-afea-ae4b762b48d8")
+	)
+	(text "28"
+		(exclude_from_sim no)
+		(at 218.44 80.01 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+			(justify left bottom)
+		)
+		(uuid "476d0435-5f8e-4a19-ac61-f229f0d9db9a")
+	)
+	(text "22"
+		(exclude_from_sim no)
+		(at -22.86 83.185 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+			(justify left bottom)
+		)
+		(uuid "99911b68-bcf9-4381-b71d-ad09bb66ec30")
+	)
+	(text "21"
+		(exclude_from_sim no)
+		(at -21.59 31.75 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+			(justify left bottom)
+		)
+		(uuid "d531d312-0ef7-4c66-8342-387ee43d946a")
+	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 217.805 33.02 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcd4dfe8-d803-45d8-a624-98036b3133bb")
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 29.845 122.555 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603052f9")
+		(property "Reference" "V?"
+			(at 24.13 129.54 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 33.655 123.19 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.845 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.845 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.845 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "96aa763d-798c-4bbc-ac1b-33fa78cba52a")
+		)
+		(pin "~"
+			(uuid "035d6d6c-d451-4439-a791-4f0227772071")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 55.245 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006030690e")
+		(property "Reference" "R1"
+			(at 62.23 123.825 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2Ω"
+			(at 59.69 127.635 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.705 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.705 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.245 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "ad843ce7-fcb3-4b86-88ca-4843e0ac1a97")
+		)
+		(pin "~"
+			(uuid "dd5de06f-844c-412b-8b42-5e6c8f140c09")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 74.295 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060307631")
+		(property "Reference" "R2"
+			(at 81.28 123.825 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4Ω"
+			(at 78.74 127.635 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.755 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.755 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.295 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "24bad07b-e6f7-4a5e-98fd-8c23e711b3eb")
+		)
+		(pin "~"
+			(uuid "8422c184-bf88-404d-9f9b-b2a3f256c30b")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 158.115 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006030d1b5")
+		(property "Reference" "R?"
+			(at 151.13 117.475 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3Ω"
+			(at 153.67 123.825 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.575 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 155.575 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.115 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "95064f8f-0434-468d-9891-c2b756034a84")
+		)
+		(pin "~"
+			(uuid "a3975c21-3e30-4fa1-be81-1aec52d19c17")
+		)
+		(instances
+			(project ""
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c/00000000-0000-0000-0000-0000604a6274"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 158.115 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006030dee1")
+		(property "Reference" "R?"
+			(at 151.13 130.175 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6Ω"
+			(at 153.67 136.525 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.575 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 155.575 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.115 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "dad3e216-372c-4648-a7ae-c05a13304708")
+		)
+		(pin "~"
+			(uuid "ba9439eb-0f7d-42bc-b2d9-ba0ee3441e55")
+		)
+		(instances
+			(project ""
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c/00000000-0000-0000-0000-0000604a6274"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 25.4 168.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006030e757")
+		(property "Reference" "V?"
+			(at 19.685 175.26 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 29.21 168.91 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "1f6250de-32c2-4e1f-bd86-b0d28b252b94")
+		)
+		(pin "~"
+			(uuid "1a35d70a-7b0f-47e2-97e1-7d69312c28ac")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 50.8 176.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006030e901")
+		(property "Reference" "R1"
+			(at 57.785 169.545 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4Ω"
+			(at 55.245 173.355 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "f7c1500d-d915-4695-ae3b-2bc75a62985e")
+		)
+		(pin "~"
+			(uuid "1fb4cb4c-ea54-4699-8ada-58ae60e70279")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 80.645 176.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006030e90b")
+		(property "Reference" "R2"
+			(at 87.63 169.545 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4Ω"
+			(at 85.09 173.355 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.105 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.105 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.645 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "72b4bdf6-f94b-4e4c-909e-f8cbd0a5f14f")
+		)
+		(pin "~"
+			(uuid "180007df-c8cb-4899-aed7-50b2b73ed28a")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:interruptor-simbolos")
+		(at 59.055 163.195 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060312dfb")
+		(property "Reference" "S1"
+			(at 61.595 158.75 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Value" "interruptor"
+			(at 65.405 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.675 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.675 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.055 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "df322302-d371-4787-b2dc-d6b6f56cc184")
+		)
+		(pin "~"
+			(uuid "0a372e55-62a1-41fa-bb48-838b0a2d2c93")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 137.16 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603182bd")
+		(property "Reference" "V?"
+			(at 131.445 174.625 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 140.97 168.275 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "6c35dbde-5b7f-43af-bb84-55bb70529a16")
+		)
+		(pin "~"
+			(uuid "b221d405-03e8-43c7-baa9-7fd09006e733")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 168.91 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603184b1")
+		(property "Reference" "R1"
+			(at 175.895 164.465 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2Ω"
+			(at 173.355 168.275 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "1cb7627e-acbb-4b4e-a4ae-4f34d23fd92b")
+		)
+		(pin "~"
+			(uuid "7b410b24-fabf-4fab-9acf-48c8d108c614")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 168.91 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603184bb")
+		(property "Reference" "R2"
+			(at 175.895 174.625 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4Ω"
+			(at 173.355 178.435 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "a3290704-21c7-4d26-b2f1-bbd20821669f")
+		)
+		(pin "~"
+			(uuid "bcb76f54-7e4d-4575-b8b1-1d48a60eb143")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 66.675 215.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006032ab72")
+		(property "Reference" "R?"
+			(at 59.69 212.725 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2Ω"
+			(at 62.23 219.075 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.135 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.135 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.675 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "72d5e96f-b2c7-4106-adaf-7a5b52772e65")
+		)
+		(pin "~"
+			(uuid "61c54440-edfb-4279-9496-80ecbc0a9011")
+		)
+		(instances
+			(project ""
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c/00000000-0000-0000-0000-0000604a6274"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 66.675 228.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006032ada2")
+		(property "Reference" "R?"
+			(at 59.69 225.425 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2Ω"
+			(at 62.23 231.775 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.135 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.135 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.675 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "1a482ce8-dc93-4315-9fe6-72048e1f9ad7")
+		)
+		(pin "~"
+			(uuid "15bb787d-7618-434c-8cda-15f187957302")
+		)
+		(instances
+			(project ""
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c/00000000-0000-0000-0000-0000604a6274"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 48.895 222.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006032fde6")
+		(property "Reference" "R?"
+			(at 41.91 219.075 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4Ω"
+			(at 44.45 225.425 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.895 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "db73e58f-dda3-40ef-8162-c2448e96053d")
+		)
+		(pin "~"
+			(uuid "00da689b-6e2b-4f8d-a3ce-362cb0819790")
+		)
+		(instances
+			(project ""
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c/00000000-0000-0000-0000-0000604a6274"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 163.83 215.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060335bba")
+		(property "Reference" "R?"
+			(at 156.845 212.725 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3Ω"
+			(at 159.385 219.075 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "260336fa-4f97-4b14-85f3-d24eaec35b7b")
+		)
+		(pin "~"
+			(uuid "9c0b285f-981b-4717-b0d1-fa30ec592af2")
+		)
+		(instances
+			(project ""
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c/00000000-0000-0000-0000-0000604a6274"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 163.83 228.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060335bcb")
+		(property "Reference" "R?"
+			(at 156.845 225.425 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6Ω"
+			(at 159.385 231.775 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "d98287b5-fcb5-4446-838c-f0aadd8426a6")
+		)
+		(pin "~"
+			(uuid "e23cb5b0-d4b4-45ab-8f9f-4a455579941d")
+		)
+		(instances
+			(project ""
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c/00000000-0000-0000-0000-0000604a6274"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 146.05 222.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060335bd1")
+		(property "Reference" "R?"
+			(at 139.065 219.075 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4Ω"
+			(at 141.605 225.425 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "8ccb6992-5661-40f8-8b8f-b2ee7d8271c3")
+		)
+		(pin "~"
+			(uuid "17adff91-fc1a-400e-9e3e-6054bba8ca40")
+		)
+		(instances
+			(project ""
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c/00000000-0000-0000-0000-0000604a6274"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 25.4 263.525 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006033a8a8")
+		(property "Reference" "V?"
+			(at 19.685 270.51 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 29.21 264.16 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 263.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "09eae785-50ef-4062-9be9-131784486195")
+		)
+		(pin "~"
+			(uuid "bb7905ba-3b57-4895-b8e0-dc6ffa1427f9")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 50.8 279.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006033a8ae")
+		(property "Reference" "R1"
+			(at 57.785 274.32 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4Ω"
+			(at 55.245 276.225 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "7d777356-ab15-48fd-84fe-e4e6774f4e39")
+		)
+		(pin "~"
+			(uuid "a415e14f-2b04-4331-a454-f55e80cd74d4")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:interruptor-simbolos")
+		(at 50.8 256.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006033a8c2")
+		(property "Reference" "S1"
+			(at 55.245 259.08 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Value" "interruptor"
+			(at 48.26 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "df51d0e0-3634-4adb-9bcc-b160c5d0dbd7")
+		)
+		(pin "~"
+			(uuid "4abd5457-99a3-4989-befe-21c420362362")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 63.5 279.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060340c9f")
+		(property "Reference" "R2"
+			(at 70.485 274.32 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4Ω"
+			(at 67.945 276.225 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "ad7c6529-ea83-4d39-8e28-ef9cbb96066f")
+		)
+		(pin "~"
+			(uuid "5c2fe2db-8d5f-488f-88f5-e9055696f982")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 76.2 279.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006034115c")
+		(property "Reference" "R3"
+			(at 83.185 274.32 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4Ω"
+			(at 80.645 276.225 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "ce8a5982-161c-467a-818b-ddd4962c5396")
+		)
+		(pin "~"
+			(uuid "daf20406-816b-4521-a679-74b86de40094")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 120.65 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060356108")
+		(property "Reference" "V?"
+			(at 114.935 273.685 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 124.46 267.335 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 269.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 269.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "2848bf31-f3d6-448b-b417-bebe1efea4e1")
+		)
+		(pin "~"
+			(uuid "b2d5abbb-daf5-4be1-8136-9d479390d0ac")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:diodo_led-simbolos")
+		(at 133.35 254 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060356957")
+		(property "Reference" "D1"
+			(at 134.62 251.46 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "diodo_led"
+			(at 132.08 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "cc24bb56-de21-4875-9519-9842d27f10ba")
+		)
+		(pin "~"
+			(uuid "d7d93854-775f-473d-993a-f6dadceeef0c")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:diodo_led-simbolos")
+		(at 152.4 261.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006037487e")
+		(property "Reference" "D2"
+			(at 149.86 260.985 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "diodo_led"
+			(at 152.4 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 257.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 257.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "c2721e93-4319-4353-953e-ba9a193817dd")
+		)
+		(pin "~"
+			(uuid "5dfd5661-e1aa-4395-b8ae-ba4ea3c620b1")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:diodo_led-simbolos")
+		(at 165.1 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603750b6")
+		(property "Reference" "D3"
+			(at 167.64 265.43 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "diodo_led"
+			(at 165.1 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 267.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 267.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "79c58736-e6af-40ae-8b2b-93064f6f79a0")
+		)
+		(pin "~"
+			(uuid "b890f65d-9848-4f1b-866c-9b9e5df5a8a6")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:diodo_led-simbolos")
+		(at 140.97 279.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603757e3")
+		(property "Reference" "D4"
+			(at 139.7 281.94 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "diodo_led"
+			(at 142.24 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 279.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 279.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "2e9cefb9-819d-46b2-8de1-211361f5add5")
+		)
+		(pin "~"
+			(uuid "fa83578f-fbad-4931-a974-7cd8347736f9")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:diodo_led-simbolos")
+		(at 55.88 32.385 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603ce5ed")
+		(property "Reference" "D?"
+			(at 58.42 33.655 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "diodo_led"
+			(at 55.88 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 36.195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 36.195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "8ecbfa40-d633-4b78-8801-7f85764f4815")
+		)
+		(pin "~"
+			(uuid "c7de2b99-a0af-4149-a209-b548cddff1a3")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 55.88 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603ce5f3")
+		(property "Reference" "R?"
+			(at 57.8358 24.13 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "resistencia"
+			(at 53.34 24.765 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "8f1c2784-dfb1-4eba-a095-c34e1e05a018")
+		)
+		(pin "~"
+			(uuid "5e3628d4-29a5-4b7f-b10d-21f5bb286cfc")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:interruptor-simbolos")
+		(at 40.64 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603ce5f9")
+		(property "Reference" "S1"
+			(at 43.18 15.875 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Value" "interruptor"
+			(at 46.99 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "1ab3f8b2-5a92-4097-ba67-524070f929a9")
+		)
+		(pin "~"
+			(uuid "0dc66cbf-f076-448d-9fa8-1a0544910d2c")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 38.1 26.035 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603ce600")
+		(property "Reference" "V?"
+			(at 32.385 33.02 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Pila"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "e9956246-fae1-4755-ad1a-87cd4c87a7aa")
+		)
+		(pin "~"
+			(uuid "c0eeecbc-8d53-4292-890f-1a178c66c04f")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:interruptor-simbolos")
+		(at 68.58 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603ce60a")
+		(property "Reference" "S2"
+			(at 73.025 31.75 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Value" "interruptor"
+			(at 66.04 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "4c834144-d98c-4b87-a08f-836658a84771")
+		)
+		(pin "~"
+			(uuid "74330103-f32e-4f72-92f9-7da7af91576b")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 133.35 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603ce616")
+		(property "Reference" "V?"
+			(at 127.635 32.385 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Pila"
+			(at 135.89 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "8b3462c0-528f-43d1-abe1-812716f826e2")
+		)
+		(pin "~"
+			(uuid "a9a2e153-0353-46b4-8c9e-5c79199bd9de")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:interruptor-simbolos")
+		(at 141.605 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603ce61c")
+		(property "Reference" "S1"
+			(at 144.145 14.605 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Value" "interruptor"
+			(at 147.955 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.225 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.225 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 141.605 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "76beccc4-571f-4b66-a266-3561c960e89e")
+		)
+		(pin "~"
+			(uuid "6b310b39-f08b-4664-85c4-34180da19878")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:interruptor-simbolos")
+		(at 165.1 23.495 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603ce622")
+		(property "Reference" "S2"
+			(at 169.545 26.035 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Value" "interruptor"
+			(at 162.56 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "194e71f8-e7d7-47b7-8f9c-921d43327280")
+		)
+		(pin "~"
+			(uuid "fe2432e7-0852-43d1-abe8-893772d11c75")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:resistencia-simbolos")
+		(at 153.035 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603ce62d")
+		(property "Reference" "R1"
+			(at 145.415 36.83 90)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "resistencia"
+			(at 147.32 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 150.495 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 150.495 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.035 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "e22a37b8-8b60-4929-b459-f8f081870f5a")
+		)
+		(pin "~"
+			(uuid "46154fdb-9a2a-46aa-ab1d-0aa917f74a1f")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 31.75 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603ce636")
+		(property "Reference" "V?"
+			(at 26.035 79.375 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "2V"
+			(at 35.56 73.025 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "06d0abf2-2c4e-4f31-93fd-ede7b284f85b")
+		)
+		(pin "~"
+			(uuid "1ba538eb-dd06-453c-9553-6acad3b4d712")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 50.8 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603ce63c")
+		(property "Reference" "V?"
+			(at 45.085 79.375 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "2V"
+			(at 54.61 73.025 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "7fdc5caf-4bb5-4fd5-b0da-26065ea66b5d")
+		)
+		(pin "~"
+			(uuid "f5a3c3b1-8f38-4a89-bbe8-6ebe8a3c5230")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 69.215 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603ce642")
+		(property "Reference" "V?"
+			(at 63.5 79.375 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "2V"
+			(at 73.025 73.025 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.215 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.215 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.215 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "b32bf7d1-0405-42ce-a6aa-02287d96669f")
+		)
+		(pin "~"
+			(uuid "863a143a-d034-42fc-b664-b51fd69b8418")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 139.7 83.185 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603ce658")
+		(property "Reference" "V?"
+			(at 133.985 90.17 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "2V"
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "3adf2931-6a54-46df-86e4-1158dafbd26e")
+		)
+		(pin "~"
+			(uuid "30c7db64-03d5-41f7-932a-aa9c8409d761")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 139.7 74.295 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603ce65e")
+		(property "Reference" "V?"
+			(at 133.985 81.28 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "2V"
+			(at 143.51 74.93 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "e320f2de-86e7-4346-9574-d1f70ba79d4b")
+		)
+		(pin "~"
+			(uuid "5bda049a-0e0c-484c-8290-1c13d11bb605")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 139.7 65.405 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603ce664")
+		(property "Reference" "V?"
+			(at 133.985 72.39 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "2V"
+			(at 143.51 66.04 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "~"
+			(uuid "88e2912a-4cf7-4843-817d-50b83d0cd171")
+		)
+		(pin "~"
+			(uuid "60bfa7b9-171e-4516-b3be-9cfa556bd8a8")
+		)
+	)
+	(symbol
+		(lib_id "electric-circuits-rescue:CopyRight-simbolos")
+		(at 95.25 292.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000603daf24")
+		(property "Reference" "CP?"
+			(at 106.045 283.845 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CopyRight"
+			(at 99.695 283.845 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "License" "CC BY-SA 4.0"
+			(at 95.25 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 109.855 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Date" ""
+			(at 97.79 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Web" "www.picuino.com"
+			(at 114.3 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c"
+					(reference "CP?")
+					(unit 1)
+				)
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c/00000000-0000-0000-0000-0000604a6274"
+					(reference "CP?")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
