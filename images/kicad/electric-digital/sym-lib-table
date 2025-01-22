@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
   (lib (name "simbolos-electricos")(type "KiCad")(uri "${KIPRJMOD}/../_symbol_lib/electric-simbolos.kicad_sym")(options "")(descr ""))
-  (lib (name "electric-circuits-rescue")(type "KiCad")(uri "${KIPRJMOD}/electric-circuits-rescue.kicad_sym")(options "")(descr ""))
 )

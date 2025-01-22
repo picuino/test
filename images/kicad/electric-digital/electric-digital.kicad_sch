@@ -183,309 +183,6 @@
 				)
 			)
 		)
-		(symbol "electric-digital-rescue:logic_nand-simbolos"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 11.43 -6.35 0)
-				(effects
-					(font
-						(size 2.54 2.54)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "simbolos_logic_nand"
-				(at 7.62 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 2.54 -4.445 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 2.54 -4.445 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "logic_nand-simbolos_0_1"
-				(polyline
-					(pts
-						(xy 7.62 1.27) (xy 2.54 1.27) (xy 2.54 -6.35) (xy 7.62 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.62 -6.35)
-					(mid 11.43 -2.54)
-					(end 7.62 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "logic_nand-simbolos_1_1"
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name "O"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "logic_nand-simbolos_2_1"
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name "O"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "logic_nand-simbolos_3_1"
-				(pin input line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name "O"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "logic_nand-simbolos_4_1"
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name "O"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "electric-digital-rescue:resistencia-simbolos"
 			(pin_names
 				(offset 1.016)
@@ -702,6 +399,612 @@
 				)
 			)
 		)
+		(symbol "logic_nand-simbolos_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 7.62 4.4958 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "logic_nand"
+				(at 7.62 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 -4.445 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -4.445 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "logic_nand-simbolos_1_0_1"
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 2.54 1.27) (xy 2.54 -6.35) (xy 7.62 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 -6.35)
+					(mid 11.43 -2.54)
+					(end 7.62 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "logic_nand-simbolos_1_1_1"
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "logic_nand-simbolos_1_2_1"
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "logic_nand-simbolos_1_3_1"
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "logic_nand-simbolos_1_4_1"
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "logic_nand-simbolos_2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 7.62 4.4958 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "logic_nand"
+				(at 7.62 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 -4.445 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -4.445 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "logic_nand-simbolos_2_0_1"
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 2.54 1.27) (xy 2.54 -6.35) (xy 7.62 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 -6.35)
+					(mid 11.43 -2.54)
+					(end 7.62 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "logic_nand-simbolos_2_1_1"
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "logic_nand-simbolos_2_2_1"
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "logic_nand-simbolos_2_3_1"
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "logic_nand-simbolos_2_4_1"
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "simbolos-electricos:NPN"
 			(pin_names
 				(offset 1.016)
@@ -907,12 +1210,6 @@
 		(uuid "0d683d43-f5f6-49a6-bfba-082d83ca8909")
 	)
 	(junction
-		(at 169.545 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "111431d3-ab55-4452-8434-488bc285f9ef")
-	)
-	(junction
 		(at 164.465 220.345)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -983,6 +1280,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a8e381b-2fcb-48b5-a595-4dd083b717ee")
+	)
+	(junction
+		(at 169.545 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9a224b4-1d2e-4ba2-b527-1f49c3ef0085")
 	)
 	(junction
 		(at 120.65 182.88)
@@ -1268,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 172.72) (xy 169.545 175.26)
+			(xy 169.545 170.18) (xy 169.545 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1395,16 +1698,6 @@
 			(type default)
 		)
 		(uuid "4a8e6444-b239-463a-9120-e09febf947c9")
-	)
-	(wire
-		(pts
-			(xy 169.545 172.72) (xy 169.545 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5253c4d4-4e33-455b-8574-21c8b709fd4e")
 	)
 	(wire
 		(pts
@@ -2065,6 +2358,16 @@
 			(type default)
 		)
 		(uuid "d4437703-36d6-496a-8d4c-8aa231389517")
+	)
+	(wire
+		(pts
+			(xy 169.545 172.72) (xy 169.545 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6475941-564e-4d5b-9406-3c62fb7a42de")
 	)
 	(wire
 		(pts
@@ -3176,7 +3479,6 @@
 		)
 	)
 	(symbol
-		(lib_name "electric-digital-rescue:resistencia-simbolos")
 		(lib_id "electric-digital-rescue:resistencia-simbolos")
 		(at 29.21 71.755 270)
 		(unit 1)
@@ -3311,7 +3613,6 @@
 		)
 	)
 	(symbol
-		(lib_name "electric-digital-rescue:resistencia-simbolos")
 		(lib_id "electric-digital-rescue:resistencia-simbolos")
 		(at 64.77 72.39 270)
 		(unit 1)
@@ -3510,7 +3811,6 @@
 		)
 	)
 	(symbol
-		(lib_name "electric-digital-rescue:resistencia-simbolos")
 		(lib_id "electric-digital-rescue:resistencia-simbolos")
 		(at 73.66 93.345 180)
 		(unit 1)
@@ -4379,7 +4679,6 @@
 		)
 	)
 	(symbol
-		(lib_name "electric-digital-rescue:resistencia-simbolos")
 		(lib_id "electric-digital-rescue:resistencia-simbolos")
 		(at 64.135 178.435 270)
 		(unit 1)
@@ -4578,7 +4877,6 @@
 		)
 	)
 	(symbol
-		(lib_name "electric-digital-rescue:resistencia-simbolos")
 		(lib_id "electric-digital-rescue:resistencia-simbolos")
 		(at 73.025 167.64 180)
 		(unit 1)
@@ -4846,7 +5144,6 @@
 		)
 	)
 	(symbol
-		(lib_name "electric-digital-rescue:resistencia-simbolos")
 		(lib_id "electric-digital-rescue:resistencia-simbolos")
 		(at 46.355 226.06 270)
 		(unit 1)
@@ -4980,7 +5277,6 @@
 		)
 	)
 	(symbol
-		(lib_name "electric-digital-rescue:resistencia-simbolos")
 		(lib_id "electric-digital-rescue:resistencia-simbolos")
 		(at 55.245 215.265 180)
 		(unit 1)
@@ -5182,6 +5478,7 @@
 		)
 	)
 	(symbol
+		(lib_name "logic_nand-simbolos_1")
 		(lib_id "electric-digital-rescue:logic_nand-simbolos")
 		(at 38.1 264.16 0)
 		(unit 1)
@@ -5281,897 +5578,7 @@
 		)
 	)
 	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 63.5 264.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006034281d")
-		(property "Reference" "U?"
-			(at 71.12 259.6642 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 71.12 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 268.605 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 268.605 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "88a7594f-2379-49fb-b9c2-9e5fdc577371")
-		)
-		(pin ""
-			(uuid "097c36a9-7239-4245-a4e1-9525ec40c721")
-		)
-		(pin "11"
-			(uuid "130c4c44-9dcc-4f62-92b5-c48d314aa3b8")
-		)
-		(pin "6"
-			(uuid "b4ab4b09-3cb4-41c9-aaf5-a6dfdf71ce97")
-		)
-		(pin "9"
-			(uuid "d680ae83-9c7e-441a-aea5-beb11e48f044")
-		)
-		(pin "4"
-			(uuid "5c9bae93-24ba-45c8-bedd-cea615aa981c")
-		)
-		(pin "13"
-			(uuid "d29cd26b-1dd9-43a0-8ed5-469c388b5df5")
-		)
-		(pin "5"
-			(uuid "cc9d4089-f317-474c-aee3-0ca875a69cf3")
-		)
-		(pin ""
-			(uuid "022019a3-012c-4cb9-887e-6099f6837aee")
-		)
-		(pin "8"
-			(uuid "d67ff5e4-b96b-4d79-97b7-d400a9269e48")
-		)
-		(pin "10"
-			(uuid "46fa18fb-16fe-4d00-bbe7-78fc967f65fb")
-		)
-		(pin "12"
-			(uuid "2a2ddb3b-b5bd-49ac-b992-b57d0537229f")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 148.59 26.035 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006034541c")
-		(property "Reference" "U?"
-			(at 156.21 21.5392 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 156.21 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "7fb388ab-d0ad-4a45-943a-164631504430")
-		)
-		(pin "10"
-			(uuid "2cddee14-093d-4399-8cb6-90aa117acf4f")
-		)
-		(pin "8"
-			(uuid "dd824daf-4f11-4781-b758-152194ce6c67")
-		)
-		(pin "6"
-			(uuid "24a14f39-489e-454b-be21-d6ccea61bbc0")
-		)
-		(pin "9"
-			(uuid "d8039459-d53d-4b70-a1c2-feaa49a40e77")
-		)
-		(pin "11"
-			(uuid "641e371f-a69c-4523-b79c-e820d0124d92")
-		)
-		(pin "4"
-			(uuid "4efb0e1e-6d80-453d-ac4f-859639307e6a")
-		)
-		(pin ""
-			(uuid "b66d99b0-10dc-4eca-906d-ea5a5efaaea6")
-		)
-		(pin "12"
-			(uuid "516795b1-6255-418c-a34a-54b02f5edc99")
-		)
-		(pin "13"
-			(uuid "5d01eea6-a24e-4c7a-9f22-d35bb0d6e9c0")
-		)
-		(pin ""
-			(uuid "b2b1bcea-7c93-4452-b780-195f405a39db")
-		)
-		(pin "5"
-			(uuid "4fa49532-5a43-4679-a559-34f38780ed4b")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 163.83 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006034828a")
-		(property "Reference" "U?"
-			(at 171.45 70.4342 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 171.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 79.375 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 79.375 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "326dd559-5d8a-40c3-b16a-d070e5aa3af8")
-		)
-		(pin ""
-			(uuid "538e844f-443e-4467-9a5d-819e39a8ead7")
-		)
-		(pin "5"
-			(uuid "bc9ee851-fd84-49b5-b4af-bb7250e151ba")
-		)
-		(pin "8"
-			(uuid "d2608bfb-ab9e-4523-8689-c750cd1674e7")
-		)
-		(pin "12"
-			(uuid "4da356a8-ddb6-4828-8145-e4eb68441221")
-		)
-		(pin "6"
-			(uuid "3b354057-afa8-4c7f-ae84-cb4703bd8ca5")
-		)
-		(pin "10"
-			(uuid "8df17a51-405c-4f44-b52b-fe9acafbd560")
-		)
-		(pin ""
-			(uuid "23959d65-6656-47f9-8a9e-8327993073cc")
-		)
-		(pin ""
-			(uuid "28ca661c-b2d6-49db-98ff-f7c99ced94c6")
-		)
-		(pin "9"
-			(uuid "d75ae4a6-5e97-4f65-85d8-ebc58343e85a")
-		)
-		(pin "13"
-			(uuid "d4bbb56b-483b-4bae-b99a-742f3a5e5db5")
-		)
-		(pin "4"
-			(uuid "5dc0a823-315e-48a8-b03b-0107c59f40dd")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 139.065 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006034b4d5")
-		(property "Reference" "U?"
-			(at 146.685 62.8142 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 146.685 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 141.605 71.755 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 141.605 71.755 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.065 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "fe336548-c00c-474e-831b-773a3b05d7aa")
-		)
-		(pin ""
-			(uuid "ea8a49a7-67f5-4ccd-9b1d-42c02b4c6059")
-		)
-		(pin ""
-			(uuid "74d0395f-3a68-4044-bb9d-b117e9f889e1")
-		)
-		(pin "5"
-			(uuid "097fa6bc-2b4e-4b80-baa3-c397a0fae0bb")
-		)
-		(pin "4"
-			(uuid "9f4e1d5c-6910-4688-a680-e0e65c4c176c")
-		)
-		(pin "8"
-			(uuid "41dc2da1-cb10-4e91-9e45-85238e8bd461")
-		)
-		(pin "9"
-			(uuid "edfe8ae4-2efb-4ee1-b544-76fadb7e8915")
-		)
-		(pin "6"
-			(uuid "38316283-9b16-4290-9f3e-3644b2281a7c")
-		)
-		(pin "10"
-			(uuid "b0ffb2c5-8eaf-4a45-841b-3da40bac9a22")
-		)
-		(pin "13"
-			(uuid "b04cc855-7388-48f7-a3ae-d883fd719d76")
-		)
-		(pin "12"
-			(uuid "fe4c6603-2f52-4b3c-8c41-348db75708cd")
-		)
-		(pin "11"
-			(uuid "15149d05-cf9c-4051-b9d2-68f08824e531")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 139.065 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006034bd08")
-		(property "Reference" "U?"
-			(at 146.685 78.0542 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 146.685 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 141.605 86.995 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 141.605 86.995 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.065 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "f3e4f4c4-9103-4e70-a128-724c7861c1cd")
-		)
-		(pin ""
-			(uuid "d90e9a73-0942-46ce-ac44-a5cd82b8931b")
-		)
-		(pin ""
-			(uuid "e70c5f48-ea4c-46b1-82a9-9da4c441f56c")
-		)
-		(pin "9"
-			(uuid "6b963566-3669-45b3-8eb0-488253cd8a55")
-		)
-		(pin ""
-			(uuid "1b00c3ee-c677-4c7b-8739-96466dfed748")
-		)
-		(pin "4"
-			(uuid "b7cf0136-a7cd-46f1-9a45-f29158dd31ae")
-		)
-		(pin "10"
-			(uuid "32d7ba11-18e1-4dd9-b6a6-c784a9881c92")
-		)
-		(pin "8"
-			(uuid "d6c7af1b-161a-4b60-abc6-995e1f979dbd")
-		)
-		(pin "11"
-			(uuid "a6cacedf-5eb6-4c0e-9b6e-48dee6339d69")
-		)
-		(pin "5"
-			(uuid "26f3b270-ae70-404a-aa44-fc004c88f069")
-		)
-		(pin "12"
-			(uuid "231ea909-1b32-4edf-9ad2-b316685fe1b6")
-		)
-		(pin "13"
-			(uuid "c5224391-13f2-4afa-9a1a-d938f3097c0d")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 130.81 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060358d27")
-		(property "Reference" "U?"
-			(at 138.43 116.1542 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 138.43 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 125.095 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 125.095 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "006593da-e2dd-4e4c-b870-5d8fb66e101d")
-		)
-		(pin "5"
-			(uuid "c2004ac6-05e6-447b-8619-284199a4e2e9")
-		)
-		(pin ""
-			(uuid "ea993c72-b95f-4858-885a-f32c23265121")
-		)
-		(pin ""
-			(uuid "8b114024-858f-45f6-a48e-bbbf71e7e224")
-		)
-		(pin "6"
-			(uuid "c1781c91-bfcb-4eb2-a0ef-f0c84865a8b2")
-		)
-		(pin "13"
-			(uuid "496f40fa-f87f-425c-aae1-fd6df2736bee")
-		)
-		(pin "11"
-			(uuid "74c43d49-c548-4b2e-8e3c-c788b0a85f9d")
-		)
-		(pin "8"
-			(uuid "a28b2426-c1de-481c-aa7e-65f7a3b9e392")
-		)
-		(pin "10"
-			(uuid "ee6c2945-36b2-4eaa-9092-a0105c78ddc1")
-		)
-		(pin ""
-			(uuid "82043500-ac61-4d29-a254-0728051f9487")
-		)
-		(pin "4"
-			(uuid "9fe48869-aba6-4bc0-b7c1-aec2ef4c152f")
-		)
-		(pin "12"
-			(uuid "2058fe73-44ba-4fcd-b2ea-9ae1a5d82d66")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 152.4 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060359c21")
-		(property "Reference" "U?"
-			(at 160.02 108.5342 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 160.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 117.475 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 117.475 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "7d86da8b-bc51-4b08-9c41-302383c877a0")
-		)
-		(pin ""
-			(uuid "1aa1df03-833d-46b6-ac83-7424111d0f8e")
-		)
-		(pin "5"
-			(uuid "c6868e56-c71b-4487-a903-509193772b3c")
-		)
-		(pin "10"
-			(uuid "85f3dbb0-0bbf-4fd7-91cc-369bb4d8a607")
-		)
-		(pin "13"
-			(uuid "978ea46b-a4bc-4404-a977-ff2205560b4e")
-		)
-		(pin ""
-			(uuid "133e28b1-42f9-46d0-9efc-e1b1a7bf3295")
-		)
-		(pin "4"
-			(uuid "84528641-1d88-4855-b010-88e3d7f571b5")
-		)
-		(pin "8"
-			(uuid "31fba4a6-f48f-44a1-8abb-d76f94e0d3f1")
-		)
-		(pin "9"
-			(uuid "cd171999-089e-4c4a-8ccb-9e1ce334f5f9")
-		)
-		(pin "11"
-			(uuid "b6b5f3d0-9fda-430b-be80-7794e0ddd4dd")
-		)
-		(pin "12"
-			(uuid "597840ec-49d2-4f7a-b631-49fd526ab35d")
-		)
-		(pin "6"
-			(uuid "caf9e3d9-8289-4762-91f7-17ba1c8c52bf")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 152.4 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006035ab2f")
-		(property "Reference" "U?"
-			(at 160.02 123.7742 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 160.02 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 132.715 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 132.715 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "44f4e662-68f9-44d9-a96a-a8b2497793d8")
-		)
-		(pin ""
-			(uuid "b0499e03-ad68-4113-bdfd-748fd4ab3e87")
-		)
-		(pin "5"
-			(uuid "52d5ab26-ccd0-4002-bdfe-6c4d9b6d92b5")
-		)
-		(pin "4"
-			(uuid "2492ee47-1307-464b-8615-c244e188d457")
-		)
-		(pin "6"
-			(uuid "33716d21-48d9-4580-9554-2bae08f0a148")
-		)
-		(pin "10"
-			(uuid "970dbb09-04db-455c-bb2f-cf12a43e01a9")
-		)
-		(pin ""
-			(uuid "847aeac3-b22f-4cf7-b84e-1df975075acc")
-		)
-		(pin "12"
-			(uuid "6919221a-6c63-4060-9faa-290399c9649a")
-		)
-		(pin "11"
-			(uuid "a6cee576-4c59-4eb9-b233-ee81907bfd50")
-		)
-		(pin "8"
-			(uuid "9b6ad9c5-3178-430b-afb8-a49427107953")
-		)
-		(pin "13"
-			(uuid "3133a76d-2463-4aef-b497-fff4d52fe98f")
-		)
-		(pin "9"
-			(uuid "54063b21-81bd-495e-9802-614e25727abd")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 167.64 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060366b83")
-		(property "Reference" "U?"
-			(at 175.26 116.1542 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 175.26 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 125.095 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 125.095 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "daf91f0a-a95c-435f-a256-57bd7b1882b7")
-		)
-		(pin ""
-			(uuid "1c17edca-dbb9-425b-9e35-04f91754c12a")
-		)
-		(pin ""
-			(uuid "07894296-2892-46b6-987e-ff2bf916cb86")
-		)
-		(pin "4"
-			(uuid "21d902c8-751f-495f-8dbb-bdea37c1fb19")
-		)
-		(pin "5"
-			(uuid "da68e609-0541-4a87-9208-b560a545e603")
-		)
-		(pin "6"
-			(uuid "ce57452f-9998-4593-8928-a459631f1801")
-		)
-		(pin "12"
-			(uuid "72e15ae5-34d4-45d0-ab19-43fabbc1a838")
-		)
-		(pin "13"
-			(uuid "6c5cfa72-ff0b-4480-b659-24cb70689299")
-		)
-		(pin "11"
-			(uuid "d158ff84-66a8-47e0-824e-7e3ea549d324")
-		)
-		(pin "10"
-			(uuid "0e3f4802-1dd8-4d1c-8312-01d79e99d990")
-		)
-		(pin "9"
-			(uuid "7ed0b4d5-afbb-4b33-aaa9-0cc9ddcda082")
-		)
-		(pin "8"
-			(uuid "f796da2d-f5ec-47d8-875a-9b8d85fef0e4")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "logic_nand-simbolos_2")
 		(lib_id "electric-digital-rescue:logic_nand-simbolos")
 		(at 120.65 170.18 0)
 		(unit 1)
@@ -6271,799 +5678,6 @@
 		)
 	)
 	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 139.065 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006036f639")
-		(property "Reference" "U?"
-			(at 146.685 158.0642 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 146.685 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 141.605 167.005 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 141.605 167.005 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.065 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "90a0938a-f593-4bc9-ae2b-27d9f5dca1d1")
-		)
-		(pin "4"
-			(uuid "541b3533-cefa-42f5-951f-9e07586b76ff")
-		)
-		(pin "8"
-			(uuid "a77a4707-8314-40e8-8afa-2b563190e372")
-		)
-		(pin ""
-			(uuid "1a5984a5-4768-4192-967e-833a288a860c")
-		)
-		(pin "12"
-			(uuid "da0cc535-a079-4452-b6c3-5a3db2680e54")
-		)
-		(pin "10"
-			(uuid "c585130b-7da7-45f6-942b-3298b80b5230")
-		)
-		(pin "11"
-			(uuid "0f67e654-bf69-4866-a436-5a7e2434f81e")
-		)
-		(pin "9"
-			(uuid "33992aa9-8e3d-45bd-8bc8-23afabb1bbe7")
-		)
-		(pin "6"
-			(uuid "40fedc29-bf1b-4eeb-bb7a-86fb6726e153")
-		)
-		(pin ""
-			(uuid "64e2c9aa-6aff-4dcd-b559-a1f7b4d4eb4b")
-		)
-		(pin "13"
-			(uuid "5acfb9d3-ca11-4388-9f7e-474f469fcce5")
-		)
-		(pin "5"
-			(uuid "e5d31d49-1345-480c-9a7d-a2a9b4a9efa1")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 139.065 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006036f643")
-		(property "Reference" "U?"
-			(at 146.685 173.3042 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 146.685 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 141.605 182.245 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 141.605 182.245 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.065 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "61b354d5-7907-4404-9517-e6ecf5db95af")
-		)
-		(pin "6"
-			(uuid "19fe2d68-446f-4bad-96cf-5c7682bcbb7c")
-		)
-		(pin "13"
-			(uuid "410bf267-06d3-429c-b135-33eaafaff1f3")
-		)
-		(pin ""
-			(uuid "7540ad90-915e-4718-bade-51f5c879d736")
-		)
-		(pin ""
-			(uuid "497aae25-29c1-4cfc-a160-12f9c50755c9")
-		)
-		(pin "4"
-			(uuid "7477050f-4266-4e4f-98bf-4909fae22ba2")
-		)
-		(pin "9"
-			(uuid "ed50b972-704a-4a5d-a7c0-3deae23775a1")
-		)
-		(pin ""
-			(uuid "106783bf-e20f-4046-b153-a12e43a1469e")
-		)
-		(pin "8"
-			(uuid "b9db332f-4af0-4ea2-afe6-4062fc07ef1e")
-		)
-		(pin "11"
-			(uuid "c06fe2ee-cf0b-4d72-9749-bbd024f44244")
-		)
-		(pin "12"
-			(uuid "e50c94f4-19b2-4c5b-b636-9f75c8d95e5b")
-		)
-		(pin "10"
-			(uuid "75fd18c0-96bb-4ac9-882c-2b3ffc57fb79")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 154.305 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006036f65b")
-		(property "Reference" "U?"
-			(at 161.925 165.6842 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 161.925 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.845 174.625 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.845 174.625 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.305 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "4ab7ab01-7fd2-4c58-9f93-35a4a2a8d09b")
-		)
-		(pin ""
-			(uuid "51d0cc83-2bd9-4929-be13-3024d0ee0a9d")
-		)
-		(pin "10"
-			(uuid "7c3175b0-9af3-48c5-a216-0d6cee79dc14")
-		)
-		(pin ""
-			(uuid "c9d8c308-ee4d-4af8-8c29-90673b16fb10")
-		)
-		(pin ""
-			(uuid "d1bc5461-65dd-40a8-bb7a-fd92588bec8d")
-		)
-		(pin "4"
-			(uuid "dde613f7-e447-4235-9450-1455d0999246")
-		)
-		(pin "5"
-			(uuid "094c9df4-e04b-4691-8530-540a32ef72a6")
-		)
-		(pin "6"
-			(uuid "aad121d7-5edd-4991-bf20-5bfa572d9a3d")
-		)
-		(pin "8"
-			(uuid "1caae2f8-be55-4b15-bb2c-779a58a37870")
-		)
-		(pin "9"
-			(uuid "8fe02ad3-fa7b-4977-91c4-eb4aaed9054f")
-		)
-		(pin "12"
-			(uuid "d37ecb9e-53c4-4188-8cf3-59807c4ac276")
-		)
-		(pin "13"
-			(uuid "768e3bb1-02f5-4310-ad96-2ed06b79d733")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 172.085 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060374cff")
-		(property "Reference" "U?"
-			(at 179.705 165.6842 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 179.705 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 174.625 174.625 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 174.625 174.625 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.085 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "fb4e7798-8cf8-4860-bc34-d4aa7c5141dc")
-		)
-		(pin "13"
-			(uuid "9c177419-38f9-4989-b35f-8119c8a3c63c")
-		)
-		(pin "6"
-			(uuid "f76f312f-34a6-4525-89fb-b10aa5832e71")
-		)
-		(pin ""
-			(uuid "dc1e892c-de12-41e0-b797-c511552035d5")
-		)
-		(pin ""
-			(uuid "7da7b491-3088-4b55-ac8c-46ca8d6a5697")
-		)
-		(pin "12"
-			(uuid "9d2e7494-ae62-420a-baa6-bd4e366afb87")
-		)
-		(pin "10"
-			(uuid "9cf835e1-446e-460d-9ef2-366857dd8f7d")
-		)
-		(pin "8"
-			(uuid "905c4c4b-6d15-47c3-bf01-ba92c5a6c994")
-		)
-		(pin "9"
-			(uuid "d710ebbf-a1d4-4823-89a1-12916ce559ed")
-		)
-		(pin ""
-			(uuid "42b04d40-884c-4a9b-8c4d-cee39ea59bc4")
-		)
-		(pin "11"
-			(uuid "cb309b85-c5f4-472d-b0d1-ce603a9651d8")
-		)
-		(pin "4"
-			(uuid "60b8946f-7e93-405e-b42d-07cbec263c64")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 146.685 217.805 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060392f7a")
-		(property "Reference" "U?"
-			(at 154.305 213.3092 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 154.305 215.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.225 222.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.225 222.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.685 217.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "02a42031-0a70-4e1b-91ef-2ee7d33edc4d")
-		)
-		(pin ""
-			(uuid "42ea770c-496a-420d-b269-c2ea230e137e")
-		)
-		(pin "8"
-			(uuid "bf4defc4-baac-432f-8c05-f6e5625c2013")
-		)
-		(pin "5"
-			(uuid "523f062c-af50-471c-91d9-b4c4ec448870")
-		)
-		(pin "11"
-			(uuid "410285c2-11e5-4c77-90df-0ca05d61bf7a")
-		)
-		(pin "13"
-			(uuid "f58ef1a1-74ef-4fdf-9962-0e0608b7c381")
-		)
-		(pin "10"
-			(uuid "98543ef1-aea0-4875-83c3-35b4be0ffbc3")
-		)
-		(pin "4"
-			(uuid "025221be-5712-4f62-a33d-a5220d00c7aa")
-		)
-		(pin ""
-			(uuid "2570fa44-0800-4c25-9cbe-9067678f235d")
-		)
-		(pin ""
-			(uuid "6a52c393-3c85-40a8-bcb7-faa815926080")
-		)
-		(pin "9"
-			(uuid "efaea268-b9a7-4438-b84a-693f36704f80")
-		)
-		(pin "6"
-			(uuid "6b088927-33b2-417c-be40-b63ce8fc4a05")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 127 210.185 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060392f80")
-		(property "Reference" "U?"
-			(at 134.62 205.6892 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 134.62 207.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 214.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 214.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 210.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "1ebf4c10-d121-4340-8d95-ea075569590f")
-		)
-		(pin "5"
-			(uuid "afcd0a24-9be1-4e8d-9200-779a6d7d86db")
-		)
-		(pin ""
-			(uuid "ca7c6f7d-355c-4a2a-8373-1fff99a870a5")
-		)
-		(pin "4"
-			(uuid "8a2bfcb1-e87f-44fd-a8a7-92acf2aeb875")
-		)
-		(pin ""
-			(uuid "182fcf0a-a76b-4979-80e2-aec8434abf90")
-		)
-		(pin "6"
-			(uuid "437491ae-eb8e-4a6c-a245-76a75f6224d3")
-		)
-		(pin "8"
-			(uuid "3074b5dc-08ec-4000-8cba-532fc30451b7")
-		)
-		(pin "9"
-			(uuid "a236e102-3cf3-4e04-8379-f7f266ed5e85")
-		)
-		(pin "13"
-			(uuid "dd99ff71-de10-468d-a3be-008499a0dca3")
-		)
-		(pin ""
-			(uuid "c4cf69aa-2f8c-4495-a04c-8e6ba9bdc328")
-		)
-		(pin "11"
-			(uuid "dc8b5430-6884-4dc2-886b-068e793151f8")
-		)
-		(pin "12"
-			(uuid "c9b7165c-2d98-457e-9c25-ac94645aac0e")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 127 225.425 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060392f86")
-		(property "Reference" "U?"
-			(at 134.62 220.9292 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 134.62 222.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 225.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "21e44977-be1c-4ce3-985f-c7c46e5c9574")
-		)
-		(pin "11"
-			(uuid "258e4ef8-c6df-4f03-8a63-7b8ed5f0c937")
-		)
-		(pin ""
-			(uuid "47bcacc3-e19c-4f32-9bba-c8df325350fb")
-		)
-		(pin "12"
-			(uuid "1ed04a93-655f-4a75-94cc-e92adde61941")
-		)
-		(pin "10"
-			(uuid "96ca59d4-49bb-4fd1-bc9b-7da78e7f5cce")
-		)
-		(pin "6"
-			(uuid "eb9b4276-281c-4ee5-885f-c88131d144ae")
-		)
-		(pin ""
-			(uuid "186c29af-a137-4f69-8a43-1199a0d7f908")
-		)
-		(pin ""
-			(uuid "29ce5771-29d4-4073-980a-27b38557c83a")
-		)
-		(pin "9"
-			(uuid "c438f337-c205-437b-b02d-9a99cb60bcd4")
-		)
-		(pin "4"
-			(uuid "b2fc61d9-f085-4afe-8e78-1352772c369c")
-		)
-		(pin "13"
-			(uuid "1da9bae6-81be-431f-9bcf-fe0ec73a0f20")
-		)
-		(pin "8"
-			(uuid "b24b5764-9fd7-4af7-8d56-2e7edb20be50")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
-		(at 166.37 217.805 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060399a14")
-		(property "Reference" "U?"
-			(at 173.99 213.3092 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "logic_nand"
-			(at 173.99 215.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 222.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 222.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 166.37 217.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "a507a305-beb3-498e-b106-f96088e6db49")
-		)
-		(pin ""
-			(uuid "7560c1b2-fb8b-4835-8600-525c2308babc")
-		)
-		(pin ""
-			(uuid "f9cf6bd2-fdf3-4de1-a40f-eb9c8ba95601")
-		)
-		(pin "4"
-			(uuid "c0db9468-004a-4654-9e83-e9dff32c5ff9")
-		)
-		(pin "6"
-			(uuid "b2ef408d-689d-4056-bd3c-437c625ff8b0")
-		)
-		(pin "9"
-			(uuid "01682cc4-35d2-4ec9-851f-a1bbc9abbb8f")
-		)
-		(pin "12"
-			(uuid "9253d7a6-6b3d-4b2b-8e55-8db9c0cfd5b2")
-		)
-		(pin "13"
-			(uuid "6c4dbc1d-2e10-4d2a-b244-b7cdbcf080bd")
-		)
-		(pin ""
-			(uuid "d3e48799-8f9a-484f-8d1d-d8a6c3e4e698")
-		)
-		(pin "10"
-			(uuid "99b95ef6-43f2-4975-8c4a-a5d835615b6d")
-		)
-		(pin "8"
-			(uuid "31a7d608-751a-477d-9519-ae108d9bae87")
-		)
-		(pin "11"
-			(uuid "c659fa61-acb8-495b-bba1-426a847943bf")
-		)
-		(instances
-			(project ""
-				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "simbolos-electricos:NPN")
 		(lib_id "simbolos-electricos:NPN")
 		(at 66.675 173.355 0)
 		(unit 1)
@@ -7148,7 +5762,106 @@
 		)
 	)
 	(symbol
-		(lib_name "simbolos-electricos:NPN")
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 163.83 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18284018-896f-4285-8855-ec5de0b950e0")
+		(property "Reference" "U13"
+			(at 171.45 70.4342 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 171.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 79.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 79.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8c126d76-b639-45ad-b9a7-556775219b6e")
+		)
+		(pin ""
+			(uuid "782c0c57-349f-4d37-a571-4f718d463136")
+		)
+		(pin ""
+			(uuid "1f4ed7ad-12e6-41b3-b404-7c1e51b8349a")
+		)
+		(pin "8"
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a511")
+		)
+		(pin "9"
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd582f8")
+		)
+		(pin "4"
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c41")
+		)
+		(pin "10"
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5eef")
+		)
+		(pin "5"
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a0c")
+		)
+		(pin "6"
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa153e")
+		)
+		(pin "13"
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d07")
+		)
+		(pin "11"
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def595")
+		)
+		(pin "12"
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff11a")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "simbolos-electricos:NPN")
 		(at 50.8 130.81 0)
 		(unit 1)
@@ -7233,7 +5946,306 @@
 		)
 	)
 	(symbol
-		(lib_name "simbolos-electricos:NPN")
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 166.37 217.805 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2154af89-84d7-48fb-9523-0c14ad548981")
+		(property "Reference" "U5"
+			(at 173.99 213.3092 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 173.99 215.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "1ef68102-e838-4d25-a4e4-44e8324976e3")
+		)
+		(pin "4"
+			(uuid "bac53325-39dc-486b-a236-15d7ad1793c8")
+		)
+		(pin "8"
+			(uuid "a0e23800-a731-457c-a34d-69b3fcbbd3a8")
+		)
+		(pin "10"
+			(uuid "ddd97c66-7306-43b4-9dcd-97643ca4a92e")
+		)
+		(pin "9"
+			(uuid "8e876018-e9e7-4766-95a4-ea5e7330de44")
+		)
+		(pin "13"
+			(uuid "ff7c77a6-7ff2-4929-8ca0-6f2e0dd189f4")
+		)
+		(pin ""
+			(uuid "1f8e6c03-9e8b-4a5d-a347-d2c5c451ee49")
+		)
+		(pin "5"
+			(uuid "fcc35c9b-15c5-4a08-a3a8-b94ff103a08d")
+		)
+		(pin "6"
+			(uuid "4c7ec0ae-277e-4378-a2ca-f75d3dcfe306")
+		)
+		(pin ""
+			(uuid "500de3bd-8cff-4c34-8a84-f18892606915")
+		)
+		(pin "11"
+			(uuid "dcd030fd-eadd-4905-90e1-083a8a08c5cf")
+		)
+		(pin ""
+			(uuid "e4455422-e326-49fe-a30a-d2384a0d3bd9")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 127 210.185 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2163002d-7b72-43a3-90a6-37f41abd99cf")
+		(property "Reference" "U2"
+			(at 134.62 205.6892 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 134.62 207.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 210.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "1ef68102-e838-4d25-a4e4-44e8324976e4")
+		)
+		(pin "4"
+			(uuid "bac53325-39dc-486b-a236-15d7ad1793c9")
+		)
+		(pin "8"
+			(uuid "a0e23800-a731-457c-a34d-69b3fcbbd3a9")
+		)
+		(pin "10"
+			(uuid "ddd97c66-7306-43b4-9dcd-97643ca4a92f")
+		)
+		(pin "9"
+			(uuid "8e876018-e9e7-4766-95a4-ea5e7330de45")
+		)
+		(pin "13"
+			(uuid "ff7c77a6-7ff2-4929-8ca0-6f2e0dd189f5")
+		)
+		(pin ""
+			(uuid "9d413dcb-2cff-40ba-802c-d95e913f3487")
+		)
+		(pin "5"
+			(uuid "fcc35c9b-15c5-4a08-a3a8-b94ff103a08e")
+		)
+		(pin "6"
+			(uuid "4c7ec0ae-277e-4378-a2ca-f75d3dcfe307")
+		)
+		(pin ""
+			(uuid "15ebc092-2d05-4c73-bbd8-04df031e76c1")
+		)
+		(pin "11"
+			(uuid "dcd030fd-eadd-4905-90e1-083a8a08c5d0")
+		)
+		(pin ""
+			(uuid "8ed98333-aebc-458b-9353-c85306d1235d")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 146.685 217.805 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "290fcf71-76b9-4b40-82ce-937e6feb6c86")
+		(property "Reference" "U4"
+			(at 154.305 213.3092 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 154.305 215.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.225 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.225 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.685 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "1ef68102-e838-4d25-a4e4-44e8324976e5")
+		)
+		(pin "4"
+			(uuid "bac53325-39dc-486b-a236-15d7ad1793ca")
+		)
+		(pin "8"
+			(uuid "a0e23800-a731-457c-a34d-69b3fcbbd3aa")
+		)
+		(pin "10"
+			(uuid "ddd97c66-7306-43b4-9dcd-97643ca4a930")
+		)
+		(pin "9"
+			(uuid "8e876018-e9e7-4766-95a4-ea5e7330de46")
+		)
+		(pin "13"
+			(uuid "ff7c77a6-7ff2-4929-8ca0-6f2e0dd189f6")
+		)
+		(pin ""
+			(uuid "88d25530-274f-4216-beff-69fb12eb5de7")
+		)
+		(pin "5"
+			(uuid "fcc35c9b-15c5-4a08-a3a8-b94ff103a08f")
+		)
+		(pin "6"
+			(uuid "4c7ec0ae-277e-4378-a2ca-f75d3dcfe308")
+		)
+		(pin ""
+			(uuid "33b7b93e-0685-406e-a6f2-c7cc0658ea98")
+		)
+		(pin "11"
+			(uuid "dcd030fd-eadd-4905-90e1-083a8a08c5d1")
+		)
+		(pin ""
+			(uuid "f5aeabb5-c07b-482a-9383-36b6b9ecd60a")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "simbolos-electricos:NPN")
 		(at 67.31 67.31 0)
 		(unit 1)
@@ -7318,7 +6330,106 @@
 		)
 	)
 	(symbol
-		(lib_name "simbolos-electricos:NPN")
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 139.065 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c2cac02-7ff5-408e-b6a3-e504b96ba33c")
+		(property "Reference" "U15"
+			(at 146.685 62.8142 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 146.685 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.605 71.755 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.605 71.755 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.065 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "9c7a128e-d75b-4c1e-9e02-3954a7e3bd9e")
+		)
+		(pin ""
+			(uuid "cdb8b0e0-476d-4210-a573-6c61b9ab32e9")
+		)
+		(pin ""
+			(uuid "72adc4f7-5938-43d7-bd02-12ac6976ee6c")
+		)
+		(pin "8"
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a512")
+		)
+		(pin "9"
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd582f9")
+		)
+		(pin "4"
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c42")
+		)
+		(pin "10"
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef0")
+		)
+		(pin "5"
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a0d")
+		)
+		(pin "6"
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa153f")
+		)
+		(pin "13"
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d08")
+		)
+		(pin "11"
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def596")
+		)
+		(pin "12"
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff11b")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "simbolos-electricos:NPN")
 		(at 48.895 220.98 0)
 		(unit 1)
@@ -7403,7 +6514,6 @@
 		)
 	)
 	(symbol
-		(lib_name "simbolos-electricos:NPN")
 		(lib_id "simbolos-electricos:NPN")
 		(at 31.75 66.675 0)
 		(unit 1)
@@ -7488,7 +6598,6 @@
 		)
 	)
 	(symbol
-		(lib_name "simbolos-electricos:NPN")
 		(lib_id "simbolos-electricos:NPN")
 		(at 31.115 172.72 0)
 		(unit 1)
@@ -7573,7 +6682,506 @@
 		)
 	)
 	(symbol
-		(lib_name "simbolos-electricos:NPN")
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 63.5 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69cd8fd3-717f-4aa6-ac53-c3452c32aa6a")
+		(property "Reference" "U1"
+			(at 71.12 259.6642 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 71.12 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 268.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 268.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "1ef68102-e838-4d25-a4e4-44e8324976e6")
+		)
+		(pin "4"
+			(uuid "bac53325-39dc-486b-a236-15d7ad1793cb")
+		)
+		(pin "8"
+			(uuid "a0e23800-a731-457c-a34d-69b3fcbbd3ab")
+		)
+		(pin "10"
+			(uuid "ddd97c66-7306-43b4-9dcd-97643ca4a931")
+		)
+		(pin "9"
+			(uuid "8e876018-e9e7-4766-95a4-ea5e7330de47")
+		)
+		(pin "13"
+			(uuid "ff7c77a6-7ff2-4929-8ca0-6f2e0dd189f7")
+		)
+		(pin ""
+			(uuid "84189cc6-fbc8-46aa-b9d2-62e71839d094")
+		)
+		(pin "5"
+			(uuid "fcc35c9b-15c5-4a08-a3a8-b94ff103a090")
+		)
+		(pin "6"
+			(uuid "4c7ec0ae-277e-4378-a2ca-f75d3dcfe309")
+		)
+		(pin ""
+			(uuid "76d93cd6-968d-48b9-9fd4-2361711306c5")
+		)
+		(pin "11"
+			(uuid "dcd030fd-eadd-4905-90e1-083a8a08c5d2")
+		)
+		(pin ""
+			(uuid "69c15277-c8ad-48c0-a23a-10558f697cd5")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 172.085 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72330818-3e44-4df7-8210-86da0125bde1")
+		(property "Reference" "U17"
+			(at 179.705 165.6842 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 179.705 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 174.625 174.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 174.625 174.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.085 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bbe4393e-23ad-405a-ae19-0900f3973e7a")
+		)
+		(pin ""
+			(uuid "ec3d18e4-b173-460b-a634-b4a5fd59f179")
+		)
+		(pin ""
+			(uuid "b35ce9a7-c26e-4a4b-823d-9ff4ba50e7e8")
+		)
+		(pin "8"
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a517")
+		)
+		(pin "9"
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd582fe")
+		)
+		(pin "4"
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c47")
+		)
+		(pin "10"
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef5")
+		)
+		(pin "5"
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a12")
+		)
+		(pin "6"
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1544")
+		)
+		(pin "13"
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d0d")
+		)
+		(pin "11"
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def59b")
+		)
+		(pin "12"
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff120")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 139.065 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77f6c599-05c1-4fd0-8772-febf15cf8b35")
+		(property "Reference" "U6"
+			(at 146.685 158.0642 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 146.685 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.605 167.005 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.605 167.005 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.065 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c579c6cd-9098-42dd-aa23-f00af4b876fa")
+		)
+		(pin ""
+			(uuid "16367666-2876-4365-8dde-4d219e74368e")
+		)
+		(pin ""
+			(uuid "b934e18a-8cb1-4294-8177-bdf600c6d846")
+		)
+		(pin "8"
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a513")
+		)
+		(pin "9"
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd582fa")
+		)
+		(pin "4"
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c43")
+		)
+		(pin "10"
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef1")
+		)
+		(pin "5"
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a0e")
+		)
+		(pin "6"
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1540")
+		)
+		(pin "13"
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d09")
+		)
+		(pin "11"
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def597")
+		)
+		(pin "12"
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff11c")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 152.4 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7995ec59-1d70-4ae9-b867-b5c63fabdac2")
+		(property "Reference" "U11"
+			(at 160.02 123.7742 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 160.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 132.715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 132.715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "78a0a36e-9604-43f1-b5ae-5a05464c2c89")
+		)
+		(pin ""
+			(uuid "c7d2eaf4-990f-4bfb-89f7-638f64074366")
+		)
+		(pin ""
+			(uuid "26590feb-2e81-4614-82cd-64e9284a4f77")
+		)
+		(pin "8"
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a514")
+		)
+		(pin "9"
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd582fb")
+		)
+		(pin "4"
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c44")
+		)
+		(pin "10"
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef2")
+		)
+		(pin "5"
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a0f")
+		)
+		(pin "6"
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1541")
+		)
+		(pin "13"
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d0a")
+		)
+		(pin "11"
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def598")
+		)
+		(pin "12"
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff11d")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 167.64 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81822843-8948-4c54-9a17-000072f6dbcf")
+		(property "Reference" "U12"
+			(at 175.26 116.1542 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 175.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 125.095 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 125.095 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "28a1bf7e-a58d-4603-9ab9-0c4be7e3a135")
+		)
+		(pin ""
+			(uuid "8b8ac841-2e6c-4e80-99fd-85d64309cee2")
+		)
+		(pin ""
+			(uuid "766cf25d-4762-42a5-b539-68f450c80ff3")
+		)
+		(pin "8"
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a515")
+		)
+		(pin "9"
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd582fc")
+		)
+		(pin "4"
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c45")
+		)
+		(pin "10"
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef3")
+		)
+		(pin "5"
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a10")
+		)
+		(pin "6"
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1542")
+		)
+		(pin "13"
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d0b")
+		)
+		(pin "11"
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def599")
+		)
+		(pin "12"
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff11e")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "simbolos-electricos:NPN")
 		(at 50.8 120.65 0)
 		(unit 1)
@@ -7658,7 +7266,406 @@
 		)
 	)
 	(symbol
-		(lib_name "simbolos-electricos:NPN")
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 130.81 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "968a58e1-8e4a-4217-8e2d-1053646e5cb8")
+		(property "Reference" "U9"
+			(at 138.43 116.1542 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 138.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 125.095 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 125.095 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5d40f484-ff53-423b-a2b5-a4a6e2df51dd")
+		)
+		(pin ""
+			(uuid "2319ee83-10ff-4283-a55f-b13c146b634b")
+		)
+		(pin ""
+			(uuid "2317f8db-d623-483e-bbc6-e239419cc7e2")
+		)
+		(pin "8"
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a516")
+		)
+		(pin "9"
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd582fd")
+		)
+		(pin "4"
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c46")
+		)
+		(pin "10"
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef4")
+		)
+		(pin "5"
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a11")
+		)
+		(pin "6"
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1543")
+		)
+		(pin "13"
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d0c")
+		)
+		(pin "11"
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def59a")
+		)
+		(pin "12"
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff11f")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 127 225.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a308424c-957e-4257-a78e-a6f6c0e204b8")
+		(property "Reference" "U3"
+			(at 134.62 220.9292 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 134.62 222.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 225.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "1ef68102-e838-4d25-a4e4-44e8324976e7")
+		)
+		(pin "4"
+			(uuid "bac53325-39dc-486b-a236-15d7ad1793cc")
+		)
+		(pin "8"
+			(uuid "a0e23800-a731-457c-a34d-69b3fcbbd3ac")
+		)
+		(pin "10"
+			(uuid "ddd97c66-7306-43b4-9dcd-97643ca4a932")
+		)
+		(pin "9"
+			(uuid "8e876018-e9e7-4766-95a4-ea5e7330de48")
+		)
+		(pin "13"
+			(uuid "ff7c77a6-7ff2-4929-8ca0-6f2e0dd189f8")
+		)
+		(pin ""
+			(uuid "787d6e1b-7ddb-48c0-898a-b5d70ee105f8")
+		)
+		(pin "5"
+			(uuid "fcc35c9b-15c5-4a08-a3a8-b94ff103a091")
+		)
+		(pin "6"
+			(uuid "4c7ec0ae-277e-4378-a2ca-f75d3dcfe30a")
+		)
+		(pin ""
+			(uuid "c94b4562-26fe-4d8c-aecf-28ebcf21875e")
+		)
+		(pin "11"
+			(uuid "dcd030fd-eadd-4905-90e1-083a8a08c5d3")
+		)
+		(pin ""
+			(uuid "c3591346-a9ab-43bc-9313-007251c0ce45")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 154.305 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab8d19c1-d803-4438-ab23-ac0151d7bd64")
+		(property "Reference" "U8"
+			(at 161.925 165.6842 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 161.925 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.845 174.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.845 174.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.305 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "9443f276-0b9e-4f78-b970-4345b445644d")
+		)
+		(pin ""
+			(uuid "fdff3e49-9885-4829-ab6a-78d14b12e4b3")
+		)
+		(pin ""
+			(uuid "791739a0-19d1-4ba5-a055-2086d7ab3b31")
+		)
+		(pin "8"
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a517")
+		)
+		(pin "9"
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd582fe")
+		)
+		(pin "4"
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c47")
+		)
+		(pin "10"
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef5")
+		)
+		(pin "5"
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a12")
+		)
+		(pin "6"
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1544")
+		)
+		(pin "13"
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d0d")
+		)
+		(pin "11"
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def59b")
+		)
+		(pin "12"
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff120")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 139.065 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9d3fc0f-e66e-47c5-8e1e-13d6399df1ad")
+		(property "Reference" "U14"
+			(at 146.685 78.0542 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 146.685 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.605 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.605 86.995 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.065 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d834497e-e187-4f76-a503-3e6b6d802e65")
+		)
+		(pin ""
+			(uuid "34e81e5a-7d6b-4a3c-8bfc-34376d44e7d6")
+		)
+		(pin ""
+			(uuid "e7d673d1-205d-4ee8-8046-d6044aca1854")
+		)
+		(pin "8"
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a518")
+		)
+		(pin "9"
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd582ff")
+		)
+		(pin "4"
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c48")
+		)
+		(pin "10"
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef6")
+		)
+		(pin "5"
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a13")
+		)
+		(pin "6"
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1545")
+		)
+		(pin "13"
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d0e")
+		)
+		(pin "11"
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def59c")
+		)
+		(pin "12"
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff121")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "simbolos-electricos:NPN")
 		(at 50.8 24.13 0)
 		(unit 1)
@@ -7743,7 +7750,306 @@
 		)
 	)
 	(symbol
-		(lib_name "simbolos-electricos:NPN")
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 152.4 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c80f5b75-9088-4774-9026-360c30bf6219")
+		(property "Reference" "U10"
+			(at 160.02 108.5342 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 160.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2db9b32f-a776-4aea-9d19-b4b77768ef1c")
+		)
+		(pin ""
+			(uuid "552f5f9d-7049-457d-91e6-497985ac9005")
+		)
+		(pin ""
+			(uuid "81c28417-70b3-41c8-ac5e-c474b73b4f29")
+		)
+		(pin "8"
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a519")
+		)
+		(pin "9"
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd58300")
+		)
+		(pin "4"
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c49")
+		)
+		(pin "10"
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef7")
+		)
+		(pin "5"
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a14")
+		)
+		(pin "6"
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1546")
+		)
+		(pin "13"
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d0f")
+		)
+		(pin "11"
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def59d")
+		)
+		(pin "12"
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff122")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 139.065 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca2f5d3f-d501-4b4b-8d99-9b38e7052e3b")
+		(property "Reference" "U7"
+			(at 146.685 173.3042 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 146.685 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.605 182.245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.605 182.245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.065 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "784e274b-55db-4367-a593-679306ee87b5")
+		)
+		(pin ""
+			(uuid "7ab8a2cd-2a9d-4be3-a397-65f40922ae0c")
+		)
+		(pin ""
+			(uuid "4bf0d4fd-c6d4-4cc4-8265-2c2be7105482")
+		)
+		(pin "8"
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a51a")
+		)
+		(pin "9"
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd58301")
+		)
+		(pin "4"
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c4a")
+		)
+		(pin "10"
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef8")
+		)
+		(pin "5"
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a15")
+		)
+		(pin "6"
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1547")
+		)
+		(pin "13"
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d10")
+		)
+		(pin "11"
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def59e")
+		)
+		(pin "12"
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff123")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "logic_nand-simbolos_1")
+		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(at 148.59 26.035 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef33688c-bf96-411b-aa3a-30407cd1d1d0")
+		(property "Reference" "U16"
+			(at 156.21 21.5392 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "logic_nand"
+			(at 156.21 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ef252035-5309-4a6d-9295-3a36461ba74b")
+		)
+		(pin ""
+			(uuid "a082a8f7-0014-4624-b3dd-7e72b591a8fa")
+		)
+		(pin ""
+			(uuid "6299a052-21f5-4133-9cec-9c36e5301d2b")
+		)
+		(pin "8"
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a51b")
+		)
+		(pin "9"
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd58302")
+		)
+		(pin "4"
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c4b")
+		)
+		(pin "10"
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef9")
+		)
+		(pin "5"
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a16")
+		)
+		(pin "6"
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1548")
+		)
+		(pin "13"
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d11")
+		)
+		(pin "11"
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def59f")
+		)
+		(pin "12"
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff124")
+		)
+		(instances
+			(project "electric-digital"
+				(path "/04d94725-ef03-4c54-843a-5c4eaa36edb8"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "simbolos-electricos:NPN")
 		(at 50.8 13.97 0)
 		(unit 1)

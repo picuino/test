@@ -738,7 +738,7 @@
 		(uuid "7b45157b-8707-486e-9032-51e474d6f8bc")
 	)
 	(junction
-		(at 69.215 69.215)
+		(at 69.215 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8487162b-8d72-430e-b7b3-435b2b025f29")
@@ -780,7 +780,7 @@
 		(uuid "d16322c4-e878-453f-8402-961cbcb123c4")
 	)
 	(junction
-		(at 50.8 69.215)
+		(at 50.8 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d970b1c3-68e9-4c83-bfd2-806ac9a7ab47")
@@ -805,7 +805,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 80.01) (xy 50.8 82.55)
+			(xy 50.8 78.74) (xy 50.8 82.55)
 		)
 		(stroke
 			(width 0)
@@ -955,7 +955,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 72.39) (xy 50.8 69.215)
+			(xy 50.8 71.12) (xy 50.8 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1075,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 80.01) (xy 31.75 82.55)
+			(xy 31.75 78.74) (xy 31.75 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1095,7 +1095,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 83.185) (xy 139.7 81.915)
+			(xy 139.7 81.915) (xy 139.7 80.645)
 		)
 		(stroke
 			(width 0)
@@ -1145,7 +1145,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 63.5) (xy 165.1 63.5)
+			(xy 139.7 62.865) (xy 165.1 62.865)
 		)
 		(stroke
 			(width 0)
@@ -1175,7 +1175,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 72.39) (xy 31.75 69.215)
+			(xy 31.75 71.12) (xy 31.75 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1195,7 +1195,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 74.295) (xy 139.7 73.025)
+			(xy 139.7 73.025) (xy 139.7 71.755)
 		)
 		(stroke
 			(width 0)
@@ -1365,7 +1365,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 72.39) (xy 69.215 69.215)
+			(xy 69.215 71.12) (xy 69.215 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1385,7 +1385,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 65.405) (xy 139.7 63.5)
+			(xy 139.7 64.135) (xy 139.7 62.865)
 		)
 		(stroke
 			(width 0)
@@ -1435,7 +1435,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 69.215) (xy 69.215 69.215)
+			(xy 50.8 67.31) (xy 69.215 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1585,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 69.215) (xy 82.55 69.215)
+			(xy 69.215 67.31) (xy 82.55 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1635,7 +1635,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.215 80.01) (xy 69.215 82.55)
+			(xy 69.215 78.74) (xy 69.215 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1905,6 +1905,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 90.805) (xy 139.7 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d694c1-14c6-4b14-aedd-83e2f5b90292")
+	)
+	(wire
+		(pts
 			(xy 80.645 176.53) (xy 80.645 179.705)
 		)
 		(stroke
@@ -2075,7 +2085,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 69.215) (xy 50.8 69.215)
+			(xy 31.75 67.31) (xy 50.8 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2211,10 +2221,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "96aa763d-798c-4bbc-ac1b-33fa78cba52a")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "035d6d6c-d451-4439-a791-4f0227772071")
 		)
 	)
@@ -2271,10 +2281,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "ad843ce7-fcb3-4b86-88ca-4843e0ac1a97")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "dd5de06f-844c-412b-8b42-5e6c8f140c09")
 		)
 	)
@@ -2331,10 +2341,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "24bad07b-e6f7-4a5e-98fd-8c23e711b3eb")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "8422c184-bf88-404d-9f9b-b2a3f256c30b")
 		)
 	)
@@ -2391,10 +2401,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "95064f8f-0434-468d-9891-c2b756034a84")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "a3975c21-3e30-4fa1-be81-1aec52d19c17")
 		)
 		(instances
@@ -2463,10 +2473,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "dad3e216-372c-4648-a7ae-c05a13304708")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "ba9439eb-0f7d-42bc-b2d9-ba0ee3441e55")
 		)
 		(instances
@@ -2536,10 +2546,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "1f6250de-32c2-4e1f-bd86-b0d28b252b94")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "1a35d70a-7b0f-47e2-97e1-7d69312c28ac")
 		)
 	)
@@ -2596,10 +2606,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "f7c1500d-d915-4695-ae3b-2bc75a62985e")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "1fb4cb4c-ea54-4699-8ada-58ae60e70279")
 		)
 	)
@@ -2656,10 +2666,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "72b4bdf6-f94b-4e4c-909e-f8cbd0a5f14f")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "180007df-c8cb-4899-aed7-50b2b73ed28a")
 		)
 	)
@@ -2716,10 +2726,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "df322302-d371-4787-b2dc-d6b6f56cc184")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "0a372e55-62a1-41fa-bb48-838b0a2d2c93")
 		)
 	)
@@ -2777,10 +2787,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "6c35dbde-5b7f-43af-bb84-55bb70529a16")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "b221d405-03e8-43c7-baa9-7fd09006e733")
 		)
 	)
@@ -2837,10 +2847,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "1cb7627e-acbb-4b4e-a4ae-4f34d23fd92b")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "7b410b24-fabf-4fab-9acf-48c8d108c614")
 		)
 	)
@@ -2897,10 +2907,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "a3290704-21c7-4d26-b2f1-bbd20821669f")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "bcb76f54-7e4d-4575-b8b1-1d48a60eb143")
 		)
 	)
@@ -2957,10 +2967,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "72d5e96f-b2c7-4106-adaf-7a5b52772e65")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "61c54440-edfb-4279-9496-80ecbc0a9011")
 		)
 		(instances
@@ -3029,10 +3039,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "1a482ce8-dc93-4315-9fe6-72048e1f9ad7")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "15bb787d-7618-434c-8cda-15f187957302")
 		)
 		(instances
@@ -3101,10 +3111,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "db73e58f-dda3-40ef-8162-c2448e96053d")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "00da689b-6e2b-4f8d-a3ce-362cb0819790")
 		)
 		(instances
@@ -3173,10 +3183,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "260336fa-4f97-4b14-85f3-d24eaec35b7b")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "9c0b285f-981b-4717-b0d1-fa30ec592af2")
 		)
 		(instances
@@ -3245,10 +3255,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "d98287b5-fcb5-4446-838c-f0aadd8426a6")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "e23cb5b0-d4b4-45ab-8f9f-4a455579941d")
 		)
 		(instances
@@ -3317,10 +3327,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "8ccb6992-5661-40f8-8b8f-b2ee7d8271c3")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "17adff91-fc1a-400e-9e3e-6054bba8ca40")
 		)
 		(instances
@@ -3390,10 +3400,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "09eae785-50ef-4062-9be9-131784486195")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "bb7905ba-3b57-4895-b8e0-dc6ffa1427f9")
 		)
 	)
@@ -3451,10 +3461,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "7d777356-ab15-48fd-84fe-e4e6774f4e39")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "a415e14f-2b04-4331-a454-f55e80cd74d4")
 		)
 	)
@@ -3511,10 +3521,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "df51d0e0-3634-4adb-9bcc-b160c5d0dbd7")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "4abd5457-99a3-4989-befe-21c420362362")
 		)
 	)
@@ -3572,10 +3582,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "ad7c6529-ea83-4d39-8e28-ef9cbb96066f")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "5c2fe2db-8d5f-488f-88f5-e9055696f982")
 		)
 	)
@@ -3633,10 +3643,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "ce8a5982-161c-467a-818b-ddd4962c5396")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "daf20406-816b-4521-a679-74b86de40094")
 		)
 	)
@@ -3694,10 +3704,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "2848bf31-f3d6-448b-b417-bebe1efea4e1")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "b2d5abbb-daf5-4be1-8136-9d479390d0ac")
 		)
 	)
@@ -3755,10 +3765,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "cc24bb56-de21-4875-9519-9842d27f10ba")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "d7d93854-775f-473d-993a-f6dadceeef0c")
 		)
 	)
@@ -3816,10 +3826,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "c2721e93-4319-4353-953e-ba9a193817dd")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "5dfd5661-e1aa-4395-b8ae-ba4ea3c620b1")
 		)
 	)
@@ -3877,10 +3887,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "79c58736-e6af-40ae-8b2b-93064f6f79a0")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "b890f65d-9848-4f1b-866c-9b9e5df5a8a6")
 		)
 	)
@@ -3938,10 +3948,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "2e9cefb9-819d-46b2-8de1-211361f5add5")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "fa83578f-fbad-4931-a974-7cd8347736f9")
 		)
 	)
@@ -4000,10 +4010,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "8ecbfa40-d633-4b78-8801-7f85764f4815")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "c7de2b99-a0af-4149-a209-b548cddff1a3")
 		)
 	)
@@ -4062,10 +4072,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "8f1c2784-dfb1-4eba-a095-c34e1e05a018")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "5e3628d4-29a5-4b7f-b10d-21f5bb286cfc")
 		)
 	)
@@ -4122,10 +4132,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "1ab3f8b2-5a92-4097-ba67-524070f929a9")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "0dc66cbf-f076-448d-9fa8-1a0544910d2c")
 		)
 	)
@@ -4184,10 +4194,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "e9956246-fae1-4755-ad1a-87cd4c87a7aa")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "c0eeecbc-8d53-4292-890f-1a178c66c04f")
 		)
 	)
@@ -4244,10 +4254,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "4c834144-d98c-4b87-a08f-836658a84771")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "74330103-f32e-4f72-92f9-7da7af91576b")
 		)
 	)
@@ -4306,10 +4316,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "8b3462c0-528f-43d1-abe1-812716f826e2")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "a9a2e153-0353-46b4-8c9e-5c79199bd9de")
 		)
 	)
@@ -4366,10 +4376,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "76beccc4-571f-4b66-a266-3561c960e89e")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "6b310b39-f08b-4664-85c4-34180da19878")
 		)
 	)
@@ -4426,10 +4436,10 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "194e71f8-e7d7-47b7-8f9c-921d43327280")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "fe2432e7-0852-43d1-abe8-893772d11c75")
 		)
 	)
@@ -4487,16 +4497,17 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "e22a37b8-8b60-4929-b459-f8f081870f5a")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "46154fdb-9a2a-46aa-ab1d-0aa917f74a1f")
 		)
 	)
 	(symbol
+		(lib_name "electric-circuits-rescue:Pila-simbolos")
 		(lib_id "electric-circuits-rescue:Pila-simbolos")
-		(at 31.75 72.39 0)
+		(at 31.75 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4504,7 +4515,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000603ce636")
 		(property "Reference" "V?"
-			(at 26.035 79.375 0)
+			(at 26.035 78.105 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -4514,7 +4525,7 @@
 			)
 		)
 		(property "Value" "2V"
-			(at 35.56 73.025 0)
+			(at 38.862 75.438 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -4522,7 +4533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 75.565 0)
+			(at 31.75 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +4542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 75.565 0)
+			(at 31.75 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +4551,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 72.39 0)
+			(at 31.75 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,316 +4559,11 @@
 				(hide yes)
 			)
 		)
-		(pin "~"
+		(pin ""
 			(uuid "06d0abf2-2c4e-4f31-93fd-ede7b284f85b")
 		)
-		(pin "~"
+		(pin ""
 			(uuid "1ba538eb-dd06-453c-9553-6acad3b4d712")
-		)
-	)
-	(symbol
-		(lib_id "electric-circuits-rescue:Pila-simbolos")
-		(at 50.8 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000603ce63c")
-		(property "Reference" "V?"
-			(at 45.085 79.375 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "2V"
-			(at 54.61 73.025 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "7fdc5caf-4bb5-4fd5-b0da-26065ea66b5d")
-		)
-		(pin "~"
-			(uuid "f5a3c3b1-8f38-4a89-bbe8-6ebe8a3c5230")
-		)
-	)
-	(symbol
-		(lib_id "electric-circuits-rescue:Pila-simbolos")
-		(at 69.215 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000603ce642")
-		(property "Reference" "V?"
-			(at 63.5 79.375 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "2V"
-			(at 73.025 73.025 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.215 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.215 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.215 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "b32bf7d1-0405-42ce-a6aa-02287d96669f")
-		)
-		(pin "~"
-			(uuid "863a143a-d034-42fc-b664-b51fd69b8418")
-		)
-	)
-	(symbol
-		(lib_id "electric-circuits-rescue:Pila-simbolos")
-		(at 139.7 83.185 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000603ce658")
-		(property "Reference" "V?"
-			(at 133.985 90.17 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "2V"
-			(at 143.51 83.82 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "3adf2931-6a54-46df-86e4-1158dafbd26e")
-		)
-		(pin "~"
-			(uuid "30c7db64-03d5-41f7-932a-aa9c8409d761")
-		)
-	)
-	(symbol
-		(lib_id "electric-circuits-rescue:Pila-simbolos")
-		(at 139.7 74.295 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000603ce65e")
-		(property "Reference" "V?"
-			(at 133.985 81.28 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "2V"
-			(at 143.51 74.93 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 74.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "e320f2de-86e7-4346-9574-d1f70ba79d4b")
-		)
-		(pin "~"
-			(uuid "5bda049a-0e0c-484c-8290-1c13d11bb605")
-		)
-	)
-	(symbol
-		(lib_id "electric-circuits-rescue:Pila-simbolos")
-		(at 139.7 65.405 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000603ce664")
-		(property "Reference" "V?"
-			(at 133.985 72.39 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "2V"
-			(at 143.51 66.04 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "~"
-			(uuid "88e2912a-4cf7-4843-817d-50b83d0cd171")
-		)
-		(pin "~"
-			(uuid "60bfa7b9-171e-4516-b3be-9cfa556bd8a8")
 		)
 	)
 	(symbol
@@ -4954,6 +4660,356 @@
 				)
 				(path "/e4f41778-710a-453e-adb3-2dfdd869173c/00000000-0000-0000-0000-0000604a6274"
 					(reference "CP?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "electric-circuits-rescue:Pila-simbolos")
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 69.215 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1afe4405-eba1-4bfd-bdbb-c0905e026146")
+		(property "Reference" "V4"
+			(at 63.5 78.105 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "2V"
+			(at 76.327 75.438 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.215 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.215 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.215 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c6dc839b-925a-49da-a998-620638082ef0")
+		)
+		(pin ""
+			(uuid "4722202d-ecc2-4a43-ae24-70614b5359cb")
+		)
+		(instances
+			(project "electric-circuits"
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c/00000000-0000-0000-0000-0000604a6274"
+					(reference "V4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "electric-circuits-rescue:Pila-simbolos")
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 50.8 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4315fe67-373a-4086-a6ba-ff6ce7eb6a6d")
+		(property "Reference" "V3"
+			(at 45.085 78.105 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "2V"
+			(at 57.912 75.438 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "4376c2a6-8c02-4c4c-986b-ba6c6160edb0")
+		)
+		(pin ""
+			(uuid "ccfdd29c-5dff-4651-b857-951aca73a468")
+		)
+		(instances
+			(project "electric-circuits"
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c/00000000-0000-0000-0000-0000604a6274"
+					(reference "V3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "electric-circuits-rescue:Pila-simbolos")
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 139.7 64.135 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49bf2818-f47c-44f1-9ce1-f42f3c01c687")
+		(property "Reference" "V5"
+			(at 133.985 71.12 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "2V"
+			(at 146.812 68.453 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6a5544b9-2b6e-499a-8f37-702c67f80e5f")
+		)
+		(pin ""
+			(uuid "135c3770-0bd5-4c7e-b36c-81f60eff1649")
+		)
+		(instances
+			(project "electric-circuits"
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c/00000000-0000-0000-0000-0000604a6274"
+					(reference "V5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "electric-circuits-rescue:Pila-simbolos")
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 139.7 81.915 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a877dc4-341a-496e-b68a-f49ae31e59bf")
+		(property "Reference" "V7"
+			(at 133.985 88.9 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "2V"
+			(at 146.812 86.233 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "406d4f87-7e37-493b-bc97-337443e2377e")
+		)
+		(pin ""
+			(uuid "1752abf2-164e-4603-817a-9ae368e4aa5d")
+		)
+		(instances
+			(project "electric-circuits"
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c/00000000-0000-0000-0000-0000604a6274"
+					(reference "V7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "electric-circuits-rescue:Pila-simbolos")
+		(lib_id "electric-circuits-rescue:Pila-simbolos")
+		(at 139.7 73.025 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9158537f-8954-45b2-aabe-4bc730e2d09c")
+		(property "Reference" "V6"
+			(at 133.985 80.01 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "2V"
+			(at 146.812 77.343 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c4770ef8-a525-4f85-879d-13a042629754")
+		)
+		(pin ""
+			(uuid "48818453-271c-4662-a213-1a68004f38f4")
+		)
+		(instances
+			(project "electric-circuits"
+				(path "/e4f41778-710a-453e-adb3-2dfdd869173c/00000000-0000-0000-0000-0000604a6274"
+					(reference "V6")
 					(unit 1)
 				)
 			)
