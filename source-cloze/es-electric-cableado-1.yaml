@@ -1,0 +1,49 @@
+﻿
+Category: Electricidad
+Title: Cableado de circuitos I
+Copyright: 2025 por Carlos Félix Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+Source_link: ../es/electric-cableado.html
+Show_max: 0
+
+---
+
+- Title:
+  Image: ../images/electric-cableado-01.png
+  Image_width: 800
+  Cloze:
+     <strong>Cableado del circuito 1:</strong><br>
+     <table>
+     <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
+     <tbody>
+     <tr><td>1</td><td>{5}</td></tr>
+     <tr><td>2</td><td>{4}</td></tr>
+     <tr><td>3</td><td>{6}</td></tr>
+     <tr><td>4</td><td>{2}</td></tr>
+     <tr><td>5</td><td>{1}</td></tr>
+     <tr><td>6</td><td>{3}</td></tr>
+     </tbody>
+     </table>
+
+
+- Title:
+  Image: ../images/electric-cableado-02.png
+  Image_width: 800
+  Cloze:
+     <strong>Cableado del circuito 2:</strong><br>
+     <table>
+     <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
+     <tbody>
+     <tr><td>1</td><td>{7} y {9}</td></tr>
+     <tr><td>2</td><td>{4} y {6}</td></tr>
+     <tr><td>3</td><td>{8}</td></tr>
+     <tr><td>4</td><td>{2}</td></tr>
+     <tr><td>5</td><td>{10}</td></tr>
+     <tr><td>6</td><td>{2}</td></tr>
+     <tr><td>7</td><td>{1}</td></tr>
+     <tr><td>8</td><td>{3}</td></tr>
+     <tr><td>9</td><td>{1}</td></tr>
+     <tr><td>10</td><td>{5}</td></tr>
+     </tbody>
+     </table>

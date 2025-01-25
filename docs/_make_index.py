@@ -94,6 +94,8 @@ index_data = [
 		  ["es-electric-energy-calc.html", "Cálculos con energía eléctrica"],
 
 		  ["es-electric-power.html", "Potencia eléctrica"],
+          
+		  ["es-electric-cableado-1.html", "Cableado de circuitos I"],         
 	   ]
    },
    {

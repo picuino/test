@@ -1262,7 +1262,7 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Más transparente que el policarbonato y resistente al impacto.</text>
+       <text>Más transparente que el policarbonato.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     

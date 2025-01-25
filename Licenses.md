@@ -191,6 +191,27 @@ se distribuyen bajo **licencia Creative Commons Attribution-ShareAlike 4.0**.
 Se puede leer el texto de la licencia en el enlace: 
 https://creativecommons.org/licenses/by-sa/4.0/deed.es
 
+![](images/thumbs/electric-cableado-01.png)
+![](images/thumbs/electric-cableado-02.png)
+![](images/thumbs/electric-cableado-03.png)
+![](images/thumbs/electric-cableado-04.png)
+![](images/thumbs/electric-cableado-05.png)
+![](images/thumbs/electric-cableado-06.png)
+![](images/thumbs/electric-cableado-07.png)
+![](images/thumbs/electric-cableado-08.png)
+![](images/thumbs/electric-cableado-09.png)
+![](images/thumbs/electric-cableado-10.png)
+![](images/thumbs/electric-cableado-11.png)
+![](images/thumbs/electric-cableado-12.png)
+![](images/thumbs/electric-cableado-13.png)
+![](images/thumbs/electric-cableado-14.png)
+![](images/thumbs/electric-cableado-15.png)
+![](images/thumbs/electric-cableado-16.png)
+![](images/thumbs/electric-cableado-17.png)
+![](images/thumbs/electric-cableado-18.png)
+![](images/thumbs/electric-cableado-19.png)
+![](images/thumbs/electric-cableado-20.png)
+
 ![](images/thumbs/electric-resolver-circuitos-c01.png)
 ![](images/thumbs/electric-resolver-circuitos-c02.png)
 ![](images/thumbs/electric-resolver-circuitos-c03.png)
