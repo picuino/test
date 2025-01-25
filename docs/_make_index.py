@@ -95,7 +95,8 @@ index_data = [
 
 		  ["es-electric-power.html", "Potencia eléctrica"],
           
-		  ["es-electric-cableado-1.html", "Cableado de circuitos I"],         
+		  ["es-electric-cableado-1.html", "Cableado de circuitos I"],
+		  ["es-electric-cableado-2.html", "Cableado de circuitos II"],
 	   ]
    },
    {

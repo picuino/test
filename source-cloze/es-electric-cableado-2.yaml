@@ -1,0 +1,125 @@
+﻿
+Category: Electricidad
+Title: Cableado de circuitos II
+Copyright: 2025 por Carlos Félix Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+Source_link: ../es/electric-cableado.html
+Show_max: 0
+
+---
+
+- Title:
+  Image: ../images/electric-cableado-11.png
+  Image_width: 460
+  Cloze:
+     <strong>Cableado del circuito 11:</strong><br>
+     <table>
+     <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
+     <tbody>
+     <tr><td>1</td><td>{9}</td></tr>
+     <tr><td>2</td><td>{3} y {8}</td></tr>
+     <tr><td>3</td><td>{2} y {8}</td></tr>
+     <tr><td>4</td><td>{11}</td></tr>
+     <tr><td>5</td><td>{7}</td></tr>
+     <tr><td>6</td><td>{10}</td></tr>
+     <tr><td>7</td><td>{5}</td></tr>
+     <tr><td>8</td><td>{2} y {3}</td></tr>
+     <tr><td>9</td><td>{1}</td></tr>
+     <tr><td>10</td><td>{6}</td></tr>
+     <tr><td>11</td><td>{4}</td></tr>
+     </tbody>
+     </table>
+
+
+- Title:
+  Image: ../images/electric-cableado-12.png
+  Image_width: 460
+  Cloze:
+     <strong>Cableado del circuito 12:</strong><br>
+     <table>
+     <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
+     <tbody>
+     <tr><td>1</td><td>{5}</td></tr>
+     <tr><td>2</td><td>{4}</td></tr>
+     <tr><td>3</td><td>{8}</td></tr>
+     <tr><td>4</td><td>{2}</td></tr>
+     <tr><td>5</td><td>{1}</td></tr>
+     <tr><td>6</td><td>{7}</td></tr>
+     <tr><td>7</td><td>{6}</td></tr>
+     <tr><td>8</td><td>{3}</td></tr>
+     </tbody>
+     </table>
+
+
+- Title:
+  Image: ../images/electric-cableado-13.png
+  Image_width: 460
+  Cloze:
+     <strong>Cableado del circuito 13:</strong><br>
+     <table>
+     <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
+     <tbody>
+     <tr><td>1</td><td>{3}</td></tr>
+     <tr><td>2</td><td>{7} y {11}</td></tr>
+     <tr><td>3</td><td>{1}</td></tr>
+     <tr><td>4</td><td>{10}</td></tr>
+     <tr><td>5</td><td>{8}</td></tr>
+     <tr><td>6</td><td>{9}</td></tr>
+     <tr><td>7</td><td>{2}</td></tr>
+     <tr><td>8</td><td>{5}</td></tr>
+     <tr><td>9</td><td>{6}</td></tr>
+     <tr><td>10</td><td>{4}</td></tr>
+     <tr><td>11</td><td>{2}</td></tr>
+     </tbody>
+     </table>
+
+
+- Title:
+  Image: ../images/electric-cableado-14.png
+  Image_width: 460
+  Cloze:
+     <strong>Cableado del circuito 14:</strong><br>
+     <table>
+     <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
+     <tbody>
+     <tr><td>1</td><td>{8}</td></tr>
+     <tr><td>2</td><td>{4} y {6}</td></tr>
+     <tr><td>3</td><td>{11}</td></tr>
+     <tr><td>4</td><td>{2}</td></tr>
+     <tr><td>5</td><td>{13}</td></tr>
+     <tr><td>6</td><td>{2}</td></tr>
+     <tr><td>7</td><td>{12}</td></tr>
+     <tr><td>8</td><td>{1}</td></tr>
+     <tr><td>9</td><td>{10}</td></tr>
+     <tr><td>10</td><td>{9}</td></tr>
+     <tr><td>11</td><td>{3}</td></tr>
+     <tr><td>12</td><td>{7}</td></tr>
+     <tr><td>13</td><td>{5}</td></tr>
+     </tbody>
+     </table>
+
+
+- Title:
+  Image: ../images/electric-cableado-15.png
+  Image_width: 460
+  Cloze:
+     <strong>Cableado del circuito 15:</strong><br>
+     <table>
+     <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
+     <tbody>
+     <tr><td>1</td><td>{10} y {7}</td></tr>
+     <tr><td>2</td><td>{12} y {6}</td></tr>
+     <tr><td>3</td><td>{9}</td></tr>
+     <tr><td>4</td><td>{5}</td></tr>
+     <tr><td>5</td><td>{4}</td></tr>
+     <tr><td>6</td><td>{2}</td></tr>
+     <tr><td>7</td><td>{1} y {10}</td></tr>
+     <tr><td>8</td><td>{11}</td></tr>
+     <tr><td>9</td><td>{3}</td></tr>
+     <tr><td>10</td><td>{1} y {7}</td></tr>
+     <tr><td>11</td><td>{8}</td></tr>
+     <tr><td>12</td><td>{2}</td></tr>
+     </tbody>
+     </table>
+
