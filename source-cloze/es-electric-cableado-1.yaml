@@ -47,3 +47,71 @@ Show_max: 0
      <tr><td>10</td><td>{5}</td></tr>
      </tbody>
      </table>
+
+
+- Title:
+  Image: ../images/electric-cableado-03.png
+  Image_width: 800
+  Cloze:
+     <strong>Cableado del circuito 3:</strong><br>
+     <table>
+     <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
+     <tbody>
+     <tr><td>1</td><td>{7}</td></tr>
+     <tr><td>2</td><td>{6}</td></tr>
+     <tr><td>3</td><td>{10}</td></tr>
+     <tr><td>4</td><td>{5}</td></tr>
+     <tr><td>5</td><td>{4}</td></tr>
+     <tr><td>6</td><td>{2}</td></tr>
+     <tr><td>7</td><td>{1}</td></tr>
+     <tr><td>8</td><td>{9}</td></tr>
+     <tr><td>9</td><td>{8}</td></tr>
+     <tr><td>10</td><td>{3}</td></tr>
+     </tbody>
+     </table>
+
+
+- Title:
+  Image: ../images/electric-cableado-04.png
+  Image_width: 800
+  Cloze:
+     <strong>Cableado del circuito 4:</strong><br>
+     <table>
+     <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
+     <tbody>
+     <tr><td>1</td><td>{7} y {9}</td></tr>
+     <tr><td>2</td><td>{4} y {6}</td></tr>
+     <tr><td>3</td><td>{5}, {8} y {10}</td></tr>
+     <tr><td>4</td><td>{2}</td></tr>
+     <tr><td>5</td><td>{3}, {8} y {10}</td></tr>
+     <tr><td>6</td><td>{2}</td></tr>
+     <tr><td>7</td><td>{1}</td></tr>
+     <tr><td>8</td><td>{3}, {5} y {10}</td></tr>
+     <tr><td>9</td><td>{1}</td></tr>
+     <tr><td>10</td><td>{3}, {5} y {8}</td></tr>
+     </tbody>
+     </table>
+
+
+- Title:
+  Image: ../images/electric-cableado-05.png
+  Image_width: 800
+  Cloze:
+     <strong>Cableado del circuito 5:</strong><br>
+     <table>
+     <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
+     <tbody>
+     <tr><td>1</td><td>{8}</td></tr>
+     <tr><td>2</td><td>{4} y {6}</td></tr>
+     <tr><td>3</td><td>{5} y {11}</td></tr>
+     <tr><td>4</td><td>{2}</td></tr>
+     <tr><td>5</td><td>{3} y {11}</td></tr>
+     <tr><td>6</td><td>{2}</td></tr>
+     <tr><td>7</td><td>{10}</td></tr>
+     <tr><td>8</td><td>{1}</td></tr>
+     <tr><td>9</td><td>{12}</td></tr>
+     <tr><td>10</td><td>{7}</td></tr>
+     <tr><td>11</td><td>{3} y {5}</td></tr>
+     <tr><td>12</td><td>{9}</td></tr>
+     </tbody>
+     </table>
