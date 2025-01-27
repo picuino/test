@@ -123,3 +123,130 @@ Show_max: 0
      </tbody>
      </table>
 
+
+- Title:
+  Image: ../images/electric-cableado-16.png
+  Image_width: 460
+  Cloze:
+     <strong>Cableado del circuito 16:</strong><br>
+     <table>
+     <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
+     <tbody>
+     <tr><td>1</td><td>{3} y {7}</td></tr>
+     <tr><td>2</td><td>{6} y {13}</td></tr>
+     <tr><td>3</td><td>{1}</td></tr>
+     <tr><td>4</td><td>{5} y {10}</td></tr>
+     <tr><td>5</td><td>{4} y {10}</td></tr>
+     <tr><td>6</td><td>{2}</td></tr>
+     <tr><td>7</td><td>{1}</td></tr>
+     <tr><td>8</td><td>{9}</td></tr>
+     <tr><td>9</td><td>{8}</td></tr>
+     <tr><td>10</td><td>{4} y {5}</td></tr>
+     <tr><td>11</td><td>{12}</td></tr>
+     <tr><td>12</td><td>{11}</td></tr>
+     <tr><td>13</td><td>{2}</td></tr>
+     </tbody>
+     </table>
+
+
+- Title:
+  Image: ../images/electric-cableado-17.png
+  Image_width: 460
+  Cloze:
+     <strong>Cableado del circuito 17:</strong><br>
+     <table>
+     <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
+     <tbody>
+     <tr><td>1</td><td>{3} y {5}</td></tr>
+     <tr><td>2</td><td>{9} y {11}</td></tr>
+     <tr><td>3</td><td>{1}</td></tr>
+     <tr><td>4</td><td>{12}</td></tr>
+     <tr><td>5</td><td>{1}</td></tr>
+     <tr><td>6</td><td>{8} y {10}</td></tr>
+     <tr><td>7</td><td>{13}</td></tr>
+     <tr><td>8</td><td>{6} y {10}</td></tr>
+     <tr><td>9</td><td>{2}</td></tr>
+     <tr><td>10</td><td>{6} y {8}</td></tr>
+     <tr><td>11</td><td>{2}</td></tr>
+     <tr><td>12</td><td>{4}</td></tr>
+     <tr><td>13</td><td>{7}</td></tr>
+     </tbody>
+     </table>
+
+
+- Title:
+  Image: ../images/electric-cableado-18.png
+  Image_width: 460
+  Cloze:
+     <strong>Cableado del circuito 18:</strong><br>
+     <table>
+     <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
+     <tbody>
+     <tr><td>1</td><td>{6} y {5}</td></tr>
+     <tr><td>2</td><td>{4}, {7}, {9}, {11} y {13}</td></tr>
+     <tr><td>3</td><td>{8}, {10} y {12}</td></tr>
+     <tr><td>4</td><td>{2}</td></tr>
+     <tr><td>5</td><td>{1}</td></tr>
+     <tr><td>6</td><td>{1}</td></tr>
+     <tr><td>7</td><td>{2}</td></tr>
+     <tr><td>8</td><td>{3}</td></tr>
+     <tr><td>9</td><td>{2}</td></tr>
+     <tr><td>10</td><td>{3}</td></tr>
+     <tr><td>11</td><td>{2}</td></tr>
+     <tr><td>12</td><td>{3}</td></tr>
+     <tr><td>13</td><td>{2}</td></tr>
+     </tbody>
+     </table>
+
+
+- Title:
+  Image: ../images/electric-cableado-19.png
+  Image_width: 460
+  Cloze:
+     <strong>Cableado del circuito 19:</strong><br>
+     <table>
+     <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
+     <tbody>
+     <tr><td>1</td><td>{3} y {12}</td></tr>
+     <tr><td>2</td><td>{9} y {11}</td></tr>
+     <tr><td>3</td><td>{1}</td></tr>
+     <tr><td>4</td><td>{7} y {10}</td></tr>
+     <tr><td>5</td><td>{13}</td></tr>
+     <tr><td>6</td><td>{8}</td></tr>
+     <tr><td>7</td><td>{4} y {10}</td></tr>
+     <tr><td>8</td><td>{6}</td></tr>
+     <tr><td>9</td><td>{2}</td></tr>
+     <tr><td>10</td><td>{4} y {7}</td></tr>
+     <tr><td>11</td><td>{2}</td></tr>
+     <tr><td>12</td><td>{1}</td></tr>
+     <tr><td>13</td><td>{5}</td></tr>
+     </tbody>
+     </table>
+
+
+- Title:
+  Image: ../images/electric-cableado-20.png
+  Image_width: 460
+  Cloze:
+     <strong>Cableado del circuito 20:</strong><br>
+     <table>
+     <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
+     <tbody>
+     <tr><td>1</td><td>{4}, {8}, {10} y {12}</td></tr>
+     <tr><td>2</td><td>{7}</td></tr>
+     <tr><td>3</td><td>{9}, {11}, {13}</td></tr>
+     <tr><td>4</td><td>{1}</td></tr>
+     <tr><td>5</td><td>{6} y {14}</td></tr>
+     <tr><td>6</td><td>{5} y {14}</td></tr>
+     <tr><td>7</td><td>{2}</td></tr>
+     <tr><td>8</td><td>{1}</td></tr>
+     <tr><td>9</td><td>{3}, {11} y {13}</td></tr>
+     <tr><td>10</td><td>{1}</td></tr>
+     <tr><td>11</td><td>{3}, {9} y {13}</td></tr>
+     <tr><td>12</td><td>{1}</td></tr>
+     <tr><td>13</td><td>{3}, {9} y {11}</td></tr>
+     <tr><td>14</td><td>{5} y {6}</td></tr>
+     <tr><td>Vout</td><td>{3}</td></tr>     
+     </tbody>
+     </table>
+
