@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Electricidad/es-electric-energy-3</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Energía eléctrica III. Pregunta 01.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Energía eléctrica</strong><br>
+La energía eléctrica no es una fuente de energía {1:SHORTANSWER:=primaria}, sino que se debe {1:SHORTANSWER:=generar} a partir de fuentes de energía primarias. La razón por la que se {1:SHORTANSWER:=genera} energía eléctrica es que se trata de una energía muy fácil de {1:SHORTANSWER:=transportar}, fácil de {1:SHORTANSWER:=controlar} y de convertir en otras formas de energía de manera {1:SHORTANSWER:=eficiente}.]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Energía eléctrica III. Pregunta 02.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Ventajas de la energía eléctrica</strong><br>
+<ul>
+<li>Puede obtenerse con {1:SHORTANSWER:=facilidad} a partir de otras formas de energía (mecánica, química, {1:SHORTANSWER:=calorífica}, radiante, etc.)</li>
+<li>Se puede {1:SHORTANSWER:=transportar} con facilidad a grandes distancias.</li>
+<li>El transporte es {1:SHORTANSWER:=eficiente} y consume poca energía.</li>
+<li>Se puede convertir fácilmente en otras formas de {1:SHORTANSWER:=energía}.</li>
+<li>Se puede {1:SHORTANSWER:=controlar} de forma muy sencilla.</li>
+<li>Es muy {1:SHORTANSWER:=limpia} y no contamina en el lugar donde se usa. Aunque sí puede producir {1:SHORTANSWER:=contaminación} en el lugar de generación.</li>
+<li>Es más {1:SHORTANSWER:=segura} que otras formas de energía.</li>
+</ul>]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Energía eléctrica III. Pregunta 03.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Desventajas de la energía eléctrica</strong><br>
+<ul>
+<li>No existe una fuente primaria de energía eléctrica, hay que {1:SHORTANSWER:=generarla} a partir de otras fuentes primarias.</li>
+<li>La mayor parte de la {1:SHORTANSWER:=electricidad} que se genera en la actualidad procede de energías primarias no {1:SHORTANSWER:=renovables} y contaminantes, como las energías fósiles o la nuclear.</li>
+<li>No se puede almacenar con facilidad. En la red eléctrica hay que {1:SHORTANSWER:=generar} en cada momento la misma cantidad de electricidad que la que se está {1:SHORTANSWER:=consumiendo}.</li>
+<li>Para su transporte se necesitan {1:SHORTANSWER:=cables}, por lo que es difícil de utilizar en el transporte marítimo y {1:SHORTANSWER:=aéreo}.</li>
+<li>Puede ser {1:SHORTANSWER:=peligrosa} y provocar incendios y descargas eléctricas si no se toman las medidas de {1:SHORTANSWER:=precaución} necesarias.</li>
+<ul>]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Energía eléctrica III. Pregunta 04.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Cálculos con energía eléctrica</strong><br>
+La fórmula de la energía eléctrica es la siguiente.<br> <br> E = {1:SHORTANSWER:=P} · {1:SHORTANSWER:=t}<br> <br> Siendo las magnitudes y unidades las siguientes.<br>
+<table> <tr><td>E =</td><td>{1:SHORTANSWER:=Energía} en kilovatios-hora [kWh]</td></tr> <tr><td>P =</td><td>{1:SHORTANSWER:=Potencia} en kilovatios [kW]</td></tr> <tr><td>t =</td><td>{1:SHORTANSWER:=Tiempo} en horas [h]</td></tr> </table> <br> Despejando, tenemos las otras formas de la fórmula de la energía eléctrica.<br>
+P = {1:SHORTANSWER:=E} / {1:SHORTANSWER:=t}<br>
+t = {1:SHORTANSWER:=E} / {1:SHORTANSWER:=P}<br>]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Energía eléctrica III. Pregunta 05.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Cálculos con energía eléctrica</strong><br>
+La fórmula de la energía eléctrica nos permite realizar cálculos relativos a la {1:SHORTANSWER:=factura} eléctrica, que es uno de los gastos más importantes de los {1:SHORTANSWER:=hogares}.<br>
+Según esta fórmula, la {1:SHORTANSWER:=energía} que consumimos depende de la {1:SHORTANSWER:=potencia} del aparato que conectemos y del {1:SHORTANSWER:=tiempo} que el aparato esté en funcionamiento.<br>
+Así, el frigorífico es uno de los electrodomésticos con {1:SHORTANSWER:=menor} potencia, ya que consume alrededor de {1:SHORTANSWER:=150} vatios. Sin embargo, es el electrodoméstico que {1:SHORTANSWER:=más} energía consume en el hogar, aproximadamente un {1:SHORTANSWER:=tercio} del total, ya que está en funcionamiento casi todo el día {1:SHORTANSWER:=todos} los días del año.<br>
+Los electrodomésticos de {1:SHORTANSWER:=mayor} potencia suelen ser los que generan grandes cantidades de {1:SHORTANSWER:=calor}. En este grupo se encuentran el {1:SHORTANSWER:=horno} eléctrico, la vitrocerámica, el secador de pelo, el {1:SHORTANSWER:=calefactor} de aire, etc. La potencia de estos electrodomésticos oscila entre {1:SHORTANSWER:=1000} y {1:SHORTANSWER:=3000} vatios, por lo que gastan mucha energía eléctrica aunque estén poco tiempo {1:SHORTANSWER:=encendidos}.]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+
+</quiz>

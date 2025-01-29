@@ -1,0 +1,126 @@
+﻿
+Category: Electricidad
+Title: Energía eléctrica III
+Copyright: 2023 por Carlos Félix Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+Source_link: ../es/electric-energia.html
+Show_max: 0
+
+---
+
+# *******************
+#  Energía eléctrica
+# *******************
+
+
+- Title:
+  Cloze:
+     <strong>Energía eléctrica</strong><br>
+
+     La energía eléctrica no es una fuente de energía {primaria},
+     sino que se debe {generar} a partir de fuentes de energía primarias.
+     La razón por la que se {genera} energía eléctrica es que se trata
+     de una energía muy fácil de {transportar}, fácil de {controlar} y
+     de convertir en otras formas de energía de manera {eficiente}.
+
+
+- Title:
+  Cloze:
+     <strong>Ventajas de la energía eléctrica</strong><br>
+
+     <ul>
+
+     <li>Puede obtenerse con {facilidad} a partir de otras formas de energía
+     (mecánica, química, {calorífica}, radiante, etc.)</li>
+
+     <li>Se puede {transportar} con facilidad a grandes distancias.</li>
+
+     <li>El transporte es {eficiente} y consume poca energía.</li>
+
+     <li>Se puede convertir fácilmente en otras formas de {energía}.</li>
+
+     <li>Se puede {controlar} de forma muy sencilla.</li>
+
+     <li>Es muy {limpia} y no contamina en el lugar donde se usa.
+     Aunque sí puede producir {contaminación} en el lugar de generación.</li>
+
+     <li>Es más {segura} que otras formas de energía.</li>
+
+     </ul>
+
+
+- Title:
+  Cloze:
+     <strong>Desventajas de la energía eléctrica</strong><br>
+
+     <ul>
+
+     <li>No existe una fuente primaria de energía eléctrica,
+     hay que {generarla} a partir de otras fuentes primarias.</li>
+
+     <li>La mayor parte de la {electricidad} que se genera en la actualidad
+     procede de energías primarias no {renovables} y contaminantes,
+     como las energías fósiles o la nuclear.</li>
+
+     <li>No se puede almacenar con facilidad.
+     En la red eléctrica hay que {generar} en cada momento la misma cantidad
+     de electricidad que la que se está {consumiendo}.</li>
+
+     <li>Para su transporte se necesitan {cables}, por lo que es difícil de
+     utilizar en el transporte marítimo y {aéreo}.</li>
+
+     <li>Puede ser {peligrosa} y provocar incendios y descargas eléctricas
+     si no se toman las medidas de {precaución} necesarias.</li>
+
+     <ul>
+
+
+- Title:
+  Cloze:
+     <strong>Cálculos con energía eléctrica</strong><br>
+
+     La fórmula de la energía eléctrica es la siguiente.<br>
+     <br>
+     E = {P} · {t}<br>
+     <br>
+     Siendo las magnitudes y unidades las siguientes.<br>
+
+     <table>
+     <tr><td>E =</td><td>{Energía} en kilovatios-hora [kWh]</td></tr>
+     <tr><td>P =</td><td>{Potencia} en kilovatios [kW]</td></tr>
+     <tr><td>t =</td><td>{Tiempo} en horas [h]</td></tr>
+     </table>
+     <br>
+     Despejando, tenemos las otras formas de la fórmula de la energía eléctrica.<br>
+
+     P = {E} / {t}<br>
+
+     t = {E} / {P}<br>
+
+
+- Title:
+  Cloze:
+     <strong>Cálculos con energía eléctrica</strong><br>
+
+     La fórmula de la energía eléctrica nos permite realizar cálculos
+     relativos a la {factura}
+     eléctrica, que es uno de los gastos más importantes de los {hogares}.<br>
+
+     Según esta fórmula, la {energía} que consumimos depende de la {potencia}
+     del aparato que conectemos y del {tiempo} que el aparato esté en
+     funcionamiento.<br>
+
+     Así, el frigorífico es uno de los electrodomésticos con {menor} potencia,
+     ya que consume alrededor de {150} vatios.
+     Sin embargo, es el electrodoméstico que {más} energía consume en
+     el hogar, aproximadamente un {tercio} del total, ya que está en
+     funcionamiento casi todo el día {todos} los días del año.<br>
+
+     Los electrodomésticos de {mayor} potencia suelen ser los que generan
+     grandes cantidades de {calor}. En este grupo se encuentran el {horno}
+     eléctrico, la vitrocerámica, el secador de pelo, el {calefactor} de aire,
+     etc.
+     La potencia de estos electrodomésticos oscila entre {1000} y {3000}
+     vatios, por lo que gastan mucha energía eléctrica aunque estén poco
+     tiempo {encendidos}.

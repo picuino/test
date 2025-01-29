@@ -12,17 +12,20 @@ Show_max: 0
 - Title:
   Cloze:
      <strong>Energía.</strong><br>
-     La energía es muy importante en nuestra {sociedad} porque nos
-     permite satisfacer {necesidades} importantes de nuestra vida
-     diaria, como disponer de luz, {cocinar} nuestros alimentos,
-     calentar nuestras {casas} y {transportarnos} a diferentes
-     lugares.<br>
-     El excesivo uso de las energías {fósiles} (petróleo, gas natural
-     y carbón) está generando una crisis {climática} que nos obliga a
-     cambiar nuestras fuentes tradicionales de {energía} por otras menos
-     contaminantes y más {sostenibles}, como pueden ser la energía solar
-     o la eólica.
-     
+     La energía es muy importante en nuestra {sociedad} porque nos permite
+     satisfacer {necesidades} básicas diarias, como disponer
+     de luz, {cocinar} nuestros alimentos, calentar nuestras {casas} y
+     {transportarnos} a diferentes lugares.<br>
+
+     El uso excesivo de las energías {fósiles} (petróleo, gas natural y carbón)
+     está generando una crisis {climática} que nos obliga a cambiar nuestras
+     fuentes tradicionales de {energía} por otras menos contaminantes y más
+     {sostenibles}, como pueden ser la energía solar o la eólica.<br>
+
+     Comenzaremos estudiando las diferentes {formas} o manifestaciones de la
+     energía y cuáles son las fuentes de energía {primaria} que utilizamos,
+     para terminar estudiando en detalle la energía {eléctrica}.
+
 
 # ****************************
 #     Formas de energía
@@ -31,166 +34,158 @@ Show_max: 0
 - Title:
   Cloze:
      <strong>Formas de energía.</strong><br>
-     La energía es la capacidad de realizar {trabajo} o de producir
-     cambios.<br>
+     La energía es la capacidad de realizar {trabajo} o de producir cambios.<br>
+
      Existen muchas formas o {manifestaciones} de la energía.
-     Cada una tiene características {diferentes}, pero todas ellas
-     pueden convertirse en {trabajo} o movimiento, luz, calor, sonido
-     u otros efectos {útiles} para nosotros.<br>
+     Cada una tiene características {diferentes}, pero todas ellas  pueden
+     convertirse en {trabajo} o movimiento, luz, calor, sonido u otros efectos
+     {útiles} para nosotros.<br>
+
      Según el primer principio de la {termodinámica}, la energía no
      se crea ni se destruye, solo se {transforma} de una forma a otra.
 
-- Title:
-  Cloze:
-     <strong>Formas de la energía.</strong><br>
-     La energía {potencial} es la energía que tiene un objeto debido
-     a su posición en un campo gravitatorio.
 
 - Title:
   Cloze:
-     <strong>Formas de la energía.</strong><br>
-     Un ejemplo de energía potencial lo encontramos en las {presas}
-     de los ríos. 
-     El agua al caer transforma su energía potencial en cinética,
-     que mueve una turbina.
-     Finalmente la turbina mueve un {alternador} que produce energía
-     eléctrica.
-     
-- Title:
-  Cloze:
-     <strong>Formas de la energía.</strong><br>
-     La energía {cinética} es la energía que tiene un objeto debido
-     a su movimiento.
+     <strong>Energía potencial</strong><br>
+     Es la energía que tiene un objeto debido a su {posición} en un
+     campo gravitatorio.<br>
+
+     Por ejemplo, un objeto que se encuentre en una posición {elevada}
+     tiene energía {potencial} gracias a la gravedad de la Tierra.
+     Si dejamos caer el objeto, esa energía potencial se {transforma}
+     en energía {cinética}, con la que podría arrastrar otro objeto y
+     realizar {trabajo}.
+
+     Las presas hidráulicas acumulan energía {potencial} en el agua
+     cuando esta se almacena en una {posición} elevada.
+     Al caer desde la presa, el agua transforma su energía potencial
+     en cinética, que mueve una {turbina}. Finalmente la turbina mueve
+     un alternador que produce energía {eléctrica}.
+
 
 - Title:
   Cloze:
-     <strong>Formas de la energía.</strong><br>
-     Un ejemplo de energía cinética lo encontramos en el {viento}
-     que es capaz de mover un {aerogenerador}.
-     <br>
-     Cuando un {automóvil} acelera, se está transformando la energía
-     {química} de la gasolina en energía cinética.
-     <br>
-     La Luna tiene energía {cinética} al moverse alrededor de la Tierra.
-     En las {mareas} de los océanos podemos observar cómo se transfiere
-     la energía {cinética} de la Luna a la Tierra.
+     <strong>Energía cinética</strong><br>
+     Es la energía que tiene un objeto debido a su {movimiento}.<br>
+
+     Por ejemplo, una pelota lanzada a gran {velocidad} tendrá energía
+     cinética y podrá desplazar otros objetos.
+     La energía {eólica} es la energía cinética del aire en movimiento.
+     Cuando un automóvil {acelera}, se transforma la energía química de la
+     gasolina en energía cinética.<br>
+
+     La Luna tiene energía cinética al moverse alrededor de la Tierra.
+     En las {mareas} de los océanos podemos observar cómo la energía
+     cinética de la Luna se {transfiere} a la Tierra.
 
 - Title:
   Cloze:
-     <strong>Formas de la energía.</strong><br>
-     La energía {mecánica} es la energía que se transmite mediante el 
-     desplazamiento lineal o el giro de la pieza de una máquina.
+     <strong>Energía mecánica</strong><br>
+     Es la energía que se transmite mediante el {desplazamiento} lineal
+     o el {giro} de una pieza mecánica de una máquina.<br>
+
+     Por ejemplo, el eje de una {batidora} transmite la energía mecánica
+     del motor a las cuchillas.
+     La biela de un motor, que sube y baja, transmite energía {mecánica}
+     desde el pistón hasta el cigüeñal para que este gire y mueva el
+     {automóvil}.
+
 
 - Title:
   Cloze:
-     <strong>Formas de la energía.</strong><br>
-     Un ejemplo de energía mecánica lo encontramos en el eje de una
-     {batidora} de cocina que hace girar las cuchillas.
-     <br>
-     La {biela} de un motor, que sube y baja, transmite energía mecánica
-     desde el pistón hasta el cigüeñal, que girará para mover el automóvil.
+     <strong>Energía térmica</strong><br>
+     Es una forma de energía asociada a la {temperatura} de un objeto.
+     Se basa en el movimiento interno de los átomos y {moléculas} del
+     objeto. Cuanto mayor es la temperatura de un objeto, más {rápido} se
+     mueven sus partículas.<br>
 
-- Title:
-  Cloze:
-     <strong>Formas de la energía.</strong><br>
-     La energía {térmica} es la energía asociada a la temperatura de los
-     objetos. Se basa en el movimiento interno de los átomos y moléculas
-     de los objetos.<br>
-     Esta es la forma más {degradada} de energía y es la más difícil de
-     transformar, sobre todo si se encuentra a bajas temperaturas.
+     Es la forma de energía más {degradada} y más difícil de transformar,
+     sobre todo si se encuentra a bajas temperaturas.<br>
 
-- Title:
-  Cloze:
-     <strong>Formas de la energía.</strong><br>
-     Un ejemplo de energía térmica lo encontramos en una {caldera}
-     de calefacción que quema gas natural o gasóleo para calentar 
+     En todas las transformaciones de energía se producen {pérdidas} que se
+     terminan convirtiendo en energía térmica.
+
+     Un ejemplo de energía térmica es la transformación que se
+     produce en una {caldera} de calefacción.
+     La energía {química} del gas natural se transforma en calor a alta
+     {temperatura} durante la combustión, lo que sirve para calentar
      los edificios.
 
-- Title:
-  Cloze:
-     <strong>Formas de la energía.</strong><br>
-     La energía {química} es la energía que se encuentra en los enlaces
-     de los combustibles, de los alimentos o de las {baterías}.
 
 - Title:
   Cloze:
-     <strong>Formas de la energía.</strong><br>
-     Para liberar la energía química es necesario provocar reacciones,
-     que en la mayoría de los casos consisten en combinar combustibles
-     con {oxígeno}.<br>
-     Eso es lo que hacemos los animales cuando convertimos la grasa y los
-     carbohidratos de los {alimentos} en movimiento y calor para seguir 
-     vivos.<br>
-     Los combustibles fósiles son sustancias que producen energía al 
-     combinarse con el oxígeno del aire. Por ejemplo, al quemar carbón o
-     gasolina se produce energía {térmica}.<br>
+     <strong>Energía química</strong><br>
+     Es la energía que se encuentra en los enlaces {químicos} de los
+     combustibles, de los {alimentos} o de las baterías.<br>
+
+     Para liberar esta energía es necesario provocar {reacciones}
+     químicas, que en la mayoría de los casos consisten en combinar
+     combustibles con {oxígeno}.
+     Eso es lo que hacemos los animales cuando convertimos la
+     grasa y los carbohidratos de los alimentos en {movimiento} y {calor}
+     para seguir con vida. <br>
+
+     Los combustibles {fósiles} son sustancias que producen
+     energía al {combinarse} con el oxígeno del aire. Por ejemplo, al
+     quemar carbón o gasolina se produce energía {térmica}.<br>
+
      También encontramos este tipo de energía química en las {baterías}
-     recargables o de un solo uso. En este caso, en las reacciones no
-     interviene el oxígeno.
+     recargables y en las de un solo uso. En este caso, en las reacciones
+     no interviene el {oxígeno}.
 
 - Title:
   Cloze:
-     <strong>Formas de la energía.</strong><br>
-     La energía {nuclear} es la energía que se encuentra en el interior
-     de los átomos y que se desprende en las reacciones de fusión y de 
-     fisión.
+     <strong>Energía nuclear</strong><br>
+     Es la energía interna de los átomos que se libera en las
+     reacciones de {fusión} y de {fisión} nuclear.<br>
 
-- Title:
-  Cloze:
-     <strong>Formas de la energía.</strong><br>
-     Un ejemplo de energía nuclear es la energía del {Sol} que se produce
-     por la fusión de sus átomos de hidrógeno.<br>
-     Otro ejemplo de energía nuclear lo encontramos en las centrales 
-     nucleares en las que se {fisiona} a los átomos de {uranio} para
-     poder producir calor y electricidad.<br>
+     Ejemplos de esta energía son la energía del {Sol}, que se
+     produce por la {fusión} de sus átomos de hidrógeno, y la energía de
+     una central nuclear, que {fisiona} los átomos de uranio.
      La energía {geotérmica} de la Tierra también proviene de la energía
-     nuclear del uranio que se encuentra en su interior.
+     nuclear del {uranio} que se encuentra en su interior.
+
 
 - Title:
   Cloze:
-     <strong>Formas de la energía.</strong><br>
-     La energía {radiante} es la energía que se encuentra en la luz
-     o en las microondas de radio.
+     <strong>Energía radiante</strong><br>
+     Es la energía que está presente en la {luz} o en las
+     {microondas} de radio.<br>
+
+     Es fundamental, porque es la mayor parte de la {energía} que
+     llega a la Tierra gracias al Sol y que podemos aprovechar con
+     {paneles} solares.<br>
+
+     Los microondas de las cocinas convierten la energía eléctrica en
+     {microondas} de radio que calientan el agua de los alimentos.
+
 
 - Title:
   Cloze:
-     <strong>Formas de la energía.</strong><br>
-     La energía radiante tiene una importancia fundamental,
-     porque es la mayor parte de la energía que llega a la 
-     Tierra gracias al Sol y que podemos aprovechar con paneles
-     solares.<br>
-     Los microondas de las cocinas convierten la energía eléctrica
-     en {microondas} de radio que calientan el agua de los alimentos.
+     <strong>Energía eléctrica</strong><br>
+     Es la energía asociada al movimiento de los {electrones} a través
+     de los cables conductores. Es muy  sencillo convertir otros tipos de
+     energía en energía eléctrica y {viceversa}.
+     Por esa razón la energía eléctrica se utiliza mucho para
+     {transportar} otras formas de energía de un lugar a otro.<br>
 
-- Title:
-  Cloze:
-     <strong>Formas de la energía.</strong><br>
-     La energía {eléctrica} es la energía asociada al movimiento de los
-     electrones a través de los cables conductores.
-     
-- Title:
-  Cloze:
-     <strong>Formas de la energía.</strong><br>
-     Es muy sencillo convertir otros tipos de energía en energía eléctrica
-     y viceversa. Por esa razón la energía eléctrica se utiliza mucho para
-     {transportar} otras formas de energía de un sitio a otro.<br>
-     
-     Por ejemplo, la energía {mecánica} de un aerogenerador moviéndose
-     con el viento puede transportarse en forma de energía {eléctrica},
-     con facilidad y de forma casi instantánea, a una casa que se
-     encuentre a cientos de kilómetros.
-     Esa energía eléctrica puede transformarse de nuevo en la energía
-     {mecánica} de una batidora.<br>
+     Por ejemplo, la energía {mecánica} de un aerogenerador moviéndose con
+     el viento puede transportarse fácilmente y de forma casi instantánea
+     en forma de energía {eléctrica} a una casa que se encuentre a cientos
+     de kilómetros.
+     Esa energía eléctrica puede {transformarse} de nuevo en la energía
+     mecánica, por ejemplo, en la de batidora o en cualquier otra forma
+     {aprovechable}.<br>
 
      Los {rayos} de las tormentas y las descargas eléctricas que
      experimentamos al quitarnos un jersey son manifestaciones naturales
-     de la energía eléctrica, pero no podemos aprovecharlas de forma 
-     {útil}.<br>
-     
-     Una desventaja que tiene la energía eléctrica consiste en que no se
-     puede {almacenar} con facilidad, hay que consumirla en el momento 
-     en el que se genera.
-     Para poder almacenar energía eléctrica es necesario convertirla en
-     energía {química} en baterías o en energía {potencial} en centrales
-     hidroeléctricas reversibles.
+     de la energía eléctrica, pero no podemos {aprovecharlas} de forma útil.<br>
+
+     Una desventaja de la energía eléctrica consiste en que
+     no se puede {almacenar} con facilidad,
+     por lo que hay que {consumirla} en el momento en el que se genera.
+     Para poder almacenar energía eléctrica, esta debe transformarse en
+     en energía química mediante {baterías} o en energía potencial
+     mediante centrales hidroeléctricas {reversibles}.
 

@@ -17,63 +17,82 @@ Show_max: 0
 - Title:
   Cloze:
      <strong>Transformación de la energía</strong><br>
-     Energía potencial del agua de una presa en energía eléctrica<br>
-     <br>
-     La energía {potencial} del agua de una presa -> se deja caer el
-     agua para que tenga energía {cinética} -> una turbina convierte
-     esta energía en giro de un {eje} -> el giro del eje mueve un
-     {alternador} -> el alternador convierte la energía mecánica
-     transmitida por el eje en energía eléctrica.
+     Según el primer principio de la {termodinámica}, la energía
+     no se crea ni se destruye,
+     solo se {transforma} de una forma a otra.<br>
+
+     En estos procesos, a menudo se necesitan varios pasos {intermedios} para
+     llegar a producir la forma de energía {deseada}.
 
 
 - Title:
   Cloze:
      <strong>Transformación de la energía</strong><br>
-     Energía química del gas natural en energía eléctrica<br>
-     <br>
-     La energía {química} del gas natural -> se convierte en energía
-     {térmica} dentro del quemador de una turbina -> la energía térmica
-     se convierte en {giro} de la turbina -> un alternador convierte
-     la energía mecánica del eje giratorio en energía {eléctrica}.
+
+     <strong>Energía potencial del agua de una presa en energía eléctrica.</strong><br>
+
+
+     La energía {potencial} del agua de una presa
+     se transforma en energía {cinética} cuando se deja caer el agua.
+     A continuación, una {turbina} convierte esta energía cinética en giro
+     de un eje. El giro del eje mueve un {alternador}, que convierte la energía
+     mecánica transmitida por el eje en energía {eléctrica}.
 
 
 - Title:
   Cloze:
      <strong>Transformación de la energía</strong><br>
-     Energía nuclear del uranio en energía eléctrica<br>
-     <br>
-     La energía {nuclear} del uranio -> se convierte en energía
-     {térmica} dentro del reactor nuclear -> la energía térmica se
-     convierte en {vapor} de agua sobrecalentado -> una {turbina} de
-     vapor convierte la energía del vapor de agua en energía 
-     {mecánica} del giro de un eje -> un {alternador} convierte la 
-     energía mecánica del eje en energía {eléctrica}.
+
+     <strong>Energía química del gas natural en energía eléctrica.</strong><br>
+
+     La energía {química} del gas natural
+     se convierte en energía {térmica} dentro del quemador de una turbina,
+     que a su vez la convierte en giro de la turbina.
+     Un alternador convierte la energía {mecánica} del eje giratorio
+     en energía {eléctrica}.
 
 
 - Title:
   Cloze:
      <strong>Transformación de la energía</strong><br>
-     Energía química de la gasolina en energía cinética de un automóvil<br>
-     <br>
-     La energía {química} de la gasolina -> se convierte en energía
-     térmica dentro de la cámara de {combustión} -> esa energía
-     térmica aumenta la presión del gas y mueve un {pistón} produciendo
-     energía {mecánica} -> la energía mecánica se transmite a las
-     {ruedas} que giran moviendo el automóvil aportando energía
-     {cinética}.
+
+     <strong>Energía nuclear del uranio en energía eléctrica.</strong><br>
+
+
+     La energía {nuclear} del uranio
+     se convierte en energía {térmica} dentro del reactor nuclear,
+     que a su vez se convierte en vapor de agua sobrecalentado.
+     Una turbina de vapor convierte la energía {térmica} del vapor de
+     agua en energía {mecánica} de giro de un eje,
+     que un alternador convierte en energía {eléctrica}.
 
 
 - Title:
   Cloze:
      <strong>Transformación de la energía</strong><br>
-     Energía eólica en calor para cocinar<br>
-     <br>
-     La energía {cinética} del viento -> mueve las palas de un
-     {aerogenerador} produciendo energía {mecánica} -> la energía
-     mecánica de giro se aplica a un {alternador} que la convierte
-     en energía eléctrica -> la energía {eléctrica} llega a nuestra
-     casa donde la {resistencia} de la vitrocerámica la convierte
-     en energía {térmica} para cocinar. 
+
+     <strong>Energía química de la gasolina en energía cinética de un automóvil.</strong><br>
+
+     La energía {química} de la gasolina
+     se convierte en energía {térmica} dentro de la cámara de combustión,
+     lo que aumenta la presión del gas y mueve un pistón,
+     produciendo energía {mecánica}.
+     Esta energía mecánica se transmite a las ruedas,
+     que giran y mueven el automóvil, aportando energía {cinética}.
+
+
+- Title:
+  Cloze:
+     <strong>Transformación de la energía</strong><br>
+
+     <strong>Energía eólica en calor para cocinar.</strong><br>
+
+     La energía {cinética} del viento
+     mueve las palas de un aerogenerador y produce energía {mecánica} de giro
+     que se aplica a un alternador para convertirla en energía {eléctrica}.
+     La energía eléctrica se transporta hasta nuestras casas donde,
+     al pasar por la {resistencia} de la vitrocerámica,
+     se convierte en energía {térmica} para cocinar.
 
 
 # ****************************
@@ -82,112 +101,82 @@ Show_max: 0
 
 - Title:
   Cloze:
-     <strong>Fuentes de energía no renovables.</strong><br>
-     Estas fuentes de energía se {agotan} a medida que las consumimos
-     porque solo existen unas reservas {limitadas}.<br>   
-     La mayoría de estas fuentes de energía están basadas en la
-     energía {química} que las plantas y animales captaron del {Sol}
-     hace millones de años.<br>     
-     Un problema importante que genera este tipo de fuentes de energía
-     es la {contaminación}, el calentamiento global y la crisis 
-     {climática}.<br>
+     <strong>Fuentes de energía.</strong><br>
+
+     Una fuente de energía es un recurso {natural} del que se puede obtener
+     energía. Según su {disponibilidad}, podemos distinguir entre
+     fuentes de energía {renovables} y fuentes de energía no renovables.
 
 
 - Title:
   Cloze:
      <strong>Fuentes de energía no renovables.</strong><br>
+     Estas fuentes de energía se {agotan} a medida que las consumimos
+     porque solo existen unas reservas {limitadas}.<br>
+     La mayoría de estas fuentes de energía se basan en la
+     energía {química} que las plantas y los animales captaron
+     del {Sol} hace millones de años.<br>
+     Un problema importante que genera este tipo de fuentes de energía
+     es la {contaminación}, el calentamiento global y la crisis {climática}.<br>
+
+
+- Title:
+  Cloze:
+     <strong>Fuentes de energía no renovables.</strong><br>
+
      {Carbón}. Es la fuente de energía que produce mayor contaminación
-     medioambiental y gases de efecto invernadero.<br>
-     {Petróleo}. Es la más utilizada en la actualidad para todo tipo de
-     usos, desde el transporte hasta el calentamiento de casas.<br>
-     {Gas natural}. Es el menos contaminante de los tres tipos de fuentes
-     de energía fósiles.<br>
+     medioambiental y emisiones de gases de efecto invernadero.<br>
+
+     {Petróleo}. Es la más utilizada en la actualidad para todo tipo
+     de usos, desde el transporte hasta la calefacción de viviendas.
+     También es muy contaminante.<br>
+
+     Gas {natural}. Es el menos contaminante de los tres tipos de
+     fuentes de energía fósiles cuando se quema, pero también emite
+     CO2 de efecto invernadero. Está compuesto de {metano} y, cuando se
+     pierde en la atmósfera, produce un efecto invernadero mucho mayor
+     que el del CO2.<br>
+
      {Nuclear}. Esta energía produce pocos gases de efecto invernadero,
-     pero genera importantes cantidades de residuos radioactivos
+     pero sí genera importantes cantidades de residuos radioactivos
      contaminantes.
 
 
 - Title:
   Cloze:
      <strong>Fuentes de energía renovables.</strong><br>
-     Estas fuentes de energía se consideran {inagotables} y, 
-     con las técnicas adecuadas, se pueden aprovechar sin {límite}.
-     <br><br>
-     El problema que presenta la mayoría de las energías renovables 
-     consiste en que son {intermitentes}, por lo que es necesario 
-     almacenar los excedentes de energía para poder utilizarlos más tarde.
+
+     Estas fuentes de energía se las considera {inagotables} y,
+     con las técnicas adecuadas, se pueden {aprovechar} sin límite.<br>
+
+     El {problema} de la mayoría de las energías renovables consiste en
+     que son {intermitentes}, por lo que es necesario almacenar los
+     excedentes de energía para poder utilizarlos más {adelante}.
 
 
 - Title:
   Cloze:
      <strong>Fuentes de energía renovables.</strong><br>
-     {Solar}. Es energía {radiante} que proviene de las reacciones nucleares
-     de fusión que se producen dentro del Sol.
-     <br>
-     {Eólica}. La energía del viento proviene del calentamiento por parte
-     del Sol de las masas de aire en la atmósfera.
-     <br>
-     {Hidráulica}. Proviene de la energía potencial del agua de los ríos
-     acumulada en las presas. Tiene la ventaja de ser almacenable.
-     <br>
-     {Geotérmica}. Proviene del calor de la Tierra producido por las
-     reacciones nucleares de su interior. Tiene la ventaja de estar
-     siempre {disponible}, aunque solo se puede aprovechar en algunas
-     zonas volcánicas la Tierra.
-     <br>
-     {Biomasa}. Es la energía química que podemos obtener de los árboles
-     o de los residuos biológicos que se pueden convertir en {biogás}.
-     <br>
+
+     {Solar}. Es energía radiante que proviene de las reacciones
+     nucleares de {fusión} que tienen lugar en el interior del Sol.<br>
+
+     {Eólica}. La energía del viento proviene del calentamiento por
+     parte del Sol de las masas de aire en la {atmósfera}.<br>
+
+     {Hidráulica}. Proviene de la energía potencial del agua de los
+     ríos acumulada en las presas. Tiene la ventaja de que se puede
+     {almacenar} con facilidad.<br>
+
+     {Geotérmica}. Proviene del calor interno de la Tierra producido
+     por las reacciones nucleares de su interior.
+     Tiene la ventaja de estar siempre {disponible}, aunque solo se puede
+     aprovechar en algunas zonas volcánicas la Tierra.<br>
+
+     {Biomasa}. Es la energía química que podemos obtener de los {árboles}
+     o de los residuos biológicos que se pueden convertir en biogás.<br>
+
      {Mareomotriz}. Es la energía que se puede extraer del agua del mar
-     gracias al movimiento producido por las mareas.
+     gracias al movimiento que producen las {mareas}.
 
-
-# ****************************
-#     Energía eléctrica
-# ****************************
-
-- Title:
-  Cloze:
-     <strong>Energía eléctrica.</strong><br>
-     La energía eléctrica no es una fuente de energía {primaria}, 
-     sino que se debe generar a partir de otras fuentes primarias
-     de energía. Las razones por las que se genera energía eléctrica
-     se basan en que se trata de una energía muy fácil de {transportar},
-     fácil de {controlar} y resulta sencillo convertirla en otras 
-     formas de energía de manera {eficiente}.
-
-
-- Title:
-  Cloze:
-     <strong>Ventajas de la energía eléctrica.</strong><br>
-     <ul>
-     <li>Se puede {obtener|generar|conseguir} con facilidad a partir de
-     otras formas de energía (mecánica, química, calorífica, radiante, etc.).</li>
-     <li>Se puede {transportar} con facilidad a grandes distancias.</li>
-     <li>El transporte es {eficiente} y consume poca energía.</li>
-     <li>Es fácilmente {convertible} en otras formas de energía.</li>
-     <li>Se puede {controlar} de forma muy sencilla.</li>
-     <li>Es muy limpia y no produce {contaminación} en el lugar donde se
-     usa, aunque sí puede producir contaminación el generarla.</li>
-     <li>Es más {segura} que otras formas de energía.</li>
-     </ul>
-
-
-- Title:
-  Cloze:
-     <strong>Desventajas de la energía eléctrica.</strong><br>
-     <ul>
-     <li>No existe una fuente {primaria} de energía eléctrica, hay que
-     generarla a partir de otras fuentes primarias.</li>
-     <li>La mayor parte de la electricidad que se genera en la actualidad
-     procede de energías primarias no renovables y {contaminantes}
-     (energías fósiles o nuclear).</li>
-     <li>No se puede {almacenar} con facilidad. En la red eléctrica hay que
-     generar en cada momento la misma cantidad de electricidad que la que
-     se está {consumiendo}.</li>
-     <li>Necesita cables para ser transportada, por lo que es difícil de 
-     utilizar en el transporte {marítimo} y {aéreo}.</li>
-     <li>Puede ser peligrosa y producir {incendios} y {descargas} eléctricas
-     si no se toman las medidas de precaución necesarias.</li>
-     </ul>
 

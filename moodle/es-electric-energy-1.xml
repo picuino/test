@@ -14,7 +14,9 @@
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Energía.</strong><br> La energía es muy importante en nuestra {1:SHORTANSWER:=sociedad} porque nos permite satisfacer {1:SHORTANSWER:=necesidades} importantes de nuestra vida diaria, como disponer de luz, {1:SHORTANSWER:=cocinar} nuestros alimentos, calentar nuestras {1:SHORTANSWER:=casas} y {1:SHORTANSWER:=transportarnos} a diferentes lugares.<br> El excesivo uso de las energías {1:SHORTANSWER:=fósiles} (petróleo, gas natural y carbón) está generando una crisis {1:SHORTANSWER:=climática} que nos obliga a cambiar nuestras fuentes tradicionales de {1:SHORTANSWER:=energía} por otras menos contaminantes y más {1:SHORTANSWER:=sostenibles}, como pueden ser la energía solar o la eólica.]]>
+         <strong>Energía.</strong><br> La energía es muy importante en nuestra {1:SHORTANSWER:=sociedad} porque nos permite satisfacer {1:SHORTANSWER:=necesidades} básicas diarias, como disponer de luz, {1:SHORTANSWER:=cocinar} nuestros alimentos, calentar nuestras {1:SHORTANSWER:=casas} y {1:SHORTANSWER:=transportarnos} a diferentes lugares.<br>
+El uso excesivo de las energías {1:SHORTANSWER:=fósiles} (petróleo, gas natural y carbón) está generando una crisis {1:SHORTANSWER:=climática} que nos obliga a cambiar nuestras fuentes tradicionales de {1:SHORTANSWER:=energía} por otras menos contaminantes y más {1:SHORTANSWER:=sostenibles}, como pueden ser la energía solar o la eólica.<br>
+Comenzaremos estudiando las diferentes {1:SHORTANSWER:=formas} o manifestaciones de la energía y cuáles son las fuentes de energía {1:SHORTANSWER:=primaria} que utilizamos, para terminar estudiando en detalle la energía {1:SHORTANSWER:=eléctrica}.]]>
       </text>
     </questiontext>
     <generalfeedback format="html">
@@ -32,7 +34,9 @@
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de energía.</strong><br> La energía es la capacidad de realizar {1:SHORTANSWER:=trabajo} o de producir cambios.<br> Existen muchas formas o {1:SHORTANSWER:=manifestaciones} de la energía. Cada una tiene características {1:SHORTANSWER:=diferentes}, pero todas ellas pueden convertirse en {1:SHORTANSWER:=trabajo} o movimiento, luz, calor, sonido u otros efectos {1:SHORTANSWER:=útiles} para nosotros.<br> Según el primer principio de la {1:SHORTANSWER:=termodinámica}, la energía no se crea ni se destruye, solo se {1:SHORTANSWER:=transforma} de una forma a otra.]]>
+         <strong>Formas de energía.</strong><br> La energía es la capacidad de realizar {1:SHORTANSWER:=trabajo} o de producir cambios.<br>
+Existen muchas formas o {1:SHORTANSWER:=manifestaciones} de la energía. Cada una tiene características {1:SHORTANSWER:=diferentes}, pero todas ellas  pueden convertirse en {1:SHORTANSWER:=trabajo} o movimiento, luz, calor, sonido u otros efectos {1:SHORTANSWER:=útiles} para nosotros.<br>
+Según el primer principio de la {1:SHORTANSWER:=termodinámica}, la energía no se crea ni se destruye, solo se {1:SHORTANSWER:=transforma} de una forma a otra.]]>
       </text>
     </questiontext>
     <generalfeedback format="html">
@@ -50,7 +54,9 @@
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de la energía.</strong><br> La energía {1:SHORTANSWER:=potencial} es la energía que tiene un objeto debido a su posición en un campo gravitatorio.]]>
+         <strong>Energía potencial</strong><br> Es la energía que tiene un objeto debido a su {1:SHORTANSWER:=posición} en un campo gravitatorio.<br>
+Por ejemplo, un objeto que se encuentre en una posición {1:SHORTANSWER:=elevada} tiene energía {1:SHORTANSWER:=potencial} gracias a la gravedad de la Tierra. Si dejamos caer el objeto, esa energía potencial se {1:SHORTANSWER:=transforma} en energía {1:SHORTANSWER:=cinética}, con la que podría arrastrar otro objeto y realizar {1:SHORTANSWER:=trabajo}.
+Las presas hidráulicas acumulan energía {1:SHORTANSWER:=potencial} en el agua cuando esta se almacena en una {1:SHORTANSWER:=posición} elevada. Al caer desde la presa, el agua transforma su energía potencial en cinética, que mueve una {1:SHORTANSWER:=turbina}. Finalmente la turbina mueve un alternador que produce energía {1:SHORTANSWER:=eléctrica}.]]>
       </text>
     </questiontext>
     <generalfeedback format="html">
@@ -68,7 +74,9 @@
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de la energía.</strong><br> Un ejemplo de energía potencial lo encontramos en las {1:SHORTANSWER:=presas} de los ríos. El agua al caer transforma su energía potencial en cinética, que mueve una turbina. Finalmente la turbina mueve un {1:SHORTANSWER:=alternador} que produce energía eléctrica.]]>
+         <strong>Energía cinética</strong><br> Es la energía que tiene un objeto debido a su {1:SHORTANSWER:=movimiento}.<br>
+Por ejemplo, una pelota lanzada a gran {1:SHORTANSWER:=velocidad} tendrá energía cinética y podrá desplazar otros objetos. La energía {1:SHORTANSWER:=eólica} es la energía cinética del aire en movimiento. Cuando un automóvil {1:SHORTANSWER:=acelera}, se transforma la energía química de la gasolina en energía cinética.<br>
+La Luna tiene energía cinética al moverse alrededor de la Tierra. En las {1:SHORTANSWER:=mareas} de los océanos podemos observar cómo la energía cinética de la Luna se {1:SHORTANSWER:=transfiere} a la Tierra.]]>
       </text>
     </questiontext>
     <generalfeedback format="html">
@@ -86,7 +94,8 @@
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de la energía.</strong><br> La energía {1:SHORTANSWER:=cinética} es la energía que tiene un objeto debido a su movimiento.]]>
+         <strong>Energía mecánica</strong><br> Es la energía que se transmite mediante el {1:SHORTANSWER:=desplazamiento} lineal o el {1:SHORTANSWER:=giro} de una pieza mecánica de una máquina.<br>
+Por ejemplo, el eje de una {1:SHORTANSWER:=batidora} transmite la energía mecánica del motor a las cuchillas. La biela de un motor, que sube y baja, transmite energía {1:SHORTANSWER:=mecánica} desde el pistón hasta el cigüeñal para que este gire y mueva el {1:SHORTANSWER:=automóvil}.]]>
       </text>
     </questiontext>
     <generalfeedback format="html">
@@ -104,7 +113,10 @@
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de la energía.</strong><br> Un ejemplo de energía cinética lo encontramos en el {1:SHORTANSWER:=viento} que es capaz de mover un {1:SHORTANSWER:=aerogenerador}. <br> Cuando un {1:SHORTANSWER:=automóvil} acelera, se está transformando la energía {1:SHORTANSWER:=química} de la gasolina en energía cinética. <br> La Luna tiene energía {1:SHORTANSWER:=cinética} al moverse alrededor de la Tierra. En las {1:SHORTANSWER:=mareas} de los océanos podemos observar cómo se transfiere la energía {1:SHORTANSWER:=cinética} de la Luna a la Tierra.]]>
+         <strong>Energía térmica</strong><br> Es una forma de energía asociada a la {1:SHORTANSWER:=temperatura} de un objeto. Se basa en el movimiento interno de los átomos y {1:SHORTANSWER:=moléculas} del objeto. Cuanto mayor es la temperatura de un objeto, más {1:SHORTANSWER:=rápido} se mueven sus partículas.<br>
+Es la forma de energía más {1:SHORTANSWER:=degradada} y más difícil de transformar, sobre todo si se encuentra a bajas temperaturas.<br>
+En todas las transformaciones de energía se producen {1:SHORTANSWER:=pérdidas} que se terminan convirtiendo en energía térmica.
+Un ejemplo de energía térmica es la transformación que se produce en una {1:SHORTANSWER:=caldera} de calefacción. La energía {1:SHORTANSWER:=química} del gas natural se transforma en calor a alta {1:SHORTANSWER:=temperatura} durante la combustión, lo que sirve para calentar los edificios.]]>
       </text>
     </questiontext>
     <generalfeedback format="html">
@@ -122,7 +134,10 @@
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de la energía.</strong><br> La energía {1:SHORTANSWER:=mecánica} es la energía que se transmite mediante el desplazamiento lineal o el giro de la pieza de una máquina.]]>
+         <strong>Energía química</strong><br> Es la energía que se encuentra en los enlaces {1:SHORTANSWER:=químicos} de los combustibles, de los {1:SHORTANSWER:=alimentos} o de las baterías.<br>
+Para liberar esta energía es necesario provocar {1:SHORTANSWER:=reacciones} químicas, que en la mayoría de los casos consisten en combinar combustibles con {1:SHORTANSWER:=oxígeno}. Eso es lo que hacemos los animales cuando convertimos la grasa y los carbohidratos de los alimentos en {1:SHORTANSWER:=movimiento} y {1:SHORTANSWER:=calor} para seguir con vida. <br>
+Los combustibles {1:SHORTANSWER:=fósiles} son sustancias que producen energía al {1:SHORTANSWER:=combinarse} con el oxígeno del aire. Por ejemplo, al quemar carbón o gasolina se produce energía {1:SHORTANSWER:=térmica}.<br>
+También encontramos este tipo de energía química en las {1:SHORTANSWER:=baterías} recargables y en las de un solo uso. En este caso, en las reacciones no interviene el {1:SHORTANSWER:=oxígeno}.]]>
       </text>
     </questiontext>
     <generalfeedback format="html">
@@ -140,7 +155,8 @@
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de la energía.</strong><br> Un ejemplo de energía mecánica lo encontramos en el eje de una {1:SHORTANSWER:=batidora} de cocina que hace girar las cuchillas. <br> La {1:SHORTANSWER:=biela} de un motor, que sube y baja, transmite energía mecánica desde el pistón hasta el cigüeñal, que girará para mover el automóvil.]]>
+         <strong>Energía nuclear</strong><br> Es la energía interna de los átomos que se libera en las reacciones de {1:SHORTANSWER:=fusión} y de {1:SHORTANSWER:=fisión} nuclear.<br>
+Ejemplos de esta energía son la energía del {1:SHORTANSWER:=Sol}, que se produce por la {1:SHORTANSWER:=fusión} de sus átomos de hidrógeno, y la energía de una central nuclear, que {1:SHORTANSWER:=fisiona} los átomos de uranio. La energía {1:SHORTANSWER:=geotérmica} de la Tierra también proviene de la energía nuclear del {1:SHORTANSWER:=uranio} que se encuentra en su interior.]]>
       </text>
     </questiontext>
     <generalfeedback format="html">
@@ -158,7 +174,9 @@
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de la energía.</strong><br> La energía {1:SHORTANSWER:=térmica} es la energía asociada a la temperatura de los objetos. Se basa en el movimiento interno de los átomos y moléculas de los objetos.<br> Esta es la forma más {1:SHORTANSWER:=degradada} de energía y es la más difícil de transformar, sobre todo si se encuentra a bajas temperaturas.]]>
+         <strong>Energía radiante</strong><br> Es la energía que está presente en la {1:SHORTANSWER:=luz} o en las {1:SHORTANSWER:=microondas} de radio.<br>
+Es fundamental, porque es la mayor parte de la {1:SHORTANSWER:=energía} que llega a la Tierra gracias al Sol y que podemos aprovechar con {1:SHORTANSWER:=paneles} solares.<br>
+Los microondas de las cocinas convierten la energía eléctrica en {1:SHORTANSWER:=microondas} de radio que calientan el agua de los alimentos.]]>
       </text>
     </questiontext>
     <generalfeedback format="html">
@@ -176,154 +194,10 @@
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de la energía.</strong><br> Un ejemplo de energía térmica lo encontramos en una {1:SHORTANSWER:=caldera} de calefacción que quema gas natural o gasóleo para calentar los edificios.]]>
-      </text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-  </question>
-
-
-  <question type="cloze">
-    <name> <text>Electricidad. Energía eléctrica I. Pregunta 11.</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de la energía.</strong><br> La energía {1:SHORTANSWER:=química} es la energía que se encuentra en los enlaces de los combustibles, de los alimentos o de las {1:SHORTANSWER:=baterías}.]]>
-      </text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-  </question>
-
-
-  <question type="cloze">
-    <name> <text>Electricidad. Energía eléctrica I. Pregunta 12.</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de la energía.</strong><br> Para liberar la energía química es necesario provocar reacciones, que en la mayoría de los casos consisten en combinar combustibles con {1:SHORTANSWER:=oxígeno}.<br> Eso es lo que hacemos los animales cuando convertimos la grasa y los carbohidratos de los {1:SHORTANSWER:=alimentos} en movimiento y calor para seguir vivos.<br> Los combustibles fósiles son sustancias que producen energía al combinarse con el oxígeno del aire. Por ejemplo, al quemar carbón o gasolina se produce energía {1:SHORTANSWER:=térmica}.<br> También encontramos este tipo de energía química en las {1:SHORTANSWER:=baterías} recargables o de un solo uso. En este caso, en las reacciones no interviene el oxígeno.]]>
-      </text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-  </question>
-
-
-  <question type="cloze">
-    <name> <text>Electricidad. Energía eléctrica I. Pregunta 13.</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de la energía.</strong><br> La energía {1:SHORTANSWER:=nuclear} es la energía que se encuentra en el interior de los átomos y que se desprende en las reacciones de fusión y de fisión.]]>
-      </text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-  </question>
-
-
-  <question type="cloze">
-    <name> <text>Electricidad. Energía eléctrica I. Pregunta 14.</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de la energía.</strong><br> Un ejemplo de energía nuclear es la energía del {1:SHORTANSWER:=Sol} que se produce por la fusión de sus átomos de hidrógeno.<br> Otro ejemplo de energía nuclear lo encontramos en las centrales nucleares en las que se {1:SHORTANSWER:=fisiona} a los átomos de {1:SHORTANSWER:=uranio} para poder producir calor y electricidad.<br> La energía {1:SHORTANSWER:=geotérmica} de la Tierra también proviene de la energía nuclear del uranio que se encuentra en su interior.]]>
-      </text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-  </question>
-
-
-  <question type="cloze">
-    <name> <text>Electricidad. Energía eléctrica I. Pregunta 15.</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de la energía.</strong><br> La energía {1:SHORTANSWER:=radiante} es la energía que se encuentra en la luz o en las microondas de radio.]]>
-      </text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-  </question>
-
-
-  <question type="cloze">
-    <name> <text>Electricidad. Energía eléctrica I. Pregunta 16.</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de la energía.</strong><br> La energía radiante tiene una importancia fundamental, porque es la mayor parte de la energía que llega a la Tierra gracias al Sol y que podemos aprovechar con paneles solares.<br> Los microondas de las cocinas convierten la energía eléctrica en {1:SHORTANSWER:=microondas} de radio que calientan el agua de los alimentos.]]>
-      </text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-  </question>
-
-
-  <question type="cloze">
-    <name> <text>Electricidad. Energía eléctrica I. Pregunta 17.</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de la energía.</strong><br> La energía {1:SHORTANSWER:=eléctrica} es la energía asociada al movimiento de los electrones a través de los cables conductores.]]>
-      </text>
-    </questiontext>
-    <generalfeedback format="html">
-      <text></text>
-    </generalfeedback>
-    <penalty>0.3333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-  </question>
-
-
-  <question type="cloze">
-    <name> <text>Electricidad. Energía eléctrica I. Pregunta 18.</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Formas de la energía.</strong><br> Es muy sencillo convertir otros tipos de energía en energía eléctrica y viceversa. Por esa razón la energía eléctrica se utiliza mucho para {1:SHORTANSWER:=transportar} otras formas de energía de un sitio a otro.<br>
-Por ejemplo, la energía {1:SHORTANSWER:=mecánica} de un aerogenerador moviéndose con el viento puede transportarse en forma de energía {1:SHORTANSWER:=eléctrica}, con facilidad y de forma casi instantánea, a una casa que se encuentre a cientos de kilómetros. Esa energía eléctrica puede transformarse de nuevo en la energía {1:SHORTANSWER:=mecánica} de una batidora.<br>
-Los {1:SHORTANSWER:=rayos} de las tormentas y las descargas eléctricas que experimentamos al quitarnos un jersey son manifestaciones naturales de la energía eléctrica, pero no podemos aprovecharlas de forma {1:SHORTANSWER:=útil}.<br>
-Una desventaja que tiene la energía eléctrica consiste en que no se puede {1:SHORTANSWER:=almacenar} con facilidad, hay que consumirla en el momento en el que se genera. Para poder almacenar energía eléctrica es necesario convertirla en energía {1:SHORTANSWER:=química} en baterías o en energía {1:SHORTANSWER:=potencial} en centrales hidroeléctricas reversibles.]]>
+         <strong>Energía eléctrica</strong><br> Es la energía asociada al movimiento de los {1:SHORTANSWER:=electrones} a través de los cables conductores. Es muy  sencillo convertir otros tipos de energía en energía eléctrica y {1:SHORTANSWER:=viceversa}. Por esa razón la energía eléctrica se utiliza mucho para {1:SHORTANSWER:=transportar} otras formas de energía de un lugar a otro.<br>
+Por ejemplo, la energía {1:SHORTANSWER:=mecánica} de un aerogenerador moviéndose con el viento puede transportarse fácilmente y de forma casi instantánea en forma de energía {1:SHORTANSWER:=eléctrica} a una casa que se encuentre a cientos de kilómetros. Esa energía eléctrica puede {1:SHORTANSWER:=transformarse} de nuevo en la energía mecánica, por ejemplo, en la de batidora o en cualquier otra forma {1:SHORTANSWER:=aprovechable}.<br>
+Los {1:SHORTANSWER:=rayos} de las tormentas y las descargas eléctricas que experimentamos al quitarnos un jersey son manifestaciones naturales de la energía eléctrica, pero no podemos {1:SHORTANSWER:=aprovecharlas} de forma útil.<br>
+Una desventaja de la energía eléctrica consiste en que no se puede {1:SHORTANSWER:=almacenar} con facilidad, por lo que hay que {1:SHORTANSWER:=consumirla} en el momento en el que se genera. Para poder almacenar energía eléctrica, esta debe transformarse en en energía química mediante {1:SHORTANSWER:=baterías} o en energía potencial mediante centrales hidroeléctricas {1:SHORTANSWER:=reversibles}.]]>
       </text>
     </questiontext>
     <generalfeedback format="html">
