@@ -92,6 +92,7 @@ index_data = [
           ["es-electric-energy-1.html", "Energía eléctrica I"],
           ["es-electric-energy-2.html", "Energía eléctrica II"],
           ["es-electric-energy-3.html", "Energía eléctrica III"],
+          ["es-electric-energy-4.html", "Energía eléctrica IV"],
           ["es-electric-energy-calc.html", "Cálculos con energía eléctrica"],
 
           ["es-electric-power.html", "Potencia eléctrica"],
@@ -261,6 +262,18 @@ index_template = """<!DOCTYPE html>
    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
 
    <link rel="canonical" href="https://www.picuino.com/test/index.html">
+
+   <style>
+   h1, h2 {
+     font-size: 32px;
+     text-align: center;
+     color: #094070;
+     margin: 32px 0 32px 0;
+   }
+   h2 {
+     margin-top: 96px;
+   }
+   </style>
 
 </head>
 

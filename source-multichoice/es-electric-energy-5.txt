@@ -1,0 +1,793 @@
+﻿
+Category: Electricidad
+Title: Energía V
+Date: 30/01/2025
+Copyright: 2025 por Carlos Félix Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+Source_link: ../es/electric-energia.html
+Show_max: 0
+
+---
+
+#
+# TRANSFORMACIÓN DE LA ENERGÍA
+#
+
+
+- Title:
+  Question: ¿Qué energía se transforma al quemar gas natural en una
+            caldera de calefacción?
+  Choices:
+    - De energía química a energía térmica.
+    - De energía química a energía nuclear.
+    - De energía potencial a energía radiante.
+    - De energía cinética a energía potencial.
+
+
+- Title:
+  Question: ¿Qué se debe provocar para liberar la energía química?
+  Choices:
+    - Reacciones químicas.
+    - Movimiento mecánico.
+    - Cambio de temperatura.
+    - Transformación de energía térmica.
+
+
+- Title:
+  Question: ¿Qué forma de energía se produce al combinarse combustibles con oxígeno?
+  Choices:
+    - Energía térmica.
+    - Energía nuclear.
+    - Energía radiante.
+    - Energía potencial.
+
+
+- Title:
+  Question: ¿Qué forma de energía está en los alimentos que convertimos en movimiento y calor?
+  Choices:
+    - Energía química.
+    - Energía térmica.
+    - Energía mecánica.
+    - Energía nuclear.
+
+
+- Title:
+  Question: ¿Qué es la energía del Sol producto de?
+  Choices:
+    - Fusión de átomos de hidrógeno.
+    - Fisión de átomos de uranio.
+    - Combustión de gasolina.
+    - Movimiento de la Luna.
+
+
+- Title:
+  Question: ¿Qué tipo de energía no podemos aprovechar de manera útil, a pesar de verla en rayos y tormentas?
+  Choices:
+    - Energía eléctrica.
+    - Energía térmica.
+    - Energía mecánica.
+    - Energía cinética.
+
+
+- Title:
+  Question: ¿Qué es fundamental según el primer principio de la termodinámica?
+  Choices:
+    - La energía no se crea ni se destruye.
+    - La energía se puede crear.
+    - La energía se destruye con el tiempo.
+    - La energía permanece estática.
+
+
+- Title:
+  Question: ¿Qué se necesita para convertir energía cinética de una presa en energía eléctrica?
+  Choices:
+    - Turbina y alternador.
+    - Batería y cable.
+    - Transformador y resistor.
+    - Panel solar y inversor.
+
+
+- Title:
+  Question: ¿En qué se convierte la energía química de la gasolina en un automóvil?
+  Choices:
+    - Energía cinética.
+    - Energía potencial.
+    - Energía térmica.
+    - Energía radiante.
+
+
+- Title:
+  Question: ¿Qué movimiento tiene la Luna en relación con la Tierra?
+  Choices:
+    - Energía cinética.
+    - Energía potencial.
+    - Energía térmica.
+    - Energía mecánica.
+
+
+- Title:
+  Question: ¿Qué tipo de energía se encuentra en los enlaces químicos de las baterías recargables?
+  Choices:
+    - Energía química.
+    - Energía térmica.
+    - Energía mecánica.
+    - Energía cinética.
+
+
+- Title:
+  Question: ¿Qué energía está asociada con las microondas que calientan los alimentos en la cocina?
+  Choices:
+    - Energía radiante.
+    - Energía cinética.
+    - Energía potencial.
+    - Energía térmica.
+
+
+- Title:
+  Question: ¿Qué energía se transforma en calor a alta temperatura en una caldera de calefacción?
+  Choices:
+    - Energía química.
+    - Energía potencial.
+    - Energía mecánica.
+    - Energía cinética.
+
+
+- Title:
+  Question: ¿Qué energía se libera en reacciones de fisión nuclear en una central nuclear?
+  Choices:
+    - Energía nuclear.
+    - Energía cinética.
+    - Energía térmica.
+    - Energía química.
+
+
+- Title:
+  Question: ¿Qué energía se produce en las reacciones químicas que no requieren oxígeno, como en las baterías?
+  Choices:
+    - Energía química.
+    - Energía térmica.
+    - Energía mecánica.
+    - Energía cinética.
+
+
+- Title:
+  Question: ¿Qué se convierte en energía cinética cuando se deja caer desde una presa hidráulica?
+  Choices:
+    - Energía potencial del agua.
+    - Energía térmica del agua.
+    - Energía química del agua.
+    - Energía radiante del agua.
+
+
+- Title:
+  Question: ¿Qué es la capacidad de realizar trabajo o de producir cambios?
+  Choices:
+    - Energía.
+    - Potencia.
+    - Presión.
+    - Volumen.
+
+
+- Title:
+  Question: ¿Qué tipo de energía se transforma en movimiento en una batidora?
+  Choices:
+    - Energía mecánica.
+    - Energía térmica.
+    - Energía química.
+    - Energía nuclear.
+
+
+- Title:
+  Question: ¿Qué tipo de energía se transfiere a la Tierra desde la Luna en las mareas?
+  Choices:
+    - Energía cinética.
+    - Energía potencial.
+    - Energía térmica.
+    - Energía mecánica.
+
+
+- Title:
+  Question: ¿Qué es necesario para convertir energía térmica en energía mecánica en una turbina de vapor?
+  Choices:
+    - Vapor de agua sobrecalentado.
+    - Gas natural.
+    - Microondas.
+    - Energía solar.
+
+
+- Title:
+  Question: ¿Qué energía se transforma cuando se quema carbón o gasolina?
+  Choices:
+    - Energía térmica.
+    - Energía cinética.
+    - Energía radiante.
+    - Energía mecánica.
+
+
+- Title:
+  Question: ¿Qué produce energía eléctrica en una central nuclear?
+  Choices:
+    - Alternador movido por una turbina de vapor.
+    - Panel solar.
+    - Microondas.
+    - Eje de una batidora.
+
+
+- Title:
+  Question: ¿Qué energía se utiliza para calentar edificios mediante la combustión de gas natural?
+  Choices:
+    - Energía térmica.
+    - Energía potencial.
+    - Energía mecánica.
+    - Energía radiante.
+
+
+- Title:
+  Question: ¿Qué energía se convierte en giro de un eje en una turbina hidráulica?
+  Choices:
+    - Energía cinética del agua.
+    - Energía térmica del agua.
+    - Energía química del agua.
+    - Energía radiante del agua.
+
+
+- Title:
+  Question: ¿Qué tipo de energía se libera al combinar combustibles fósiles con oxígeno?
+  Choices:
+    - Energía química.
+    - Energía térmica.
+    - Energía mecánica.
+    - Energía potencial.
+
+
+- Title:
+  Question: ¿Qué convierte la energía química de la gasolina en energía cinética en un automóvil?
+  Choices:
+    - El motor del automóvil.
+    - Las ruedas del automóvil.
+    - La carrocería
+
+
+
+- Title:
+  Question: ¿Qué es una fuente de energía?
+  Choices:
+    - Un recurso natural del que se puede obtener energía.
+    - Un dispositivo que almacena electricidad.
+    - Un material sintético que produce energía.
+    - Una forma de calor residual.
+
+
+- Title:
+  Question: ¿Qué caracteriza a las fuentes de energía no renovables?
+  Choices:
+    - Se agotan a medida que las consumimos.
+    - Son inagotables.
+    - Se regeneran constantemente.
+    - No generan contaminación.
+
+
+- Title:
+  Question: ¿En qué se basan la mayoría de las fuentes de energía no renovables?
+  Choices:
+    - En la energía química captada del Sol hace millones de años.
+    - En reacciones nucleares actuales.
+    - En el movimiento de las mareas.
+    - En la energía radiante de la Tierra.
+
+
+- Title:
+  Question: ¿Qué problema importante generan las fuentes de energía no renovables?
+  Choices:
+    - Contaminación y calentamiento global.
+    - Incremento de la biodiversidad.
+    - Reducción de la contaminación.
+    - Enfriamiento global.
+
+
+- Title:
+  Question: ¿Cuál es la fuente de energía que produce mayor contaminación medioambiental?
+  Choices:
+    - Carbón.
+    - Petróleo.
+    - Gas natural.
+    - Energía nuclear.
+
+
+- Title:
+  Question: ¿Cuál es la fuente de energía más utilizada en la actualidad?
+  Choices:
+    - Petróleo.
+    - Carbón.
+    - Gas natural.
+    - Energía solar.
+
+
+- Title:
+  Question: ¿Cuál es el menos contaminante de los tres tipos de fuentes de energía fósiles?
+  Choices:
+    - Gas natural.
+    - Carbón.
+    - Petróleo.
+    - Energía nuclear.
+
+
+- Title:
+  Question: ¿Qué gas compone mayormente el gas natural?
+  Choices:
+    - Metano.
+    - Dióxido de carbono.
+    - Oxígeno.
+    - Nitrógeno.
+
+
+- Title:
+  Question: ¿Qué tipo de energía produce pocos gases de efecto invernadero, pero genera residuos radioactivos?
+  Choices:
+    - Energía nuclear.
+    - Energía solar.
+    - Energía eólica.
+    - Energía hidráulica.
+
+
+- Title:
+  Question: ¿Cómo se consideran las fuentes de energía renovables en términos de agotamiento?
+  Choices:
+    - Inagotables.
+    - Limitadas.
+    - Escasas.
+    - Reducidas.
+
+
+- Title:
+  Question: ¿Cuál es el problema principal de las energías renovables?
+  Choices:
+    - Son intermitentes.
+    - Son ilimitadas.
+    - Son constantes.
+    - No generan residuos.
+
+
+- Title:
+  Question: ¿Qué tipo de energía es radiante y proviene de reacciones nucleares de fusión en el Sol?
+  Choices:
+    - Energía solar.
+    - Energía eólica.
+    - Energía hidráulica.
+    - Energía geotérmica.
+
+
+- Title:
+  Question: ¿De dónde proviene la energía del viento?
+  Choices:
+    - Del calentamiento de las masas de aire por el Sol.
+    - De reacciones químicas en la Tierra.
+    - De la fusión de átomos de hidrógeno.
+    - De residuos biológicos.
+
+
+- Title:
+  Question: ¿Qué tipo de energía proviene de la energía potencial del agua acumulada en las presas?
+  Choices:
+    - Energía hidráulica.
+    - Energía solar.
+    - Energía geotérmica.
+    - Energía de biomasa.
+
+
+- Title:
+  Question: ¿Qué ventaja tiene la energía hidráulica en términos de almacenamiento?
+  Choices:
+    - Se puede almacenar con facilidad.
+    - No se puede almacenar.
+    - Genera residuos.
+    - Es intermitente.
+
+
+- Title:
+  Question: ¿De dónde proviene la energía geotérmica?
+  Choices:
+    - Del calor interno de la Tierra.
+    - De la energía solar.
+    - Del viento.
+    - De residuos biológicos.
+
+
+- Title:
+  Question: ¿Dónde se puede aprovechar mejor la energía geotérmica?
+  Choices:
+    - En zonas volcánicas.
+    - En áreas desérticas.
+    - En la superficie del mar.
+    - En regiones polares.
+
+
+- Title:
+  Question: ¿Qué se puede convertir en biogás?
+  Choices:
+    - Residuos biológicos.
+    - Carbón.
+    - Petróleo.
+    - Gas natural.
+
+
+- Title:
+  Question: ¿Qué fuente de energía se basa en el movimiento del agua del mar?
+  Choices:
+    - Energía mareomotriz.
+    - Energía solar.
+    - Energía eólica.
+    - Energía hidráulica.
+
+
+- Title:
+  Question: ¿Qué tipo de energía no es una fuente de energía primaria?
+  Choices:
+    - Energía eléctrica.
+    - Energía solar.
+    - Energía eólica.
+    - Energía geotérmica.
+
+
+- Title:
+  Question: ¿Por qué se genera energía eléctrica?
+  Choices:
+    - Porque es fácil de transportar y convertir.
+    - Porque es inagotable.
+    - Porque no genera residuos.
+    - Porque es costosa.
+
+
+- Title:
+  Question: ¿Qué ventaja tiene la energía eléctrica en términos de transporte?
+  Choices:
+    - Se puede transportar a grandes distancias.
+    - Se transporta con dificultad.
+    - Genera calor durante el transporte.
+    - Consume mucha energía en el transporte.
+
+
+- Title:
+  Question: ¿Qué ventaja tiene la energía eléctrica en términos de conversión?
+  Choices:
+    - Se puede convertir fácilmente en otras formas de energía.
+    - Se convierte con dificultad.
+    - No se puede convertir en energía térmica.
+    - Solo se convierte en energía mecánica.
+
+
+- Title:
+  Question: ¿Qué desventaja tiene la energía eléctrica en términos de fuentes primarias?
+  Choices:
+    - No existe una fuente primaria de energía eléctrica.
+    - Es inagotable.
+    - Es renovable.
+    - Es abundante.
+
+
+- Title:
+  Question: ¿De dónde procede la mayor parte de la electricidad que se genera en la actualidad?
+  Choices:
+    - De energías primarias no renovables.
+    - De energías renovables.
+    - De la energía solar.
+    - De la energía geotérmica.
+
+
+- Title:
+  Question: ¿Qué desventaja tiene la energía eléctrica en términos de almacenamiento?
+  Choices:
+    - No se puede almacenar con facilidad.
+    - Se almacena fácilmente.
+    - Genera residuos durante el almacenamiento.
+    - Solo se almacena en grandes cantidades.
+
+
+- Title:
+  Question: ¿Qué se necesita para transportar la energía eléctrica?
+  Choices:
+    - Cables.
+    - Baterías.
+    - Generadores.
+    - Paneles solares.
+
+
+- Title:
+  Question: ¿Qué desventaja tiene la energía eléctrica en el transporte marítimo y aéreo?
+  Choices:
+    - Es difícil de utilizar.
+    - Genera residuos.
+    - Produce calor.
+    - Es muy costosa.
+
+
+- Title:
+  Question: ¿Qué puede provocar la energía eléctrica si no se toman las medidas de precaución necesarias?
+  Choices:
+    - Incendios y descargas eléctricas.
+    - Fusión nuclear.
+    - Contaminación ambiental.
+    - Reducción de la biodiversidad.
+
+
+- Title:
+  Question: ¿Qué tipo de energía es la energía solar?
+  Choices:
+    - Energía radiante.
+    - Energía cinética.
+    - Energía potencial.
+    - Energía térmica.
+
+
+- Title:
+  Question: ¿Qué tipo de energía se puede obtener de los residuos biológicos?
+  Choices:
+    - Energía de biomasa.
+    - Energía nuclear.
+    - Energía solar.
+    - Energía hidráulica.
+
+
+- Title:
+  Question: ¿Qué tipo de energía proviene del calor interno de la Tierra?
+  Choices:
+    - Energía geotérmica.
+    - Energía solar.
+    - Energía eólica.
+    - Energía hidráulica.
+
+
+- Title:
+  Question: ¿Qué tipo de energía proviene del movimiento del agua del mar?
+  Choices:
+    - Energía mareomotriz.
+    - Energía solar.
+    - Energía eólica.
+    - Energía geotérmica.
+
+
+- Title:
+  Question: ¿Qué tipo de energía produce la fusión nuclear en el Sol?
+  Choices:
+    - Energía solar.
+    - Energía eólica.
+    - Energía hidráulica.
+    - Energía geotérmica.
+
+
+- Title:
+  Question: ¿Qué tipo de energía se puede convertir en biogás?
+  Choices:
+    - Energía de biomasa.
+    - Energía solar.
+    - Energía eólica.
+    - Energía hidráulica.
+
+
+- Title:
+  Question: ¿Qué tipo de energía se genera en el interior de la Tierra y está siempre disponible?
+  Choices:
+    - Energía geotérmica.
+    - Energía solar.
+    - Energía eólica.
+    - Energía de biomasa.
+
+
+- Title:
+  Question: ¿Cuál es la principal ventaja de la energía hidráulica en términos de almacenamiento?
+  Choices:
+    - Se puede almacenar con facilidad.
+    - No se puede almacenar.
+    - Genera residuos durante el almacenamiento.
+    - Solo se almacena en grandes cantidades.
+
+
+- Title:
+  Question: ¿Qué tipo de energía proviene del movimiento del aire en la atmósfera?
+  Choices:
+    - Energía eólica.
+    - Energía solar.
+    - Energía geotérmica.
+    - Energía de biomasa.
+
+
+- Title:
+  Question: ¿Qué tipo de energía genera residuos radioactivos?
+  Choices:
+    - Energía nuclear.
+    - Energía solar.
+    - Energía hidráulica.
+    - Energía eólica.
+
+
+- Title:
+  Question: ¿Qué tipo de energía proviene de las reacciones nucleares en el interior del Sol?
+  Choices:
+    - Energía solar.
+    - Energía geotérmica.
+    - Energía hidráulica.
+    - Energía de biomasa.
+
+
+
+
+- Title:
+  Question: ¿Cuál es la fórmula de la energía eléctrica?
+  Choices:
+    - E = P · t
+    - E = P / t
+    - E = t / P
+    - E = P + t
+
+
+- Title:
+  Question: ¿Qué representa "E" en la fórmula de la energía eléctrica?
+  Choices:
+    - Energía en kilovatios-hora [kWh]
+    - Energía en vatios [W]
+    - Energía en amperios [A]
+    - Energía en julios [J]
+
+
+- Title:
+  Question: ¿Qué representa "P" en la fórmula de la energía eléctrica?
+  Choices:
+    - Potencia en kilovatios [kW]
+    - Potencia en vatios-hora [Wh]
+    - Potencia en amperios [A]
+    - Potencia en julios [J]
+
+
+- Title:
+  Question: ¿Qué representa "t" en la fórmula de la energía eléctrica?
+  Choices:
+    - Tiempo en horas [h]
+    - Tiempo en segundos [s]
+    - Tiempo en minutos [min]
+    - Tiempo en días [d]
+
+
+- Title:
+  Question: ¿Cuál es la fórmula para calcular la potencia (P) a partir de la energía (E) y el tiempo (t)?
+  Choices:
+    - P = E / t
+    - P = E · t
+    - P = t / E
+    - P = E + t
+
+
+- Title:
+  Question: ¿Cuál es la fórmula para calcular el tiempo (t) a partir de la energía (E) y la potencia (P)?
+  Choices:
+    - t = E / P
+    - t = P / E
+    - t = E · P
+    - t = P + E
+
+
+- Title:
+  Question: ¿De qué depende la energía que consumimos según la fórmula de energía eléctrica?
+  Choices:
+    - De la potencia del aparato y del tiempo de funcionamiento.
+    - Del tamaño del aparato y del voltaje.
+    - De la cantidad de aparatos y de la resistencia.
+    - Del tipo de aparato y de la intensidad de corriente.
+
+
+- Title:
+  Question: ¿Cuál es uno de los electrodomésticos con menor potencia?
+  Choices:
+    - El frigorífico.
+    - El horno eléctrico.
+    - El secador de pelo.
+    - La vitrocerámica.
+
+
+- Title:
+  Question: ¿Qué electrodoméstico consume aproximadamente un tercio de la energía total del hogar?
+  Choices:
+    - El frigorífico.
+    - El microondas.
+    - La lavadora.
+    - El aire acondicionado.
+
+
+- Title:
+  Question: ¿Por qué el frigorífico consume tanta energía?
+  Choices:
+    - Porque está en funcionamiento casi todo el día todos los días del año.
+    - Porque genera grandes cantidades de calor.
+    - Porque tiene una alta potencia.
+    - Porque se utiliza con frecuencia durante el día.
+
+
+- Title:
+  Question: ¿Qué tipo de electrodomésticos suelen tener mayor potencia?
+  Choices:
+    - Los que generan grandes cantidades de calor.
+    - Los que se utilizan para enfriar.
+    - Los que funcionan con baterías.
+    - Los que tienen motores pequeños.
+
+
+- Title:
+  Question: ¿Cuál es el rango de potencia de los electrodomésticos que generan calor?
+  Choices:
+    - Entre 1000 y 3000 vatios.
+    - Entre 500 y 1500 vatios.
+    - Entre 2000 y 4000 vatios.
+    - Entre 300 y 700 vatios.
+
+
+- Title:
+  Question: ¿Qué electrodoméstico no pertenece al grupo de los que generan grandes cantidades de calor?
+  Choices:
+    - El frigorífico.
+    - El horno eléctrico.
+    - La vitrocerámica.
+    - El secador de pelo.
+
+
+- Title:
+  Question: ¿Qué unidad se utiliza para medir la energía en la fórmula de energía eléctrica?
+  Choices:
+    - Kilovatios-hora [kWh].
+    - Vatios-hora [Wh].
+    - Amperios-hora [Ah].
+    - Julios [J].
+
+
+- Title:
+  Question: ¿Qué unidad se utiliza para medir la potencia en la fórmula de energía eléctrica?
+  Choices:
+    - Kilovatios [kW].
+    - Vatios [W].
+    - Amperios [A].
+    - Julios [J].
+
+
+- Title:
+  Question: ¿Qué unidad se utiliza para medir el tiempo en la fórmula de energía eléctrica?
+  Choices:
+    - Horas [h].
+    - Segundos [s].
+    - Minutos [min].
+    - Días [d].
+
+
+- Title:
+  Question: ¿Cuál es uno de los gastos más importantes de los hogares relacionados con la energía eléctrica?
+  Choices:
+    - La factura eléctrica.
+    - La compra de electrodomésticos.
+    - El mantenimiento de los aparatos.
+    - La instalación de paneles solares.
+
+
+- Title:
+  Question: ¿Qué determina la cantidad de energía que consume un aparato eléctrico?
+  Choices:
+    - Su potencia y el tiempo que esté en funcionamiento.
+    - Su tamaño y su color.
+    - El tipo de material del que está hecho.
+    - La marca del aparato.
+
+
+- Title:
+  Question: ¿Qué electrodoméstico tiene una potencia de aproximadamente 150 vatios?
+  Choices:
+    - El frigorífico.
+    - El horno eléctrico.
+    - La vitrocerámica.
+    - El secador de pelo.
+
+
+- Title:
+  Question: ¿Qué electrodoméstico suele tener una potencia de entre 1000 y 3000 vatios?
+  Choices:
+    - El horno eléctrico.
+    - El frigorífico.
+    - El microondas.
+    - La lavadora.
+

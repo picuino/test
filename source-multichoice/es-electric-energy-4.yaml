@@ -1,0 +1,329 @@
+﻿
+Category: Electricidad
+Title: Energía IV
+Date: 30/01/2025
+Copyright: 2025 por Carlos Félix Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+Source_link: ../es/electric-energia.html
+Show_max: 0
+
+---
+
+#
+# ENERGÍA
+#
+
+- Title: 1
+  Question: ¿Qué beneficios aporta la energía a nuestra sociedad?
+  Choices:
+    - Satisfacer necesidades básicas diarias.
+    - Generar caos.
+    - Aumentar la contaminación.
+    - Crear problemas ambientales.
+
+
+- Title: 2
+  Question: ¿Qué está causando el uso excesivo de energías fósiles?
+  Choices:
+    - Crisis climática.
+    - Mejoras en la tecnología.
+    - Reducción de costos.
+    - Aumento de la biodiversidad.
+
+
+- Title: 3
+  Question: ¿Cuál es una fuente de energía más sostenible que las energías fósiles?
+  Choices:
+    - Energía solar.
+    - Energía nuclear.
+    - Energía de carbón.
+    - Energía de gas natural.
+
+
+#
+# FORMAS DE LA ENERGÍA
+#
+
+- Title: 4
+  Question: ¿Qué es la energía?
+  Choices:
+    - Capacidad de realizar trabajo o producir cambios.
+    - Una forma de materia.
+    - Un recurso ilimitado.
+    - Algo que se puede crear de la nada.
+
+
+- Title: 5
+  Question: ¿Qué puede convertirse en trabajo o movimiento, luz, calor,
+            sonido u otros efectos útiles?
+  Choices:
+    - La energía.
+    - La materia.
+    - Los compuestos químicos.
+    - Las moléculas.
+
+
+- Title: 6
+  Question: ¿Qué tipo de energía tiene un objeto debido a su posición
+            en un campo gravitatorio?
+  Choices:
+    - Energía potencial.
+    - Energía cinética.
+    - Energía térmica.
+    - Energía mecánica.
+
+
+- Title: 7
+  Question: ¿Qué tipo de energía tiene una presa hidráulica?
+  Choices:
+    - Energía potencial.
+    - Energía cinética.
+    - Energía térmica.
+    - Energía mecánica.
+
+
+- Title: 8
+  Question: ¿Qué tipo de energía tiene un objeto debido a su movimiento?
+  Choices:
+    - Energía cinética.
+    - Energía potencial.
+    - Energía térmica.
+    - Energía mecánica.
+
+
+- Title: 9
+  Question: ¿Qué tipo de energía tiene un balón lanzado a mucha velocidad?
+  Choices:
+    - Energía cinética.
+    - Energía potencial.
+    - Energía térmica.
+    - Energía mecánica.
+
+
+- Title: 10
+  Question: ¿Qué tipo de energía se transmite mediante el desplazamiento
+            lineal o el giro de una pieza mecánica de una máquina?
+  Choices:
+    - Energía mecánica.
+    - Energía térmica.
+    - Energía cinética.
+    - Energía potencial.
+
+
+- Title: 11
+  Question: ¿Qué tipo de energía transmite el eje de una batidora?
+  Choices:
+    - Energía mecánica.
+    - Energía térmica.
+    - Energía cinética.
+    - Energía potencial.
+
+
+- Title: 12
+  Question: ¿Qué forma de energía está asociada a la temperatura de un objeto?
+  Choices:
+    - Energía térmica.
+    - Energía química.
+    - Energía cinética.
+    - Energía nuclear.
+
+
+- Title: 13
+  Question: ¿Qué tipo de energía tiene el agua caliente de una caldera?
+  Choices:
+    - Energía térmica.
+    - Energía química.
+    - Energía cinética.
+    - Energía nuclear.
+
+
+- Title: 14
+  Question: ¿Qué tipo de energía tienen los combustibles?
+  Choices:
+    - Energía química.
+    - Energía radiante.
+    - Energía mareomotriz.
+    - Energía potencial.
+
+
+- Title: 15
+  Question: ¿Qué tipo de energía tienen los alimentos?
+  Choices:
+    - Energía química.
+    - Energía radiante.
+    - Energía mareomotriz.
+    - Energía potencial.
+
+
+- Title: 16
+  Question: ¿Qué tipo de energía es interna a los átomos y se libera en
+            reacciones de fisión?
+  Choices:
+    - Energía nuclear.
+    - Energía potencial.
+    - Energía cinética.
+    - Energía térmica.
+
+
+- Title: 17
+  Question: ¿Cómo se produce calor en el interior de la Tierra,
+            que se puede aprovechar como energía geotérmica?
+  Choices:
+    - Mediante la fisión nuclear del uranio y otros elementos.
+    - Mediante la interacción gravitatoria entre la Tierra y la Luna.
+    - Mediante la fusión nuclear del hidrógeno.
+    - Mediante la energía cinética y potencial de las mareas.
+
+- Title: 18
+  Question: ¿Qué tipo de energía se libera con la fusión del hidrógeno en el Sol?
+  Choices:
+    - Energía nuclear.
+    - Energía potencial.
+    - Energía cinética.
+    - Energía mecánica.
+
+
+- Title: 19
+  Question: ¿Qué tipo de energía está presente en la luz?
+  Choices:
+    - Energía radiante.
+    - Energía potencial.
+    - Energía cinética.
+    - Energía térmica.
+
+
+- Title: 20
+  Question: ¿Qué tipo de energía emite un horno microondas?
+  Choices:
+    - Energía radiante.
+    - Energía potencial.
+    - Energía cinética.
+    - Energía térmica.
+
+
+- Title: 21
+  Question: ¿Por qué es fundamental la energía radiante?
+  Choices:
+    - Porque es la mayor parte de la energía que llega a la Tierra desde
+      el Sol.
+    - Porque es la menor parte de la energía que llega a la Tierra desde
+      el Sol.
+    - Porque es la energía que podemos aprovechar mejor mediante
+      el calor del interior de la Tierra.
+    - Porque es la energía más fácil de convertir en energía eléctrica
+      mediante un alternador.
+
+
+- Title: 22
+  Question: ¿Qué tipo de energía está asociada al movimiento de los
+            electrones a través de los cables conductores?
+  Choices:
+    - Energía eléctrica.
+    - Energía térmica.
+    - Energía química.
+    - Energía radiante.
+
+
+- Title: 23
+  Question: Los rayos son manifestaciones naturales de...
+  Choices:
+    - La energía eléctrica.
+    - La energía química.
+    - La energía térmica.
+    - La energía natural.
+
+
+- Title: 24
+  Question: ¿Qué permite la energía eléctrica debido a su facilidad
+            de transformación?
+  Choices:
+    - Transportar otras formas de energía de un lugar a otro.
+    - Evitar pérdidas energéticas.
+    - Reducir la dependencia de las energías no renovables, como el petróleo.
+    - Mantener la energía sin transformaciones.
+
+
+- Title: 25
+  Question: ¿Qué energía no se puede almacenar fácilmente?
+  Choices:
+    - Energía eléctrica.
+    - Energía química.
+    - Energía potencial.
+    - Energía nuclear.
+
+
+- Title: 26
+  Question: ¿Cómo se puede almacenar la energía eléctrica?
+  Choices:
+    - Mediante la energía química de las baterías.
+    - Mediante la energía potencial de las baterías.
+    - Mediante la energía cinética de los automóviles en movimiento.
+    - Mediante la energía nuclear de las centrales eléctricas.
+
+
+- Title: 27
+  Question: ¿Cómo se puede almacenar la energía eléctrica?
+  Choices:
+    - Mediante la energía potencial de los embalses de agua.
+    - Mediante la energía potencial de las baterías.
+    - Mediante la energía cinética de los automóviles en movimiento.
+    - Mediante la energía nuclear de las centrales eléctricas.
+
+
+- Title: 28
+  Question: ¿Cómo se puede transformar energía mecánica en energía eléctrica?
+  Choices:
+    - Mediante una dinamo o un alternador.
+    - Mediante una batería química.
+    - Mediante el almacenamiento de agua en un embalse.
+    - Mediante una central eléctrica.
+
+
+- Title: 29
+  Question: ¿Qué produce las mareas de los océanos?
+  Choices:
+    - La energía cinética y potencial de la Luna.
+    - La energía nuclear del interior de la Tierra.
+    - La energía potencial de los embalses de agua.
+    - La energía cinética del Sol a través de la galaxia.
+
+
+- Title: 30
+  Question: ¿Cuál es el tipo de energía más degradada y difícil de
+            transformar?
+  Choices:
+    - La energía térmica.
+    - La energía cinética.
+    - La energía mecánica.
+    - La energía química.
+
+
+- Title: 31
+  Question: Cuando transformamos energía de un tipo a otro se producen
+            pérdidas que se terminan convirtiendo en energía...
+  Choices:
+    - Térmica.
+    - Cinética.
+    - Mecánica.
+    - Química.
+
+
+- Title: 32
+  Question: ¿Cómo se libera la energía química de los combustibles?
+  Choices:
+    - Quemando el combustible con oxígeno, lo que produce energía térmica.
+    - Quemando el combustible con CO2, lo que produce energía térmica.
+    - Quemando el combustible con oxígeno, lo que produce energía potencial.
+    - Quemando el combustible con litio, lo que produce energía de batería.
+
+
+- Title: 33
+  Question: ¿Qué tipo de energía tienen en su interior las pilas y las 
+            baterías?
+  Choices:
+    - Energía química, que se transforma en energía eléctrica.
+    - Energía potencial, que se transforma en energía eléctrica.
+    - Energía cinética, que se transforma en energía eléctrica.
+    - Energía mecánica, que se transforma en energía eléctrica.
+

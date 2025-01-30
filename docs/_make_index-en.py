@@ -79,6 +79,18 @@ index_template = """<!DOCTYPE html>
 
    <link rel="canonical" href="https://www.picuino.com/test/index-en.html">
 
+   <style>
+   h1, h2 {
+     font-size: 32px;
+     text-align: center;
+     color: #094070;
+     margin: 32px 0 32px 0;
+   }
+   h2 {
+     margin-top: 96px;
+   }
+   </style>
+
 </head>
 
 <body>

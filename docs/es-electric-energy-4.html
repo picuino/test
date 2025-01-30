@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<html lang="es-es">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+   <!--
+   Copyright (c) 2022 Carlos Félix Pardo Martín
+   
+   Copyright (c) 2021 James Q Quick
+   https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
+
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+   -->
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="description" content="Test online de Electricidad - Energía IV - Picuino">
+   <title>Test Energía IV - Electricidad - Picuino</title>
+   <link rel="stylesheet" href="app.css">
+   <link rel="stylesheet" href="game.css">
+
+   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+
+   <link rel="canonical" href="https://www.picuino.com/test/es-electric-energy-4.html">
+
+   <script>
+      sessionStorage.setItem('questionBank', "es-electric-energy-4.json");
+      sessionStorage.setItem('questionBankMax', 0);
+      sessionStorage.setItem('questionBankTitle', "Electricidad. Energía IV.");
+      sessionStorage.setItem('questionBankCopyright', "2025 por Carlos Félix Pardo Martín");
+      sessionStorage.setItem('questionBankLicense', "Creative Commons Attribution-ShareAlike 4.0");
+   </script>
+
+</head>
+
+<body onbeforeunload="return closeConfirm()" oncopy="return false;">
+   <div class="container">
+      <div id="game" class="justify-center flex-column">
+        <div id="hud">
+          <div id="hud-item1">
+            <p id="progressText" class="hud-prefix">Question</p>
+            <div id="progressBar"><div id="progressBarFull"></div></div>
+          </div>
+          <div id="hud-item2">
+            <p class="hud-prefix">Score</p>
+            <p class="hud-main-text" id="score">0%</p>
+          </div>
+        </div>
+        
+        <h1 class="header">Electricidad. Energía IV</h1>
+        
+        <h2 id="question">What is the answer to this question?</h2>
+        <p><img id="questionImage" src="" width="2"></p>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="1">Choice 1</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="2">Choice 2</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="3">Choice 3</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="4">Choice 4</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">E</p>
+          <p class="choice-text" data-number="5">Choice 5</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">F</p>
+          <p class="choice-text" data-number="6">Choice 6</p>
+        </div>
+
+
+        <div class="cleaner"></div>
+
+   <!-- Footer -->
+   <div class="footer">
+   <a href="../es/contacto.html" target="_blank">Contacto</a>
+   <a href="../es/manifiesto.html" target="_blank">Manifiesto</a>
+   <a href="../es/legal-aviso.html" target="_blank">Aviso legal</a>
+   <a href="../es/legal-cookies.html" target="_blank">Política de Cookies</a>
+   <a href="https://github.com/picuino/test/blob/master/Licenses.md" target="_blank">Créditos</a>
+   <a href="https://github.com/picuino/test/" target="_blank">GitHub</a>
+   <a href="../test/index.html">Índice</a>
+
+   <p><a href="../es/electric-energia.html" target="_blank">Fuente de los cuestionarios.</a></p>
+   <p>Copyright © 2025 por Carlos Félix Pardo Martín.</p>
+   <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
+   </div>
+
+      </div>
+   </div>
+
+   <!-- Game -->
+   <script>
+const question = document.getElementById('question');
+const questionImage = document.getElementById('questionImage');
+const choiceContainers = Array.from(document.getElementsByClassName('choice-container'));
+const choices = Array.from(document.getElementsByClassName('choice-text'));
+const progressText = document.getElementById('progressText');
+const scoreText = document.getElementById('score');
+const progressBarFull = document.getElementById('progressBarFull');
+const timeBeforeNextQuestion = 1800;
+const on = Date.now();
+
+var options = [];
+var closeConfirmVar = true;
+let currentQuestionNumChoices = 0;
+let acceptingAnswers = false;
+let acceptingScore = false;
+let choicesClass = [];
+let score = 0;
+let questionCounter = 0;
+let availableQuestions = [];
+let correctAnswer = 0;
+let caoq = 0;
+let c2aoq = 0;
+let maxQuestions = 0;
+let questions = [];
+let suffleQuestions = true;
+
+var questionBank = sessionStorage.getItem('questionBank');
+questionBankMax = sessionStorage.getItem('questionBankMax');
+
+function closeConfirm() {
+    if (closeConfirmVar) {
+        return "¿Realmente desea salir de la página web?";
+    }
+    else {
+        return; 
+    }
+}
+
+fetch(questionBank)
+    .then((res) => {
+        return res.json();
+    })
+    .then((loadedQuestions) => {
+        questions = loadedQuestions;
+        startGame();
+    })
+    .catch((err) => {
+        console.error(err);
+    });
+
+
+startGame = () => {
+    questionCounter = 0;
+    score = ((4<<32)+(0x64C2))^on;
+    availableQuestions = [...questions];
+
+    options = query_read();
+    console.log("Options=", options);
+    if (options.indexOf("maxQuestions") >= 0) {
+       questionBankMax = questions.length;
+    }
+    if (options.indexOf("noShuffle") >= 0) {
+       suffleQuestions = false;
+    }
+
+    if (questionBankMax <= 0 || questionBankMax > questions.length) {
+       questionBankMax = questions.length;
+    }
+    console.log("Number of questions=", questionBankMax);
+
+    getNewQuestion();
+};
+
+      
+getNewQuestion = () => {
+    if (availableQuestions.length === 0 || questionCounter >= questionBankMax) {
+        sessionStorage.setItem('mostRecentTitle', sessionStorage.getItem('questionBankTitle'));
+        datetimeScore = Date.now();
+        sessionStorage.setItem('datetimeScore', datetimeScore);        
+        sessionStorage.setItem('mostRecentScore', ((score^on)>>16)^datetimeScore);
+        closeConfirmVar = false;
+        return window.location.assign('end.html');
+    }
+
+    questionCounter++;
+    progressText.innerText = `Question ${questionCounter}/${questionBankMax}`;
+    progressBarFull.style.width = `${(questionCounter / questionBankMax) * 100}%`;
+
+    //shuffle questions
+    var questionIndex;
+    if (suffleQuestions) {
+      questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    }
+    else {
+      questionIndex = 0;
+    }
+    
+    var currentQuestion = availableQuestions[questionIndex];
+    currentQuestionNumChoices = currentQuestion.choices.length;
+    
+    //shuffle choices
+    var numbersIndex = 0;
+    var numbers = shuffle(currentQuestion.choices.length);
+    caoq = Math.floor(Math.random() * 65536) & 0b1111110000111111;
+    c2aoq = Math.floor(Math.random() * 16);
+    correctAnswer = ((numbers.indexOf('1') + 1) ^ c2aoq) * 64 + caoq;
+    
+    // Set question, image and choices
+    question.innerText = bin_atob(currentQuestion.question);
+    questionImage.src = currentQuestion.image;
+    questionImage.width = currentQuestion.image_width;
+    choiceContainers.forEach(visibleElements);
+    choices.forEach((choice) => {
+      choice.innerText = bin_atob(currentQuestion['choices'][numbers[numbersIndex]-1]);
+      numbersIndex++;
+    });
+    currentQuestion = {};
+
+    availableQuestions.splice(questionIndex, 1);
+    acceptingAnswers = true;
+    acceptingScore = true;
+    choicesClass = [];
+};
+
+
+function visibleElements(element, index, array) {
+    if (index < currentQuestionNumChoices) {
+        element.style.display = "";
+    }
+    else {
+        element.style.display = "none";
+    }
+}
+
+
+function cleanClass(element, index, array) {
+   element[0].classList.remove(element[1]);
+}
+
+
+choices.forEach((choice) => {
+   choice.addEventListener('click', (e) => {
+      if (!acceptingAnswers)
+         return;
+
+      const selectedChoice = e.target;
+      const selectedAnswer = Math.floor(selectedChoice.dataset['number']);
+      console.log('Selected ' + selectedAnswer);
+      var t=Math.floor(correctAnswer/64);t^=c2aoq;t&=15;
+      const classToApply = selectedAnswer == t ? 'correct' : 'incorrect';
+      var t= 0;
+      selectedChoice.parentElement.classList.add(classToApply);
+      choicesClass.push([selectedChoice.parentElement, classToApply]);
+
+      if (acceptingScore) {
+         acceptingScore = false;
+
+         if (classToApply === 'correct') {
+            incrementScore(100.0 / questionBankMax);
+         }
+         else {
+            incrementScore( -(100 / (currentQuestionNumChoices - 1)) / questionBankMax);
+         }
+      }
+
+      if (classToApply === 'correct') {
+          acceptingAnswers = false;
+          setTimeout(() => {
+             choicesClass.forEach(cleanClass);
+             getNewQuestion();
+          }, timeBeforeNextQuestion);
+      }
+   });
+});
+
+
+incrementScore = (num) => {
+    score = (score^on)+((num*100)<<16);
+    scoretext = (score>>16)&0xFFFF;
+    score ^= on;
+    if (scoretext > 0x8000) {
+       scoretext -= 0x10000;
+    }
+    scoreText.innerText = (scoretext/100.0).toFixed(0) + "%";
+};
+
+
+function bin_atob(str) {
+   if (str == null || typeof str === 'undefined') {
+      return str;
+   }
+   return decodeURIComponent(atob(str).split('').map(function(c) {
+      return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+   }).join('')).trim();
+}
+
+
+function shuffle(numItems) {
+  var array1, array2, index;
+
+  array1 = [];
+  for(i = 1; i <= numItems; i++) {
+     array1.push(i.toString());
+  }
+
+  array2 = [];
+  for(i = 1; i <= numItems; i++) {
+     index = Math.floor(Math.random() * array1.length);
+     array2.push(array1[index]);
+     array1.splice(index, 1);
+  }
+
+  return array2;
+}
+
+
+// Read query string from URL
+function query_read() {
+   var url = document.location.href.split('?');
+   if (url.length < 2)
+      return [];
+   var options = url[1].split('&');
+   return options;
+}
+   </script>
+</body>
+
+</html>
