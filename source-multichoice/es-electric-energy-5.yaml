@@ -1,0 +1,375 @@
+﻿
+Category: Electricidad
+Title: Energía V
+Date: 01/02/2025
+Copyright: 2025 por Carlos Félix Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+Source_link: ../es/electric-energia.html
+Show_max: 0
+
+---
+
+#
+# TRANSFORMACIÓN DE LA ENERGÍA
+#
+
+
+- Title: 01
+  Question: Según el primer principio de la termodinámica, la energía...
+  Choices:
+    - No se crea ni se destruye, solo se transforma.
+    - Puede desaparecer completamente en algunos procesos.
+    - Se crea cuando hay un cambio de forma.
+    - Se destruye para generar nueva energía.
+
+
+- Title: 02
+  Question: ¿Qué energía se transforma al quemar gas natural en una
+            caldera de calefacción?
+  Choices:
+    - De energía química a energía térmica.
+    - De energía química a energía nuclear.
+    - De energía potencial a energía radiante.
+    - De energía cinética a energía potencial.
+
+
+- Title: 03
+  Question: La energía potencial del agua de una presa se convierte
+            primero en...
+  Choices:
+    - Energía cinética.
+    - Energía térmica.
+    - Energía eléctrica.
+    - Energía nuclear.
+
+
+- Title: 04
+  Question: En la transformación de la energía, a menudo...
+  Choices:
+    - Se necesitan varios pasos intermedios.
+    - No se requieren pasos adicionales.
+    - La energía se pierde completamente.
+    - Solo se utiliza un paso directo.
+
+
+- Title: 05
+  Question: El giro del eje de la turbina en una presa genera...
+  Choices:
+    - Energía mecánica.
+    - Energía potencial.
+    - Energía térmica.
+    - Energía nuclear.
+
+
+- Title: 06
+  Question: En el proceso de generación de energía con gas natural,
+            la energía química se convierte primero en...
+  Choices:
+    - Energía térmica.
+    - Energía cinética.
+    - Energía eléctrica.
+    - Energía potencial.
+
+
+- Title: 07
+  Question: En la conversión de la energía nuclear del uranio,
+            se genera primero...
+  Choices:
+    - Energía térmica a partir de energía nuclear.
+    - Energía mecánica a partir de energía nuclear.
+    - Energía química a partir de energía nuclear.
+    - Energía cinética a partir de energía nuclear.
+
+
+- Title: 08
+  Question: El vapor de agua sobrecalentado en una planta nuclear
+            se usa para...
+  Choices:
+    - Mover una turbina.
+    - Generar electricidad directamente.
+    - Aumentar la temperatura del agua.
+    - Disminuir la energía térmica.
+
+
+- Title: 09
+  Question: La energía química de la gasolina en un automóvil se
+            convierte primero en...
+  Choices:
+    - Energía térmica.
+    - Energía eléctrica.
+    - Energía potencial.
+    - Energía mecánica.
+
+
+- Title: 10
+  Question: En un automóvil a gasolina, la energía térmica generada
+            por la gasolina se utiliza para...
+  Choices:
+    - Mover los pistones.
+    - Calentar el motor.
+    - Girar las ruedas.
+    - Generar electricidad.
+
+
+- Title: 11
+  Question: En un aerogenerador, la energía cinética del viento se
+            convierte en...
+  Choices:
+    - Energía mecánica de giro.
+    - Energía nuclear.
+    - Energía térmica.
+    - Energía química.
+
+
+- Title: 12
+  Question: En la conversión de energía de una presa, la turbina
+            convierte la energía...
+  Choices:
+    - Cinética en mecánica.
+    - Eléctrica en cinética.
+    - Térmica en mecánica.
+    - Química en térmica.
+
+
+- Title: 13
+  Question: En el proceso de convertir gas natural en energía eléctrica,
+            la turbina convierte la energía térmica en...
+  Choices:
+    - Energía mecánica.
+    - Energía cinética.
+    - Energía eléctrica.
+    - Energía potencial.
+
+
+- Title: 14
+  Question: En cualquier central eléctrica la energía mecánica de giro
+            se convierte en ...
+  Choices:
+    - Energía eléctrica mediante un alternador.
+    - Energía eléctrica mediante una turbina.
+    - Energía eléctrica mediante una caldera.
+    - Energía eléctrica mediante una reductora.
+
+
+- Title: 15
+  Question: En un automóvil, la energía mecánica transmitida a las
+            ruedas produce...
+  Choices:
+    - Energía cinética.
+    - Energía térmica.
+    - Energía química.
+    - Energía eléctrica.
+
+
+- Title: 16
+  Question: La energía eléctrica generada en una presa se utiliza para...
+  Choices:
+    - Producir energía en nuestras casas.
+    - Calentar el agua de la presa.
+    - Aumentar la presión del gas.
+    - Convertirla en energía nuclear.
+
+
+- Title: 17
+  Question: Una resistencia eléctrica convierte de forma eficiente...
+  Choices:
+    - Energía eléctrica en energía térmica.
+    - Energía mecánica en energía térmica.
+    - Energía potencial en energía química.
+    - Energía cinética en energía potencial.
+
+
+
+#
+# FUENTES DE ENERGÍA
+#
+
+- Title: 18
+  Question: ¿Qué es una fuente de energía?
+  Choices:
+    - Un recurso natural del que se puede obtener energía.
+    - Un dispositivo que almacena energía.
+    - Una máquina que transforma energía en trabajo.
+    - Un elemento artificial que produce electricidad.
+
+
+- Title: 19
+  Question: ¿Cómo se clasifican las fuentes de energía según su disponibilidad?
+  Choices:
+    - En renovables y no renovables.
+    - En limpias y sucias.
+    - En naturales y artificiales.
+    - En primarias y secundarias.
+
+
+- Title: 20
+  Question: ¿Qué característica define a las fuentes de energía no renovables?
+  Choices:
+    - Se agotan a medida que se consumen.
+    - Son inagotables con la tecnología actual.
+    - Solo se pueden utilizar para generar electricidad.
+    - Se regeneran en periodos cortos de tiempo.
+
+
+- Title: 21
+  Question: ¿Cuál es la base energética principal de las fuentes no
+            renovables?
+  Choices:
+    - La energía química captada por plantas hace millones de años.
+    - La energía térmica del núcleo terrestre.
+    - La energía generada por la fusión nuclear en el Sol, que llega a la
+      Tierra por radiación.
+    - La energía cinética de los movimientos terrestres.
+
+
+- Title: 22
+  Question: ¿Qué problemas ambientales se asocian a las fuentes de energía
+            no renovables?
+  Choices:
+    - Contaminación, calentamiento global y crisis climática.
+    - Escasez de recursos y aumento de la biodiversidad.
+    - Reducción de emisiones y aumento de la eficiencia energética.
+    - Mejoramiento de la calidad del aire y del agua.
+
+
+- Title: 23
+  Question: ¿Cuál de las siguientes fuentes de energía no renovables
+            produce la mayor contaminación medioambiental?
+  Choices:
+    - El carbón.
+    - El petróleo.
+    - El gas natural.
+    - La energía nuclear.
+
+
+- Title: 24
+  Question: ¿Qué fuente de energía no renovable es la más utilizada
+            actualmente para transporte y calefacción?
+  Choices:
+    - El petróleo.
+    - El carbón.
+    - El gas natural.
+    - La energía nuclear.
+
+
+- Title: 25
+  Question: ¿Qué característica tiene el gas natural en comparación con
+            otros combustibles fósiles?
+  Choices:
+    - Es el menos contaminante al quemarse, aunque también emite CO2.
+    - Es completamente limpio y no emite gases de efecto invernadero.
+    - Se agota más rápido que el petróleo.
+    - Es la fuente de energía más contaminante de todas las no renovables.
+
+
+- Title: 26
+  Question: ¿De qué compuesto principal está formado el gas natural?
+  Choices:
+    - Metano.
+    - Propano.
+    - Butano.
+    - Etano.
+
+
+- Title: 27
+  Question: ¿Qué efecto tiene el metano del gas natural cuando se libera
+            en la atmósfera?
+  Choices:
+    - Produce un efecto invernadero mucho mayor que el del gas CO2.
+    - Se descompone rápidamente sin efecto en la atmósfera.
+    - Contribuye a la formación de ozono estratosférico.
+    - Ayuda a enfriar la atmósfera.
+
+
+- Title: 28
+  Question: ¿Qué desventaja presenta la energía nuclear?
+  Choices:
+    - Genera importantes residuos radioactivos contaminantes.
+    - Emite grandes cantidades de CO2 a la atmósfera.
+    - Es intermitente y depende de la luz solar.
+    - Proviene de recursos renovables y, por lo tanto, inagotables.
+
+
+- Title: 29
+  Question: ¿Qué característica define a las fuentes de energía renovables?
+  Choices:
+    - Se consideran inagotables y pueden aprovecharse sin límite.
+    - Se agotan rápidamente porque tienen reservas limitadas.
+    - Solo se utilizan en zonas volcánicas o con calor geotérmico.
+    - Son siempre intermitentes y poco fiables.
+
+
+- Title: 30
+  Question: ¿Cuál es uno de los principales problemas de las energías
+            renovables?
+  Choices:
+    - Su intermitencia, lo que requiere almacenar excedentes.
+    - La alta emisión de gases contaminantes a la atmósfera.
+    - El agotamiento de sus recursos naturales a medida que se usan.
+    - Su producción de importantes residuos radioactivos.
+
+
+- Title: 31
+  Question: ¿De dónde proviene la energía solar?
+  Choices:
+    - De las reacciones nucleares de fusión en el interior del Sol.
+    - De las reacciones nucleares de fisión de uranio en el interior del Sol.
+    - De la combustión de los combustibles químicos del interior del Sol.
+    - De la energía térmica de la Tierra.
+
+
+- Title: 32
+  Question: ¿Qué fuente de energía se aprovecha mediante la utilización
+            de la energía cinética del viento?
+  Choices:
+    - La energía eólica.
+    - La energía mareomotriz.
+    - La energía geotérmica.
+    - La energía de biomasa.
+
+
+- Title: 33
+  Question: ¿De dónde proviene la energía hidráulica?
+  Choices:
+    - De la energía potencial del agua de ríos acumulada en presas.
+    - De la conversión directa de la energía solar.
+    - De la descomposición de residuos orgánicos.
+    - De la energía generada por el movimiento de la Tierra.
+
+
+- Title: 34
+  Question: ¿Qué ventaja ofrece la energía hidráulica?
+  Choices:
+    - Se puede almacenar con facilidad.
+    - Es completamente ininterrumpida.
+    - No depende de la disponibilidad de recursos naturales.
+    - No requiere inversión en infraestructuras.
+
+
+- Title: 35
+  Question: ¿De dónde se obtiene la energía geotérmica?
+  Choices:
+    - Del calor interno de la Tierra.
+    - De la fusión del hielo en las regiones polares.
+    - De la energía cinética del viento.
+    - De la radiación solar directa.
+
+
+- Title: 36
+  Question: ¿Cuál es una ventaja de la energía geotérmica?
+  Choices:
+    - Está siempre disponible, aunque solo se puede aprovechar en
+      algunas zonas volcánicas.
+    - Es completamente renovable en todas las regiones del mundo.
+    - No requiere ningún tipo de infraestructura para su aprovechamiento.
+    - No produce ningún residuo ni contaminación.
+
+
+- Title: 37
+  Question: ¿Cómo se obtiene la energía de la biomasa?
+  Choices:
+    - A partir de la energía química contenida en los árboles.
+    - Por la fusión nuclear de materiales orgánicos.
+    - Mediante la combustión directa de combustibles fósiles.
+    - A través del aprovechamiento de la energía cinética del agua.

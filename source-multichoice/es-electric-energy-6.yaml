@@ -1,0 +1,191 @@
+﻿
+Category: Electricidad
+Title: Energía VI
+Date: 01/02/2025
+Copyright: 2025 por Carlos Félix Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+Source_link: ../es/electric-energia.html
+Show_max: 0
+
+---
+
+- Title:
+  Question: ¿Cuál es la fórmula de la energía eléctrica?
+  Choices:
+    - E = P · t
+    - E = P / t
+    - E = t / P
+    - E = P + t
+
+
+- Title:
+  Question: ¿Qué representa "E" en la fórmula de la energía eléctrica?
+  Choices:
+    - Energía en kilovatios-hora [kWh]
+    - Energía en vatios [W]
+    - Energía en amperios [A]
+    - Energía en julios [J]
+
+
+- Title:
+  Question: ¿Qué representa "P" en la fórmula de la energía eléctrica?
+  Choices:
+    - Potencia en kilovatios [kW]
+    - Potencia en vatios-hora [Wh]
+    - Potencia en amperios [A]
+    - Potencia en julios [J]
+
+
+- Title:
+  Question: ¿Qué representa "t" en la fórmula de la energía eléctrica?
+  Choices:
+    - Tiempo en horas [h]
+    - Tiempo en segundos [s]
+    - Tiempo en minutos [min]
+    - Tiempo en días [d]
+
+
+- Title:
+  Question: ¿Cuál es la fórmula para calcular la potencia (P) a partir de la energía (E) y el tiempo (t)?
+  Choices:
+    - P = E / t
+    - P = E · t
+    - P = t / E
+    - P = E + t
+
+
+- Title:
+  Question: ¿Cuál es la fórmula para calcular el tiempo (t) a partir de la energía (E) y la potencia (P)?
+  Choices:
+    - t = E / P
+    - t = P / E
+    - t = E · P
+    - t = P + E
+
+
+- Title:
+  Question: ¿De qué depende la energía que consumimos según la fórmula de energía eléctrica?
+  Choices:
+    - De la potencia del aparato y del tiempo de funcionamiento.
+    - Del tamaño del aparato y del voltaje.
+    - De la cantidad de aparatos y de la resistencia.
+    - Del tipo de aparato y de la intensidad de corriente.
+
+
+- Title:
+  Question: ¿Cuál es uno de los electrodomésticos con menor potencia?
+  Choices:
+    - El frigorífico.
+    - El horno eléctrico.
+    - El secador de pelo.
+    - La vitrocerámica.
+
+
+- Title:
+  Question: ¿Qué electrodoméstico consume aproximadamente un tercio de la energía total del hogar?
+  Choices:
+    - El frigorífico.
+    - El microondas.
+    - La lavadora.
+    - El aire acondicionado.
+
+
+- Title:
+  Question: ¿Por qué el frigorífico consume tanta energía?
+  Choices:
+    - Porque está en funcionamiento casi todo el día todos los días del año.
+    - Porque genera grandes cantidades de calor.
+    - Porque tiene una alta potencia.
+    - Porque se utiliza con frecuencia durante el día.
+
+
+- Title:
+  Question: ¿Qué tipo de electrodomésticos suelen tener mayor potencia?
+  Choices:
+    - Los que generan grandes cantidades de calor.
+    - Los que se utilizan para enfriar.
+    - Los que funcionan con baterías.
+    - Los que tienen motores pequeños.
+
+
+- Title:
+  Question: ¿Cuál es el rango de potencia de los electrodomésticos que generan calor?
+  Choices:
+    - Entre 1000 y 3000 vatios.
+    - Entre 500 y 1500 vatios.
+    - Entre 2000 y 4000 vatios.
+    - Entre 300 y 700 vatios.
+
+
+- Title:
+  Question: ¿Qué electrodoméstico no pertenece al grupo de los que generan grandes cantidades de calor?
+  Choices:
+    - El frigorífico.
+    - El horno eléctrico.
+    - La vitrocerámica.
+    - El secador de pelo.
+
+
+- Title:
+  Question: ¿Qué unidad se utiliza para medir la energía en la fórmula de energía eléctrica?
+  Choices:
+    - Kilovatios-hora [kWh].
+    - Vatios-hora [Wh].
+    - Amperios-hora [Ah].
+    - Julios [J].
+
+
+- Title:
+  Question: ¿Qué unidad se utiliza para medir la potencia en la fórmula de energía eléctrica?
+  Choices:
+    - Kilovatios [kW].
+    - Vatios [W].
+    - Amperios [A].
+    - Julios [J].
+
+
+- Title:
+  Question: ¿Qué unidad se utiliza para medir el tiempo en la fórmula de energía eléctrica?
+  Choices:
+    - Horas [h].
+    - Segundos [s].
+    - Minutos [min].
+    - Días [d].
+
+
+- Title:
+  Question: ¿Cuál es uno de los gastos más importantes de los hogares relacionados con la energía eléctrica?
+  Choices:
+    - La factura eléctrica.
+    - La compra de electrodomésticos.
+    - El mantenimiento de los aparatos.
+    - La instalación de paneles solares.
+
+
+- Title:
+  Question: ¿Qué determina la cantidad de energía que consume un aparato eléctrico?
+  Choices:
+    - Su potencia y el tiempo que esté en funcionamiento.
+    - Su tamaño y su color.
+    - El tipo de material del que está hecho.
+    - La marca del aparato.
+
+
+- Title:
+  Question: ¿Qué electrodoméstico tiene una potencia de aproximadamente 150 vatios?
+  Choices:
+    - El frigorífico.
+    - El horno eléctrico.
+    - La vitrocerámica.
+    - El secador de pelo.
+
+
+- Title:
+  Question: ¿Qué electrodoméstico suele tener una potencia de entre 1000 y 3000 vatios?
+  Choices:
+    - El horno eléctrico.
+    - El frigorífico.
+    - El microondas.
+    - La lavadora.
+

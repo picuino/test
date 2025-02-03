@@ -2,7 +2,7 @@
 <quiz>
 
   <question type="category">
-    <category> <text>$course$/top/Electricidad/es-electric-energy-4</text> </category>
+    <category> <text>$course$/top/Electricidad/es-electric-energy-5</text> </category>
     <info format="html"> <text></text> </info>
     <idnumber></idnumber>
   </question>
@@ -14,7 +14,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué beneficios aporta la energía a nuestra sociedad?</p>
+         <p>Según el primer principio de la termodinámica, la energía...</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -30,22 +30,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Satisfacer necesidades básicas diarias.</text>
+       <text>No se crea ni se destruye, solo se transforma.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Generar caos.</text>
+       <text>Puede desaparecer completamente en algunos procesos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Aumentar la contaminación.</text>
+       <text>Se crea cuando hay un cambio de forma.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Crear problemas ambientales.</text>
+       <text>Se destruye para generar nueva energía.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -58,7 +58,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué está causando el uso excesivo de energías fósiles?</p>
+         <p>¿Qué energía se transforma al quemar gas natural en una caldera de calefacción?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -74,22 +74,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Crisis climática.</text>
+       <text>De energía química a energía térmica.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mejoras en la tecnología.</text>
+       <text>De energía química a energía nuclear.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Reducción de costos.</text>
+       <text>De energía potencial a energía radiante.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Aumento de la biodiversidad.</text>
+       <text>De energía cinética a energía potencial.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -102,7 +102,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es una fuente de energía más sostenible que las energías fósiles?</p>
+         <p>La energía potencial del agua de una presa se convierte primero en...</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -118,22 +118,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía solar.</text>
+       <text>Energía cinética.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
+       <text>Energía térmica.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Energía eléctrica.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
        <text>Energía nuclear.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Energía de carbón.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Energía de gas natural.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -146,7 +146,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué es la energía?</p>
+         <p>En la transformación de la energía, a menudo...</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -162,22 +162,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Capacidad de realizar trabajo o producir cambios.</text>
+       <text>Se necesitan varios pasos intermedios.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Una forma de materia.</text>
+       <text>No se requieren pasos adicionales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Un recurso ilimitado.</text>
+       <text>La energía se pierde completamente.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Algo que se puede crear de la nada.</text>
+       <text>Solo se utiliza un paso directo.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -190,7 +190,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué puede convertirse en trabajo o movimiento, luz, calor, sonido u otros efectos útiles?</p>
+         <p>El giro del eje de la turbina en una presa genera...</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -206,22 +206,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>La energía.</text>
+       <text>Energía mecánica.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La materia.</text>
+       <text>Energía potencial.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Los compuestos químicos.</text>
+       <text>Energía térmica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Las moléculas.</text>
+       <text>Energía nuclear.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -234,7 +234,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de energía tiene un objeto debido a su posición en un campo gravitatorio?</p>
+         <p>En el proceso de generación de energía con gas natural, la energía química se convierte primero en...</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -250,7 +250,7 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía potencial.</text>
+       <text>Energía térmica.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
@@ -260,12 +260,12 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía térmica.</text>
+       <text>Energía eléctrica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía mecánica.</text>
+       <text>Energía potencial.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -278,7 +278,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de energía tiene una presa hidráulica?</p>
+         <p>En la conversión de la energía nuclear del uranio, se genera primero...</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -294,22 +294,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía potencial.</text>
+       <text>Energía térmica a partir de energía nuclear.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía cinética.</text>
+       <text>Energía mecánica a partir de energía nuclear.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía térmica.</text>
+       <text>Energía química a partir de energía nuclear.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía mecánica.</text>
+       <text>Energía cinética a partir de energía nuclear.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -317,12 +317,12 @@
 
 
   <question type="multichoice">
-    <name> <text>8</text> </name>
+    <name> <text>08</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de energía tiene un objeto debido a su movimiento?</p>
+         <p>El vapor de agua sobrecalentado en una planta nuclear se usa para...</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -338,22 +338,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía cinética.</text>
+       <text>Mover una turbina.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía potencial.</text>
+       <text>Generar electricidad directamente.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía térmica.</text>
+       <text>Aumentar la temperatura del agua.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía mecánica.</text>
+       <text>Disminuir la energía térmica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -361,12 +361,12 @@
 
 
   <question type="multichoice">
-    <name> <text>9</text> </name>
+    <name> <text>09</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de energía tiene un balón lanzado a mucha velocidad?</p>
+         <p>La energía química de la gasolina en un automóvil se convierte primero en...</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -382,17 +382,17 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía cinética.</text>
+       <text>Energía térmica.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía potencial.</text>
+       <text>Energía eléctrica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía térmica.</text>
+       <text>Energía potencial.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -410,7 +410,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de energía se transmite mediante el desplazamiento lineal o el giro de una pieza mecánica de una máquina?</p>
+         <p>En un automóvil a gasolina, la energía térmica generada por la gasolina se utiliza para...</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -426,22 +426,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía mecánica.</text>
+       <text>Mover los pistones.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía térmica.</text>
+       <text>Calentar el motor.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía cinética.</text>
+       <text>Girar las ruedas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía potencial.</text>
+       <text>Generar electricidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -454,7 +454,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de energía transmite el eje de una batidora?</p>
+         <p>En un aerogenerador, la energía cinética del viento se convierte en...</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -470,8 +470,13 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía mecánica.</text>
+       <text>Energía mecánica de giro.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Energía nuclear.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
@@ -480,12 +485,7 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía cinética.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Energía potencial.</text>
+       <text>Energía química.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -498,7 +498,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué forma de energía está asociada a la temperatura de un objeto?</p>
+         <p>En la conversión de energía de una presa, la turbina convierte la energía...</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -514,22 +514,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía térmica.</text>
+       <text>Cinética en mecánica.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía química.</text>
+       <text>Eléctrica en cinética.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía cinética.</text>
+       <text>Térmica en mecánica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía nuclear.</text>
+       <text>Química en térmica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -542,7 +542,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué forma de energía se basa en el movimiento interno de los átomos y moléculas de un objeto?</p>
+         <p>En el proceso de convertir gas natural en energía eléctrica, la turbina convierte la energía térmica en...</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -558,13 +558,8 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía térmica.</text>
+       <text>Energía mecánica.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Energía química.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
@@ -573,7 +568,12 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía nuclear.</text>
+       <text>Energía eléctrica.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Energía potencial.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -586,7 +586,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de energía tiene el agua caliente de una caldera?</p>
+         <p>En cualquier central eléctrica la energía mecánica de giro se convierte en ...</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -602,22 +602,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía térmica.</text>
+       <text>Energía eléctrica mediante un alternador.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía química.</text>
+       <text>Energía eléctrica mediante una turbina.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía cinética.</text>
+       <text>Energía eléctrica mediante una caldera.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía nuclear.</text>
+       <text>Energía eléctrica mediante una reductora.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -630,7 +630,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de energía tienen los combustibles?</p>
+         <p>En un automóvil, la energía mecánica transmitida a las ruedas produce...</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -646,22 +646,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía química.</text>
+       <text>Energía cinética.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía radiante.</text>
+       <text>Energía térmica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía mareomotriz.</text>
+       <text>Energía química.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía potencial.</text>
+       <text>Energía eléctrica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -674,7 +674,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de energía tienen los alimentos?</p>
+         <p>La energía eléctrica generada en una presa se utiliza para...</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -690,22 +690,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía química.</text>
+       <text>Producir energía en nuestras casas.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía radiante.</text>
+       <text>Calentar el agua de la presa.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía mareomotriz.</text>
+       <text>Aumentar la presión del gas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía potencial.</text>
+       <text>Convertirla en energía nuclear.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -718,7 +718,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de energía es interna a los átomos y se libera en reacciones de fisión?</p>
+         <p>Una resistencia eléctrica convierte de forma eficiente...</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -734,22 +734,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía nuclear.</text>
+       <text>Energía eléctrica en energía térmica.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía potencial.</text>
+       <text>Energía mecánica en energía térmica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía cinética.</text>
+       <text>Energía potencial en energía química.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía térmica.</text>
+       <text>Energía cinética en energía potencial.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -762,7 +762,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo se produce calor en el interior de la Tierra, que se puede aprovechar como energía geotérmica?</p>
+         <p>¿Qué es una fuente de energía?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -778,22 +778,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Mediante la fisión nuclear del uranio y otros elementos.</text>
+       <text>Un recurso natural del que se puede obtener energía.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mediante la interacción gravitatoria entre la Tierra y la Luna.</text>
+       <text>Un dispositivo que almacena energía.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mediante la fusión nuclear del hidrógeno.</text>
+       <text>Una máquina que transforma energía en trabajo.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mediante la energía cinética y potencial de las mareas.</text>
+       <text>Un elemento artificial que produce electricidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -806,7 +806,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de energía se libera con la fusión del hidrógeno en el Sol?</p>
+         <p>¿Cómo se clasifican las fuentes de energía según su disponibilidad?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -822,22 +822,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía nuclear.</text>
+       <text>En renovables y no renovables.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía potencial.</text>
+       <text>En limpias y sucias.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía cinética.</text>
+       <text>En naturales y artificiales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía mecánica.</text>
+       <text>En primarias y secundarias.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -850,7 +850,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de energía está presente en la luz?</p>
+         <p>¿Qué característica define a las fuentes de energía no renovables?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -866,22 +866,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía radiante.</text>
+       <text>Se agotan a medida que se consumen.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía potencial.</text>
+       <text>Son inagotables con la tecnología actual.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía cinética.</text>
+       <text>Solo se pueden utilizar para generar electricidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía térmica.</text>
+       <text>Se regeneran en periodos cortos de tiempo.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -894,7 +894,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de energía emite un horno microondas?</p>
+         <p>¿Cuál es la base energética principal de las fuentes no renovables?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -910,22 +910,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía radiante.</text>
+       <text>La energía química captada por plantas hace millones de años.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía potencial.</text>
+       <text>La energía térmica del núcleo terrestre.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía cinética.</text>
+       <text>La energía generada por la fusión nuclear en el Sol, que llega a la Tierra por radiación.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía térmica.</text>
+       <text>La energía cinética de los movimientos terrestres.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -938,7 +938,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Por qué es fundamental la energía radiante?</p>
+         <p>¿Qué problemas ambientales se asocian a las fuentes de energía no renovables?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -954,22 +954,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Porque es la mayor parte de la energía que llega a la Tierra desde el Sol.</text>
+       <text>Contaminación, calentamiento global y crisis climática.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Porque es la menor parte de la energía que llega a la Tierra desde el Sol.</text>
+       <text>Escasez de recursos y aumento de la biodiversidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Porque es la energía que podemos aprovechar mejor mediante el calor del interior de la Tierra.</text>
+       <text>Reducción de emisiones y aumento de la eficiencia energética.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Porque es la energía más fácil de convertir en energía eléctrica mediante un alternador.</text>
+       <text>Mejoramiento de la calidad del aire y del agua.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -982,7 +982,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de energía está asociada al movimiento de los electrones a través de los cables conductores?</p>
+         <p>¿Cuál de las siguientes fuentes de energía no renovables produce la mayor contaminación medioambiental?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -998,22 +998,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía eléctrica.</text>
+       <text>El carbón.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía térmica.</text>
+       <text>El petróleo.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía química.</text>
+       <text>El gas natural.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía radiante.</text>
+       <text>La energía nuclear.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1026,7 +1026,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>Los rayos de las tormentas son manifestaciones naturales de...</p>
+         <p>¿Qué fuente de energía no renovable es la más utilizada actualmente para transporte y calefacción?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1042,22 +1042,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>La energía eléctrica.</text>
+       <text>El petróleo.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La energía química.</text>
+       <text>El carbón.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La energía térmica.</text>
+       <text>El gas natural.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La energía natural.</text>
+       <text>La energía nuclear.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1070,7 +1070,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué permite la energía eléctrica debido a su facilidad de transformación?</p>
+         <p>¿Qué característica tiene el gas natural en comparación con otros combustibles fósiles?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1086,22 +1086,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Transportar otras formas de energía de un lugar a otro.</text>
+       <text>Es el menos contaminante al quemarse, aunque también emite CO2.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Evitar pérdidas energéticas.</text>
+       <text>Es completamente limpio y no emite gases de efecto invernadero.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Reducir la dependencia de las energías no renovables, como el petróleo.</text>
+       <text>Se agota más rápido que el petróleo.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mantener la energía sin transformaciones.</text>
+       <text>Es la fuente de energía más contaminante de todas las no renovables.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1114,7 +1114,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué energía no se puede almacenar fácilmente?</p>
+         <p>¿De qué compuesto principal está formado el gas natural?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1130,22 +1130,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía eléctrica.</text>
+       <text>Metano.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía química.</text>
+       <text>Propano.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía potencial.</text>
+       <text>Butano.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía nuclear.</text>
+       <text>Etano.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1158,7 +1158,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo se puede almacenar la energía eléctrica?</p>
+         <p>¿Qué efecto tiene el metano del gas natural cuando se libera en la atmósfera?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1174,22 +1174,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Mediante la energía química de las baterías.</text>
+       <text>Produce un efecto invernadero mucho mayor que el del gas CO2.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mediante la energía potencial de las baterías.</text>
+       <text>Se descompone rápidamente sin efecto en la atmósfera.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mediante la energía cinética de los automóviles en movimiento.</text>
+       <text>Contribuye a la formación de ozono estratosférico.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mediante la energía nuclear de las centrales eléctricas.</text>
+       <text>Ayuda a enfriar la atmósfera.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1202,7 +1202,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo se puede almacenar la energía eléctrica?</p>
+         <p>¿Qué desventaja presenta la energía nuclear?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1218,22 +1218,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Mediante la energía potencial de los embalses de agua.</text>
+       <text>Genera importantes residuos radioactivos contaminantes.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mediante la energía potencial de las baterías.</text>
+       <text>Emite grandes cantidades de CO2 a la atmósfera.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mediante la energía cinética de los automóviles en movimiento.</text>
+       <text>Es intermitente y depende de la luz solar.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mediante la energía nuclear de las centrales eléctricas.</text>
+       <text>Proviene de recursos renovables y, por lo tanto, inagotables.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1246,7 +1246,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo se puede transformar energía mecánica en energía eléctrica?</p>
+         <p>¿Qué característica define a las fuentes de energía renovables?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1262,22 +1262,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Mediante una dinamo o un alternador.</text>
+       <text>Se consideran inagotables y pueden aprovecharse sin límite.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mediante una batería química.</text>
+       <text>Se agotan rápidamente porque tienen reservas limitadas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mediante el almacenamiento de agua en un embalse.</text>
+       <text>Solo se utilizan en zonas volcánicas o con calor geotérmico.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mediante una central eléctrica.</text>
+       <text>Son siempre intermitentes y poco fiables.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1290,7 +1290,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué produce las mareas de los océanos?</p>
+         <p>¿Cuál es uno de los principales problemas de las energías renovables?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1306,22 +1306,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>La energía cinética y potencial de la Luna.</text>
+       <text>Su intermitencia, lo que requiere almacenar excedentes.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La energía nuclear del interior de la Tierra.</text>
+       <text>La alta emisión de gases contaminantes a la atmósfera.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La energía potencial de los embalses de agua.</text>
+       <text>El agotamiento de sus recursos naturales a medida que se usan.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La energía cinética del Sol a través de la galaxia.</text>
+       <text>Su producción de importantes residuos radioactivos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1334,7 +1334,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es el tipo de energía más degradada y difícil de transformar?</p>
+         <p>¿De dónde proviene la energía solar?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1350,22 +1350,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>La energía térmica.</text>
+       <text>De las reacciones nucleares de fusión en el interior del Sol.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La energía cinética.</text>
+       <text>De las reacciones nucleares de fisión de uranio en el interior del Sol.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La energía mecánica.</text>
+       <text>De la combustión de los combustibles químicos del interior del Sol.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La energía química.</text>
+       <text>De la energía térmica de la Tierra.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1378,7 +1378,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>Cuando transformamos energía de un tipo a otro se producen pérdidas que se terminan convirtiendo en energía...</p>
+         <p>¿Qué fuente de energía se aprovecha mediante la utilización de la energía cinética del viento?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1394,22 +1394,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Térmica.</text>
+       <text>La energía eólica.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Cinética.</text>
+       <text>La energía mareomotriz.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mecánica.</text>
+       <text>La energía geotérmica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Química.</text>
+       <text>La energía de biomasa.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1422,7 +1422,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo se libera la energía química de los combustibles?</p>
+         <p>¿De dónde proviene la energía hidráulica?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1438,22 +1438,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Quemando el combustible con oxígeno, lo que produce energía térmica.</text>
+       <text>De la energía potencial del agua de ríos acumulada en presas.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Quemando el combustible con CO2, lo que produce energía térmica.</text>
+       <text>De la conversión directa de la energía solar.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Quemando el combustible con oxígeno, lo que produce energía potencial.</text>
+       <text>De la descomposición de residuos orgánicos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Quemando el combustible con litio, lo que produce energía de batería.</text>
+       <text>De la energía generada por el movimiento de la Tierra.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1466,7 +1466,7 @@
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de energía tienen en su interior las pilas y las baterías?</p>
+         <p>¿Qué ventaja ofrece la energía hidráulica?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1482,22 +1482,154 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Energía química, que se transforma en energía eléctrica.</text>
+       <text>Se puede almacenar con facilidad.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía potencial, que se transforma en energía eléctrica.</text>
+       <text>Es completamente ininterrumpida.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía cinética, que se transforma en energía eléctrica.</text>
+       <text>No depende de la disponibilidad de recursos naturales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Energía mecánica, que se transforma en energía eléctrica.</text>
+       <text>No requiere inversión en infraestructuras.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>35</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿De dónde se obtiene la energía geotérmica?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Del calor interno de la Tierra.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>De la fusión del hielo en las regiones polares.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>De la energía cinética del viento.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>De la radiación solar directa.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>36</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuál es una ventaja de la energía geotérmica?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Está siempre disponible, aunque solo se puede aprovechar en algunas zonas volcánicas.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Es completamente renovable en todas las regiones del mundo.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>No requiere ningún tipo de infraestructura para su aprovechamiento.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>No produce ningún residuo ni contaminación.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>37</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cómo se obtiene la energía de la biomasa?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>A partir de la energía química contenida en los árboles.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Por la fusión nuclear de materiales orgánicos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Mediante la combustión directa de combustibles fósiles.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>A través del aprovechamiento de la energía cinética del agua.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     

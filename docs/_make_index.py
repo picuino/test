@@ -93,6 +93,8 @@ index_data = [
           ["es-electric-energy-2.html", "Energía eléctrica II"],
           ["es-electric-energy-3.html", "Energía eléctrica III"],
           ["es-electric-energy-4.html", "Energía eléctrica IV"],
+          ["es-electric-energy-5.html", "Energía eléctrica V"],
+          ["es-electric-energy-6.html", "Energía eléctrica VI"],
           ["es-electric-energy-calc.html", "Cálculos con energía eléctrica"],
 
           ["es-electric-power.html", "Potencia eléctrica"],

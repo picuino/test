@@ -130,7 +130,8 @@ Show_max: 0
 
 
 - Title: 13
-  Question: ¿Qué tipo de energía tiene el agua caliente de una caldera?
+  Question: ¿Qué forma de energía se basa en el movimiento interno de
+            los átomos y moléculas de un objeto?
   Choices:
     - Energía térmica.
     - Energía química.
@@ -139,6 +140,15 @@ Show_max: 0
 
 
 - Title: 14
+  Question: ¿Qué tipo de energía tiene el agua caliente de una caldera?
+  Choices:
+    - Energía térmica.
+    - Energía química.
+    - Energía cinética.
+    - Energía nuclear.
+
+
+- Title: 15
   Question: ¿Qué tipo de energía tienen los combustibles?
   Choices:
     - Energía química.
@@ -147,7 +157,7 @@ Show_max: 0
     - Energía potencial.
 
 
-- Title: 15
+- Title: 16
   Question: ¿Qué tipo de energía tienen los alimentos?
   Choices:
     - Energía química.
@@ -156,7 +166,7 @@ Show_max: 0
     - Energía potencial.
 
 
-- Title: 16
+- Title: 17
   Question: ¿Qué tipo de energía es interna a los átomos y se libera en
             reacciones de fisión?
   Choices:
@@ -166,7 +176,7 @@ Show_max: 0
     - Energía térmica.
 
 
-- Title: 17
+- Title: 18
   Question: ¿Cómo se produce calor en el interior de la Tierra,
             que se puede aprovechar como energía geotérmica?
   Choices:
@@ -175,7 +185,7 @@ Show_max: 0
     - Mediante la fusión nuclear del hidrógeno.
     - Mediante la energía cinética y potencial de las mareas.
 
-- Title: 18
+- Title: 19
   Question: ¿Qué tipo de energía se libera con la fusión del hidrógeno en el Sol?
   Choices:
     - Energía nuclear.
@@ -184,7 +194,7 @@ Show_max: 0
     - Energía mecánica.
 
 
-- Title: 19
+- Title: 20
   Question: ¿Qué tipo de energía está presente en la luz?
   Choices:
     - Energía radiante.
@@ -193,7 +203,7 @@ Show_max: 0
     - Energía térmica.
 
 
-- Title: 20
+- Title: 21
   Question: ¿Qué tipo de energía emite un horno microondas?
   Choices:
     - Energía radiante.
@@ -202,7 +212,7 @@ Show_max: 0
     - Energía térmica.
 
 
-- Title: 21
+- Title: 22
   Question: ¿Por qué es fundamental la energía radiante?
   Choices:
     - Porque es la mayor parte de la energía que llega a la Tierra desde
@@ -215,7 +225,7 @@ Show_max: 0
       mediante un alternador.
 
 
-- Title: 22
+- Title: 23
   Question: ¿Qué tipo de energía está asociada al movimiento de los
             electrones a través de los cables conductores?
   Choices:
@@ -225,8 +235,8 @@ Show_max: 0
     - Energía radiante.
 
 
-- Title: 23
-  Question: Los rayos son manifestaciones naturales de...
+- Title: 24
+  Question: Los rayos de las tormentas son manifestaciones naturales de...
   Choices:
     - La energía eléctrica.
     - La energía química.
@@ -234,7 +244,7 @@ Show_max: 0
     - La energía natural.
 
 
-- Title: 24
+- Title: 25
   Question: ¿Qué permite la energía eléctrica debido a su facilidad
             de transformación?
   Choices:
@@ -244,7 +254,7 @@ Show_max: 0
     - Mantener la energía sin transformaciones.
 
 
-- Title: 25
+- Title: 26
   Question: ¿Qué energía no se puede almacenar fácilmente?
   Choices:
     - Energía eléctrica.
@@ -253,7 +263,7 @@ Show_max: 0
     - Energía nuclear.
 
 
-- Title: 26
+- Title: 27
   Question: ¿Cómo se puede almacenar la energía eléctrica?
   Choices:
     - Mediante la energía química de las baterías.
@@ -262,7 +272,7 @@ Show_max: 0
     - Mediante la energía nuclear de las centrales eléctricas.
 
 
-- Title: 27
+- Title: 28
   Question: ¿Cómo se puede almacenar la energía eléctrica?
   Choices:
     - Mediante la energía potencial de los embalses de agua.
@@ -271,7 +281,7 @@ Show_max: 0
     - Mediante la energía nuclear de las centrales eléctricas.
 
 
-- Title: 28
+- Title: 29
   Question: ¿Cómo se puede transformar energía mecánica en energía eléctrica?
   Choices:
     - Mediante una dinamo o un alternador.
@@ -280,7 +290,7 @@ Show_max: 0
     - Mediante una central eléctrica.
 
 
-- Title: 29
+- Title: 30
   Question: ¿Qué produce las mareas de los océanos?
   Choices:
     - La energía cinética y potencial de la Luna.
@@ -289,7 +299,7 @@ Show_max: 0
     - La energía cinética del Sol a través de la galaxia.
 
 
-- Title: 30
+- Title: 31
   Question: ¿Cuál es el tipo de energía más degradada y difícil de
             transformar?
   Choices:
@@ -299,7 +309,7 @@ Show_max: 0
     - La energía química.
 
 
-- Title: 31
+- Title: 32
   Question: Cuando transformamos energía de un tipo a otro se producen
             pérdidas que se terminan convirtiendo en energía...
   Choices:
@@ -309,7 +319,7 @@ Show_max: 0
     - Química.
 
 
-- Title: 32
+- Title: 33
   Question: ¿Cómo se libera la energía química de los combustibles?
   Choices:
     - Quemando el combustible con oxígeno, lo que produce energía térmica.
@@ -318,7 +328,7 @@ Show_max: 0
     - Quemando el combustible con litio, lo que produce energía de batería.
 
 
-- Title: 33
+- Title: 34
   Question: ¿Qué tipo de energía tienen en su interior las pilas y las 
             baterías?
   Choices:
