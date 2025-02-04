@@ -10,7 +10,176 @@ Show_max: 0
 
 ---
 
-- Title:
+#
+# ENERGÍA ELÉCTRICA. VENTAJAS Y DESVENTAJAS
+#
+
+- Title: 01
+  Question: ¿La energía eléctrica es una fuente de energía primaria?
+  Choices:
+    - No.
+    - Sí.
+    - A veces.
+    - Depende del país.
+
+
+- Title: 02
+  Question: ¿Por qué se genera energía eléctrica?
+  Choices:
+    - Porque es fácil de transportar.
+    - Porque es barata de producir.
+    - Porque es la única opción.
+    - Porque es la más antigua.
+
+
+- Title: 03
+  Question: ¿Cuál es una ventaja de la energía eléctrica?
+  Choices:
+    - Puede obtenerse con facilidad a partir de otras formas de energía.
+    - Es difícil de almacenar.
+    - Es más cara que otras formas de energía.
+    - No puede transportarse con facilidad.
+
+
+- Title: 04
+  Question: ¿Qué tipo de energía puede convertirse fácilmente en energía
+            eléctrica?
+  Choices:
+    - Mecánica.
+    - Gravitacional.
+    - Oscura.
+    - Magnética.
+
+
+- Title: 05
+  Question: ¿Cómo es el transporte de energía eléctrica?
+  Choices:
+    - Eficiente y consume poca energía.
+    - Ineficiente y costoso.
+    - Depende de la estación del año.
+    - Solo en ciertas regiones.
+
+
+- Title: 06
+  Question: ¿En qué se puede convertir fácilmente la energía eléctrica?
+  Choices:
+    - En otras formas de energía.
+    - En oro.
+    - En gas natural.
+    - En radiación nuclear.
+
+
+- Title: 07
+  Question: ¿Qué característica tiene la energía eléctrica en su uso?
+  Choices:
+    - Es muy limpia y no contamina en el lugar donde se usa.
+    - Siempre produce contaminación.
+    - Es la principal causa de contaminación en las ciudades.
+    - Solo contamina en invierno.
+
+
+- Title: 08
+  Question: ¿Dónde puede producir contaminación la energía eléctrica?
+  Choices:
+    - En el lugar de generación.
+    - En el lugar de uso.
+    - En ambos lugares.
+    - Nunca produce contaminación.
+
+
+- Title: 09
+  Question: ¿Cómo se puede controlar la energía eléctrica?
+  Choices:
+    - De forma muy sencilla.
+    - Es muy difícil de controlar.
+    - No se puede controlar.
+    - Solo se puede controlar en plantas nucleares.
+
+
+- Title: 10
+  Question: ¿Qué se necesita para transportar energía eléctrica?
+  Choices:
+    - Cables.
+    - Tubos.
+    - Camiones.
+    - Aviones.
+
+
+- Title: 11
+  Question: ¿Cuál es una desventaja de la energía eléctrica?
+  Choices:
+    - No existe una fuente primaria de energía eléctrica.
+    - Es mucho más cara de producir que cualquier otra fuente primaria.
+    - Es inagotable.
+    - No produce peligros.
+
+
+- Title: 12
+  Question: Como desventaja, ¿de dónde procede gran parte de
+            la electricidad generada actualmente?
+  Choices:
+    - De energías primarias no renovables y contaminantes.
+    - De fuentes primarias renovables e inagotables.
+    - De energía solar únicamente.
+    - De energía eólica únicamente.
+
+
+- Title: 13
+  Question: ¿Qué dificultad presenta el almacenamiento de energía
+            eléctrica?
+  Choices:
+    - No se puede almacenar con facilidad.
+    - Se almacena fácilmente.
+    - No se puede generar.
+    - Solo se almacena en invierno.
+
+
+- Title: 14
+  Question: ¿Qué hay que hacer en la red eléctrica constantemente?
+  Choices:
+    - Generar la misma cantidad de electricidad que la que se está
+      consumiendo.
+    - Parar la generación de electricidad cada cierto tiempo.
+    - No hacer nada.
+    - Generar siempre más electricidad de la necesaria.
+
+
+- Title: 15
+  Question: ¿Qué se necesita para utilizar la energía eléctrica en
+            medios de transporte?
+  Choices:
+    - Baterías.
+    - Gasolina.
+    - Carbón.
+    - Gasóleo.
+
+
+- Title: 16
+  Question: ¿Cuál es una desventaja del uso de energía eléctrica en el
+            transporte marítimo y aéreo?
+  Choices:
+    - Es muy difícil de utilizar.
+    - Es la opción más segura y barata.
+    - Es muy barata.
+    - No tiene desventajas.
+
+
+- Title: 17
+  Question: ¿Qué riesgo presenta la energía eléctrica si no se toman las
+            medidas de precaución necesarias?
+  Choices:
+    - Puede provocar incendios y descargas eléctricas.
+    - No presenta riesgos.
+    - Solo presenta riesgo de incendio al sobrecargar la instalación.
+    - Solo presenta riesgo de descargas eléctricas a las personas.
+
+
+
+#
+# CÁLCULOS CON ENERGÍA ELÉCTRICA
+#
+
+- Title: 18
   Question: ¿Cuál es la fórmula de la energía eléctrica?
   Choices:
     - E = P · t
@@ -19,7 +188,7 @@ Show_max: 0
     - E = P + t
 
 
-- Title:
+- Title: 19
   Question: ¿Qué representa "E" en la fórmula de la energía eléctrica?
   Choices:
     - Energía en kilovatios-hora [kWh]
@@ -28,7 +197,7 @@ Show_max: 0
     - Energía en julios [J]
 
 
-- Title:
+- Title: 20
   Question: ¿Qué representa "P" en la fórmula de la energía eléctrica?
   Choices:
     - Potencia en kilovatios [kW]
@@ -37,7 +206,7 @@ Show_max: 0
     - Potencia en julios [J]
 
 
-- Title:
+- Title: 21
   Question: ¿Qué representa "t" en la fórmula de la energía eléctrica?
   Choices:
     - Tiempo en horas [h]
@@ -46,8 +215,9 @@ Show_max: 0
     - Tiempo en días [d]
 
 
-- Title:
-  Question: ¿Cuál es la fórmula para calcular la potencia (P) a partir de la energía (E) y el tiempo (t)?
+- Title: 22
+  Question: ¿Cuál es la fórmula para calcular la potencia (P) a partir
+            de la energía (E) y el tiempo (t)?
   Choices:
     - P = E / t
     - P = E · t
@@ -55,8 +225,9 @@ Show_max: 0
     - P = E + t
 
 
-- Title:
-  Question: ¿Cuál es la fórmula para calcular el tiempo (t) a partir de la energía (E) y la potencia (P)?
+- Title: 23
+  Question: ¿Cuál es la fórmula para calcular el tiempo (t) a partir
+            de la energía (E) y la potencia (P)?
   Choices:
     - t = E / P
     - t = P / E
@@ -64,8 +235,9 @@ Show_max: 0
     - t = P + E
 
 
-- Title:
-  Question: ¿De qué depende la energía que consumimos según la fórmula de energía eléctrica?
+- Title: 24
+  Question: ¿De qué depende la energía que consumimos según la fórmula
+            de energía eléctrica?
   Choices:
     - De la potencia del aparato y del tiempo de funcionamiento.
     - Del tamaño del aparato y del voltaje.
@@ -73,17 +245,9 @@ Show_max: 0
     - Del tipo de aparato y de la intensidad de corriente.
 
 
-- Title:
-  Question: ¿Cuál es uno de los electrodomésticos con menor potencia?
-  Choices:
-    - El frigorífico.
-    - El horno eléctrico.
-    - El secador de pelo.
-    - La vitrocerámica.
-
-
-- Title:
-  Question: ¿Qué electrodoméstico consume aproximadamente un tercio de la energía total del hogar?
+- Title: 25
+  Question: ¿Qué electrodoméstico consume aproximadamente un tercio
+            de la energía total del hogar?
   Choices:
     - El frigorífico.
     - El microondas.
@@ -91,16 +255,17 @@ Show_max: 0
     - El aire acondicionado.
 
 
-- Title:
+- Title: 26
   Question: ¿Por qué el frigorífico consume tanta energía?
   Choices:
-    - Porque está en funcionamiento casi todo el día todos los días del año.
+    - Porque está en funcionamiento casi todo el día todos los días
+      del año.
     - Porque genera grandes cantidades de calor.
     - Porque tiene una alta potencia.
     - Porque se utiliza con frecuencia durante el día.
 
 
-- Title:
+- Title: 27
   Question: ¿Qué tipo de electrodomésticos suelen tener mayor potencia?
   Choices:
     - Los que generan grandes cantidades de calor.
@@ -109,8 +274,9 @@ Show_max: 0
     - Los que tienen motores pequeños.
 
 
-- Title:
-  Question: ¿Cuál es el rango de potencia de los electrodomésticos que generan calor?
+- Title: 28
+  Question: ¿Cuál es el rango de potencia de los electrodomésticos que
+            generan mucho calor?
   Choices:
     - Entre 1000 y 3000 vatios.
     - Entre 500 y 1500 vatios.
@@ -118,8 +284,9 @@ Show_max: 0
     - Entre 300 y 700 vatios.
 
 
-- Title:
-  Question: ¿Qué electrodoméstico no pertenece al grupo de los que generan grandes cantidades de calor?
+- Title: 29
+  Question: ¿Qué electrodoméstico no pertenece al grupo de los que
+            generan grandes cantidades de calor?
   Choices:
     - El frigorífico.
     - El horno eléctrico.
@@ -127,8 +294,9 @@ Show_max: 0
     - El secador de pelo.
 
 
-- Title:
-  Question: ¿Qué unidad se utiliza para medir la energía en la fórmula de energía eléctrica?
+- Title: 30
+  Question: ¿Qué unidad se utiliza para medir la energía en la
+            fórmula de energía eléctrica?
   Choices:
     - Kilovatios-hora [kWh].
     - Vatios-hora [Wh].
@@ -136,8 +304,9 @@ Show_max: 0
     - Julios [J].
 
 
-- Title:
-  Question: ¿Qué unidad se utiliza para medir la potencia en la fórmula de energía eléctrica?
+- Title: 31
+  Question: ¿Qué unidad se utiliza para medir la potencia en la
+            fórmula de energía eléctrica?
   Choices:
     - Kilovatios [kW].
     - Vatios [W].
@@ -145,8 +314,9 @@ Show_max: 0
     - Julios [J].
 
 
-- Title:
-  Question: ¿Qué unidad se utiliza para medir el tiempo en la fórmula de energía eléctrica?
+- Title: 32
+  Question: ¿Qué unidad se utiliza para medir el tiempo en la
+            fórmula de energía eléctrica?
   Choices:
     - Horas [h].
     - Segundos [s].
@@ -154,38 +324,11 @@ Show_max: 0
     - Días [d].
 
 
-- Title:
-  Question: ¿Cuál es uno de los gastos más importantes de los hogares relacionados con la energía eléctrica?
-  Choices:
-    - La factura eléctrica.
-    - La compra de electrodomésticos.
-    - El mantenimiento de los aparatos.
-    - La instalación de paneles solares.
-
-
-- Title:
-  Question: ¿Qué determina la cantidad de energía que consume un aparato eléctrico?
+- Title: 33
+  Question: ¿Qué determina la cantidad de energía que consume
+            un aparato eléctrico?
   Choices:
     - Su potencia y el tiempo que esté en funcionamiento.
     - Su tamaño y su color.
     - El tipo de material del que está hecho.
     - La marca del aparato.
-
-
-- Title:
-  Question: ¿Qué electrodoméstico tiene una potencia de aproximadamente 150 vatios?
-  Choices:
-    - El frigorífico.
-    - El horno eléctrico.
-    - La vitrocerámica.
-    - El secador de pelo.
-
-
-- Title:
-  Question: ¿Qué electrodoméstico suele tener una potencia de entre 1000 y 3000 vatios?
-  Choices:
-    - El horno eléctrico.
-    - El frigorífico.
-    - El microondas.
-    - La lavadora.
-
