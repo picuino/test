@@ -105,10 +105,10 @@ Show_max: 0
   Image_width: 480
   Question: ¿Qué es el elemento (10)?
   Choices:
-    - Ratón
-    - Tableta gráfica
-    - Dispositivo táctil
-    - Mause
+    - Un ratón.
+    - Una tableta gráfica.
+    - Un dispositivo táctil.
+    - Un puntero.
 
 #
 # Esquema general de un ordenador
