@@ -7,15 +7,29 @@ import re
 import codecs
 
 join_moodle_jobs = [
+
+    {'search_file': 'es-material.+\.xml',
+     'output_file': 'es-material-all.xml'},
+
+    {'search_file': 'es-electric.+\.xml',
+     'output_file': 'es-electric-all.xml'},
+
+    {'search_file': 'es-machines.+\.xml',
+     'output_file': 'es-machines-all.xml'},
+
     {'search_file': 'es-hardware.+\.xml',
      'output_file': 'es-hardware-all.xml'},
+
     {'search_file': 'es-software.+\.xml',
      'output_file': 'es-software-all.xml'},
+
     {'search_file': 'es-technology.+\.xml',
      'output_file': 'es-technology-all.xml'},
+
     {'search_file': 'es-historia-tecnologia.+\.xml',
      'output_file': 'es-historia-tecnologia-all.xml'},
 ]
+
 
 def main():
     for moodle_job in join_moodle_jobs:
@@ -62,5 +76,6 @@ def read_xml(filename):
         for line in fi:
             lines.append(line)
     return lines
+
 
 main()
