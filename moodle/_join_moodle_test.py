@@ -36,7 +36,7 @@ def main():
         search_file = moodle_job['search_file']
         output_file = moodle_job['output_file']
        
-        files = [f for f in os.listdir('.') if re.search(search_file, f)]
+        files = [f for f in os.listdir('.') if re.search(search_file, f) and not output_file == f]
        
         print('Join input files:')
         data = []
