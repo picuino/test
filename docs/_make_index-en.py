@@ -112,7 +112,7 @@ index_template = """<!DOCTYPE html>
         {% set sp = namespace(section=1, numtest=1, sumtest=0) %}
         {%- for section in data %}
 
-        <h1 id="{{ section.header[0] }}">{{ section.header[1] }}</h1>
+        <h2 id="{{ section.header[0] }}">{{ section.header[1] }}</h2>
         {%- for link in section.links %}
         <a class="btn" href="{{ link[0] }}">{{ sp.section }}.{{ sp.numtest }} {{ link[1] }}</a>
         {%- set sp.numtest = sp.numtest + 1 %}
