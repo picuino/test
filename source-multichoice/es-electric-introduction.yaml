@@ -180,9 +180,9 @@ Show_max: 0
 - Title: 
   Question: "Un material conductor presentará..."
   Choices:
-    - Una resistencia muy baja
-    - Una resistencia muy alta
+    - Una conductividad muy alta
     - Una conductividad muy baja
+    - Una resistencia muy alta
     - Una corriente muy alta
 
 - Title: 

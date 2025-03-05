@@ -20,7 +20,7 @@ Question;Image;Image_width;Choice_1;Choice_2;Choice_3;Choice_4;Choice_5;Choice_6
 "¿Cuál de estos es un material aislante?";"";"";"El vidrio";"El agua con sal";"El aluminio";"El grafito";"";"";"es-electric-introduction"
 "¿Cuál de estos es un material aislante?";"";"";"El plástico";"El agua con sal";"El aluminio";"El grafito";"";"";"es-electric-introduction"
 "Un material aislante presentará...";"";"";"Una resistencia muy alta";"Una resistencia muy baja";"Una conductividad muy baja";"Una corriente muy baja";"";"";"es-electric-introduction"
-"Un material conductor presentará...";"";"";"Una resistencia muy baja";"Una resistencia muy alta";"Una conductividad muy baja";"Una corriente muy alta";"";"";"es-electric-introduction"
+"Un material conductor presentará...";"";"";"Una conductividad muy alta";"Una conductividad muy baja";"Una resistencia muy alta";"Una corriente muy alta";"";"";"es-electric-introduction"
 "Un material conductor presentará...";"";"";"Una resistencia muy baja";"Una resistencia muy alta";"Una oposición alta al paso de la corriente";"Una mala conductividad";"";"";"es-electric-introduction"
 "¿Qué fenómeno decimos que es otra expresión de la electricidad?";"";"";"El magnetismo";"El calor";"La luz";"El movimiento";"";"";"es-electric-introduction"
 "¿Cuál de los siguientes dispositivos eléctricos NO produce ningún movimiento?";"";"";"Un LED";"Un motor";"Un altavoz";"Un actuador lineal";"";"";"es-electric-introduction"

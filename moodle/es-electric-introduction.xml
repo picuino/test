@@ -954,17 +954,17 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Una resistencia muy baja</text>
+       <text>Una conductividad muy alta</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Una resistencia muy alta</text>
+       <text>Una conductividad muy baja</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Una conductividad muy baja</text>
+       <text>Una resistencia muy alta</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
