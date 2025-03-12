@@ -270,7 +270,8 @@ index_template = """<!DOCTYPE html>
      font-size: 32px;
      text-align: center;
      color: #094070;
-     margin: 32px 0 32px 0;
+     padding-top: 32px;
+     margin: 0 0 32px 0;
    }
    h2 {
      margin-top: 96px;
