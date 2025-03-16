@@ -74,7 +74,7 @@ Show_max: 0
     - La fundación del Imperio Romano
 
 - Title: 
-  Question: ¿Cuál no pertenece a la época de la revolución científica?
+  Question: ¿Cuál NO pertenece a la época de la revolución científica?
   Choices:
     - Edison
     - Galvani
@@ -234,7 +234,7 @@ Show_max: 0
     - Carga eléctrica
 
 - Title: 
-  Question: ¿Cuál no se corresponde con la corriente continua?
+  Question: ¿Cuál NO se corresponde con la corriente continua?
   Choices:
     - Solemos manejar grandes voltajes con ella
     - Siempre tiene el mismo sentido
