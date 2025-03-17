@@ -303,8 +303,8 @@ Show_max: 0
   Image: ../images/electric-simbolo-cable-cruzado.png
   Image_width: 180
   Choices:
-    - Crossover wire not connected
-    - Crossover wire connected
+    - Wire without connection
+    - Wire with connection
     - Connected wire
     - Cross
 
@@ -313,8 +313,8 @@ Show_max: 0
   Image: ../images/electric-simbolo-cable-conectado.png
   Image_width: 180
   Choices:
-    - Connected wire
-    - Unconnected wire
+    - Wire with connection
+    - Wire without connection
     - Connected and unconnected wire
     - Mass
 

@@ -625,7 +625,7 @@
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/94d322b7644153a6ec3b.png" alt="" role="presentation" width="180"></div>
          <br>
-         Estos son cables {1:SHORTANSWER:=no conectados}.]]>
+         Estos son cables {1:SHORTANSWER:=sin conexión~%100%no conectados}.]]>
       </text>
       <file name="94d322b7644153a6ec3b.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAYUExURf///wAAADMzM0RERFVVVXd3d5mZmd3d3ZQZMvYAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAZ9JREFUeNrt1r0JwmAYhdELZoEbUOs01o6QFaxS6wYW2d8ZTBP4OM8IB96fRJIkSZIkSZIkSZIkSZIkSZIkSSe0bwySTO1KIXm3NwrJ0s4UkralwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBwocOHDgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cOHCgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cTunT4XocYLh0wJ7/O3xHdLj/7/Aa0eHK4aiDubAn3U1/FAcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhwEAcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHMSBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwct7Uwhebc3CsnUrhSS7BsDSZIkSZIkSZIkSZIkSZIkSZIkadh+Vdy1j8m3q68AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMTEtMjBUMTc6MzM6MDUrMDE6MDArcJKFAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTExLTIwVDE3OjMzOjA2KzAxOjAwa8UwpAAAAABJRU5ErkJggg==</file>
     </questiontext>
@@ -646,7 +646,7 @@
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/3609f5a182c58df76460.png" alt="" role="presentation" width="180"></div>
          <br>
-         Estos son cables {1:SHORTANSWER:=conectados}.]]>
+         Estos son cables {1:SHORTANSWER:=con conexión~%100%conectados}.]]>
       </text>
       <file name="3609f5a182c58df76460.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAtUExURf///wAAABERESIiIjMzM0RERFVVVXd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7mOnIP4AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAm9JREFUeNrt2TkyRFEUgOEbGAJD1TGWQGAJdkCoJOyAnCq9ABuQqZLZgFAgkYnEJKSWohtFR4L7+t73PN+fn9PHV9WD7pQkSZIkSZIkSZIkSZIkSZIkSZLUuV7PGQybiTiikNJlxAaFlHYjViikFMMocODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQIHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAofXurzvh0OCMSfSyHbF8mjk7cjht/YxJdLc1+luW9mvPlluV1ezH4w8vOKs7W25VVguH8dXqU83Zcqvymo7vDmrOlluV1+DngPWas+VWZTW/9XPA0kO92XKr8pqKsXbqzZZbldfz+AGb9WbLrcrrePyAtXqz5Vb93lX0rr1mb0v96aDh868vZbyODProsM4h18Hzwuuk902fo3yu9n9Wo+bGD7itN1tule9hfC/ne1rf20+8u88D9mvPlluV2ePo8U8yZ0c/xp20fsZkavJb7eLNxVsHzujHARw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhz+xBm7ESsdcGj9jMuIjQ44tH7GTMRRBxzaP+P1PHWhjpwhSZIkSZIkSZIkSZIkSZIkSZIk/aveAVssMmUWd8NKAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTExLTIwVDE3OjMzOjA1KzAxOjAwK3CShQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0xMS0yMFQxNzozMzowNiswMTowMGvFMKQAAAAASUVORK5CYII=</file>
     </questiontext>

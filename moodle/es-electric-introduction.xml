@@ -361,12 +361,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál no pertenece a la época de la revolución científica?</text> </name>
+    <name> <text>¿Cuál NO pertenece a la época de la revolución científica?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2021 por Tucho Méndez -->
          <!-- Licencia Creative Commons CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/deed.es -->
-         <p>¿Cuál no pertenece a la época de la revolución científica?</p>
+         <p>¿Cuál NO pertenece a la época de la revolución científica?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1241,12 +1241,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál no se corresponde con la corriente continua?</text> </name>
+    <name> <text>¿Cuál NO se corresponde con la corriente continua?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2021 por Tucho Méndez -->
          <!-- Licencia Creative Commons CC0 1.0 Universal https://creativecommons.org/publicdomain/zero/1.0/deed.es -->
-         <p>¿Cuál no se corresponde con la corriente continua?</p>
+         <p>¿Cuál NO se corresponde con la corriente continua?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>

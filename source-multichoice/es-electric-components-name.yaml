@@ -304,8 +304,8 @@ Show_max: 0
   Image: ../images/electric-simbolo-cable-cruzado.png
   Image_width: 180
   Choices:
-    - Cables cruzados sin conectar
-    - Cables cruzados conectados
+    - Cables sin conexión
+    - Cables con conexión
     - Cables conectados
     - Cruz
 
@@ -314,8 +314,8 @@ Show_max: 0
   Image: ../images/electric-simbolo-cable-conectado.png
   Image_width: 180
   Choices:
-    - Cables conectados
-    - Cables sin conectar
+    - Cables con conexión
+    - Cables sin conexión
     - Cables conectados y sin conectar
     - Plano de masa
 

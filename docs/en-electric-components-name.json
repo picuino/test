@@ -353,8 +353,8 @@
     "image": "images/94d322b7644153a6ec3b.png",
     "image_width": 180,
     "choices": [
-       "Q3Jvc3NvdmVyIHdpcmUgbm90IGNvbm5lY3RlZA==",
-       "Q3Jvc3NvdmVyIHdpcmUgY29ubmVjdGVk",
+       "V2lyZSB3aXRob3V0IGNvbm5lY3Rpb24=",
+       "V2lyZSB3aXRoIGNvbm5lY3Rpb24=",
        "Q29ubmVjdGVkIHdpcmU=",
        "Q3Jvc3M="
     ]
@@ -365,8 +365,8 @@
     "image": "images/3609f5a182c58df76460.png",
     "image_width": 180,
     "choices": [
-       "Q29ubmVjdGVkIHdpcmU=",
-       "VW5jb25uZWN0ZWQgd2lyZQ==",
+       "V2lyZSB3aXRoIGNvbm5lY3Rpb24=",
+       "V2lyZSB3aXRob3V0IGNvbm5lY3Rpb24=",
        "Q29ubmVjdGVkIGFuZCB1bmNvbm5lY3RlZCB3aXJl",
        "TWFzcw=="
     ]

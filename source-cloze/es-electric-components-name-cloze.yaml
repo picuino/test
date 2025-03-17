@@ -157,12 +157,12 @@ Show_max: 0
 - Title: Identificar Cable cruzado sin conectar
   Image: ../images/electric-simbolo-cable-cruzado.png
   Image_width: 180
-  Cloze: Estos son cables {no conectados}.
+  Cloze: Estos son cables {sin conexión|no conectados}.
 
 - Title: Identificar Cables conectados
   Image: ../images/electric-simbolo-cable-conectado.png
   Image_width: 180
-  Cloze: Estos son cables {conectados}.
+  Cloze: Estos son cables {con conexión|conectados}.
 
 - Title: Identificar Conector
   Image: ../images/electric-simbolo-conector.png
