@@ -5,7 +5,7 @@
 
    <!--
    Copyright (c) 2022 Carlos Félix Pardo Martín
-   
+
    Copyright (c) 2021 James Q Quick
    https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
 
@@ -60,9 +60,9 @@
             <p class="hud-main-text" id="score">0%</p>
           </div>
         </div>
-        
+
         <h1 class="header">Historia de la Tecnología. Siglos XX y XXI</h1>
-        
+
         <h2 id="question">What is the answer to this question?</h2>
         <p><img id="questionImage" src="" width="2"></p>
         <div class="choice-container">
@@ -125,6 +125,7 @@ const on = Date.now();
 
 var options = [];
 var closeConfirmVar = true;
+var current_image_width = 0;
 let currentQuestionNumChoices = 0;
 let acceptingAnswers = false;
 let acceptingScore = false;
@@ -147,7 +148,7 @@ function closeConfirm() {
         return "¿Realmente desea salir de la página web?";
     }
     else {
-        return; 
+        return;
     }
 }
 
@@ -186,12 +187,12 @@ startGame = () => {
     getNewQuestion();
 };
 
-      
+
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= questionBankMax) {
         sessionStorage.setItem('mostRecentTitle', sessionStorage.getItem('questionBankTitle'));
         datetimeScore = Date.now();
-        sessionStorage.setItem('datetimeScore', datetimeScore);        
+        sessionStorage.setItem('datetimeScore', datetimeScore);
         sessionStorage.setItem('mostRecentScore', ((score^on)>>16)^datetimeScore);
         closeConfirmVar = false;
         return window.location.assign('end.html');
@@ -209,21 +210,26 @@ getNewQuestion = () => {
     else {
       questionIndex = 0;
     }
-    
+
     var currentQuestion = availableQuestions[questionIndex];
     currentQuestionNumChoices = currentQuestion.choices.length;
-    
+
     //shuffle choices
     var numbersIndex = 0;
     var numbers = shuffle(currentQuestion.choices.length);
     caoq = Math.floor(Math.random() * 65536) & 0b1111110000111111;
     c2aoq = Math.floor(Math.random() * 16);
     correctAnswer = ((numbers.indexOf('1') + 1) ^ c2aoq) * 64 + caoq;
-    
-    // Set question, image and choices
-    question.innerText = bin_atob(currentQuestion.question);
+
+    // Load new image
+    questionImage.onload = function() {
+       questionImage.width = current_image_width;
+    };
+    current_image_width = currentQuestion.image_width;
     questionImage.src = currentQuestion.image;
-    questionImage.width = currentQuestion.image_width;
+
+    // Set question and choices
+    question.innerText = bin_atob(currentQuestion.question);
     choiceContainers.forEach(visibleElements);
     choices.forEach((choice) => {
       choice.innerText = bin_atob(currentQuestion['choices'][numbers[numbersIndex]-1]);
