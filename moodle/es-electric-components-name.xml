@@ -48,7 +48,7 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Toma de tierra</text>
+       <text>Conexión a Tierra</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -573,7 +573,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Identificar Tierra</text> </name>
+    <name> <text>Identificar conexión a Tierra</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
@@ -597,12 +597,12 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Tierra</text>
+       <text>Conexión a Tierra</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Pila</text>
+       <text>Conexión a Masa</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -902,7 +902,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Identificar Plano de masa</text> </name>
+    <name> <text>Identificar Conexión a Masa</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
@@ -926,22 +926,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Plano de masa</text>
+       <text>Conexión a Masa</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Tierra</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Pila</text>
+       <text>Conexión a Tierra</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
        <text>Cepillo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Pila</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1458,7 +1458,7 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Plano de masa</text>
+       <text>Conexión a Masa</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1500,12 +1500,12 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Tierra</text>
+       <text>Conexión a Tierra</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Plano de masa</text>
+       <text>Conexión a Masa</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     

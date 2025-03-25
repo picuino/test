@@ -17,7 +17,7 @@ Show_max: 0
     - Pila
     - Alternador
     - Motor
-    - Toma de tierra
+    - Conexión a Tierra
 
 - Title: Identificar Alternador
   Question: ¿A qué componente corresponde el símbolo de la figura?
@@ -129,13 +129,13 @@ Show_max: 0
     - Vatímetro
     - Bombilla
 
-- Title: Identificar Tierra
+- Title: Identificar conexión a Tierra
   Question: ¿A qué componente corresponde el símbolo de la figura?
   Image: ../images/electric-simbolo-tierra.png
   Image_width: 180
   Choices:
-    - Tierra
-    - Pila
+    - Conexión a Tierra
+    - Conexión a Masa
     - Antena
     - Receptor
 
@@ -199,15 +199,15 @@ Show_max: 0
     - Doble conductor
     - Transistor
 
-- Title: Identificar Plano de masa
+- Title: Identificar Conexión a Masa
   Question: ¿A qué componente corresponde el símbolo de la figura?
   Image: ../images/electric-simbolo-masa.png
   Image_width: 180
   Choices:
-    - Plano de masa
-    - Tierra
-    - Pila
+    - Conexión a Masa
+    - Conexión a Tierra
     - Cepillo
+    - Pila
 
 - Title: Identificar Transistor NPN
   Question: ¿A qué componente corresponde el símbolo de la figura?
@@ -317,7 +317,7 @@ Show_max: 0
     - Cables con conexión
     - Cables sin conexión
     - Cables conectados y sin conectar
-    - Plano de masa
+    - Conexión a Masa
 
 - Title: Identificar Conector
   Question: ¿A qué componente corresponde el símbolo de la figura?
@@ -326,8 +326,8 @@ Show_max: 0
   Choices:
     - Conector
     - Cuadradillo
-    - Tierra
-    - Plano de masa
+    - Conexión a Tierra
+    - Conexión a Masa
 
 - Title: Identificar Condensador polarizado
   Question: ¿A qué componente corresponde el símbolo de la figura?
