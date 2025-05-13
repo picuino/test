@@ -73,9 +73,9 @@ Las presas hidráulicas acumulan energía {1:SHORTANSWER:=potencial} en el agua 
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <strong>Energía cinética</strong><br> Es la energía que tiene un objeto debido a su {1:SHORTANSWER:=movimiento}.<br>
-Por ejemplo, una pelota lanzada a gran {1:SHORTANSWER:=velocidad} tendrá energía cinética y podrá desplazar otros objetos. La energía {1:SHORTANSWER:=eólica} es la energía cinética del aire en movimiento. Cuando un automóvil {1:SHORTANSWER:=acelera}, se transforma la energía química de la gasolina en energía cinética.<br>
-La Luna tiene energía cinética al moverse alrededor de la Tierra. En las {1:SHORTANSWER:=mareas} de los océanos podemos observar cómo la energía cinética de la Luna se {1:SHORTANSWER:=transfiere} a la Tierra.]]>
+         <strong>Energía cinética</strong><br> Es la energía que tiene un objeto debido a su {1:SHORTANSWER:=velocidad}.<br>
+Por ejemplo, una pelota lanzada a gran velocidad tendrá energía {1:SHORTANSWER:=cinética} y podrá desplazar otros objetos. La energía {1:SHORTANSWER:=eólica} es la energía cinética del aire en movimiento. Cuando un automóvil {1:SHORTANSWER:=acelera}, se transforma la energía química de la gasolina en energía cinética.<br>
+La Luna tiene energía cinética al orbitar alrededor de la Tierra. En las {1:SHORTANSWER:=mareas} de los océanos podemos observar cómo la energía cinética de la Luna se {1:SHORTANSWER:=transfiere} a la Tierra.]]>
       </text>
     </questiontext>
     <generalfeedback format="html">

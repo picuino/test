@@ -84,7 +84,7 @@ Show_max: 0
 
 
 - Title: 8
-  Question: ¿Qué tipo de energía tiene un objeto debido a su movimiento?
+  Question: ¿Qué tipo de energía tiene un objeto debido a su velocidad?
   Choices:
     - Energía cinética.
     - Energía potencial.
