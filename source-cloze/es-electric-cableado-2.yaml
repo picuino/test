@@ -108,8 +108,8 @@ Show_max: 0
      <table>
      <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
      <tbody>
-     <tr><td>1</td><td>{10} y {7}</td></tr>
-     <tr><td>2</td><td>{12} y {6}</td></tr>
+     <tr><td>1</td><td>{7} y {10}</td></tr>
+     <tr><td>2</td><td>{6} y {12}</td></tr>
      <tr><td>3</td><td>{9}</td></tr>
      <tr><td>4</td><td>{5}</td></tr>
      <tr><td>5</td><td>{4}</td></tr>
@@ -182,7 +182,7 @@ Show_max: 0
      <table>
      <thead><tr><th>Borna</th><th>Conectada a</th></tr></thead>
      <tbody>
-     <tr><td>1</td><td>{6} y {5}</td></tr>
+     <tr><td>1</td><td>{5} y {6}</td></tr>
      <tr><td>2</td><td>{4}, {7}, {9}, {11} y {13}</td></tr>
      <tr><td>3</td><td>{8}, {10} y {12}</td></tr>
      <tr><td>4</td><td>{2}</td></tr>
