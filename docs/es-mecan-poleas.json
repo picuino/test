@@ -1,0 +1,129 @@
+﻿{
+   "Clues_time": 1000,
+   "Show_max": 0,
+   "Num_tries": 1,
+   "Category": "Mecánica",
+   "Title": "Cálculo de poleas y polipastos",
+   "Questions": [
+      {
+         "Image": ["images/c144311bbf13a1af3b61.png", "232"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["NjA="]]
+      },
+      {
+         "Image": ["images/eef0d3d31dbc48ee9a70.png", "232"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["MjQ="]]
+      },
+      {
+         "Image": ["images/9f3311112d7c3767fd87.png", "240"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["NjA="]]
+      },
+      {
+         "Image": ["images/c2ec24898e8af979186c.png", "240"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["MjQ="]]
+      },
+      {
+         "Image": ["images/e420da7a97418b66f353.png", "273"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["MzA="]]
+      },
+      {
+         "Image": ["images/7d4cf3d1cc7cc623b096.png", "273"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["MTI="]]
+      },
+      {
+         "Image": ["images/65c7a51e38e217f09bd9.png", "273"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["MzA="]]
+      },
+      {
+         "Image": ["images/d2d27c0bbc758b2059df.png", "273"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["MTI="]]
+      },
+      {
+         "Image": ["images/497ecc801dc34659beb4.png", "240"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["MjA="]]
+      },
+      {
+         "Image": ["images/c786dc9083cef3707c28.png", "240"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["OA=="]]
+      },
+      {
+         "Image": ["images/20f2e9975b9b37a35785.png", "273"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["MTU="]]
+      },
+      {
+         "Image": ["images/0400246741ba1fdb2f49.png", "273"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["Ng=="]]
+      },
+      {
+         "Image": ["images/41211c8fe0af0a245301.png", "298"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["MjA="]]
+      },
+      {
+         "Image": ["images/1724a427e8e875202d4f.png", "298"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["OA=="]]
+      },
+      {
+         "Image": ["images/e84bb48eb7cb8f9cecfb.png", "340"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["MTU="]]
+      },
+      {
+         "Image": ["images/96d215907823eb042986.png", "340"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["Ng=="]]
+      },
+      {
+         "Image": ["images/a2769a6363f336ccf051.png", "331"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["NjA="]]
+      },
+      {
+         "Image": ["images/4a4cec9703b7f50bdb92.png", "331"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["MjQ="]]
+      },
+      {
+         "Image": ["images/b8e91748211388860434.png", "340"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["MzA="]]
+      },
+      {
+         "Image": ["images/f0dc3dc82eb40c817a8b.png", "340"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["MTI="]]
+      },
+      {
+         "Image": ["images/1540fc420bfd6eff7422.png", "364"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["MjA="]]
+      },
+      {
+         "Image": ["images/11418be8cf962983ba4f.png", "364"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["OA=="]]
+      },
+      {
+         "Image": ["images/edde63116774d5c03a1e.png", "273"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["MTU="]]
+      },
+      {
+         "Image": ["images/e4bca6e01f645696ea6c.png", "273"],
+         "Cloze": "wr9Db24gcXXDqSBmdWVyemEgaGFicsOhIHF1ZSB0aXJhciBkZSBsYSBjdWVyZGEgcGFyYSBsZXZhbnRhciBlbCBwZXNvPyA8YnI+PGJyPiBGdWVyemEgPSB7MH0ga2dm",
+         "Gaps": [["Ng=="]]
+      }
+   ]
+}

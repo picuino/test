@@ -27,349 +27,15 @@
 
    <title>Test Sistema Operativo II - Software - Picuino</title>
 
+   <link rel="stylesheet" href="cloze.css">
+
    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
 
    <link rel="canonical" href="https://www.picuino.com/test/es-software-sistema-operativo-2.html">
-
-   <style>
-      body {
-        background-color: #efefef;
-        margin: 0;
-        padding: 0;
-        font-size: 12px;
-        min-width: 320px;
-        font-family: Arial, Helvetica, sans-serif;
-        z-index: 0;
-      }
-
-      h1 {
-        font-size: 32px;
-        text-align: center;
-        color: #094070;
-        margin: 32px 0 12px 0;
-      }
-
-      h2 {
-        font-size: 24px;
-        margin-bottom: 24px;
-        font-weight: 700;
-      }
-
-      .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        max-width: 764px;
-        margin: 0 auto;
-        padding: 0 8px 20px 8px;
-      }
-
-      .container > * {
-        width: 100%;
-      }
-
-      .flex-column {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .flex-center {
-        justify-content: center;
-        align-items: center;
-      }
-
-      .justify-center {
-        justify-content: center;
-      }
-
-      .text-center {
-        text-align: center;
-      }
-
-      .hidden {
-        display: none;
-      }
-
-      ul, ol {
-        padding: 0 0 0 40px;
-        margin: 0;
-      }
-
-
-      /* BUTTONS */
-
-      .btn {
-        font-size: 18px;
-        padding: 8px 0;
-        width: 240px;
-        text-align: center;
-        border: 1px solid #094070;
-        margin-bottom: 8px;
-        text-decoration: none;
-        color: #094070;
-        background-color: white;
-      }
-
-      .btn:hover {
-        cursor: pointer;
-        box-shadow: 0 4px 14px 0 rgba(86, 185, 235, 0.5);
-        transform: translateY(-1px);
-        transition: transform 150ms;
-      }
-
-      .btn[disabled]:hover {
-        cursor: not-allowed;
-        box-shadow: none;
-        transform: none;
-      }
-
-
-      /* FOOTER */
-
-      .footer {
-        color: White;
-        background-color: #094070;
-        margin-top: 64px;
-        padding: 12px;
-        border-top: 2px solid #094070;
-        line-height: 200%;
-        text-align: center;
-      }
-
-      .footer p {
-         margin: 4px 0;
-      }
-
-      .footer a, .footer a:visited {
-        text-decoration: none;
-        font-size: 12px;
-        display: inline-block;
-        color: White;
-        padding: 0 2px 2px;
-        margin-right: 12px;
-      }
-
-      .footer a:hover {
-        color: #094070;
-        background-color: #ecf5ff;
-      }
-
-      .choice-container {
-        display: flex;
-        margin-bottom: 6px;
-        width: 100%;
-        font-size: 18px;
-        background-color: white;
-      }
-
-      @media only screen and (min-width: 600px) {
-        .choice-container:hover {
-          cursor: pointer;
-          box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
-          transform: translateY(1px);
-          transition: transform 150ms;
-        }
-      }
-
-      .choice-prefix {
-        padding: 10px 18px;
-        background-color: #094070;
-        color: white;
-        user-select: none;
-      }
-
-      .choice-text {
-        padding: 10px;
-        width: 100%;
-        user-select: none;
-      }
-
-      .correct {
-        background-color: #00ff60;
-      }
-
-      .incorrect {
-        background-color: #ff2000;
-        text-decoration: line-through;
-      }
-
-      #questionImage {
-        margin-bottom: 24px;
-        height: auto;
-        max-width:100%;
-      }
-
-      .header {
-         margin-top: 0;
-         font-size: 32px;
-      }
-
-      /* HUD */
-
-      .hud {
-        display: flex;
-        justify-content: space-between;
-        margin: 0 0 12px 0;
-      }
-
-      .hud-prefix {
-        text-align: center;
-        font-size: 24px;
-        margin: 12px 0;
-      }
-
-      .hud-main-text {
-        text-align: center;
-        font-size: 40px;
-        font-weight: bold;
-        color: #094070;
-        margin: 12px 0;
-      }
-
-      #progress_bar_id {
-        width: 200px;
-        height: 40px;
-        border: 3px solid #094070;
-        margin-top: 15px;
-      }
-
-      #progress_bar_full_id {
-        height: 40px;
-        background-color: #094070;
-        width: 0%;
-      }
-
-
-      /* CLOZE QUESTIONS */
-      .table {
-         overflow-x: auto;
-         display: block;
-      }
-
-      table, tr {
-         border-collapse: collapse;
-         border-spacing: 0;
-         empty-cells: show;
-         margin: 12px 0;
-      }
-
-      td, th {
-         border: 2px solid #aaa;
-         padding: 0 8px;
-      }
-
-      thead {
-         background-color: #eef;
-      }
-
-      .question_frame {
-         margin: 0 0 12px 0;
-         padding: 8px 6px;
-         background-color: white;
-         border: 2px solid #094070;
-         border-radius: 12px;
-      }
-
-      .question_image_div {
-         text-align: center;
-      }
-
-      .question_image {
-         margin-bottom: 12px;
-         height: auto;
-         max-width:100%;
-      }
-
-      br {
-         margin: 0;
-      }
-
-      .question_text {
-         font-size: 20px;
-         line-height: 160%;
-         padding-bottom: 12px;
-         min-height: 80px;
-      }
-
-      .gap_span, .gap_box {
-         font-weight: bold;
-      }
-
-      input {
-         font-family: Arial, Helvetica, sans-serif;
-         font-size: 20px;
-         padding: 1px;
-         width: 125px;
-         border: 1px solid #094070;
-         border-radius: 8px;
-         box-shadow: 0 0.1rem 0.5rem 0 rgba(128, 128, 128, 0.5);
-      }
-
-      .buttons {
-         text-align: center;
-         margin-top: 24px;
-         line-height: 50px;
-      }
-
-      button {
-         font-family: Arial, Helvetica, sans-serif;
-         font-size: 20px;
-         padding: 4px 8px;
-         margin-right: 12px;
-         cursor: pointer;
-         text-align: center;
-         border: 1px solid #094070;
-         border-radius: 8px;
-         box-shadow: 0.2em 0.3em 0.2em #888;
-      }
-
-      button:last-child {
-         margin-right: 0;
-      }
-
-      .button:hover {
-         background-color: #3e8e41
-      }
-
-      .button:active {
-         background-color: #3e8e41;
-         box-shadow: 0 5px #666;
-         transform: translateY(4px);
-      }
-
-      .message {
-         display: none;
-         z-index: 10;
-         height: 0;
-         max-width: 75%;
-         min-width: 300px;
-         padding: 0 6px;
-         margin: 0 auto;
-      }
-
-      .message2 {
-         background-color: #eef;
-         padding: 12px;
-         height: auto;
-         box-shadow: 0 0 6px 12px rgba(255, 255, 255, 0.9);
-         border-radius: 16px;
-         position: relative;
-         top: 32px;
-         text-align: center;
-         border: 2px solid #094070;
-         border-radius: 1rem;
-         margin: 0px auto;
-      }
-
-      #message_text_id {
-         padding-bottom: 1rem;
-         min-height: 6px;
-      }
-   </style>
-
 </head>
+
 
 <body onbeforeunload="return closeConfirm()" onpaste="return false;">
    <div class="container"> <div class="justify-center flex-column">
@@ -402,7 +68,7 @@
       <!-- Footer -->
       <div class="footer">
       <a href="../es/contacto.html" target="_blank">Contacto</a>
-	  <a href="../es/manifiesto.html" target="_blank">Manifiesto</a>	  
+	  <a href="../es/manifiesto.html" target="_blank">Manifiesto</a>
       <a href="../es/legal-aviso.html" target="_blank">Aviso legal</a>
       <a href="../es/legal-cookies.html" target="_blank">Política de Cookies</a>
       <a href="https://github.com/picuino/test/blob/master/Licenses.md" target="_blank">Créditos</a>
@@ -417,770 +83,557 @@
     </div>
   </div>
 
-   <script>
-      const show_max = 0;
-      const num_tries = 0;
-      const questions_title = "Software. Sistema Operativo II.";
-      const questions_encoded = [
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5TaXN0ZW1hIE9wZXJhdGl2byBXaW5kb3dzPC9zdHJvbmc+IDxicj4gV2luZG93cyBlcyB1biBzaXN0ZW1hIG9wZXJhdGl2byBkZSBsYSBlbXByZXNhIHswfSB5IGVzIHVubyBkZSBsb3MgbcOhcyBwb3B1bGFyZXMgZGVsIG11bmRvLiBTZSB1dGlsaXphIGVuIGxhIG1heW9yw61hIGRlIGxhcyBjb21wdXRhZG9yYXMgezF9IGRlIGVzY3JpdG9yaW8geSBwb3J0w6F0aWxlcywgY29uIHVuYSBjdW90YSBkZSBtZXJjYWRvIGNlcmNhbmEgYWwgezJ9JSBkZSBsb3MgUEMgZW4gMjAyMC4=",
-            "Gaps": [
-               ['TWljcm9zb2Z0'],
-               ['cGVyc29uYWxlcw=='],
-               ['ODc='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5XaW5kb3dzLiBJbnRlcmZheiBkZSB1c3VhcmlvPC9zdHJvbmc+IDxicj4gV2luZG93cyB0aWVuZSB1bmEgaW50ZXJmYXogZ3LDoWZpY2EgZGUgdXN1YXJpbyAoezB9KSBpbnR1aXRpdmEgcXVlIGVzdMOhIGJhc2FkYSBlbiBlbCB1c28gZGVsIHsxfSB5IGVsIHRlY2xhZG8sIGF1bnF1ZSB0YW1iacOpbiBwZXJtaXRlIGVsIHVzbyBkZSB1bmEgcGFudGFsbGEgezJ9Lg==",
-            "Gaps": [
-               ['R1VJ'],
-               ['cmF0w7Nu'],
-               ['dMOhY3RpbA=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5XaW5kb3dzLiBDb21wYXRpYmlsaWRhZCBjb24gc29mdHdhcmU8L3N0cm9uZz4gPGJyPiBXaW5kb3dzIGVzIGNvbXBhdGlibGUgY29uIHVuYSBhbXBsaWEgZ2FtYSBkZSB7MH0geSBhcGxpY2FjaW9uZXMuIE11Y2hhcyBhcGxpY2FjaW9uZXMgZXN0w6FuIHsxfSBlc3BlY8OtZmljYW1lbnRlIHBhcmEgV2luZG93cywgbG8gcXVlIGhhY2UgcXVlIHNlYSBmw6FjaWwgcGFyYSBsb3MgdXN1YXJpb3MgezJ9IHkgdXRpbGl6YXIgZWwgc29mdHdhcmUgcXVlIG5lY2VzaXRhbi4gPGJyPiBMYSBncmFuIHszfSBkZSBXaW5kb3dzIHRhbWJpw6luIGVzIGxhIGNhdXNhIGRlIHF1ZSBleGlzdGFuIG11Y2hvcyBwcm9ncmFtYXMgbWFsaWNpb3NvcyAoezR9KSBlc3BlY2lhbGl6YWRvcyBlbiBlc3RlIHNpc3RlbWEgb3BlcmF0aXZvLg==",
-            "Gaps": [
-               ['c29mdHdhcmU='],
-               ['ZGlzZcOxYWRhcw=='],
-               ['ZW5jb250cmFy'],
-               ['cG9wdWxhcmlkYWQ='],
-               ['bWFsd2FyZQ=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5XaW5kb3dzLiBGYWNpbGlkYWQgZGUgcGVyc29uYWxpemFjacOzbjwvc3Ryb25nPiA8YnI+IFdpbmRvd3MgcGVybWl0ZSBhIGxvcyB1c3VhcmlvcyBwZXJzb25hbGl6YXIgc3UgZXhwZXJpZW5jaWEgZGUgdXN1YXJpby4gUHVlZGVuIHBlcnNvbmFsaXphciBlbCBmb25kbyBkZSB7MH0sIGxhIHBhbnRhbGxhIGRlIGluaWNpbywgbG9zIGljb25vcyB5IGxvcyBjb2xvcmVzIHNlZ8O6biBzdXMgcHJlZmVyZW5jaWFzLiBTaW4gZW1iYXJnbywgbG9zIHsxfSBxdWUgbm8gdHJhYmFqZW4gcGFyYSBNaWNyb3NvZnQgbm8gcHVlZGVuIGFjY2VkZXIgYSBzdSBjw7NkaWdvIHkgbm8gcHVlZGVuIGhhY2VyIHsyfSBlbiBlbCBzaXN0ZW1hIG9wZXJhdGl2by4=",
-            "Gaps": [
-               ['cGFudGFsbGE='],
-               ['cHJvZ3JhbWFkb3Jlcw=='],
-               ['Y2FtYmlvcw=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5XaW5kb3dzLiBTb3BvcnRlIGRlIGhhcmR3YXJlPC9zdHJvbmc+IDxicj4gV2luZG93cyBlcyBjb21wYXRpYmxlIGNvbiB1bmEgezB9IHZhcmllZGFkIGRlIGhhcmR3YXJlLCBsbyBxdWUgc2lnbmlmaWNhIHF1ZSBmdW5jaW9uYSBiaWVuIGNvbiBsYSBtYXlvcsOtYSBkZSBsYXMgezF9IHkgZGlzcG9zaXRpdm9zIHsyfS4=",
-            "Gaps": [
-               ['YW1wbGlh'],
-               ['Y29tcHV0YWRvcmFz'],
-               ['cGVyaWbDqXJpY29z'],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5XaW5kb3dzLiBWaWRlb2p1ZWdvczwvc3Ryb25nPiA8YnI+IFdpbmRvd3MgZXMgY29ub2NpZG8gcG9yIHNlciB1biBncmFuIHNpc3RlbWEgb3BlcmF0aXZvIHBhcmEgezB9LiBNdWNob3MgZGUgbG9zIGp1ZWdvcyBtw6FzIHBvcHVsYXJlcyBkZWwgbXVuZG8gc2UgezF9IGp1Z2FyIGVuIHVuYSBjb21wdXRhZG9yYSBjb24gV2luZG93cy4=",
-            "Gaps": [
-               ['anVlZ29z'],
-               ['cHVlZGVu'],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5XaW5kb3dzLiBQcmVjaW88L3N0cm9uZz4gPGJyPiBXaW5kb3dzIHRpZW5lIHVuIHByZWNpbyBhcHJveGltYWRvIGRlIHswfSBFdXJvcyBlbiBzdSB2ZXJzacOzbiBtw6FzIGLDoXNpY2EgKFdpbmRvd3MgezF9KS4gQSBsb3MgZmFicmljYW50ZXMgZGUgaGFyZHdhcmUgbGVzIGN1ZXN0YSBhcHJveGltYWRhbWVudGUgNTAgRXVyb3MgezJ9IHVuIHNpc3RlbWEgV2luZG93cyBlbiBzdXMgb3JkZW5hZG9yZXMu",
-            "Gaps": [
-               ['MTUw'],
-               ['SG9tZQ=='],
-               ['aW5zdGFsYXI='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5XaW5kb3dzLiBWZXJzaW9uZXM8L3N0cm9uZz4gPGJyPiBBY3R1YWxtZW50ZSBsYSDDum5pY2EgezB9IHF1ZSBlc3TDoSBhIGxhIHZlbnRhIHBvciBwYXJ0ZSBkZSBsYSBlbXByZXNhIE1pY3Jvc29mdCBlcyBsYSB2ZXJzacOzbiBXaW5kb3dzIHsxfSwgYXVucXVlIGHDum4gZXhpc3RlIHVuYSBncmFuIHsyfSBkZSBjb21wdXRhZG9yYXMgY29uIFdpbmRvd3MgMTAgaW5zdGFsYWRvLiBMYXMgdmVyc2lvbmVzIHszfSBhIFdpbmRvd3MgMTAgc29uIGEgZMOtYSBkZSBob3kgezR9IHkgZGViZXLDrWFuIHNlciBhY3R1YWxpemFkYXMgcGFyYSBldml0YXIgcHJvYmxlbWFzIGRlIHs1fS4gPGJyPiBXaW5kb3dzIDExIHRpZW5lIHVuIHRvdGFsIGRlIDcgezZ9IG11eSBzaW1pbGFyZXMgZW50cmUgc8OtLCBhdW5xdWUgbGFzIG3DoXMgY29ub2NpZGFzIHNvbjogbGEgZWRpY2nDs24gezd9IGRlc3RpbmFkYSBhIHVzdWFyaW9zIGRvbcOpc3RpY29zIHkgbGEgZWRpY2nDs24gezh9IGRlc3RpbmFkYSBhIHVzdWFyaW9zIHByb2Zlc2lvbmFsZXMu",
-            "Gaps": [
-               ['dmVyc2nDs24='],
-               ['MTE='],
-               ['YmFzZQ=='],
-               ['YW50ZXJpb3Jlcw=='],
-               ['b2Jzb2xldGFz'],
-               ['c2VndXJpZGFk'],
-               ['ZWRpY2lvbmVz'],
-               ['SG9tZQ=='],
-               ['UHJv'],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5TaXN0ZW1hIG9wZXJhdGl2byBBbmRyb2lkPC9zdHJvbmc+IDxicj4gezB9IGVzIHVuIHNpc3RlbWEgb3BlcmF0aXZvIGRlc2Fycm9sbGFkbyBwb3IgbGEgZW1wcmVzYSB7MX0geSBlcyB1bm8gZGUgbG9zIG3DoXMgcG9wdWxhcmVzIGVudHJlIGxvcyBkaXNwb3NpdGl2b3MgbcOzdmlsZXMsIGNvbiB1bmEgY3VvdGEgZGUgbWVyY2FkbyBkZWwgezJ9JSBkZSBsb3Mgc21hcnRwaG9uZXMgeSB0YWJsZXRzIGVuIDIwMjAuIDxicj4gU2UgdXRpbGl6YSBlbiB1bmEgYW1wbGlhIHZhcmllZGFkIGRlIGRpc3Bvc2l0aXZvcyBtw7N2aWxlcywgaW5jbHV5ZW5kbyB7M30gaW50ZWxpZ2VudGVzLCB0YWJsZXRhcywgdGVsZXZpc29yZXMgaW50ZWxpZ2VudGVzLCByZWxvamVzIGludGVsaWdlbnRlcyBvIHs0fS4gQW5kcm9pZCBzZSBiYXNhIGVuIGVsIG7DumNsZW8gZGUgezV9LCBzb2JyZSBlbCBxdWUgc2UgY29uc3RydXllIGVsIHJlc3RvIGRlbCBzaXN0ZW1hIG9wZXJhdGl2by4=",
-            "Gaps": [
-               ['QW5kcm9pZA=='],
-               ['R29vZ2xl'],
-               ['NzE='],
-               ['dGVsw6lmb25vcw=='],
-               ['YXV0b23Ds3ZpbGVz'],
-               ['TGludXg='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5BbmRyb2lkLiBJbnRlcmZheiBkZSB1c3VhcmlvPC9zdHJvbmc+IDxicj4gQW5kcm9pZCB0aWVuZSB1bmEgaW50ZXJmYXogezB9IGRlIHVzdWFyaW8gKEdVSSkgYmFzYWRhIGVuIGxhIHBhbnRhbGxhIHsxfSBkZWwgZGlzcG9zaXRpdm8u",
-            "Gaps": [
-               ['Z3LDoWZpY2E='],
-               ['dMOhY3RpbA=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5BbmRyb2lkLiBDb21wYXRpYmlsaWRhZCBjb24gc29mdHdhcmU8L3N0cm9uZz4gPGJyPiBBbmRyb2lkIGVzIGNvbXBhdGlibGUgY29uIHVuYSBhbXBsaWEgZ2FtYSBkZSBzb2Z0d2FyZSB5IGFwbGljYWNpb25lcywgZGlzcG9uaWJsZXMgZW4gc3UgbWF5b3LDrWEgZW4gbGEgR29vZ2xlIHswfSBTdG9yZS4=",
-            "Gaps": [
-               ['UGxheQ=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5BbmRyb2lkLiBGYWNpbGlkYWQgZGUgcGVyc29uYWxpemFjacOzbjwvc3Ryb25nPiA8YnI+IEFuZHJvaWQgZXMgZGUgY8OzZGlnbyB7MH0sIGxvIHF1ZSBzaWduaWZpY2EgcXVlIGVsIGPDs2RpZ28gZnVlbnRlIGVzdMOhIGRpc3BvbmlibGUgcMO6YmxpY2FtZW50ZSB5IGxvcyBkZXNhcnJvbGxhZG9yZXMgcHVlZGVuIHsxfSB5IHBlcnNvbmFsaXphcmxvIHNlZ8O6biBzdXMgbmVjZXNpZGFkZXMu",
-            "Gaps": [
-               ['YWJpZXJ0bw=='],
-               ['bW9kaWZpY2FybG8='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5BbmRyb2lkLiBTb3BvcnRlIGRlIGhhcmR3YXJlPC9zdHJvbmc+IDxicj4gQW5kcm9pZCBlcyBjb21wYXRpYmxlIGNvbiB1bmEgYW1wbGlhIHZhcmllZGFkIGRlIHswfSwgbG8gcXVlIHNpZ25pZmljYSBxdWUgZnVuY2lvbmEgYmllbiBjb24gbGEgbWF5b3LDrWEgZGUgbG9zIGRpc3Bvc2l0aXZvcyBtw7N2aWxlcyB5IHN1cyB7MX0uIEFkZW3DoXMsIGFsIHNlciBkZSBjw7NkaWdvIGFiaWVydG8sIGZhY2lsaXRhIHF1ZSBsb3MgZGVzYXJyb2xsYWRvcmVzIHB1ZWRhbiB7Mn0gQW5kcm9pZCBhIGN1YWxxdWllciBudWV2byBwZXJpZsOpcmljbyBvIHNpc3RlbWEgezN9Lg==",
-            "Gaps": [
-               ['aGFyZHdhcmU='],
-               ['cGVyaWbDqXJpY29z'],
-               ['YWRhcHRhcg=='],
-               ['aGFyZHdhcmU='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5BbmRyb2lkLiBQcmVjaW88L3N0cm9uZz4gPGJyPiBBbmRyb2lkIGVzIHVuIHNpc3RlbWEgb3BlcmF0aXZvIHswfSwgbG8gcXVlIGFiYXJhdGEgZWwgcHJlY2lvIGZpbmFsIGRlIGxvcyBkaXNwb3NpdGl2b3MgcXVlIGZ1bmNpb25hbiBjb24gw6lsLg==",
-            "Gaps": [
-               ['Z3JhdHVpdG8='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "IDxzdHJvbmc+QW5kcm9pZC4gVmVyc2lvbmVzPC9zdHJvbmc+IDxicj4gQW5kcm9pZCBlc3TDoSBmdWVydGVtZW50ZSBjb250cm9sYWRvIHBvciBsYSBlbXByZXNhIHswfSwgcG9yIGxvIHF1ZSBleGlzdGVuIHBvY2FzIHsxfSBkZSBvdHJvcyBkZXNhcnJvbGxhZG9yZXMuIExhcyB7Mn0gdmVyc2lvbmVzIGRlIEFuZHJvaWQgc29uIGxhcyBzaWd1aWVudGVzOiA8YnI+IDxkaXYgY2xhc3M9InRhYmxlIj48dGFibGU+IDx0aGVhZD48dHI+PHRoPkHDsW88L3RoPjx0aD5WZXJzacOzbjwvdGg+PC90cj48L3RoZWFkPiA8dGJvZHk+IDx0cj48dGQ+QWdvc3RvIGRlIDIwMTg8L3RkPjx0ZD5BbmRyb2lkIDk8L3RkPjwvdHI+IDx0cj48dGQ+U2VwdGllbWJyZSBkZSAyMDE5PC90ZD48dGQ+QW5kcm9pZCAxMDwvdGQ+PC90cj4gPHRyPjx0ZD5TZXB0aWVtYnJlIGRlIDIwMjA8L3RkPjx0ZD5BbmRyb2lkIDExPC90ZD48L3RyPiA8dHI+PHRkPk9jdHVicmUgZGUgMjAyMTwvdGQ+PHRkPkFuZHJvaWQgMTI8L3RkPjwvdHI+IDx0cj48dGQ+QWdvc3RvIGRlIHszfTwvdGQ+PHRkPkFuZHJvaWQgMTM8L3RkPjwvdHI+IDx0cj48dGQ+T2N0dWJyZSBkZSB7NH08L3RkPjx0ZD5BbmRyb2lkIDE0PC90ZD48L3RyPiA8L3Rib2R5PiA8L3RhYmxlPjwvZGl2PiA=",
-            "Gaps": [
-               ['R29vZ2xl'],
-               ['dmVyc2lvbmVz'],
-               ['w7psdGltYXM='],
-               ['MjAyMg=='],
-               ['MjAyMw=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5TaXN0ZW1hIG9wZXJhdGl2byBHTlUvTGludXg8L3N0cm9uZz4gPGJyPiBHTlUvTGludXggZXMgdW4gc2lzdGVtYSBvcGVyYXRpdm8gezB9IGRlc2Fycm9sbGFkbyBwb3IgbXVsdGl0dWQgZGUgZW1wcmVzYXMgeSB7MX0geSBlcyBlbCBtw6FzIHBvcHVsYXIgZW50cmUgbG9zIG9yZGVuYWRvcmVzIHsyfSwgdGFsZXMgY29tbyBzZXJ2aWRvcmVzIHdlYiB5IHszfS4gQWRlbcOhcyBzZSBlbmN1ZW50cmEgZW4gbXVsdGl0dWQgZGUgZGlzcG9zaXRpdm9zIGVtYmViaWRvcyB0YWxlcyBjb21vIHs0fSwgcm91dGVycywgdGVsZXZpc29yZXMgaW50ZWxpZ2VudGVzLCBldGMuIFRhbWJpw6luIHNlIGVuY3VlbnRyYSBlbiBlbCBuw7pjbGVvIGRlbCBzaXN0ZW1hIG9wZXJhdGl2byB7NX0uIDxicj4gRWwgc2lzdGVtYSBvcGVyYXRpdm8gR05VL0xpbnV4IGVzdMOhIGJhc2FkbyBlbiBlbCBhbnRpZ3VvIHNpc3RlbWEgb3BlcmF0aXZvIHs2fS4=",
-            "Gaps": [
-               ['bGlicmU='],
-               ['dm9sdW50YXJpb3M='],
-               ['cHJvZmVzaW9uYWxlcw=='],
-               ['c3VwZXJjb21wdXRhZG9yZXM='],
-               ['dmlkZW9jb25zb2xhcw=='],
-               ['QW5kcm9pZA=='],
-               ['VW5peA=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5MaW51eC4gSW50ZXJmYXogZGUgdXN1YXJpbzwvc3Ryb25nPiA8YnI+IEdOVS9MaW51eCB0aWVuZSBtdWNoYXMgaW50ZXJmYWNlcyBncsOhZmljYXMgZGUgdXN1YXJpbyAoR1VJKS4gQWxndW5hcyBzb24gbXV5IHNpbXBsZXMsIG9yaWVudGFkYXMgYSBkaXNwb3NpdGl2b3MgY29uIHBvY2EgbWVtb3JpYSAoezB9KSwgb3RyYXMgc29uIHBhcmVjaWRhcyBhIGxhIGludGVyZmF6IGRlIFdpbmRvd3MgKHsxfSkgeSBvdHJhcyBzb24gcGFyZWNpZGFzIGEgbGEgaW50ZXJmYXogZ3LDoWZpY2EgZGUgQXBwbGUgKHsyfSkuIDxicj4gVW5hIGludGVyZmF6IGdyw6FmaWNhIHF1ZSBzZSBzdWVsZSB1dGlsaXphciBlbiBtdWNob3MgZGlzcG9zaXRpdm9zIGVtYmViaWRvcyBlcyB1bmEgcMOhZ2luYSB7M30gZGVzZGUgbGEgcXVlIHNlIGNvbnRyb2xhbiBsb3MgcGFyw6FtZXRyb3MgZGVsIGRpc3Bvc2l0aXZvLiBFcyB1bmEgaW50ZXJmYXogbXV5IHLDoXBpZGEgeSBsaWdlcmEuIFVuIGVqZW1wbG8gc2UgcHVlZGUgdmVyIGFsIGNvbmVjdGFyc2UgY29uIHVuIG5hdmVnYWRvciBhbCB7NH0gZGUgSW50ZXJuZXQuIDxicj4gR05VL0xpbnV4IHRhbWJpw6luIHB1ZWRlIGVqZWN1dGFyc2Ugc2luIHs1fSBncsOhZmljYSwgcG9yIGzDrW5lYSBkZSB7Nn0sIGxvIHF1ZSBlcyBtdXkgw7p0aWwgcGFyYSBsb3MgcHJvZmVzaW9uYWxlcyB5IHBhcmEgcXVlIGVsIHNpc3RlbWEgb2N1cGUgbXV5IHBvY2Egezd9IGVuIGVsIGRpc3Bvc2l0aXZvLiA8YnI+IEdOVS9MaW51eCBlcyB1biBzaXN0ZW1hIG9wZXJhdGl2byB7OH0sIHBvciBsbyBxdWUgdW5hIHNvbGEgY29tcHV0YWRvcmEgcHVlZGUgZGFyIHNlcnZpY2lvIGEgdmFyaWFzIHRlcm1pbmFsZXMgYSBsYSB2ZXosIGNvbiBkaXN0aW50b3MgdXN1YXJpb3MgY29uZWN0YWRvcyBhIGVsbGFzLg==",
-            "Gaps": [
-               ['WEZDRQ=='],
-               ['S0RF'],
-               ['R25vbWU='],
-               ['d2Vi'],
-               ['cm91dGVy'],
-               ['aW50ZXJmYXo='],
-               ['Y29tYW5kb3M='],
-               ['bWVtb3JpYQ=='],
-               ['bXVsdGl1c3Vhcmlv'],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5MaW51eC4gQ29tcGF0aWJpbGlkYWQgY29uIHNvZnR3YXJlPC9zdHJvbmc+IDxicj4gRWwgc2lzdGVtYSBHTlUvTGludXggdGllbmUgbXVsdGl0dWQgZGUgYXBsaWNhY2lvbmVzIGRlIHRvZG9zIGxvcyB7MH0geSBlc3TDoSBvcmllbnRhZG8gYSBkZXNhcnJvbGxhZG9yZXMuIDxicj4gRW4gYWxndW5vcyBjYXNvcyBmYWx0YSBjb21wYXRpYmlsaWRhZCBjb24gcHJvZ3JhbWFzIG11eSB7MX0sIHF1ZSBwdWVkZW4gZWplY3V0YXJzZSBjb24gZWwgcHJvZ3JhbWEgInsyfSIgZGUgZW11bGFjacOzbiBkZSBXaW5kb3dzLg==",
-            "Gaps": [
-               ['w6FtYml0b3M='],
-               ['cG9wdWxhcmVz'],
-               ['V2luZQ=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5MaW51eC4gRmFjaWxpZGFkIGRlIHBlcnNvbmFsaXphY2nDs248L3N0cm9uZz4gPGJyPiBBbCBzZXIgdW4gc2lzdGVtYSBvcGVyYXRpdm8gZGUgY8OzZGlnbyB7MH0geSBjb250cm9sYWRvIHBvciBsYSBjb211bmlkYWQsIGVzIG11eSBwZXJzb25hbGl6YWJsZS4gRXhpc3RlbiBtdWx0aXR1ZCBkZSB7MX0gZ3JhdHVpdGFzIG9yaWVudGFkYXMgYSB0b2RvIHRpcG8gZGUgw6FtYml0b3MuIDxicj4gU3UgZ3JhbiBmYWNpbGlkYWQgZGUgezJ9IHkgc3UgZ3JhbiBzZWd1cmlkYWQgY29udHJhIGVsIHszfSBlcyBsbyBxdWUgaGFjZSBhIGVzdGUgc2lzdGVtYSBvcGVyYXRpdm8gdGFuIGF0cmFjdGl2byBwYXJhIGluc3RhbGFybG8gZW4gc2Vydmlkb3JlcyB3ZWIgeSB0b2RvIHRpcG8gZGUgb3JkZW5hZG9yZXMgezR9Lg==",
-            "Gaps": [
-               ['YWJpZXJ0bw=='],
-               ['ZGlzdHJpYnVjaW9uZXM='],
-               ['cGVyc29uYWxpemFjacOzbg=='],
-               ['bWFsd2FyZQ=='],
-               ['cHJvZmVzaW9uYWxlcw=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5MaW51eC4gU29wb3J0ZSBkZSBoYXJkd2FyZTwvc3Ryb25nPiA8YnI+IEFsIHNlciBHTlUvTGludXggc29mdHdhcmUgezB9LCBhbGd1bm9zIGRlc2Fycm9sbGFkb3JlcyBkZSBoYXJkd2FyZSB0YWxlcyBjb21vIHsxfSBoYW4gcHVlc3RvIGRpZmljdWx0YWRlcyBwYXJhIHJlYWxpemFyIGNvbnRyb2xhZG9yZXMgcGFyYSBzdXMgcHJvZHVjdG9zLiBBIGTDrWEgZGUgaG95IGxhIG1heW9yw61hIGRlIGxvcyBkaXNwb3NpdGl2b3MgdGllbmVuIHsyfSBlbiBlbCBzaXN0ZW1hIG9wZXJhdGl2bywgcXVlIGVzIGNvbXBhdGlibGUgY29uIHVuYSBhbXBsaWEgdmFyaWVkYWQgZGUgezN9Lg==",
-            "Gaps": [
-               ['YWJpZXJ0bw=='],
-               ['TnZpZGlh'],
-               ['c29wb3J0ZQ=='],
-               ['aGFyZHdhcmU='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5MaW51eC4gUHJlY2lvPC9zdHJvbmc+IDxicj4gR05VL0xpbnV4IGVzIHVuIHNpc3RlbWEgb3BlcmF0aXZvIHswfSwgbG8gcXVlIGFiYXJhdGEgZWwgcHJlY2lvIGZpbmFsIGRlIGxvcyBkaXNwb3NpdGl2b3MgcXVlIGZ1bmNpb25hbiBjb24gw6lsLg==",
-            "Gaps": [
-               ['Z3JhdHVpdG8='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5MaW51eC4gVmVyc2lvbmVzPC9zdHJvbmc+IDxicj4gRWwgc2lzdGVtYSBHTlUvTGludXggdGllbmUgbXVjaGFzIHswfSBvcmllbnRhZGFzIGEgdG9kbyB0aXBvIGRlIGFwbGljYWNpb25lcyB5IGEgdG9kbyB0aXBvIGRlIHBsYXRhZm9ybWFzIHsxfS4gRXN0YXMgc29uIGFsZ3VuYXMgZGUgbGFzIGRpc3RyaWJ1Y2lvbmVzIG3DoXMgcG9wdWxhcmVzLiA8YnI+IDx1bD4gPGxpPnsyfSwgb3JpZW50YWRhIHNvYnJlIHRvZG8gYSB1c3VhcmlvcyBkb23DqXN0aWNvcy48L2xpPiA8bGk+ezN9LCBvcmllbnRhZGEgYSBtYW50ZW5lciB1bmEgZGlzdHJpYnVjacOzbiBhYmllcnRhLCBkZSBzb2Z0d2FyZSBsaWJyZS48L2xpPiA8bGk+TUFYLCBvcmllbnRhZGEgYSBsYSBlZHVjYWNpw7NuIGVuIGxhIENvbXVuaWRhZCBkZSBNYWRyaWQuPC9saT4gPGxpPlJlZCBIYXQgTGludXgsIG9yaWVudGFkYSBhIHs0fSB5IGFsIGVudG9ybm8gZW1wcmVzYXJpYWwuPC9saT4gPGxpPkthbGkgTGludXgsIG9yaWVudGFkYSBhIHBlbnRlc3RpbmcgeSB7NX0uPC9saT4gPGxpPkxpbnV4IGVtYmViaWRvLCBvcmllbnRhZGEgYSBwZXF1ZcOxb3MgezZ9IGludGVsaWdlbnRlcy48L2xpPiA8dWw+",
-            "Gaps": [
-               ['ZGlzdHJpYnVjaW9uZXM='],
-               ['aGFyZHdhcmU='],
-               ['VWJ1bnR1'],
-               ['RGViaWFu'],
-               ['bWFpbmZyYW1lcw=='],
-               ['Y2liZXJzZWd1cmlkYWQ='],
-               ['ZGlzcG9zaXRpdm9z'],
-            ]
-         },
-         
-      ]
+  <script>
 
-      const time_between_clues = 1000;
-      var questions_pages = 0;
-      var gap_selected = 0;
-      var page = 0;
-      var gaps_total = 0;
-      var gaps_values = [];
-      var points_total = 0;
-      var gaps_not_solved = 0;
-      var watermark = 0;
-      var interval;
-      var timeout_clue = 0;
-      var timeout_last_score = 0;
-      var final_score_interval;
+     async function load_json() {
+        try {
+           const response = await fetch('es-software-sistema-operativo-2.json');
+           if (!response.ok) {
+              throw new Error('Error loading JSON file');
+           }
+           const json = await response.json();
+           console.log('JSON file successfully loaded');
 
-      if (!String.prototype.format) {
-         String.prototype.format = function() {
-            var args = arguments;
-            return this.replace(/{(\d+)}/g, function(match, number) {
-               return typeof args[number] != 'undefined'
-                  ? args[number]
-                  : match;
-            });
-         };
-      }
+           window.time_between_clues = json["Clues_time"];
+           window.show_max = json["Show_max"];
+           window.num_tries = json["Num_tries"];
+           window.questions_title = json["Category"] + ". " + json["Title"];
+           window.questions_encoded = json["Questions"];
 
-      page_reset();
+           page_reset();
+        } catch (error) {
+          console.error('Error:', error);
+        }
+     }
 
-      function page_reset() {
-         if (final_score_interval) {
-            clearInterval(final_score_interval);
-         }
-         page = 0;
-         points_total = 0;
-         if (show_max > 0 && show_max < questions_encoded.length) {
-            questions_sorted = questions_sort(show_max);
-         }
-         else {
-            questions_sorted = questions_sort(questions_encoded.length);
-         }
-         question_numpages = questions_sorted.length;
-         gaps_total = questions_gaps();
-         gaps_values = get_gaps_values();
-         gaps_tries = get_gaps_tries();
-         gaps_not_solved = 0;
-         fill_question_text(page);
-         message_hide();
-         hud_show();
-      }
+     load_json();
 
-      function closeConfirm() {
-         return "¿Realmente desea salir de la página web?";
-      }
+     const messages = {
+        closeConfirm: "¿Realmente desea salir de la página web?",
+		scoreNotSaved: "Puntuación no almacenada",
+		check: "Comprobar",
+		clue: "Pista",
+		nextPage: "Siguiente",
+		lastScore: "Puntuación anterior",
+        pageReset: "Reiniciar",
+		oneGapNotFilled: "Aún falta 1 hueco por resolver.",
+        still: "Aún faltan ",
+        gapsNotFilled: " huecos por resolver.",
+		page: "Página",
+		allGapsFilled: "Todos los huecos están resueltos.",
+        pressNext: "<br>Pulsa <strong>Siguiente</strong> para continuar.",
+     };
 
-      function bin_atob(str) {
-         return decodeURIComponent(atob(str).split('').map(function(c) {
-            return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
-        }).join(''));
-      }
+     var questions_pages = 0;
+     var gap_selected = 0;
+     var page = 0;
+     var gaps_total = 0;
+     var gaps_values = [];
+     var points_total = 0;
+     var gaps_not_solved = 0;
+     var watermark = 0;
+     var interval;
+     var timeout_clue = 0;
+     var timeout_last_score = 0;
+     var final_score_interval;
 
-      function questions_sort(len) {
-         new_questions = JSON.parse(JSON.stringify(questions_encoded));
-         questions_sorted = new Array(len);
-         for(i=0; i<len; i++) {
-            rnd = Math.floor(Math.random() * new_questions.length);
-            questions_sorted[i] = new_questions[rnd];
-            questions_sorted[i]["Cloze"] = bin_atob(questions_sorted[i]["Cloze"]);
-            for(var j=0; j < questions_sorted[i]["Gaps"].length; j++) {
-               for(var k=0; k < questions_sorted[i]["Gaps"][j].length; k++) {
-                  questions_sorted[i]["Gaps"][j][k] = bin_atob(questions_sorted[i]["Gaps"][j][k]);
-               };
-            };
-            new_questions.splice(rnd, 1);
-         }
-         return questions_sorted;
-      }
+     if (!String.prototype.format) {
+        String.prototype.format = function() {
+           var args = arguments;
+           return this.replace(/{(\d+)}/g, function(match, number) {
+              return typeof args[number] != 'undefined'
+                 ? args[number]
+                 : match;
+           });
+        };
+     }
 
-      function get_gaps_values() {
-         var gaps_values = [];
-         for(var page=0; page<questions_sorted.length; page++) {
-            gaps_values.push([]);
-            for(var num_gap=0; num_gap<questions_sorted[page]["Gaps"].length; num_gap++) {
-               gaps_values[page].push(string_to_binary_array(questions_sorted[page]["Gaps"][num_gap][0]));
-            };
-         };
-         return gaps_values;
-      }
 
-      function get_gaps_tries() {
-         var gaps_tries = [];
-         for(var page=0; page<questions_sorted.length; page++) {
-            gaps_tries.push([]);
-            for(var num_gap=0; num_gap<questions_sorted[page]["Gaps"].length; num_gap++) {
-               gaps_tries[page].push(num_tries);
-            };
-         };
-         return gaps_tries;
-      }
+     function page_reset() {
+        if (final_score_interval) {
+           clearInterval(final_score_interval);
+        }
+        page = 0;
+        points_total = 0;
+        if (show_max > 0 && show_max < questions_encoded.length) {
+           questions_sorted = questions_sort(show_max);
+        }
+        else {
+           questions_sorted = questions_sort(questions_encoded.length);
+        }
+        question_numpages = questions_sorted.length;
+        gaps_total = questions_gaps();
+        gaps_values = get_gaps_values();
+        gaps_tries = get_gaps_tries();
+        gaps_not_solved = 0;
+        fill_question_text(page);
+        message_hide();
+        hud_show();
+     }
 
-      function string_to_binary_array(str, chr) {
-         array = [];
-         if (str.length == 1) {
-            array.push(100);
-            return array;
-         }
+     function closeConfirm() {
+        return messages.closeConfirm;
+     }
 
-         // Valor de las sucesivas letras de una palabra
-         for(var i=0; i<str.length; i++) {
-            const func = "Lineal";
-            if (func === "Exponencial") {
-               // Exponencial
-               array.push(100 * Math.pow(2, str.length-i-1) / (Math.pow(2, str.length) - 1));
-            }
-            else {
-               // Lineal
-               array.push(100 * (1.0 - i / (2*str.length-2)) / (0.75 * str.length));
-            };
-         };
-         return array;
-      }
+     function bin_atob(str) {
+        return decodeURIComponent(atob(str).split('').map(function(c) {
+           return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+       }).join(''));
+     }
 
-      function add_terms(array) {
-         sum = 0;
-         for(var i=0; i<array.length; i++) {
-            sum += array[i];
-         }
-         return sum;
-      }
+     function questions_sort(len) {
+        new_questions = JSON.parse(JSON.stringify(questions_encoded));
+        questions_sorted = new Array(len);
+        for(i=0; i<len; i++) {
+           rnd = Math.floor(Math.random() * new_questions.length);
+           questions_sorted[i] = new_questions[rnd];
+           questions_sorted[i]["Cloze"] = bin_atob(questions_sorted[i]["Cloze"]);
+           for(var j=0; j < questions_sorted[i]["Gaps"].length; j++) {
+              for(var k=0; k < questions_sorted[i]["Gaps"][j].length; k++) {
+                 questions_sorted[i]["Gaps"][j][k] = bin_atob(questions_sorted[i]["Gaps"][j][k]);
+              };
+           };
+           new_questions.splice(rnd, 1);
+        }
+        return questions_sorted;
+     }
 
-      function questions_gaps() {
-         var gaps = 0;
-         for(var page=0; page<questions_sorted.length; page++) {
-            gaps += questions_sorted[page]["Gaps"].length;
-         };
-         return gaps;
-      };
+     function get_gaps_values() {
+        var gaps_values = [];
+        for(var page=0; page<questions_sorted.length; page++) {
+           gaps_values.push([]);
+           for(var num_gap=0; num_gap<questions_sorted[page]["Gaps"].length; num_gap++) {
+              gaps_values[page].push(string_to_binary_array(questions_sorted[page]["Gaps"][num_gap][0]));
+           };
+        };
+        return gaps_values;
+     }
 
-      function final_score_fill() {
-         // Load values
-         title = sessionStorage.getItem("last_questions_title");
-         if (title === null) {
-            title = "Puntuación no almacenada";
-         }
-         points = sessionStorage.getItem("last_questions_points");
-         if (points === null) {
-            points = 0;
-         }
+     function get_gaps_tries() {
+        var gaps_tries = [];
+        for(var page=0; page<questions_sorted.length; page++) {
+           gaps_tries.push([]);
+           for(var num_gap=0; num_gap<questions_sorted[page]["Gaps"].length; num_gap++) {
+              gaps_tries[page].push(num_tries);
+           };
+        };
+        return gaps_tries;
+     }
 
-         // Hide HUD
-         var hud_element = document.getElementById("hud_id");
-         hud_element.style.display = "none";
+     function string_to_binary_array(str, chr) {
+        array = [];
+        if (str.length == 1) {
+           array.push(100);
+           return array;
+        }
 
-         // Big header
-         var header_element = document.getElementById("header_id");
-         header_element.innerHTML = title;
-         header_element.style.fontSize = "48px";
-         header_element.style.paddingTop = "32px";
+        // Valor de las sucesivas letras de una palabra
+        for(var i=0; i<str.length; i++) {
+           const func = "Lineal";
+           if (func === "Exponencial") {
+              // Exponencial
+              array.push(100 * Math.pow(2, str.length-i-1) / (Math.pow(2, str.length) - 1));
+           }
+           else {
+              // Lineal
+              array.push(100 * (1.0 - i / (2*str.length-2)) / (0.75 * str.length));
+           };
+        };
+        return array;
+     }
 
-         // Show points
-         var question_frame_element = document.getElementById("question_frame_id");
-         if (watermark == 1) {
-            question_frame_element.innerHTML = "";
-            question_frame_element.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:80px\">"
-            + Math.round(points) + "%"
-            + "</h1> <h1>- - - - - - -</h1>");
-            watermark = 2;
-         }
-         else {
-            question_frame_element.innerHTML = "";
-            question_frame_element.innerHTML = "";
-            question_frame_element.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:80px\">"
-            + Math.round(points) + "%"
-            + "</h1> <h1>= = = = = =</h1>");
-            watermark = 1;
-         }
-         buttons_final_score_fill();
-      };
+     function add_terms(array) {
+        sum = 0;
+        for(var i=0; i<array.length; i++) {
+           sum += array[i];
+        }
+        return sum;
+     }
 
-      function buttons_questions_fill() {
-         var buttons_frame_element = document.getElementById("buttons_id");
-         buttons_frame_element.innerHTML = ''
-         + '<button class="func_button" onclick="check_answers()">Comprobar</button>'
-         + '<button class="func_button" onclick="show_clue()">Pista</button>'
-         + '<button class="func_button" onclick="next_page()">Siguiente</button>'
-         + '<br><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
-      }
+     function questions_gaps() {
+        var gaps = 0;
+        for(var page=0; page<questions_sorted.length; page++) {
+           gaps += questions_sorted[page]["Gaps"].length;
+        };
+        return gaps;
+     };
 
-      function buttons_final_score_fill() {
-         var buttons_frame_element = document.getElementById("buttons_id");
-         buttons_frame_element.innerHTML = '<button class="func_button" onclick="page_reset()">Reiniciar</button>';
-      }
+     function final_score_fill() {
+        // Load values
+        title = sessionStorage.getItem("last_questions_title");
+        if (title === null) {
+           title = messages.scoreNotSaved;
+        }
+        points = sessionStorage.getItem("last_questions_points");
+        if (points === null) {
+           points = 0;
+        }
 
-      function message_show(message) {
-         var message_text_element = document.getElementById("message_text_id");
-         message_text_element.innerHTML = message;
-         var message_element = document.getElementById("message_id");
-         message_element.style.display = "inline";
-         var button_element = document.getElementById("message_button_id");
-         button_element.focus();
-      }
+        // Hide HUD
+        var hud_element = document.getElementById("hud_id");
+        hud_element.style.display = "none";
 
-      function message_hide() {
-         var message_element = document.getElementById("message_id");
-         var message_text_element = document.getElementById("message_text_id");
-         message_text_element.innerHTML = "";
-         message_element.style.display = "none";
+        // Big header
+        var header_element = document.getElementById("header_id");
+        header_element.innerHTML = title;
+        header_element.style.fontSize = "48px";
+        header_element.style.paddingTop = "32px";
 
-         focus_empty_gap();
-      }
+        // Show points
+        var question_frame_element = document.getElementById("question_frame_id");
+        if (watermark == 1) {
+           question_frame_element.innerHTML = "";
+           question_frame_element.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:80px\">"
+           + Math.round(points) + "%"
+           + "</h1> <h1>- - - - - - -</h1>");
+           watermark = 2;
+        }
+        else {
+           question_frame_element.innerHTML = "";
+           question_frame_element.innerHTML = "";
+           question_frame_element.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:80px\">"
+           + Math.round(points) + "%"
+           + "</h1> <h1>= = = = = =</h1>");
+           watermark = 1;
+        }
+        buttons_final_score_fill();
+     };
 
-      function focus_empty_gap() {
-         var num_gaps = 0;
-         var gaps_length = questions_sorted[page]["Gaps"].length;
+     function buttons_questions_fill() {
+        var buttons_frame_element = document.getElementById("buttons_id");
+        buttons_frame_element.innerHTML = ''
+        + '<button class="func_button" onclick="check_answers()">' + messages.check + '</button>'
+        + '<button class="func_button" onclick="show_clue()">' + messages.clue + '</button>'
+        + '<button class="func_button" onclick="next_page()">' + messages.nextPage + '</button>'
+        + '<br><button class="func_button" onclick="last_score()">' + messages.lastScore + '</button>';
+     }
 
-         while (1) {
-            var gap_element = document.getElementById("gap_{0}".format(gap_selected));
-            if (gap_element) {
-               gap_element.focus();
-               break;
-            }
-            gap_selected += 1;
-            if (gap_selected > gaps_length) {
-               gap_selected = 0;
-            }
-            num_gaps += 1;
-            if (num_gaps > 100) {
-               break;
-            }
-         }
-      }
+     function buttons_final_score_fill() {
+        var buttons_frame_element = document.getElementById("buttons_id");
+        buttons_frame_element.innerHTML = '<button class="func_button" onclick="page_reset()">' + messages.pageReset + '</button>';
+     }
 
-      function next_page() {
-         message_hide();
+     function message_show(message) {
+        var message_text_element = document.getElementById("message_text_id");
+        message_text_element.innerHTML = message;
+        var message_element = document.getElementById("message_id");
+        message_element.style.display = "inline";
+        var button_element = document.getElementById("message_button_id");
+        button_element.focus();
+     }
 
-         // Check gaps
-         var gaps_not_solved = count_blank_answers();
+     function message_hide() {
+        var message_element = document.getElementById("message_id");
+        var message_text_element = document.getElementById("message_text_id");
+        message_text_element.innerHTML = "";
+        message_element.style.display = "none";
 
-         // Check if all gaps are filled
-         if (gaps_not_solved > 0) {
-            if (gaps_not_solved == 1) {
-               message_show("Aún falta 1 hueco por resolver.");
-            }
-            else {
-               message_show("Aún faltan " + gaps_not_solved + " huecos por resolver.");
-            };
-            return;
-         };
+        focus_empty_gap();
+     }
 
-         // Go to next page or final page
-         page++;
-         if (page < questions_sorted.length) {
-            hud_show();
-            fill_question_text(page);
-         }
-         else {
-            sessionStorage.setItem('last_questions_title', questions_title);
-            sessionStorage.setItem('last_questions_points', points_total);
-            final_score_interval = setInterval(final_score_fill, 500);
-         }
+     function focus_empty_gap() {
+        var num_gaps = 0;
+        var gaps_length = questions_sorted[page]["Gaps"].length;
 
-         // Init variables
-         gap_selected = 0;
-      };
+        while (1) {
+           var gap_element = document.getElementById("gap_{0}".format(gap_selected));
+           if (gap_element) {
+              gap_element.focus();
+              break;
+           }
+           gap_selected += 1;
+           if (gap_selected > gaps_length) {
+              gap_selected = 0;
+           }
+           num_gaps += 1;
+           if (num_gaps > 100) {
+              break;
+           }
+        }
+     }
 
-      function last_score() {
-         if (timeout_last_score === 1) {
-            final_score_interval = setInterval(final_score_fill, 500);
-         }
-         else {
-            timeout_last_score = 1;
-            setTimeout(reset_timeout_last_score, 400);
-            return;
-         }
-      }
+     function next_page() {
+        message_hide();
 
-      function reset_timeout_last_score() {
-         timeout_last_score = 0;
-      }
+        // Check gaps
+        var gaps_not_solved = count_blank_answers();
 
-      function questions_page_gaps(page) {
-         return questions_sorted[page]["Gaps"].length;
-      }
+        // Check if all gaps are filled
+        if (gaps_not_solved > 0) {
+           if (gaps_not_solved == 1) {
+              message_show(messages.oneGapNotFilled);
+           }
+           else {
+              message_show(messages.still + gaps_not_solved + messages.gapsNotFilled);
+           };
+           return;
+        };
 
-      function fill_question_text(page) {
-         message_hide();
-         points_page = 0;
+        // Go to next page or final page
+        page++;
+        if (page < questions_sorted.length) {
+           hud_show();
+           fill_question_text(page);
+        }
+        else {
+           sessionStorage.setItem('last_questions_title', questions_title);
+           sessionStorage.setItem('last_questions_points', points_total);
+           final_score_interval = setInterval(final_score_fill, 500);
+        }
 
-         // Fill header
-         var header_element = document.getElementById("header_id");
-         header_element.innerHTML = questions_title;
-         header_element.style.fontSize = "32px";
-         header_element.style.paddingTop = "0px";
+        // Init variables
+        gap_selected = 0;
+     };
 
-         // Fill question frame HTML
-         var question_frame_element = document.getElementById("question_frame_id");
-         question_frame_element.innerHTML = ''
-         + '<div class="question_image_div" id="question_image_div_id"><img src=""></div>'
-         + '<div class="question_text" id="question_text_id"></div>';
+     function last_score() {
+        if (timeout_last_score === 1) {
+           final_score_interval = setInterval(final_score_fill, 500);
+        }
+        else {
+           timeout_last_score = 1;
+           setTimeout(reset_timeout_last_score, 400);
+           return;
+        }
+     }
 
-         // Read variables
-         var question_text = questions_sorted[page]["Cloze"];
-         var question_image = questions_sorted[page]["Image"][0];
-         var question_image_size = questions_sorted[page]["Image"][1];
+     function reset_timeout_last_score() {
+        timeout_last_score = 0;
+     }
 
-         // Image
-         image_code = '<img class="question_image" src="{0}"{1}>';
-         if (question_image_size) {
-            var image_values = [question_image, ' width="{0}"'.format(question_image_size)];
-         }
-         else {
-            var image_values = [question_image, ''];
-         };
-         image_code_formatted = image_code.format(...image_values);
-         var question_image_element = document.getElementById("question_image_div_id");
-         if (question_image) {
-            question_image_element.innerHTML = image_code_formatted;
-         }
-         else {
-            question_image_element.innerHTML = "";
-         };
+     function questions_page_gaps(page) {
+        return questions_sorted[page]["Gaps"].length;
+     }
 
-         // Question text
-         var gaps_length = questions_sorted[page]["Gaps"].length;
-         var gaps_not_solved = gaps_length;
-         var gap_span = new Array(gaps_length);
-         gap_span_code = '<span class="gap_span" id="gap_span_{0}">'
-         + '<input type="text" autocomplete="off" class="gap_box" id="gap_{0}" '
-         + 'size="12" onfocus="select_gap({0})" onkeypress="onkeypress_handle({0}, event)"></span>';
-         for (var i=0; i<=gaps_length; i++) {
-            gap_span[i] = gap_span_code.format(i);
-         };
-         var question_text_formatted = question_text.format(...gap_span);
-         var question_text_element = document.getElementById("question_text_id");
-         question_text_element.innerHTML = question_text_formatted;
+     function fill_question_text(page) {
+        message_hide();
+        points_page = 0;
 
-         // Buttons
-         buttons_questions_fill();
-         clearInterval(interval);
+        // Fill header
+        var header_element = document.getElementById("header_id");
+        header_element.innerHTML = questions_title;
+        header_element.style.fontSize = "32px";
+        header_element.style.paddingTop = "0px";
 
-         // Focus first gap
-         var gap_element = document.getElementById("gap_0");
-         if (gap_element) {
-            gap_element.focus();
-         }
-      }
+        // Fill question frame HTML
+        var question_frame_element = document.getElementById("question_frame_id");
+        question_frame_element.innerHTML = ''
+        + '<div class="question_image_div" id="question_image_div_id"><img src=""></div>'
+        + '<div class="question_text" id="question_text_id"></div>';
 
-      function hud_show() {
-         // Show HUD
-         var hud_element = document.getElementById("hud_id");
-         hud_element.style.display = "flex";
+        // Read variables
+        var question_text = questions_sorted[page]["Cloze"];
+        var question_image = questions_sorted[page]["Image"][0];
+        var question_image_size = questions_sorted[page]["Image"][1];
 
-         // Page HUD
-         var hud_page_element = document.getElementById("hud_page_id");
-         hud_page_element.innerHTML = 'Página {0}/{1}'.format(page + 1, questions_sorted.length);
+        // Image
+        image_code = '<img class="question_image" src="{0}"{1}>';
+        if (question_image_size) {
+           var image_values = [question_image, ' width="{0}"'.format(question_image_size)];
+        }
+        else {
+           var image_values = [question_image, ''];
+        };
+        image_code_formatted = image_code.format(...image_values);
+        var question_image_element = document.getElementById("question_image_div_id");
+        if (question_image) {
+           question_image_element.innerHTML = image_code_formatted;
+        }
+        else {
+           question_image_element.innerHTML = "";
+        };
 
-         var progress_bar_full_element = document.getElementById("progress_bar_full_id");
-         var width = ((page + 1) / questions_sorted.length) * 100;
-         progress_bar_full_element.style.width = `${width}%`;
+        // Question text
+        var gaps_length = questions_sorted[page]["Gaps"].length;
+        var gaps_not_solved = gaps_length;
+        var gap_span = new Array(gaps_length);
+        gap_span_code = '<span class="gap_span" id="gap_span_{0}">'
+        + '<input type="text" autocomplete="off" class="gap_box" id="gap_{0}" '
+        + 'size="12" onfocus="select_gap({0})" onkeypress="onkeypress_handle({0}, event)"></span>';
+        for (var i=0; i<=gaps_length; i++) {
+           gap_span[i] = gap_span_code.format(i);
+        };
+        var question_text_formatted = question_text.format(...gap_span);
+        var question_text_element = document.getElementById("question_text_id");
+        question_text_element.innerHTML = question_text_formatted;
 
-         // Points
-         var score_element = document.getElementById("score");
-         score_element.innerHTML = Math.round(points_total);
-      };
+        // Buttons
+        buttons_questions_fill();
+        clearInterval(interval);
 
-      function onkeypress_handle(gap, event) {
-         if (event.keyCode == 13) {
-            event.preventDefault();
-            check_answers();
-         };
-      };
+        // Focus first gap
+        var gap_element = document.getElementById("gap_0");
+        if (gap_element) {
+           gap_element.focus();
+        }
+     }
 
-      function check_answers() {
-         message_hide();
+     function hud_show() {
+        // Show HUD
+        var hud_element = document.getElementById("hud_id");
+        hud_element.style.display = "flex";
 
-         gaps_not_solved = count_blank_answers();
+        // Page HUD
+        var hud_page_element = document.getElementById("hud_page_id");
+        hud_page_element.innerHTML = messages.page + ' {0}/{1}'.format(page + 1, questions_sorted.length);
 
-         if (gaps_not_solved > 0) {
-            if (gaps_not_solved == 1) {
-               message_show("Aún falta 1 hueco por resolver.");
-            }
-            else {
-               message_show("Aún faltan " + gaps_not_solved + " huecos por resolver.");
-            };
-         }
-         else {
-            message_show("Todos los huecos están resueltos."
-            + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
-         }
-      };
+        var progress_bar_full_element = document.getElementById("progress_bar_full_id");
+        var width = ((page + 1) / questions_sorted.length) * 100;
+        progress_bar_full_element.style.width = `${width}%`;
 
-      function count_blank_answers() {
-         // Leer gaps y comprobar que son correctos
-         var gaps_length = questions_sorted[page]["Gaps"].length;
-         var gaps_not_solved = gaps_length;
-         for (var num_gap=0; num_gap<gaps_length; num_gap++) {
-            var gap_element = document.getElementById("gap_{0}".format(num_gap));
-            if (gap_element === null || gap_element === 'undefined' ) {
-               gaps_not_solved -= 1;
-               continue;
-            };
-            var gap_text = gap_element.value.toLowerCase().trim();
-            gap_text.replace(/\s\s+/g, ' ');
-            if (gap_text === "") {
-               continue;
-            };
-            var answer = test_answer_correct(page, num_gap, gap_text);
-            if (answer !== false) {
-               var gap_span_element = document.getElementById("gap_span_{0}".format(num_gap));
-               gap_span_element.innerHTML = answer;
-               points_total += add_terms(gaps_values[page][num_gap]) / gaps_total;
-               hud_show();
-               gaps_not_solved -= 1;
-            }
-            else {
-               if (gaps_tries[page][num_gap] === 1) {
-                  var gap_span_element = document.getElementById("gap_span_{0}".format(num_gap));
-                  gap_span_element.innerHTML = questions_sorted[page]["Gaps"][num_gap][0];
-                  gaps_not_solved -= 1;
-               }
-               else if (gaps_tries[page][num_gap] > 1) {
-                  gaps_tries[page][num_gap] -= 1;
-               }
-            }
-         };
-         return gaps_not_solved;
-      }
+        // Points
+        var score_element = document.getElementById("score");
+        score_element.innerHTML = Math.round(points_total);
+     };
 
-      function test_answer_correct(page, num_gap, gap_text) {
-         var num_answers = questions_sorted[page]["Gaps"][num_gap].length;
-         for (var j=0; j<num_answers; j++) {
-            var answer = questions_sorted[page]["Gaps"][num_gap][j];
-            if (gap_text === answer.toLowerCase()) {
-               return answer;
-            };
-         };
-         return false;
-      }
+     function onkeypress_handle(gap, event) {
+        if (event.keyCode == 13) {
+           event.preventDefault();
+           check_answers();
+        };
+     };
 
-      function select_gap(num) {
-         gap_selected = num;
-      };
+     function check_answers() {
+        message_hide();
 
-      function reset_timeout_clue() {
-         timeout_clue = 0;
-      }
+        gaps_not_solved = count_blank_answers();
 
-      function show_clue() {
-         message_hide();
-         if (timeout_clue !== 0) {
-            return;
-         }
-         timeout_clue = 1;
-         setTimeout(reset_timeout_clue, time_between_clues);
+        if (gaps_not_solved > 0) {
+           if (gaps_not_solved == 1) {
+              message_show(messages.oneGapNotFilled);
+           }
+           else {
+              message_show(messages.still + gaps_not_solved + messages.gapsNotFilled);
+           };
+        }
+        else {
+           message_show(messages.allGapsFilled + messages.pressNext);
+        }
+     };
 
-         var gaps_visited = 0;
-         var gaps_length = questions_sorted[page]["Gaps"].length;
-         if (gap_selected < 0 || gap_selected >= gaps_length) {
-            gap_selected = 0;
-         };
-         while (true) {
-            while (true) {
-               if (gaps_visited >= gaps_length) {
-                  message_show("Todos los huecos están resueltos."
-                  + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
-                  return;
-               }
-               if (gap_selected >= gaps_length) {
-                  gap_selected = 0;
-               }
-               var correct_answer = questions_sorted[page]["Gaps"][gap_selected][0];
-               var gap_element = document.getElementById("gap_{0}".format(gap_selected));
-               if (gap_element === null) {
-                  gap_selected += 1;
-                  gaps_visited += 1;
-                  continue;
-               }
-               else {
-                  break;
-               };
-            }
-            var gap_text = gap_element.value.toLowerCase();
-            var i = 0;
-            while (true) {
-               if (i >= correct_answer.length) {
-                  if (gap_text.length > correct_answer.length) {
-                     // Correct gap answer with more letters
-                     gap_element.value = gap_element.value.substr(0, correct_answer.length);
-                     gap_selected++;
-                     return;
-                  }
-                  // next gap
-                  gap_selected++;
-                  if (gap_selected >= gaps_length) {
-                     return; // No gap to fill
-                  };
-                  // Go to next gap
-                  break;
-               };
-               if (i >= gap_text.length) {
-                  gap_text = correct_answer.substr(0, i+1);
-                  gap_element.value = gap_text;
-                  gaps_values[page][gap_selected][i] = 0;
-                  return;
-               };
-               if (gap_text.charAt(i).toLowerCase() !== correct_answer.charAt(i).toLowerCase()) {
-                  gap_text = correct_answer.substr(0, i+1);
-                  gap_element.value = gap_text;
-                  gaps_values[page][gap_selected][i] = 0;
-                  return;
-               };
-               i++;
-            };
-         };
-      };
+     function count_blank_answers() {
+        // Leer gaps y comprobar que son correctos
+        var gaps_length = questions_sorted[page]["Gaps"].length;
+        var gaps_not_solved = gaps_length;
+        for (var num_gap=0; num_gap<gaps_length; num_gap++) {
+           var gap_element = document.getElementById("gap_{0}".format(num_gap));
+           if (gap_element === null || gap_element === 'undefined' ) {
+              gaps_not_solved -= 1;
+              continue;
+           };
+           var gap_text = gap_element.value.toLowerCase().trim();
+           gap_text.replace(/\s\s+/g, ' ');
+           if (gap_text === "") {
+              continue;
+           };
+           var answer = test_answer_correct(page, num_gap, gap_text);
+           if (answer !== false) {
+              var gap_span_element = document.getElementById("gap_span_{0}".format(num_gap));
+              gap_span_element.innerHTML = answer;
+              points_total += add_terms(gaps_values[page][num_gap]) / gaps_total;
+              hud_show();
+              gaps_not_solved -= 1;
+           }
+           else {
+              if (gaps_tries[page][num_gap] === 1) {
+                 var gap_span_element = document.getElementById("gap_span_{0}".format(num_gap));
+                 gap_span_element.innerHTML = questions_sorted[page]["Gaps"][num_gap][0];
+                 gaps_not_solved -= 1;
+              }
+              else if (gaps_tries[page][num_gap] > 1) {
+                 gaps_tries[page][num_gap] -= 1;
+              }
+           }
+        };
+        return gaps_not_solved;
+     }
 
-   </script>
+     function test_answer_correct(page, num_gap, gap_text) {
+        var num_answers = questions_sorted[page]["Gaps"][num_gap].length;
+        for (var j=0; j<num_answers; j++) {
+           var answer = questions_sorted[page]["Gaps"][num_gap][j];
+           if (gap_text === answer.toLowerCase()) {
+              return answer;
+           };
+        };
+        return false;
+     }
+
+     function select_gap(num) {
+        gap_selected = num;
+     };
+
+     function reset_timeout_clue() {
+        timeout_clue = 0;
+     }
+
+     function show_clue() {
+        message_hide();
+        if (timeout_clue !== 0) {
+           return;
+        }
+        timeout_clue = 1;
+        setTimeout(reset_timeout_clue, time_between_clues);
+
+        var gaps_visited = 0;
+        var gaps_length = questions_sorted[page]["Gaps"].length;
+        if (gap_selected < 0 || gap_selected >= gaps_length) {
+           gap_selected = 0;
+        };
+        while (true) {
+           while (true) {
+              if (gaps_visited >= gaps_length) {
+                 message_show(messages.allGapsFilled + messages.pressNext);
+                 return;
+              }
+              if (gap_selected >= gaps_length) {
+                 gap_selected = 0;
+              }
+              var correct_answer = questions_sorted[page]["Gaps"][gap_selected][0];
+              var gap_element = document.getElementById("gap_{0}".format(gap_selected));
+              if (gap_element === null) {
+                 gap_selected += 1;
+                 gaps_visited += 1;
+                 continue;
+              }
+              else {
+                 break;
+              };
+           }
+           var gap_text = gap_element.value.toLowerCase();
+           var i = 0;
+           while (true) {
+              if (i >= correct_answer.length) {
+                 if (gap_text.length > correct_answer.length) {
+                    // Correct gap answer with more letters
+                    gap_element.value = gap_element.value.substr(0, correct_answer.length);
+                    gap_selected++;
+                    return;
+                 }
+                 // next gap
+                 gap_selected++;
+                 if (gap_selected >= gaps_length) {
+                    return; // No gap to fill
+                 };
+                 // Go to next gap
+                 break;
+              };
+              if (i >= gap_text.length) {
+                 gap_text = correct_answer.substr(0, i+1);
+                 gap_element.value = gap_text;
+                 gaps_values[page][gap_selected][i] = 0;
+                 return;
+              };
+              if (gap_text.charAt(i).toLowerCase() !== correct_answer.charAt(i).toLowerCase()) {
+                 gap_text = correct_answer.substr(0, i+1);
+                 gap_element.value = gap_text;
+                 gaps_values[page][gap_selected][i] = 0;
+                 return;
+              };
+              i++;
+           };
+        };
+     };
+  </script>
 
 </body>
 

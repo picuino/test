@@ -1,0 +1,26 @@
+﻿{
+   "Clues_time": {% if  header.Clues_time %}{{ header.Clues_time }}{% else %}1000{% endif %},
+   "Show_max": {{ header.Show_max }},
+   "Num_tries": {% if  header.Num_tries %}{{ header.Num_tries }}{% else %}0{% endif %},
+   "Category": "{{ header.Category }}",
+   "Title": "{{ header.Title }}",
+   "Questions": [
+      {%- for question in questions %}
+      {% raw %}{{% endraw %}
+         {%- if question.Image %}
+         "Image": ["images/{{ question.Image.hashname }}", "{{ question.Image.display_width }}"],
+         {%- else %}
+         "Image": ["", ""],
+         {%- endif %}
+         "Cloze": "{{ question.Cloze_b64 }}",
+         "Gaps": [
+            {%- for Gap in question.Gaps_b64 %}
+            {%- if Gap is string %}["{{ Gap }}"]{{", " if not loop.last}}
+            {%- else %}[
+            {%- for word in Gap %}"{{ word }}"{{", " if not loop.last}}{% endfor %}]{{", " if not loop.last}}
+            {%- endif %}
+            {%- endfor %}]
+      {% raw %}}{% endraw %}{{"," if not loop.last}}
+      {%- endfor %}
+   ]
+}

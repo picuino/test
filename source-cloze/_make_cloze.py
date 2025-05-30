@@ -34,6 +34,8 @@ from PIL import Image
 
 build_path = '../moodle'
 html_path = '../docs'
+template_json_filename = 'template-data.json'
+
 
 def main():
    """Main program"""
@@ -52,6 +54,7 @@ def main():
       questions_counter.add(num_questions, yaml_file)
       gaps_counter.add(num_gaps, yaml_file)
       cloze.html_generate(path=html_path)
+      cloze.json_generate(path=html_path)
       cloze.moodle_generate(moodle_template, path=build_path)
    print('\nTotal questions= %s' % str(questions_counter))
    print('Total gaps=      %s' % str(gaps_counter))
@@ -329,12 +332,21 @@ class Cloze():
       """Genera los archivos html para jugar con las cuestiones."""
       html_filename = os.path.join(path, self.filename + '.html')
       if 'Language' in self.header and self.header['Language'] == 'en':
-         template_file = 'en-template-cloze.html'
+         template_file = 'template-en-cloze.html'
       else:
-         template_file = 'es-template-cloze.html'
+         template_file = 'template-es-cloze.html'
       self.jinja_template(template_file)
       html_data = self.template.render(questions = self.questions, header=self.header, filename=self.filename)
       self.write_file(html_filename, html_data)
+   
+   
+   def json_generate(self, path='./'):
+      """Genera los archivos json con los datos necesarios."""
+      json_filename = os.path.join(path, self.filename + '.json')
+      template_file = template_json_filename
+      self.jinja_template(template_file)
+      json_data = self.template.render(questions = self.questions, header=self.header, filename=self.filename)
+      self.write_file(json_filename, json_data)
 
 
 if __name__ == "__main__":

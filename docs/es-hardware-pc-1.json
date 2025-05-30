@@ -1,0 +1,89 @@
+﻿{
+   "Clues_time": 1000,
+   "Show_max": 0,
+   "Num_tries": 0,
+   "Category": "Hardware",
+   "Title": "Hardware de un ordenador personal I",
+   "Questions": [
+      {
+         "Image": ["images/457609d9018d87c936aa.png", "480"],
+         "Cloze": "RWwgZWxlbWVudG8gKDEpIGVzIHVuIHswfS4=",
+         "Gaps": [["bW9uaXRvcg=="]]
+      },
+      {
+         "Image": ["images/457609d9018d87c936aa.png", "480"],
+         "Cloze": "RWwgZWxlbWVudG8gKDIpIGVzIGxhIHswfS4=",
+         "Gaps": [["cGxhY2EgYmFzZQ=="]]
+      },
+      {
+         "Image": ["images/457609d9018d87c936aa.png", "480"],
+         "Cloze": "RWwgZWxlbWVudG8gKDMpIGVzIGxhIHswfSB5IHN1IHsxfS4=",
+         "Gaps": [["Q1BV"], ["esOzY2Fsbw=="]]
+      },
+      {
+         "Image": ["images/457609d9018d87c936aa.png", "480"],
+         "Cloze": "RWwgZWxlbWVudG8gKDQpIGVzIHVuIG3Ds2R1bG8gZGUgezB9IGRlIHRpcG8gezF9Lg==",
+         "Gaps": [["bWVtb3JpYQ=="], ["UkFN"]]
+      },
+      {
+         "Image": ["images/457609d9018d87c936aa.png", "480"],
+         "Cloze": "RWwgZWxlbWVudG8gKDUpIHNvbiBsYXMgezB9IHkgcmFudXJhcyBkZSB7MX0u",
+         "Gaps": [["dGFyamV0YXM="], ["ZXhwYW5zacOzbg=="]]
+      },
+      {
+         "Image": ["images/457609d9018d87c936aa.png", "480"],
+         "Cloze": "RWwgZWxlbWVudG8gKDYpIGVzIGxhIHswfSBkZSB7MX0u",
+         "Gaps": [["ZnVlbnRl"], ["YWxpbWVudGFjacOzbg=="]]
+      },
+      {
+         "Image": ["images/457609d9018d87c936aa.png", "480"],
+         "Cloze": "RWwgZWxlbWVudG8gKDcpIGVzIGxhIHVuaWRhZCBkZSB7MH0gKENELCBEVkQsIEJEKS4=",
+         "Gaps": [["ZGlzY28gw7NwdGljbw=="]]
+      },
+      {
+         "Image": ["images/457609d9018d87c936aa.png", "480"],
+         "Cloze": "RWwgZWxlbWVudG8gKDgpIGVzIGxhIHVuaWRhZCBkZSBkaXNjbyBkdXJvIG8gdW5pZGFkIGRlIHswfS4=",
+         "Gaps": [["ZXN0YWRvIHPDs2xpZG8="]]
+      },
+      {
+         "Image": ["images/457609d9018d87c936aa.png", "480"],
+         "Cloze": "RWwgZWxlbWVudG8gKDkpIGVzIGVsIHswfS4=",
+         "Gaps": [["dGVjbGFkbw=="]]
+      },
+      {
+         "Image": ["images/457609d9018d87c936aa.png", "480"],
+         "Cloze": "RWwgZWxlbWVudG8gKDEwKSBlcyBlbCB7MH0u",
+         "Gaps": [["cmF0w7Nu"]]
+      },
+      {
+         "Image": ["images/8cfa90bc11f989992eaf.png", "380"],
+         "Cloze": "TGEgbWVtb3JpYSB7MH0sIGVzIGxhIGVuY2FyZ2FkYSBkZSBhbG1hY2VuYXIgYSBsYXJnbyBwbGF6byBsb3MgcHJvZ3JhbWFzIHkgbG9zIGRhdG9zLCBhdW5xdWUgZWwgb3JkZW5hZG9yIGVzdMOpIGFwYWdhZG8u",
+         "Gaps": [["Uk9N"]]
+      },
+      {
+         "Image": ["images/8cfa90bc11f989992eaf.png", "380"],
+         "Cloze": "TGEgbWVtb3JpYSB7MH0gZXMgbGEgZW5jYXJnYWRhIGRlIGFsbWFjZW5hciBsb3MgcHJvZ3JhbWFzIHkgbG9zIGRhdG9zIHBhcmEgcXVlIGVsIHByb2Nlc2Fkb3IgcHVlZGEgdHJhYmFqYXIgY29uIGVsbG9zLg==",
+         "Gaps": [["UkFN"]]
+      },
+      {
+         "Image": ["images/8cfa90bc11f989992eaf.png", "380"],
+         "Cloze": "TGEgezB9IG8gdW5pZGFkIGNlbnRyYWwgZGUgezF9IHF1ZSBlcyBlbCAiY2VyZWJybyIgZGVsIG9yZGVuYWRvciwgZWwgZWxlbWVudG8gcXVlIHByb2Nlc2EgbG9zIHByb2dyYW1hcyB5IGxvcyBkYXRvcy4=",
+         "Gaps": [["Q1BV"], ["cHJvY2Vzbw=="]]
+      },
+      {
+         "Image": ["images/8cfa90bc11f989992eaf.png", "380"],
+         "Cloze": "RWwgezB9IHNlIGVuY2FyZ2EgZGUgdHJhbnNwb3J0YXIgbG9zIGRhdG9zIGVudHJlIGxhIENQVSwgbGEgbWVtb3JpYSB5IGVsIHNpc3RlbWEgZGUgZW50cmFkYS9zYWxpZGEu",
+         "Gaps": [["YnVzIGRlIENQVQ=="]]
+      },
+      {
+         "Image": ["images/8cfa90bc11f989992eaf.png", "380"],
+         "Cloze": "RWwgc2lzdGVtYSBkZSB7MH0gY29uZWN0YSBlbCBvcmRlbmFkb3IgY29uIGVsIGV4dGVyaW9yIHkgc2UgZW5jYXJnYSBkZSB0cmFuc3BvcnRhciBpbmZvcm1hY2nDs24gZW50cmUgZWwgYnVzIGRlIENQVSB5IHZhcmlvcyBidXNlcyBkZSBjb25leGnDs24gc2VjdW5kYXJpb3MsIHF1ZSBzdWVsZW4gc2VyIGVzdMOhbmRhciwgY29tbyB7MX0sIEhETUkgbyBFdGhlcm5ldC4=",
+         "Gaps": [["ZW50cmFkYS9zYWxpZGE="], ["VVNC"]]
+      },
+      {
+         "Image": ["images/8cfa90bc11f989992eaf.png", "380"],
+         "Cloze": "TG9zIHswfSBzZSBlbmNhcmdhbiBkZSByZWFsaXphciAzIHRhcmVhcyBmdW5kYW1lbnRhbGVzLiA8YnI+IDx1bD4gPGxpPnsxfSBkZSBkYXRvcyBhbCBvcmRlbmFkb3IgKHBvciBlamVtcGxvIHVuIHRlY2xhZG8pPC9saT4gPGxpPnsyfSBkZSBkYXRvcyBkZWwgb3JkZW5hZG9yIChwb3IgZWplbXBsbyB1bmEgcGFudGFsbGEpPC9saT4gPGxpPnszfSBleHRlcm5vIChwb3IgZWplbXBsbyB1bmEgbWVtb3JpYSBVU0IpPC9saT4gPC91bD4=",
+         "Gaps": [["cGVyaWbDqXJpY29z"], ["RW50cmFkYQ=="], ["U2FsaWRh"], ["QWxtYWNlbmFtaWVudG8="]]
+      }
+   ]
+}

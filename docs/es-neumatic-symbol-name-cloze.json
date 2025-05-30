@@ -1,0 +1,169 @@
+﻿{
+   "Clues_time": 1000,
+   "Show_max": 0,
+   "Num_tries": 0,
+   "Category": "Neumática",
+   "Title": "Nombre de símbolos",
+   "Questions": [
+      {
+         "Image": ["images/1e8e0cc3f4d63ea83143.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBuZXVtw6F0aWNvLg==",
+         "Gaps": [["Y29tcHJlc29y"]]
+      },
+      {
+         "Image": ["images/2073e6da1a80b3d473d9.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBvIHsxfS4=",
+         "Gaps": [["ZGVww7NzaXRv"], ["Y2FsZGVyw61u"]]
+      },
+      {
+         "Image": ["images/f50288c9b0e56a48fb21.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSBhaXJlLg==",
+         "Gaps": [["ZXNjYXBl"]]
+      },
+      {
+         "Image": ["images/d995506023cfd5c70d59.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBjb24gezF9Lg==",
+         "Gaps": [["ZXNjYXBl"], ["c2lsZW5jaWFkb3I="]]
+      },
+      {
+         "Image": ["images/0aa28c135a509a566e2d.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSB7MX0u",
+         "Gaps": [["ZmlsdHJv"], ["cGFydMOtY3VsYXM="]]
+      },
+      {
+         "Image": ["images/e97cd00a36910b8f4958.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSB7MX0u",
+         "Gaps": [["ZnVlbnRl"], ["cHJlc2nDs24="]]
+      },
+      {
+         "Image": ["images/dd62cf6618eaa9dd9bf8.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSBhaXJlLg==",
+         "Gaps": [["bHVicmljYWRvcg=="]]
+      },
+      {
+         "Image": ["images/0d37c15505cea922f993.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfS4=",
+         "Gaps": [["bWFuw7NtZXRybw=="]]
+      },
+      {
+         "Image": ["images/4c45ad13fed677d2e818.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBuZXVtw6F0aWNvIHsxfS4=",
+         "Gaps": [["bW90b3I="], ["Z2lyYXRvcmlv"]]
+      },
+      {
+         "Image": ["images/6d2c6f61740980473a14.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSB7MX0u",
+         "Gaps": [["cGlsb3RhamU="], ["ZWzDqWN0cmljbw=="]]
+      },
+      {
+         "Image": ["images/95f623788e7f84e8558c.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBjb24gezF9Lg==",
+         "Gaps": [["cGlsb3RhamU="], ["ZW5jbGF2YW1pZW50bw=="]]
+      },
+      {
+         "Image": ["images/9d8283848a80f4f72278.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSB7MX0u",
+         "Gaps": [["cGlsb3RhamU="], ["bmV1bcOhdGljbw=="]]
+      },
+      {
+         "Image": ["images/d63883cc199e102d2073.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBwb3IgezF9Lg==",
+         "Gaps": [["cGlsb3RhamU="], ["cGFsYW5jYQ=="]]
+      },
+      {
+         "Image": ["images/c2fa41692d69db2af124.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBwb3IgezF9Lg==",
+         "Gaps": [["cGlsb3RhamU="], ["cGVkYWw="]]
+      },
+      {
+         "Image": ["images/6a839dd6e4211934e349.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBwb3IgezF9",
+         "Gaps": [["cGlsb3RhamU="], ["cHVsc2Fkb3I="]]
+      },
+      {
+         "Image": ["images/d6b438900d46a7862e36.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBwb3IgezF9Lg==",
+         "Gaps": [["cGlsb3RhamU="], ["cm9kaWxsbw=="]]
+      },
+      {
+         "Image": ["images/ac14c3a7ac606191d4ad.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSB7MX0gZWZlY3RvLg==",
+         "Gaps": [["cGlzdMOzbg=="], ["ZG9ibGU="]]
+      },
+      {
+         "Image": ["images/28069d02c6c3fe1d8519.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSB7MX0gZWZlY3RvLg==",
+         "Gaps": [["cGlzdMOzbg=="], ["c2ltcGxl"]]
+      },
+      {
+         "Image": ["images/4a07eb6defe985d38bcb.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSBjb25kZW5zYWRvcy4=",
+         "Gaps": [["cHVyZ2Fkb3I="]]
+      },
+      {
+         "Image": ["images/8752c3395f13636f77e8.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSBwcmVzacOzbi4=",
+         "Gaps": [["cmVndWxhZG9y"]]
+      },
+      {
+         "Image": ["images/bbe7b4879cae92524114.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBwb3IgezF9Lg==",
+         "Gaps": [["cmV0b3Jubw=="], ["bXVlbGxl"]]
+      },
+      {
+         "Image": ["images/52f5a85cbaf32ad2cdec.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSBhaXJlLg==",
+         "Gaps": [["c2VjYWRvcg=="]]
+      },
+      {
+         "Image": ["images/6d33875e5fb8474bddc2.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSB7MX0u",
+         "Gaps": [["dW5pZGFk"], ["bWFudGVuaW1pZW50bw=="]]
+      },
+      {
+         "Image": ["images/be4111a079ec4b42a2db.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSB7MX0=",
+         "Gaps": [["dsOhbHZ1bGE="], ["Mi8y"]]
+      },
+      {
+         "Image": ["images/ed68e3fbe949d8236023.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSB7MX0=",
+         "Gaps": [["dsOhbHZ1bGE="], ["My8y"]]
+      },
+      {
+         "Image": ["images/2c8e2038d7ae4c5db09c.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSB7MX0=",
+         "Gaps": [["dsOhbHZ1bGE="], ["NC8y"]]
+      },
+      {
+         "Image": ["images/6c7fb546565e38756c91.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSB7MX0=",
+         "Gaps": [["dsOhbHZ1bGE="], ["NS8y"]]
+      },
+      {
+         "Image": ["images/c8419538220ad5a55191.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHbDoWx2dWxhIHswfS4=",
+         "Gaps": [["YW50aXJyZXRvcm5v"]]
+      },
+      {
+         "Image": ["images/182e1e3ca316cc9b750e.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHbDoWx2dWxhIHswfSB1bmlkaXJlY2Npb25hbC4=",
+         "Gaps": [["ZXN0cmFuZ3VsYWRvcmE="]]
+      },
+      {
+         "Image": ["images/70139a502e9031ff69e4.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHbDoWx2dWxhIHswfS4=",
+         "Gaps": [["ZXN0cmFuZ3VsYWRvcmE="]]
+      },
+      {
+         "Image": ["images/196f755761bf9d3254f9.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHbDoWx2dWxhIHswfSBvIHbDoWx2dWxhIHsxfS4=",
+         "Gaps": [["c2VsZWN0b3Jh"], ["T1I="]]
+      },
+      {
+         "Image": ["images/9d35e30e8c259d93db74.png", "220"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHbDoWx2dWxhIGRlIHswfSBvIHbDoWx2dWxhIHsxfS4=",
+         "Gaps": [["c2ltdWx0YW5laWRhZA=="], ["QU5E"]]
+      }
+   ]
+}

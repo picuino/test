@@ -1,0 +1,24 @@
+﻿{
+   "Clues_time": 1000,
+   "Show_max": 2,
+   "Num_tries": 2,
+   "Category": "Test",
+   "Title": "Test de preguntas de tipo Cloze",
+   "Questions": [
+      {
+         "Image": ["", ""],
+         "Cloze": "PHN0cm9uZz5FbmNhYmV6YWRvPC9zdHJvbmc+PGJyPiBGcmFzZSBjb24gcmVzcHVlc3RhIDEgezB9PGJyPiBGcmFzZSBjb24gcmVzcHVlc3RhIGRvcywgdHJlcyBvIGN1YXRybyB7MX0=",
+         "Gaps": [["MQ=="], ["ZG9z", "dHJlcw==", "Y3VhdHJv"]]
+      },
+      {
+         "Image": ["", ""],
+         "Cloze": "PHN0cm9uZz5FbmNhYmV6YWRvPC9zdHJvbmc+PGJyPiBPdHJhIHswfSBtw6FzLg==",
+         "Gaps": [["cHJlZ3VudGE="]]
+      },
+      {
+         "Image": ["", ""],
+         "Cloze": "RW4gdG90YWwgaGF5IHswfSBwcmVndW50YXMu",
+         "Gaps": [["dHJlcw=="]]
+      }
+   ]
+}
