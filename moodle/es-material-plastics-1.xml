@@ -9,6 +9,50 @@
 
 
   <question type="multichoice">
+    <name> <text>¿De dónde proviene la principal materia prima para fabricar plásticos?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿De dónde proviene la principal materia prima para fabricar plásticos?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Del gas natural y el petróleo refinado.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>De minerales obtenidos en la minería.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>De fibras vegetales y animales.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>De otros plásticos sometidos a reciclaje.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
     <name> <text>¿Cómo se llaman las unidades más pequeñas que forman parte de los polímeros?</text> </name>
     <questiontext format="html">
       <text><![CDATA[

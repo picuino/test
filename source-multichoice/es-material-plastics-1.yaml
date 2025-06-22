@@ -11,6 +11,20 @@ Show_max: 0
 ---
 
 #
+# Plásticos
+#
+
+- Title:
+  Question: ¿De dónde proviene la principal materia prima para fabricar 
+            plásticos?
+  Choices:
+    - Del gas natural y el petróleo refinado.
+    - De minerales obtenidos en la minería.
+    - De fibras vegetales y animales.
+    - De otros plásticos sometidos a reciclaje.
+
+
+#
 # Polímeros
 #
 
