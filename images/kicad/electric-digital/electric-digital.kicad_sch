@@ -399,612 +399,6 @@
 				)
 			)
 		)
-		(symbol "logic_nand-simbolos_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U?"
-				(at 7.62 4.4958 0)
-				(effects
-					(font
-						(size 2.54 2.54)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "logic_nand"
-				(at 7.62 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 2.54 -4.445 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 2.54 -4.445 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "logic_nand-simbolos_1_0_1"
-				(polyline
-					(pts
-						(xy 7.62 1.27) (xy 2.54 1.27) (xy 2.54 -6.35) (xy 7.62 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.62 -6.35)
-					(mid 11.43 -2.54)
-					(end 7.62 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "logic_nand-simbolos_1_1_1"
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "logic_nand-simbolos_1_2_1"
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "logic_nand-simbolos_1_3_1"
-				(pin input line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "logic_nand-simbolos_1_4_1"
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "logic_nand-simbolos_2"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U?"
-				(at 7.62 4.4958 0)
-				(effects
-					(font
-						(size 2.54 2.54)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "logic_nand"
-				(at 7.62 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 2.54 -4.445 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 2.54 -4.445 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "logic_nand-simbolos_2_0_1"
-				(polyline
-					(pts
-						(xy 7.62 1.27) (xy 2.54 1.27) (xy 2.54 -6.35) (xy 7.62 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.62 -6.35)
-					(mid 11.43 -2.54)
-					(end 7.62 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "logic_nand-simbolos_2_1_1"
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "logic_nand-simbolos_2_2_1"
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "logic_nand-simbolos_2_3_1"
-				(pin input line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "logic_nand-simbolos_2_4_1"
-				(pin output inverted
-					(at 15.24 -2.54 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "simbolos-electricos:NPN"
 			(pin_names
 				(offset 1.016)
@@ -1196,6 +590,309 @@
 						(effects
 							(font
 								(size 1.143 1.143)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "simbolos-electricos:logic_nand"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 11.43 -6.35 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "logic_nand"
+				(at 7.62 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 -4.445 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -4.445 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "logic_nand_0_1"
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 2.54 1.27) (xy 2.54 -6.35) (xy 7.62 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 -6.35)
+					(mid 11.4134 -2.54)
+					(end 7.62 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "logic_nand_1_1"
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "logic_nand_2_1"
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "logic_nand_3_1"
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "logic_nand_4_1"
+				(pin output inverted
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -5478,8 +5175,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 38.1 264.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5578,8 +5275,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_2")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 120.65 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5678,6 +5375,7 @@
 		)
 	)
 	(symbol
+		(lib_name "simbolos-electricos:NPN")
 		(lib_id "simbolos-electricos:NPN")
 		(at 66.675 173.355 0)
 		(unit 1)
@@ -5762,8 +5460,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 163.83 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5862,6 +5560,7 @@
 		)
 	)
 	(symbol
+		(lib_name "simbolos-electricos:NPN")
 		(lib_id "simbolos-electricos:NPN")
 		(at 50.8 130.81 0)
 		(unit 1)
@@ -5946,8 +5645,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 166.37 217.805 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6046,8 +5745,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 127 210.185 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6146,8 +5845,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 146.685 217.805 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6246,6 +5945,7 @@
 		)
 	)
 	(symbol
+		(lib_name "simbolos-electricos:NPN")
 		(lib_id "simbolos-electricos:NPN")
 		(at 67.31 67.31 0)
 		(unit 1)
@@ -6330,8 +6030,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 139.065 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6430,6 +6130,7 @@
 		)
 	)
 	(symbol
+		(lib_name "simbolos-electricos:NPN")
 		(lib_id "simbolos-electricos:NPN")
 		(at 48.895 220.98 0)
 		(unit 1)
@@ -6514,6 +6215,7 @@
 		)
 	)
 	(symbol
+		(lib_name "simbolos-electricos:NPN")
 		(lib_id "simbolos-electricos:NPN")
 		(at 31.75 66.675 0)
 		(unit 1)
@@ -6598,6 +6300,7 @@
 		)
 	)
 	(symbol
+		(lib_name "simbolos-electricos:NPN")
 		(lib_id "simbolos-electricos:NPN")
 		(at 31.115 172.72 0)
 		(unit 1)
@@ -6682,8 +6385,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 63.5 264.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6782,8 +6485,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 172.085 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6882,8 +6585,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 139.065 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6982,8 +6685,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 152.4 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7082,8 +6785,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 167.64 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7182,6 +6885,7 @@
 		)
 	)
 	(symbol
+		(lib_name "simbolos-electricos:NPN")
 		(lib_id "simbolos-electricos:NPN")
 		(at 50.8 120.65 0)
 		(unit 1)
@@ -7266,8 +6970,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 130.81 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7366,8 +7070,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 127 225.425 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7466,8 +7170,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 154.305 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7530,31 +7234,31 @@
 			(uuid "791739a0-19d1-4ba5-a055-2086d7ab3b31")
 		)
 		(pin "8"
-			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a517")
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a518")
 		)
 		(pin "9"
-			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd582fe")
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd582ff")
 		)
 		(pin "4"
-			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c47")
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c48")
 		)
 		(pin "10"
-			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef5")
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef6")
 		)
 		(pin "5"
-			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a12")
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a13")
 		)
 		(pin "6"
-			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1544")
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1545")
 		)
 		(pin "13"
-			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d0d")
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d0e")
 		)
 		(pin "11"
-			(uuid "65e4b03e-ec03-4b31-9173-0169d6def59b")
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def59c")
 		)
 		(pin "12"
-			(uuid "c1ac11de-9091-469e-aef5-044cac4ff120")
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff121")
 		)
 		(instances
 			(project "electric-digital"
@@ -7566,8 +7270,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 139.065 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7630,31 +7334,31 @@
 			(uuid "e7d673d1-205d-4ee8-8046-d6044aca1854")
 		)
 		(pin "8"
-			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a518")
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a519")
 		)
 		(pin "9"
-			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd582ff")
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd58300")
 		)
 		(pin "4"
-			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c48")
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c49")
 		)
 		(pin "10"
-			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef6")
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef7")
 		)
 		(pin "5"
-			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a13")
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a14")
 		)
 		(pin "6"
-			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1545")
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1546")
 		)
 		(pin "13"
-			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d0e")
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d0f")
 		)
 		(pin "11"
-			(uuid "65e4b03e-ec03-4b31-9173-0169d6def59c")
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def59d")
 		)
 		(pin "12"
-			(uuid "c1ac11de-9091-469e-aef5-044cac4ff121")
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff122")
 		)
 		(instances
 			(project "electric-digital"
@@ -7666,6 +7370,7 @@
 		)
 	)
 	(symbol
+		(lib_name "simbolos-electricos:NPN")
 		(lib_id "simbolos-electricos:NPN")
 		(at 50.8 24.13 0)
 		(unit 1)
@@ -7750,8 +7455,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 152.4 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7814,31 +7519,31 @@
 			(uuid "81c28417-70b3-41c8-ac5e-c474b73b4f29")
 		)
 		(pin "8"
-			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a519")
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a51a")
 		)
 		(pin "9"
-			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd58300")
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd58301")
 		)
 		(pin "4"
-			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c49")
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c4a")
 		)
 		(pin "10"
-			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef7")
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef8")
 		)
 		(pin "5"
-			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a14")
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a15")
 		)
 		(pin "6"
-			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1546")
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1547")
 		)
 		(pin "13"
-			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d0f")
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d10")
 		)
 		(pin "11"
-			(uuid "65e4b03e-ec03-4b31-9173-0169d6def59d")
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def59e")
 		)
 		(pin "12"
-			(uuid "c1ac11de-9091-469e-aef5-044cac4ff122")
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff123")
 		)
 		(instances
 			(project "electric-digital"
@@ -7850,8 +7555,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 139.065 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7914,31 +7619,31 @@
 			(uuid "4bf0d4fd-c6d4-4cc4-8265-2c2be7105482")
 		)
 		(pin "8"
-			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a51a")
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a51b")
 		)
 		(pin "9"
-			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd58301")
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd58302")
 		)
 		(pin "4"
-			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c4a")
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c4b")
 		)
 		(pin "10"
-			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef8")
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef9")
 		)
 		(pin "5"
-			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a15")
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a16")
 		)
 		(pin "6"
-			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1547")
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1548")
 		)
 		(pin "13"
-			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d10")
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d11")
 		)
 		(pin "11"
-			(uuid "65e4b03e-ec03-4b31-9173-0169d6def59e")
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def59f")
 		)
 		(pin "12"
-			(uuid "c1ac11de-9091-469e-aef5-044cac4ff123")
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff124")
 		)
 		(instances
 			(project "electric-digital"
@@ -7950,8 +7655,8 @@
 		)
 	)
 	(symbol
-		(lib_name "logic_nand-simbolos_1")
-		(lib_id "electric-digital-rescue:logic_nand-simbolos")
+		(lib_name "simbolos-electricos:logic_nand")
+		(lib_id "simbolos-electricos:logic_nand")
 		(at 148.59 26.035 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8014,31 +7719,31 @@
 			(uuid "6299a052-21f5-4133-9cec-9c36e5301d2b")
 		)
 		(pin "8"
-			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a51b")
+			(uuid "8fae8ff1-4230-4ffd-93bf-bf85dc80a51c")
 		)
 		(pin "9"
-			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd58302")
+			(uuid "e7baff15-d9a9-43e6-a161-8db5ffd58303")
 		)
 		(pin "4"
-			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c4b")
+			(uuid "c6590bd1-6663-4b48-bd23-7b258cef5c4c")
 		)
 		(pin "10"
-			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5ef9")
+			(uuid "c1ee8be3-e1b5-4769-b302-1cb8aa0f5efa")
 		)
 		(pin "5"
-			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a16")
+			(uuid "8a0e3878-b3fa-4625-b9ac-6e893cae7a17")
 		)
 		(pin "6"
-			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1548")
+			(uuid "355d793c-7dc3-49cc-b2b9-a6adbaaa1549")
 		)
 		(pin "13"
-			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d11")
+			(uuid "a4be59d5-ef52-4ac6-8e8c-96b88dfc6d12")
 		)
 		(pin "11"
-			(uuid "65e4b03e-ec03-4b31-9173-0169d6def59f")
+			(uuid "65e4b03e-ec03-4b31-9173-0169d6def5a0")
 		)
 		(pin "12"
-			(uuid "c1ac11de-9091-469e-aef5-044cac4ff124")
+			(uuid "c1ac11de-9091-469e-aef5-044cac4ff125")
 		)
 		(instances
 			(project "electric-digital"
@@ -8050,6 +7755,7 @@
 		)
 	)
 	(symbol
+		(lib_name "simbolos-electricos:NPN")
 		(lib_id "simbolos-electricos:NPN")
 		(at 50.8 13.97 0)
 		(unit 1)
