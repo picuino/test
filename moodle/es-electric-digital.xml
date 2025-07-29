@@ -12,7 +12,7 @@
     <name> <text>Identificar puerta OR</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué puerta lógica tiene este símbolo?</p> 
          <p><img src="@@PLUGINFILE@@/7c49ac7dbba303b58d6f.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -59,7 +59,7 @@
     <name> <text>Identificar puerta NOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué puerta lógica tiene este símbolo?</p> 
          <p><img src="@@PLUGINFILE@@/c5ccf9222c6c1be74594.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -106,7 +106,7 @@
     <name> <text>Identificar puerta AND</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué puerta lógica tiene este símbolo?</p> 
          <p><img src="@@PLUGINFILE@@/a90117442a484b4c973b.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -153,7 +153,7 @@
     <name> <text>Identificar puerta NAND</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué puerta lógica tiene este símbolo?</p> 
          <p><img src="@@PLUGINFILE@@/e54026bfe05116a0587e.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -200,7 +200,7 @@
     <name> <text>Identificar puerta XOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué puerta lógica tiene este símbolo?</p> 
          <p><img src="@@PLUGINFILE@@/e366071688df01a50c3d.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -247,7 +247,7 @@
     <name> <text>Identificar puerta NOT</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué puerta lógica tiene este símbolo?</p> 
          <p><img src="@@PLUGINFILE@@/5ad886cc76936f3aa653.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -294,7 +294,7 @@
     <name> <text>¿Cuál es el componente fundamental de la electrónica digital?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Cuál es el componente fundamental de la electrónica digital?</p>
          ]]></text>
@@ -338,7 +338,7 @@
     <name> <text>¿Cuál no es una puerta lógica?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Cuál no es una puerta lógica?</p>
          ]]></text>
@@ -382,7 +382,7 @@
     <name> <text>Identificar tabla de verdad NOT</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué función lógica se corresponde con esta tabla de verdad?</p> 
          <p><img src="@@PLUGINFILE@@/124c7a65ed501a7a8c38.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -429,7 +429,7 @@
     <name> <text>Identificar tabla de verdad OR</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué función lógica se corresponde con esta tabla de verdad?</p> 
          <p><img src="@@PLUGINFILE@@/c59ba63ef78af168c3b1.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -476,7 +476,7 @@
     <name> <text>Identificar Tabla de verdad AND</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué función lógica se corresponde con esta tabla de verdad?</p> 
          <p><img src="@@PLUGINFILE@@/b8a1c91bfeb8f60423b9.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -523,7 +523,7 @@
     <name> <text>Identificar tabla de verdad NOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué función lógica se corresponde con esta tabla de verdad?</p> 
          <p><img src="@@PLUGINFILE@@/ead9f34f6c6399db8260.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -570,7 +570,7 @@
     <name> <text>Identificar tabla de verdad NAND</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué función lógica se corresponde con esta tabla de verdad?</p> 
          <p><img src="@@PLUGINFILE@@/f5f9270ee713b086d8df.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -617,7 +617,7 @@
     <name> <text>Identificar tabla de verdad XOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué función lógica se corresponde con esta tabla de verdad?</p> 
          <p><img src="@@PLUGINFILE@@/4295a1c8d81571e3ef03.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -664,7 +664,7 @@
     <name> <text>Identificar tabla de verdad XNOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué función lógica se corresponde con esta tabla de verdad?</p> 
          <p><img src="@@PLUGINFILE@@/aa6e3d7d77b515dad22f.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -711,7 +711,7 @@
     <name> <text>Identificar tabla de verdad Ninguna función</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué función lógica se corresponde con esta tabla de verdad?</p> 
          <p><img src="@@PLUGINFILE@@/cdc93ad4b9d163f22271.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -758,7 +758,7 @@
     <name> <text>¿Quién publicó en 1854 "Las leyes del pensamiento", el libro con las bases de la lógica digital?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Quién publicó en 1854 "Las leyes del pensamiento", el libro con las bases de la lógica digital?</p>
          ]]></text>
@@ -802,7 +802,7 @@
     <name> <text>¿En qué año publicó George Boole el libro "Las leyes del pensamiento", que consideramos el comienzo de la lógica digital?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿En qué año publicó George Boole el libro "Las leyes del pensamiento", que consideramos el comienzo de la lógica digital?</p>
          ]]></text>
@@ -846,7 +846,7 @@
     <name> <text>Identificar transistores puerta AND</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué puerta lógica se construye con este circuito?</p> 
          <p><img src="@@PLUGINFILE@@/d91ef23cd24f8b083119.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -893,7 +893,7 @@
     <name> <text>Identificar transistores puerta OR</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué puerta lógica se construye con este circuito?</p> 
          <p><img src="@@PLUGINFILE@@/f22131c795fd02e98a97.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -940,7 +940,7 @@
     <name> <text>Identificar transistores puerta NAND</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué puerta lógica se construye con este circuito?</p> 
          <p><img src="@@PLUGINFILE@@/7dba4743b43915655ec6.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -987,7 +987,7 @@
     <name> <text>Identificar transistores puerta NOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué puerta lógica se construye con este circuito?</p> 
          <p><img src="@@PLUGINFILE@@/2824cac5a896620c025b.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -1034,7 +1034,7 @@
     <name> <text>Identificar transistores puerta NOT</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué puerta lógica se construye con este circuito?</p> 
          <p><img src="@@PLUGINFILE@@/c27bfc2245289e6e344a.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -1081,7 +1081,7 @@
     <name> <text>Identificar circuito equivalente con NAND: AND</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué función lógica se construye con este circuito de puertas NAND?</p> 
          <p><img src="@@PLUGINFILE@@/f65abbe217d5d97c6d5b.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -1128,7 +1128,7 @@
     <name> <text>Identificar circuito equivalente con NAND: NOT</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué función lógica se construye con este circuito de puertas NAND?</p> 
          <p><img src="@@PLUGINFILE@@/98ed053b8c7a85828127.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -1175,7 +1175,7 @@
     <name> <text>Identificar circuito equivalente con NAND: OR</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué función lógica se construye con este circuito de puertas NAND?</p> 
          <p><img src="@@PLUGINFILE@@/e02941a18052244bd4d4.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -1222,7 +1222,7 @@
     <name> <text>Identificar circuito equivalente con NAND: XOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué función lógica se construye con este circuito de puertas NAND?</p> 
          <p><img src="@@PLUGINFILE@@/88bc3c5b64036c2b0317.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -1269,7 +1269,7 @@
     <name> <text>Identificar circuito equivalente con NAND: XNOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué función lógica se construye con este circuito de puertas NAND?</p> 
          <p><img src="@@PLUGINFILE@@/ac021325f3a89257ed1a.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
@@ -1316,7 +1316,7 @@
     <name> <text>Identificar circuito equivalente con NAND: NOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2021 por Tucho Méndez, 2021 modificado por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué función lógica se construye con este circuito de puertas NAND?</p> 
          <p><img src="@@PLUGINFILE@@/a3bddc2221450b51a326.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
