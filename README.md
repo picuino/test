@@ -3,8 +3,8 @@
 
 Test de respuesta múltiple guardados en formato 
 [YAML](https://es.wikipedia.org/wiki/YAML) con conversión automática 
-desde este formato a otros útiles como son DOCX, CSV, XML de Moodle 
-o formato de página WEB.
+desde este formato a otros útiles como son DOCX, XML de Moodle 
+o formato de página web HTML.
 
 
 Página web de Test Picuino
@@ -24,7 +24,7 @@ Test alojados en GitHub:
 Créditos y licencias
 ====================
 
-https://github.com/picuino/test/blob/master/Licenses.md
+https://github.com/picuino/test/blob/master/Credits.md
 
 
 Estructura de directorios
