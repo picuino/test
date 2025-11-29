@@ -53,14 +53,14 @@ Show_max: 0
   Question: ¿Qué hace el esfuerzo de tracción?
   Choices:
     - Tiende a estirar la estructura.
-    - Tiende a comprimir la estructura
+    - Tiende a comprimir la estructura.
     - Tiende a doblar la estructura.
     - Tiende a retorcer la estructura.
 
 - Title: 06
   Question: ¿Qué hace el esfuerzo de compresión?
   Choices:
-    - Tiende a comprimir la estructura
+    - Tiende a comprimir la estructura.
     - Tiende a estirar la estructura.
     - Tiende a doblar la estructura.
     - Tiende a retorcer la estructura.
@@ -69,7 +69,7 @@ Show_max: 0
   Question: ¿Qué hace el esfuerzo de flexión?
   Choices:
     - Tiende a doblar la estructura.
-    - Tiende a comprimir la estructura
+    - Tiende a comprimir la estructura.
     - Tiende a estirar la estructura.
     - Tiende a retorcer la estructura.
 
@@ -87,7 +87,7 @@ Show_max: 0
     - Tiende a cortar en dos la estructura.
     - Tiende a retorcer la estructura.
     - Tiende a doblar la estructura.
-    - Tiende a comprimir la estructura
+    - Tiende a comprimir la estructura.
 
 
 - Title: 10
@@ -286,7 +286,7 @@ Show_max: 0
     - Cadenas de un columpio. Cable de una grúa.
     - Patas de una silla. Columnas de un edificio.
     - Tablero de una silla. Suelo de edificios.
-    - Eje de un destornillador. llave al girar.
+    - Eje de un destornillador. Llave al girar.
     - Tornillo que soporta un cuadro. Viga horizontal sobre viga vertical.
 
 - Title: 31
@@ -295,7 +295,7 @@ Show_max: 0
     - Patas de una silla. Columnas de un edificio.
     - Cadenas de un columpio. Cable de una grúa.
     - Tablero de una silla. Suelo de edificios.
-    - Eje de un destornillador. llave al girar.
+    - Eje de un destornillador. Llave al girar.
     - Tornillo que soporta un cuadro. Viga horizontal sobre viga vertical.
 
 - Title: 32
@@ -304,13 +304,13 @@ Show_max: 0
     - Tablero de una silla. Suelo de edificios.
     - Patas de una silla. Columnas de un edificio.
     - Cadenas de un columpio. Cable de una grúa.
-    - Eje de un destornillador. llave al girar.
+    - Eje de un destornillador. Llave al girar.
     - Tornillo que soporta un cuadro. Viga horizontal sobre viga vertical.
 
 - Title: 33
   Question: Dame dos ejemplos de esfuerzos de torsión.
   Choices:
-    - Eje de un destornillador. llave al girar.
+    - Eje de un destornillador. Llave al girar.
     - Tablero de una silla. Suelo de edificios.
     - Patas de una silla. Columnas de un edificio.
     - Cadenas de un columpio. Cable de una grúa.
@@ -320,7 +320,7 @@ Show_max: 0
   Question: Dame dos ejemplos de esfuerzos de corte o cizalla.
   Choices:
     - Tornillo que soporta un cuadro. Viga horizontal sobre viga vertical.
-    - Eje de un destornillador. llave al girar.
+    - Eje de un destornillador. Llave al girar.
     - Tablero de una silla. Suelo de edificios.
     - Patas de una silla. Columnas de un edificio.
     - Cadenas de un columpio. Cable de una grúa.

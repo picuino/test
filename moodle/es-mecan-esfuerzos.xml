@@ -211,7 +211,7 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Tiende a comprimir la estructura</text>
+       <text>Tiende a comprimir la estructura.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -250,7 +250,7 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Tiende a comprimir la estructura</text>
+       <text>Tiende a comprimir la estructura.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
@@ -299,7 +299,7 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Tiende a comprimir la estructura</text>
+       <text>Tiende a comprimir la estructura.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -397,7 +397,7 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Tiende a comprimir la estructura</text>
+       <text>Tiende a comprimir la estructura.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1336,7 +1336,7 @@
     </answer>
     
     <answer fraction="-25.0" format="html">
-       <text>Eje de un destornillador. llave al girar.</text>
+       <text>Eje de un destornillador. Llave al girar.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1385,7 +1385,7 @@
     </answer>
     
     <answer fraction="-25.0" format="html">
-       <text>Eje de un destornillador. llave al girar.</text>
+       <text>Eje de un destornillador. Llave al girar.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1434,7 +1434,7 @@
     </answer>
     
     <answer fraction="-25.0" format="html">
-       <text>Eje de un destornillador. llave al girar.</text>
+       <text>Eje de un destornillador. Llave al girar.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1468,7 +1468,7 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Eje de un destornillador. llave al girar.</text>
+       <text>Eje de un destornillador. Llave al girar.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
@@ -1522,7 +1522,7 @@
     </answer>
     
     <answer fraction="-25.0" format="html">
-       <text>Eje de un destornillador. llave al girar.</text>
+       <text>Eje de un destornillador. Llave al girar.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
