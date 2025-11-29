@@ -1,0 +1,327 @@
+﻿Category: Mecánica
+Title: Los esfuerzos de las estructuras
+Date: 29/11/2025
+Copyright: 2025 por Carlos Félix Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+Source_link: ../es/estructuras-esfuerzos.html
+Show_max: 0
+
+---
+
+#
+# Definición de carga y esfuerzo
+#
+
+- Title: 01
+  Question: ¿Qué es una fuerza externa que actúa sobre una estructura?
+  Choices:
+    - Una carga.
+    - Un esfuerzo.
+    - Una tracción.
+    - Una tensión.
+
+- Title: 02
+  Question: ¿Cuál es la definición de carga en una estructura?
+  Choices:
+    - Es una fuerza externa que actúa sobre una estructura.
+    - Tensión o fuerza interna que soporta una estructura.
+    - Esfuerzo interno a una estructura.
+    - Tracción, compresión, flexión, torsión o corte.
+
+- Title: 03
+  Question: ¿Qué es una tensión o fuerza interna que soporta una estructura?
+  Choices:
+    - Un esfuerzo.
+    - Una carga.
+    - Una dilatación térmica.
+    - Un peso.
+
+- Title: 04
+  Question: ¿Cuál es la definición de esfuerzo en una estructura?
+  Choices:
+    - Tensión o fuerza interna que soporta una estructura.
+    - Es una fuerza externa que actúa sobre una estructura.
+    - Puede ser un peso, un empuje, una dilatación térmica, etc.
+    - Trabajo que realiza una persona al estudiar.
+
+#
+# Definición de esfuerzos
+#
+
+- Title: 05
+  Question: ¿Qué hace el esfuerzo de tracción?
+  Choices:
+    - Tiende a estirar la estructura.
+    - Tiende a comprimir la estructura
+    - Tiende a doblar la estructura.
+    - Tiende a retorcer la estructura.
+
+- Title: 06
+  Question: ¿Qué hace el esfuerzo de compresión?
+  Choices:
+    - Tiende a comprimir la estructura
+    - Tiende a estirar la estructura.
+    - Tiende a doblar la estructura.
+    - Tiende a retorcer la estructura.
+
+- Title: 07
+  Question: ¿Qué hace el esfuerzo de flexión?
+  Choices:
+    - Tiende a doblar la estructura.
+    - Tiende a comprimir la estructura
+    - Tiende a estirar la estructura.
+    - Tiende a retorcer la estructura.
+
+- Title: 08
+  Question: ¿Qué hace el esfuerzo de torsión?
+  Choices:
+    - Tiende a retorcer la estructura.
+    - Tiende a doblar la estructura.
+    - Tiende a comprimir la estructura
+    - Tiende a cortar en dos la estructura.
+
+- Title: 09
+  Question: ¿Qué hace el esfuerzo de corte o cizalla?
+  Choices:
+    - Tiende a cortar en dos la estructura.
+    - Tiende a retorcer la estructura.
+    - Tiende a doblar la estructura.
+    - Tiende a comprimir la estructura
+
+
+- Title: 10
+  Question: ¿Qué esfuerzo tiende a estirar una estructura?
+  Choices:
+    - Esfuerzo de tracción.
+    - Esfuerzo de compresión.
+    - Esfuerzo de flexión.
+    - Esfuerzo cortante.
+
+- Title: 11
+  Question: ¿Qué esfuerzo tiende a comprimir una estructura?
+  Choices:
+    - Esfuerzo de compresión.
+    - Esfuerzo de tracción.
+    - Esfuerzo de flexión.
+    - Esfuerzo cortante.
+
+- Title: 12
+  Question: ¿Qué esfuerzo tiende a doblar una estructura?
+  Choices:
+    - Esfuerzo de flexión.
+    - Esfuerzo de tracción.
+    - Esfuerzo de compresión.
+    - Esfuerzo cortante.
+
+
+- Title: 13
+  Question: ¿Qué esfuerzo tiende a retorcer una estructura?
+  Choices:
+    - Esfuerzo de torsión.
+    - Esfuerzo de compresión.
+    - Esfuerzo de flexión.
+    - Esfuerzo cortante.
+
+
+- Title: 14
+  Question: ¿Qué esfuerzo tiende a cortar una estructura?
+  Choices:
+    - Esfuerzo de cizalla.
+    - Esfuerzo de tracción.
+    - Esfuerzo de compresión.
+    - Esfuerzo de flexión.
+
+
+#
+# Identifica esfuerzos con imágenes
+#
+
+- Title: 15
+  Question: ¿Qué esfuerzo representa la figura?
+  Image: ../images/esfuerzo-traccion.png
+  Image_width: 360
+  Choices:
+    - Esfuerzo de tracción.
+    - Esfuerzo de compresión.
+    - Esfuerzo de flexión.
+    - Esfuerzo cortante.
+
+
+- Title: 16
+  Question: ¿Qué esfuerzo representa la figura?
+  Image: ../images/esfuerzo-compresion.png
+  Image_width: 360
+  Choices:
+    - Esfuerzo de compresión.
+    - Esfuerzo de tracción.
+    - Esfuerzo de flexión.
+    - Esfuerzo de torsión.
+
+
+- Title: 17
+  Question: ¿Qué esfuerzo representa la figura?
+  Image: ../images/esfuerzo-flexion.png
+  Image_width: 360
+  Choices:
+    - Esfuerzo de flexión.
+    - Esfuerzo de tracción.
+    - Esfuerzo de torsión.
+    - Esfuerzo cortante.
+
+
+- Title: 18
+  Question: ¿Qué esfuerzo representa la figura?
+  Image: ../images/esfuerzo-torsion.png
+  Image_width: 360
+  Choices:
+    - Esfuerzo de torsión.
+    - Esfuerzo de compresión.
+    - Esfuerzo de flexión.
+    - Esfuerzo cortante.
+
+
+- Title: 19
+  Question: ¿Qué esfuerzo representa la figura?
+  Image: ../images/esfuerzo-cortante.png
+  Image_width: 360
+  Choices:
+    - Esfuerzo cortante.
+    - Esfuerzo de compresión.
+    - Esfuerzo de flexión.
+    - Esfuerzo de torsión.
+
+
+#
+# Identifica esfuerzos
+#
+
+- Title: 20
+  Question: ¿Qué esfuerzo soporta una cadena de columpio?
+  Choices:
+    - Esfuerzo de tracción.
+    - Esfuerzo cortante.
+    - Esfuerzo de flexión.
+    - Esfuerzo de torsión.
+
+- Title: 21
+  Question: ¿Qué esfuerzo soporta el cable de una grúa?
+  Choices:
+    - Esfuerzo de tracción.
+    - Esfuerzo cortante.
+    - Esfuerzo de flexión.
+    - Esfuerzo de torsión.
+
+- Title: 22
+  Question: ¿Qué esfuerzo soportan las patas de una silla?
+  Choices:
+    - Esfuerzo de compresión.
+    - Esfuerzo cortante.
+    - Esfuerzo de flexión.
+    - Esfuerzo de torsión.
+
+- Title: 23
+  Question: ¿Qué esfuerzo soportan las columnas de un edificio?
+  Choices:
+    - Esfuerzo de compresión.
+    - Esfuerzo cortante.
+    - Esfuerzo de flexión.
+    - Esfuerzo de torsión.
+
+- Title: 24
+  Question: ¿Qué esfuerzo soporta el suelo de un edificio?
+  Choices:
+    - Esfuerzo de flexión.
+    - Esfuerzo de compresión.
+    - Esfuerzo cortante.
+    - Esfuerzo de torsión.
+
+- Title: 25
+  Question: ¿Qué esfuerzo soporta el tablero de una mesa?
+  Choices:
+    - Esfuerzo de flexión.
+    - Esfuerzo de compresión.
+    - Esfuerzo cortante.
+    - Esfuerzo de torsión.
+
+- Title: 26
+  Question: ¿Qué esfuerzo soporta el eje de un destornillador?
+  Choices:
+    - Esfuerzo de torsión.
+    - Esfuerzo de flexión.
+    - Esfuerzo de tracción.
+    - Esfuerzo cortante.
+
+- Title: 27
+  Question: ¿Qué esfuerzo soporta el eje de un grifo?
+  Choices:
+    - Esfuerzo de torsión.
+    - Esfuerzo de flexión.
+    - Esfuerzo de tracción.
+    - Esfuerzo cortante.
+
+- Title: 28
+  Question: ¿Qué esfuerzo tiene el tornillo de pared que soporta un cuadro?
+  Choices:
+    - Esfuerzo cortante.
+    - Esfuerzo de torsión.
+    - Esfuerzo de flexión.
+    - Esfuerzo de tracción.
+
+- Title: 29
+  Question: ¿Qué esfuerzo soporta una viga horizontal apoyada en otra vertical?
+  Choices:
+    - Esfuerzo cortante.
+    - Esfuerzo de torsión.
+    - Esfuerzo de flexión.
+    - Esfuerzo de tracción.
+
+#
+# Ejemplos de esfuerzos.
+#
+
+- Title: 30
+  Question: Dame dos ejemplos de esfuerzos de tracción.
+  Choices:
+    - Cadenas de un columpio. Cable de una grúa.
+    - Patas de una silla. Columnas de un edificio.
+    - Tablero de una silla. Suelo de edificios.
+    - Eje de un destornillador. llave al girar.
+    - Tornillo que soporta un cuadro. Viga horizontal sobre viga vertical.
+
+- Title: 31
+  Question: Dame dos ejemplos de esfuerzos de compresión.
+  Choices:
+    - Patas de una silla. Columnas de un edificio.
+    - Cadenas de un columpio. Cable de una grúa.
+    - Tablero de una silla. Suelo de edificios.
+    - Eje de un destornillador. llave al girar.
+    - Tornillo que soporta un cuadro. Viga horizontal sobre viga vertical.
+
+- Title: 32
+  Question: Dame dos ejemplos de esfuerzos de flexión.
+  Choices:
+    - Tablero de una silla. Suelo de edificios.
+    - Patas de una silla. Columnas de un edificio.
+    - Cadenas de un columpio. Cable de una grúa.
+    - Eje de un destornillador. llave al girar.
+    - Tornillo que soporta un cuadro. Viga horizontal sobre viga vertical.
+
+- Title: 33
+  Question: Dame dos ejemplos de esfuerzos de torsión.
+  Choices:
+    - Eje de un destornillador. llave al girar.
+    - Tablero de una silla. Suelo de edificios.
+    - Patas de una silla. Columnas de un edificio.
+    - Cadenas de un columpio. Cable de una grúa.
+    - Tornillo que soporta un cuadro. Viga horizontal sobre viga vertical.
+
+- Title: 34
+  Question: Dame dos ejemplos de esfuerzos de corte o cizalla.
+  Choices:
+    - Tornillo que soporta un cuadro. Viga horizontal sobre viga vertical.
+    - Eje de un destornillador. llave al girar.
+    - Tablero de una silla. Suelo de edificios.
+    - Patas de una silla. Columnas de un edificio.
+    - Cadenas de un columpio. Cable de una grúa.
+

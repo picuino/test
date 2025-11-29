@@ -9,7 +9,7 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué es una estructura?</text> </name>
+    <name> <text>1</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -53,7 +53,7 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué estructuras podemos encontrar en la naturaleza?</text> </name>
+    <name> <text>2</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -97,7 +97,7 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué estructuras son artificiales?</text> </name>
+    <name> <text>3</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -141,7 +141,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Las estructuras masivas están ...</text> </name>
+    <name> <text>4</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -188,7 +188,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Las estructuras abovedadas están ...</text> </name>
+    <name> <text>5</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -235,7 +235,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Las estructuras trianguladas están ...</text> </name>
+    <name> <text>6</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -282,7 +282,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Las estructuras entramadas están ...</text> </name>
+    <name> <text>7</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -329,7 +329,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Las estructuras colgantes están ...</text> </name>
+    <name> <text>08</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -376,7 +376,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Las estructuras laminares están ...</text> </name>
+    <name> <text>09</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -423,7 +423,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Ejemplos de estructuras masivas son ...</text> </name>
+    <name> <text>10</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -467,7 +467,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Ejemplos de estructuras abovedadas son ...</text> </name>
+    <name> <text>11</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -511,7 +511,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Ejemplos de estructuras trianguladas son ...</text> </name>
+    <name> <text>12</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -555,7 +555,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Ejemplos de estructuras entramadas son ...</text> </name>
+    <name> <text>13</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -599,7 +599,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Ejemplos de estructuras colgantes son ...</text> </name>
+    <name> <text>14</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -643,7 +643,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Ejemplos de estructuras laminares son ...</text> </name>
+    <name> <text>15</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -687,7 +687,7 @@
 
 
   <question type="multichoice">
-    <name> <text>A qué tipo de estructuras se refiere la siguiente frase. Formada por una gran masa de material sin apenas huecos.</text> </name>
+    <name> <text>16</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -731,7 +731,7 @@
 
 
   <question type="multichoice">
-    <name> <text>A qué tipo de estructuras se refiere la siguiente frase. Formada por arcos y bóvedas.</text> </name>
+    <name> <text>17</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -775,7 +775,7 @@
 
 
   <question type="multichoice">
-    <name> <text>A qué tipo de estructuras se refiere la siguiente frase. Formada por barras unidas entre sí en triángulos.</text> </name>
+    <name> <text>18</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -819,7 +819,7 @@
 
 
   <question type="multichoice">
-    <name> <text>A qué tipo de estructuras se refiere la siguiente frase. Formadas por elementos verticales y horizontales.</text> </name>
+    <name> <text>19</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -863,7 +863,7 @@
 
 
   <question type="multichoice">
-    <name> <text>A qué tipo de estructuras se refiere la siguiente frase. Formadas por cables que soportan las cargas.</text> </name>
+    <name> <text>20</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -907,7 +907,7 @@
 
 
   <question type="multichoice">
-    <name> <text>A qué tipo de estructuras se refiere la siguiente frase. Formadas por una lámina o pared delgada.</text> </name>
+    <name> <text>21</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -951,7 +951,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Las estructuras móviles ...</text> </name>
+    <name> <text>22</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -995,7 +995,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Las estructuras fijas ...</text> </name>
+    <name> <text>23</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -1039,7 +1039,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Clasifica la siguiente estructura: una pirámide</text> </name>
+    <name> <text>24</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -1083,7 +1083,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Clasifica la siguiente estructura: una torre de alta tensión</text> </name>
+    <name> <text>25</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -1127,7 +1127,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Clasifica la siguiente estructura: un depósito de agua</text> </name>
+    <name> <text>26</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -1171,7 +1171,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Clasifica la siguiente estructura: un teleférico</text> </name>
+    <name> <text>27</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -1215,7 +1215,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Clasifica la siguiente estructura: un acueducto</text> </name>
+    <name> <text>28</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -1259,7 +1259,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Clasifica la siguiente estructura: una escalera de mano</text> </name>
+    <name> <text>29</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -1303,7 +1303,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Clasifica la siguiente estructura: el esqueleto humano</text> </name>
+    <name> <text>30</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
@@ -1347,7 +1347,7 @@
 
 
   <question type="multichoice">
-    <name> <text>Clasifica la siguiente estructura: una concha de molusco</text> </name>
+    <name> <text>31</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->

@@ -482,6 +482,17 @@ https://creativecommons.org/licenses/by-sa/4.0/deed.es
 ![](images/thumbs/electric-resistencias-serie-paralelo-54.png)
 ![](images/thumbs/electric-resistencias-serie-paralelo-55.png)
 
+![](images/thumbs/esfuerzo-traccion.png)
+![](images/thumbs/esfuerzo-compresion.png)
+![](images/thumbs/esfuerzo-flexion.png)
+![](images/thumbs/esfuerzo-torsion.png)
+![](images/thumbs/esfuerzo-cortante.png)
+
+
+
+
+
+
 
 Las siguientes imágenes creadas por Tucho Méndez y que se pueden encontrar 
 en el repositorio https://github.com/procastino/bancosTecno

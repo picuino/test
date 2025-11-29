@@ -1,0 +1,1547 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Mecánica/es-mecan-esfuerzos</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>1</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué es una fuerza externa que actúa sobre una estructura?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Una carga.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Un esfuerzo.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Una tracción.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Una tensión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>2</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuál es la definición de carga en una estructura?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Es una fuerza externa que actúa sobre una estructura.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tensión o fuerza interna que soporta una estructura.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo interno a una estructura.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tracción, compresión, flexión, torsión o corte.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>3</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué es una tensión o fuerza interna que soporta una estructura?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Un esfuerzo.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Una carga.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Una dilatación térmica.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Un peso.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>4</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuál es la definición de esfuerzo en una estructura?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Tensión o fuerza interna que soporta una estructura.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Es una fuerza externa que actúa sobre una estructura.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Puede ser un peso, un empuje, una dilatación térmica, etc.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Trabajo que realiza una persona al estudiar.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>5</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué hace el esfuerzo de tracción?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Tiende a estirar la estructura.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tiende a comprimir la estructura</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tiende a doblar la estructura.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tiende a retorcer la estructura.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>6</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué hace el esfuerzo de compresión?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Tiende a comprimir la estructura</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tiende a estirar la estructura.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tiende a doblar la estructura.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tiende a retorcer la estructura.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>7</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué hace el esfuerzo de flexión?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Tiende a doblar la estructura.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tiende a comprimir la estructura</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tiende a estirar la estructura.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tiende a retorcer la estructura.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>08</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué hace el esfuerzo de torsión?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Tiende a retorcer la estructura.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tiende a doblar la estructura.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tiende a comprimir la estructura</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tiende a cortar en dos la estructura.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>09</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué hace el esfuerzo de corte o cizalla?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Tiende a cortar en dos la estructura.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tiende a retorcer la estructura.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tiende a doblar la estructura.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tiende a comprimir la estructura</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>10</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo tiende a estirar una estructura?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de tracción.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de compresión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>11</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo tiende a comprimir una estructura?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de compresión.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de tracción.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>12</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo tiende a doblar una estructura?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de tracción.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de compresión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>13</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo tiende a retorcer una estructura?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de torsión.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de compresión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>14</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo tiende a cortar una estructura?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de cizalla.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de tracción.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de compresión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>15</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo representa la figura?</p> 
+         <p><img src="@@PLUGINFILE@@/9d88f21d9324fb98b744.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="360"></p>
+         ]]></text>
+      <file name="9d88f21d9324fb98b744.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de tracción.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de compresión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>16</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo representa la figura?</p> 
+         <p><img src="@@PLUGINFILE@@/63b1f8a1f098d4f7b713.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="360"></p>
+         ]]></text>
+      <file name="63b1f8a1f098d4f7b713.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAawAAACCCAMAAAAtxwxsAAAALHRFWHRDcmVhdGlvbiBUaW1lAG1p6SAyMSBzZXAgMjAxNiAyMTo0OToxNSArMDEwMH3HFN8AAAAHdElNRQfgCRUTMjhrVYU4AAAACXBIWXMAAAsSAAALEgHS3X78AAAABGdBTUEAALGPC/xhBQAAAUFQTFRFAAAACAcFCAgIDw8PEAcHEBAQEhERGBgYGhoaIBQUIB0aICAgISAeKB0dKCUjKCgoLSQbLS0tMAMDMBUVMBgYMB8fMCQkMC4sMDAwNDQ0OAkJOA4OODg4PDw8PzQpPz48QBAQQBQUQCwsQDAwQDIyQDQ0QDYtQDgwQDkzQEBASA4OSD0zSEhITk5OT0AxT09PUEFBUEU5UFBQWFhYW0o4YE06YE8+YFFBYGBgaBAQaFhYaF5eaGhocAAAcA4OcHBweHh4fwAAfwgIf2ZMf39/h4eHjwAAj4aGj4+PlwkJl46Ol5eXmZmZn5WVn52bn5+fpKSkp6enrKysr6+vt7a1t7e3vwAAv7+/wsLCxwAAx8fHzwAAz8/P0dHR19fX3wAA37KG39/f5wAA5+fn7wAA7+/v8PCA9wAA9/f3/wAA////ScNivgAABr5JREFUeNrt3Wub2kQUB/BjFLFGi5daUVG79dIejbfgJV2jUD2p2UUbEdNj04hlcVOS7/8BfAF7c5MFtknIkPN/yQM8YX6ZTJicZwYSiTIBaQLBkgiWYEkESyJYgiURLIlgCZZEsCSCJVgSwZIIlmBJBEsiWIIlESyJYAmWopnw6Th0FPfM64eCVXYOmXlARIiIiA0AANDxdPrHWL0zr8/fi4iIJhGRz8yClXdmzB5RFxEBoIGINhHNe0u0dpiZeUREZMy/EBDRIHKZp4J12YTsE1mIDdAQLaLhpWxW4/OJeohNAESLyOexYK0WZiIDNWijQeQVBJQN5xEZ2AINDXI4EKwMpBH1sAOASOSXS5TK5lMfO6AhEm0arUJYY3Z62AQ0yeUgqlqYibADOvbdjQ1qVcCasUdGG1rYdzmqeCaLM8oiP6wb1nhEhq6hRX4YqZTF6WWSP60D1oxdG6Flkj+JVM14REazgX0v2F6sqU+GrmFvwNE2hB2rAx3L4dm2YbHb1ZuGyt0pPYHXR61tDcItwRp7vQ5gb7htTicJPbutIY2mamPNHGy0LDeItj9MZlPvuoG6WH99wVGNMhn2nv9dVawQo5rl/Wc8RbFqaPXet4pi1dEqUhSrllaKYtXTSk2smlopiVVXKxWx6mf15txKQawaWn0eKYpVhNW8msmlpWFm5nBTVsph5WAVzMvFuojYhpN6P+wtx0I8/pC++IjDzONyrFTDuqwV85DIRNQBoDMvxBw+XSeZLDpjHxFbANBGNImGuVdMnbJSDGtNK+aTmr0u0Yi5uEcpIfOIqIuoQWNRITjJ2UotrBWtJjwkG9vzUi+Xy5+bX1QI6qCjTUPOy0oprKVW7FEXddCxSwOuQrXMhAfUxSa0sUej4GmtVMK6wGrMZGNDQ4uGXMWHxiG7ZHagiT1nneO7etZKIax0q6PyQFKiUobdPurQNshb5Wivfh0pinXOauKT2QL1ygOjKPTJQq1p0Gi8lpUyWGeseNBDTV/2Y6ue+clmZ10SzlupgnVsxY7ZArTdbSm/4MG8LJVXsFIEK8Qoisae3QHsq92d0u+PRoSNljUIL7ZSAyt89w9CrWUNtrnsbOzZbcD+KNtKBazZZ9qzBtWj7Iwds6mb9FKqVXWwvN3Msu7m37V6IjIZvfpKtCbW/velYtFrN7MqhKFuD7Do5/WwZrtvf1Au1t2H1wLBugzW9Obeg7Kx4oOdfcFaHyu49jAuHyt+cid14BKsi7D2dw7i/LC+hJVyL47jeC9t4BKsbKzZ7p0ncRw/Wq2Nry/FuvJPvHrSBi7BysSa3txbo3FjyBcrbeASrCys4NrDeJNYKQOXYGVg7e8cxJvFOj9wCVYq1mK42jBW/ODKTLCWYn3007rtWgTWwc5v0rOWY607YBWCde6GULDSx6w1bwWLwDr/V0uwMm4w1h61csZKm8QQrEU+5tTpizyxXn7nxip5lPEvS7CO8t399InBOI4PPlmpjZdjnV2/OSvW3Yz5C8G6wOpo4HpwfaVGDnOcyN1Lf6QlWNlWSTLbvRNvYNb9x4yHxYIVRdGn9zObbv/Gv2Vj/XDjF3lSnIn11Z8XtB2/fq9krOcyV60XrIutkmTyxoelYk0miWBlYS2xSpLZuFSsi76v7lhLrSpU5Fl3rCKtBCtfrEKtBCtXrGKtBCtPrFvFWglWjli3it5DQbBywyrcSrBywyreSrDywirBSrBywirDSrDywSrFSrDywHpcjpVg5YD1+HZJ+54J1lNjPb49SQRLDaxvSrPKHeuF2mG9WJpV7lgmdLZ5h6z/ZezZb/2aKIuVJIHb1Rs1WAvDn680U+bWxcUsYXfoE2ptexBupxMvzsfDpNwUuaDxwG5Dx3K2qo+xY833Qkw2kKK3twi8/hasYBdFURQOCcvc53YDWPNqKJ/MloY9VRezY8fqQLtLG9unvUysJEmSZMZuD5vQMZ9ujedylUbURWhutDttBOvourj4/TZxhW8/Juz0sAlo0pCTymRD27VPeUDYhgaaNOAKDWdjHpCFLdCx7276olcZrKNbfB6RjS1ookUeb/DqyOyQgQ1ooU0ej5NqBipxFFP2yEIEaCDaRH45V8jg9CYXffJL/9+kJtaprsYDIgPbAC1E7BO5nOeuJMw8ICIDUQfoLLaPmSWKBCp7ZGNmdoh6eLzfD6JNREQ+M3OwgguzP9+eyUBE1AAai+/wmSeJegFVDjTgRa9YNH1nyaJiTURENOiEd5aoHkgkgiURLMGSCJZEsARLIlgSwRIsiWBJBEuwJIIlESzBkgiWRLDqlf8Aoz47KLLheB0AAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de compresión.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de tracción.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de torsión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>17</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo representa la figura?</p> 
+         <p><img src="@@PLUGINFILE@@/6d4a4774a41bfb01da33.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="360"></p>
+         ]]></text>
+      <file name="6d4a4774a41bfb01da33.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de tracción.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de torsión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>18</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo representa la figura?</p> 
+         <p><img src="@@PLUGINFILE@@/372f103c11cca1d09f92.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="360"></p>
+         ]]></text>
+      <file name="372f103c11cca1d09f92.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de torsión.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de compresión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>19</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo representa la figura?</p> 
+         <p><img src="@@PLUGINFILE@@/f1421d98bdcbc082726c.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="360"></p>
+         ]]></text>
+      <file name="f1421d98bdcbc082726c.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de compresión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de torsión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>20</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo soporta una cadena de columpio?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de tracción.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de torsión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>21</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo soporta el cable de una grúa?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de tracción.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de torsión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>22</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo soportan las patas de una silla?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de compresión.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de torsión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>23</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo soportan las columnas de un edificio?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de compresión.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de torsión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>24</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo soporta el suelo de un edificio?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de compresión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de torsión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>25</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo soporta el tablero de una mesa?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de compresión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de torsión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>26</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo soporta el eje de un destornillador?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de torsión.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de tracción.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>27</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo soporta el eje de un grifo?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo de torsión.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de tracción.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>28</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo tiene el tornillo de pared que soporta un cuadro?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de torsión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de tracción.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>29</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esfuerzo soporta una viga horizontal apoyada en otra vertical?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esfuerzo cortante.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de torsión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de flexión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esfuerzo de tracción.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>30</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>Dame dos ejemplos de esfuerzos de tracción.</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Cadenas de un columpio. Cable de una grúa.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Patas de una silla. Columnas de un edificio.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Tablero de una silla. Suelo de edificios.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Eje de un destornillador. llave al girar.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Tornillo que soporta un cuadro. Viga horizontal sobre viga vertical.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>31</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>Dame dos ejemplos de esfuerzos de compresión.</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Patas de una silla. Columnas de un edificio.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Cadenas de un columpio. Cable de una grúa.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Tablero de una silla. Suelo de edificios.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Eje de un destornillador. llave al girar.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Tornillo que soporta un cuadro. Viga horizontal sobre viga vertical.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>32</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>Dame dos ejemplos de esfuerzos de flexión.</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Tablero de una silla. Suelo de edificios.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Patas de una silla. Columnas de un edificio.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Cadenas de un columpio. Cable de una grúa.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Eje de un destornillador. llave al girar.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Tornillo que soporta un cuadro. Viga horizontal sobre viga vertical.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>33</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>Dame dos ejemplos de esfuerzos de torsión.</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Eje de un destornillador. llave al girar.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Tablero de una silla. Suelo de edificios.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Patas de una silla. Columnas de un edificio.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Cadenas de un columpio. Cable de una grúa.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Tornillo que soporta un cuadro. Viga horizontal sobre viga vertical.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>34</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2025 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>Dame dos ejemplos de esfuerzos de corte o cizalla.</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Tornillo que soporta un cuadro. Viga horizontal sobre viga vertical.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Eje de un destornillador. llave al girar.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Tablero de una silla. Suelo de edificios.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Patas de una silla. Columnas de un edificio.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-25.0" format="html">
+       <text>Cadenas de un columpio. Cable de una grúa.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+</quiz>
