@@ -49,6 +49,8 @@ index_data = [
    {
       "header" : ["mecanica", "Mecánica"],
       "links": [
+          ["es-mecan-structures.html", "Introducción a las estructuras"],
+
           ["es-machines-simple.html", "Máquinas simples"],
           ["es-machines-transmission1.html", "Mecanismos de<br>transmisión I"],
           ["es-machines-transmission2.html", "Mecanismos de<br>transmisión II"],

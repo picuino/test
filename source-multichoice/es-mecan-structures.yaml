@@ -1,0 +1,314 @@
+﻿Category: Mecánica
+Title: Las estructuras
+Date: 28/11/2025
+Copyright: 2025 por Carlos Félix Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+Source_link: ../es/estructuras-intro.html
+Show_max: 0
+
+---
+
+#
+# Definición de estructura
+#
+
+- Title: 01
+  Question: ¿Qué es una estructura?
+  Choices:
+    - Conjunto de elementos que soportan esfuerzos
+      sin romperse ni deformarse.
+    - Conjunto de elementos que soportan esfuerzos.
+    - Conjunto de elementos que soportan roturas y deformaciones.
+    - Conjunto de elementos que soportan esfuerzos
+      de la naturaleza o artificiales.
+
+
+#
+# Origen de las estructuras
+#
+
+- Title: 02
+  Question: ¿Qué estructuras podemos encontrar en la naturaleza?
+  Choices:
+    - Tronco de un árbol, caparazón de tortuga, esqueleto humano,
+      conchas de moluscos, nido de pájaro.
+    - Puente colgante, estructura de un edificio, carcasa de ordenador,
+      grúa de obra, muralla.
+    - Ríos y lagos, nubes, lluvia, mares, arena, lava, viento, tierra,
+      piedras.
+    - Metales, agua, gas natural, vapor, luz solar, sal, hielo, minerales,
+      cenizas volcánicas, ámbar.
+
+- Title: 03
+  Question: ¿Qué estructuras son artificiales?
+  Choices:
+    - Puente colgante, estructura de un edificio, carcasa de ordenador,
+      grúa de obra, muralla.
+    - Tornillo, tuerca, palanca, engranaje, cadena, polea y polipasto,
+      plano inclinado, ruedas.
+    - Fibra de vidrio, hormigón armado, barras de acero, fibra de carbono,
+      plásticos, vidrio, porcelana.      
+    - Tronco de un árbol, caparazón de tortuga, esqueleto humano,
+      conchas de moluscos, nido de pájaro.
+
+
+#
+# Clasificación de las estructuras.
+#
+
+- Title: 04
+  Question: Las estructuras masivas están ...
+  Image: ../images/estructuras-presa.jpg
+  Image_width: 360
+  Choices:
+    - Formadas por una gran masa de material sin apenas huecos.
+    - Formadas por arcos y bóvedas.
+    - Formadas por elementos verticales y horizontales.
+    - Formadas por cables que soportan las cargas masivas.
+
+- Title: 05
+  Question: Las estructuras abovedadas están ...
+  Image: ../images/estructuras-acueducto.jpg
+  Image_width: 360
+  Choices:
+    - Formadas por arcos y bóvedas.
+    - Formadas por una gran masa de material sin apenas huecos.
+    - Formadas por elementos verticales y horizontales.
+    - Formadas por cables que soportan las cargas.
+
+- Title: 06
+  Question: Las estructuras trianguladas están ...
+  Image: ../images/estructuras-puente-triangulado.jpg
+  Image_width: 360
+  Choices:
+    - Formadas por barras unidas entre sí en triángulos.
+    - Formadas por elementos verticales y horizontales.
+    - Formadas por una lámina o pared delgada.
+    - Formadas por cables que soportan las cargas.
+
+- Title: 07
+  Question: Las estructuras entramadas están ...
+  Image: ../images/estructuras-grua-portico.jpg
+  Image_width: 360
+  Choices:
+    - Formadas por elementos verticales y horizontales.
+    - Formadas por barras unidas entre sí en triángulos.
+    - Formadas por una lámina o pared delgada.
+    - Formadas por cables que soportan las cargas.
+
+- Title: 08
+  Question: Las estructuras colgantes están ...
+  Image: ../images/estructuras-puente-colgante.jpg
+  Image_width: 360
+  Choices:
+    - Formadas por cables que soportan las cargas.
+    - Formadas por elementos verticales y horizontales.
+    - Formadas por barras unidas entre sí en triángulos.
+    - Formadas por una lámina o pared delgada.
+
+- Title: 09
+  Question: Las estructuras laminares están ...
+  Image: ../images/estructuras-casco.jpg
+  Image_width: 360
+  Choices:
+    - Formadas por una lámina o pared delgada.
+    - Formadas por cables que soportan las cargas.
+    - Formadas por elementos verticales y horizontales.
+    - Formadas por barras unidas entre sí en triángulos.
+
+- Title: 10
+  Question: Ejemplos de estructuras masivas son ...
+  Choices:
+    - Presa de agua. Pirámide. Murallas.
+    - Techo de catedral gótica. Puente romano. Acueducto. Panteón de Roma.
+    - Grúa de obra. Torre Eiffel. Torre de alta tensión.
+    - Estructura de edificio. Sillas y mesas. Escalera de mano.
+
+- Title: 11
+  Question: Ejemplos de estructuras abovedadas son ...
+  Choices:
+    - Techo de catedral gótica. Puente romano. Acueducto. Panteón de Roma.
+    - Presa de agua. Pirámide. Murallas.
+    - Grúa de obra. Torre Eiffel. Torre de alta tensión.
+    - Estructura de edificio. Sillas y mesas. Escalera de mano.
+
+- Title: 12
+  Question: Ejemplos de estructuras trianguladas son ...
+  Choices:
+    - Grúa de obra. Torre Eiffel. Torre de alta tensión.
+    - Estructura de edificio. Sillas y mesas. Escalera de mano.
+    - Teleférico. Puente atirantado o puente colgante. Grúa de obra. Tirolina.
+    - Cuenco. Caparazón de tortuga. Casco para moto. Depósito de agua.
+
+- Title: 13
+  Question: Ejemplos de estructuras entramadas son ...
+  Choices:
+    - Estructura de edificio. Sillas y mesas. Escalera de mano.
+    - Teleférico. Puente atirantado o puente colgante. Grúa de obra. Tirolina.
+    - Cuenco. Caparazón de tortuga. Casco para moto. Depósito de agua.
+    - Grúa de obra. Torre Eiffel. Torre de alta tensión.
+
+- Title: 14
+  Question: Ejemplos de estructuras colgantes son ...
+  Choices:
+    - Teleférico. Puente atirantado o puente colgante. Grúa de obra. Tirolina.
+    - Cuenco. Caparazón de tortuga. Casco para moto. Depósito de agua.
+    - Grúa de obra. Torre Eiffel. Torre de alta tensión.
+    - Estructura de edificio. Sillas y mesas. Escalera de mano.
+
+- Title: 15
+  Question: Ejemplos de estructuras laminares son ...
+  Choices:
+    - Cuenco. Caparazón de tortuga. Casco para moto. Depósito de agua.
+    - Grúa de obra. Torre Eiffel. Torre de alta tensión.
+    - Estructura de edificio. Sillas y mesas. Escalera de mano.
+    - Teleférico. Puente atirantado o puente colgante. Grúa de obra. Tirolina.
+
+- Title: 16
+  Question: A qué tipo de estructuras se refiere la siguiente frase.
+            Formada por una gran masa de material sin apenas huecos.
+  Choices:
+    - Estructura masiva.
+    - Estructura abovedada.
+    - Estructura triangulada.
+    - Estructura entramada.
+
+- Title: 17
+  Question: A qué tipo de estructuras se refiere la siguiente frase.
+            Formada por arcos y bóvedas.
+  Choices:
+    - Estructura abovedada.
+    - Estructura masiva.
+    - Estructura triangulada.
+    - Estructura entramada.
+
+- Title: 18
+  Question: A qué tipo de estructuras se refiere la siguiente frase.
+            Formada por barras unidas entre sí en triángulos.
+  Choices:
+    - Estructura triangulada.
+    - Estructura entramada.
+    - Estructura colgante.
+    - Estructura laminar.
+
+- Title: 19
+  Question: A qué tipo de estructuras se refiere la siguiente frase.
+            Formadas por elementos verticales y horizontales.
+  Choices:
+    - Estructura entramada.
+    - Estructura triangulada.
+    - Estructura colgante.
+    - Estructura laminar.
+
+- Title: 20
+  Question: A qué tipo de estructuras se refiere la siguiente frase.
+            Formadas por cables que soportan las cargas.
+  Choices:
+    - Estructura colgante.
+    - Estructura triangulada.
+    - Estructura entramada.
+    - Estructura laminar.
+
+- Title: 21
+  Question: A qué tipo de estructuras se refiere la siguiente frase.
+            Formadas por una lámina o pared delgada.
+  Choices:
+    - Estructura laminar.
+    - Estructura colgante.
+    - Estructura triangulada.
+    - Estructura entramada.
+
+
+#
+# Movimiento de las estructuras
+#
+
+- Title: 22
+  Question: Las estructuras móviles ...
+  Choices:
+    - Se pueden desplazar o están articuladas. 
+      Soportan cargas mientras permiten el movimiento.
+    - No se desplazan ni se pueden mover.
+    - No se pueden desplazar ni están articuladas. 
+      Soportan cargas pero no permiten el movimiento.
+    - Son, por ejemplo, un edificio, una torre de alta tensión o un cuenco.
+
+- Title: 23
+  Question: Las estructuras fijas ...
+  Choices:
+    - No se desplazan ni se pueden mover.
+    - Se pueden desplazar o están articuladas. 
+      Soportan cargas mientras permiten el movimiento.
+    - Son, por ejemplo, una puerta con bisagra o un puente levadizo.
+    - Son, por ejemplo, una grúa o una silla con ruedas.
+
+
+#
+# Ejercicio de clasificación.
+#
+
+- Title: 24
+  Question: "Clasifica la siguiente estructura: una pirámide"
+  Choices:
+    - Estructura artificial, masiva, fija.
+    - Estructura artificial, triangulada, fija.
+    - Estructura artificial, abovedada, fija.
+    - Estructura natural, masiva, fija.
+
+- Title: 25
+  Question: "Clasifica la siguiente estructura: una torre de alta tensión"
+  Choices:
+    - Estructura artificial, triangulada, fija.
+    - Estructura artificial, masiva, fija.
+    - Estructura artificial, abovedada, fija.
+    - Estructura natural, colgante, fija.
+
+- Title: 26
+  Question: "Clasifica la siguiente estructura: un depósito de agua"
+  Choices:
+    - Estructura artificial, laminar, fija.
+    - Estructura artificial, colgante, fija.
+    - Estructura artificial, abovedada, fija.
+    - Estructura natural, entramada, fija.
+
+- Title: 27
+  Question: "Clasifica la siguiente estructura: un teleférico"
+  Choices:
+    - Estructura artificial, colgante, móvil.
+    - Estructura artificial, masiva, fija.
+    - Estructura artificial, triangulada, móvil.
+    - Estructura natural, colgante, móvil.
+
+- Title: 28
+  Question: "Clasifica la siguiente estructura: un acueducto"
+  Choices:
+    - Estructura artificial, abovedada, fija.
+    - Estructura artificial, masiva, fija.
+    - Estructura natural, abovedada, móvil.
+    - Estructura natural, masiva, fija.
+
+- Title: 29
+  Question: "Clasifica la siguiente estructura: una escalera de mano"
+  Choices:
+    - Estructura artificial, entramada, fija.
+    - Estructura artificial, masiva, móvil.
+    - Estructura natural, abovedada, fija.
+    - Estructura natural, triangulada, móvil.
+
+
+- Title: 30
+  Question: "Clasifica la siguiente estructura: el esqueleto humano"
+  Choices:
+    - Estructura natural, entramada, móvil.
+    - Estructura natural, abovedada, fija.
+    - Estructura natural, triangulada, móvil.
+    - Estructura artificial, masiva, móvil.
+
+- Title: 31
+  Question: "Clasifica la siguiente estructura: una concha de molusco"
+  Choices:
+    - Estructura natural, laminar, fija o móvil.
+    - Estructura natural, masiva, fija o móvil.
+    - Estructura artificial, abovedada, fija o móvil.
+    - Estructura natural, triangulada, fija o móvil.
