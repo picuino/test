@@ -51,7 +51,21 @@ index_data = [
       "links": [
           ["es-mecan-structures.html", "Introducción a las estructuras"],
           ["es-mecan-esfuerzos.html", "Esfuerzos en las estructuras"],
+          ["es-mecan-estabilidad.html", "Estabilidad de las estructuras"],
+
+          #["es-mecan-palancas.html", "Palancas"],
+          #["es-mecan-palancas-calc.html", "Cálculo de palancas"],
+
+          #["es-mecan-tornillos.html", "Tornillos"],
+          #["es-mecan-tornillos-calc.html", "Cálculo de tornillos"],
           
+          ["es-mecan-poleas.html", "Cálculo de poleas y polipastos"],
+
+          #["es-mecan-engranajes.html", "Engranajes"],
+          
+          ["es-mecan-calibre-partes.html", "El calibre y sus componentes"],
+          ["es-mecan-calibre-medidas.html", "Medidas con calibre"],
+
           ["es-machines-simple.html", "Máquinas simples"],
           ["es-machines-transmission1.html", "Mecanismos de<br>transmisión I"],
           ["es-machines-transmission2.html", "Mecanismos de<br>transmisión II"],
@@ -59,9 +73,6 @@ index_data = [
           ["es-machines-transformation1.html", "Mecanismos de<br>transformación I"],
           ["es-machines-transformation2.html", "Mecanismos de<br>transformación II"],
           ["es-machines.html", "Máquinas y Mecanismos. Test global"],
-          ["es-mecan-poleas.html", "Cálculo de poleas y polipastos"],
-          ["es-mecan-calibre-partes.html", "El calibre y sus componentes"],
-          ["es-mecan-calibre-medidas.html", "Medidas con calibre"],
        ]
    },
    {

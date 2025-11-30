@@ -1,0 +1,357 @@
+﻿Category: Mecánica
+Title: Estabilidad de las estructuras
+Date: 30/11/2025
+Copyright: 2025 por Carlos Félix Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+Source_link: ../es/estructuras-estabilidad.html
+Show_max: 0
+
+---
+
+#
+# Vuelco
+#
+
+- Title: 01
+  Question: Una estructura vuelca cuando...
+  Choices:
+    - El centro de gravedad cae fuera de la base de apoyo.
+    - El centro de gravedad cae fuera del baricentro.
+    - El centro de estabilidad cae fuera de la base de apoyo.
+    - El centro de masas cae sobre la base de apoyo.
+
+- Title: 02
+  Question: Cuando el centro de gravedad de una estructura no se
+            encuentra sobre la base de apoyo...
+  Choices:
+    - La estructura vuelca.
+    - La estructura se rompe.
+    - La estructura se deforma.
+    - La estructura se mueve.
+
+- Title: 03
+  Question: El centro de gravedad es...
+  Choices:
+    - El punto medio de toda la masa de la estructura.
+    - El punto mediano de toda la masa de la estructura.
+    - El baricentro de toda la masa de la estructura.
+    - El circuncentro de toda la masa de la estructura.
+
+- Title: 04
+  Question: El punto medio de toda la masa de la estructura se denomina...
+  Choices:
+    - Centro de gravedad.
+    - Centro de estabilidad.
+    - Centro de masas extremas.
+    - Centro de deformación.
+
+- Title: 05
+  Question: ¿Qué representa esta figura de un camión visto desde atrás?
+  Image: ../images/centro-gravedad-02.png
+  Image_width: 240
+  Choices:
+    - Un centro de gravedad que cae dentro de la base de apoyo.
+      El camión no volcará.
+    - Un centro de gravedad que cae dentro de la base de apoyo.
+      El camión volcará.
+    - Un centro de gravedad que cae fuera de la base de apoyo.
+      El camión no volcará.
+    - Un centro de gravedad que cae fuera de la base de apoyo.
+      El camión volcará.
+
+- Title: 06
+  Question: ¿Qué representa esta figura de un camión visto desde atrás?
+  Image: ../images/centro-gravedad-04.png
+  Image_width: 240
+  Choices:
+    - Un centro de gravedad que cae fuera de la base de apoyo.
+      El camión volcará.
+    - Un centro de gravedad que cae dentro de la base de apoyo.
+      El camión no volcará.
+    - Un centro de gravedad que cae dentro de la base de apoyo.
+      El camión volcará.
+    - Un centro de gravedad que cae fuera de la base de apoyo.
+      El camión no volcará.
+
+#
+# Soluciones al vuelco
+#
+
+- Title: 07
+  Question: ¿Cuáles son los métodos para evitar el vuelco
+            de una estructura?
+  Choices:
+    - Añadir un contrapeso. Ampliar la base de apoyo. 
+      Bajar el centro de gravedad. Anclar la estructura al suelo.
+    - Añadir un contrapeso. Ampliar la base de apoyo. 
+      Bajar el centro de gravedad. Reforzar la estructura.
+    - Cambiar el material de la estructura. Ampliar la base de apoyo. 
+      Bajar el centro de gravedad. Anclar la estructura al suelo.
+    - Añadir un contrapeso. Ampliar la base de apoyo. 
+      Subir el centro de gravedad. Anclar la estructura al suelo.
+
+- Title: 08
+  Question: ¿Cuál es una de las soluciones para evitar que una estructura
+            vuelque?
+  Choices:
+    - Añadir un contrapeso.
+    - Aumentar el peso de la parte superior.
+    - Cambiar el tipo de material de la estructura.
+    - Hacer a la estructura más rígida y resistente.
+
+- Title: 09
+  Question: ¿Cuál es una de las soluciones para evitar que una estructura
+            vuelque?
+  Choices:
+    - Ampliar la base de apoyo.
+    - Reducir la base de apoyo.
+    - Ampliar el peso superior.
+    - Cambiar el tipo de material de la estructura.
+
+- Title: 10
+  Question: ¿Cuál es una de las soluciones para evitar que una estructura
+            vuelque?
+  Choices:
+    - Bajar el centro de gravedad.
+    - Subir el centro de gravedad.
+    - Cambiar el tipo de material de la estructura.
+    - Ampliar el peso superior.
+
+- Title: 11
+  Question: ¿Cuál es una de las soluciones para evitar que una estructura
+            vuelque?
+  Choices:
+    - Anclar la estructura al suelo.
+    - Anclar la estructura a un contrapeso.
+    - Cambiar el tipo de material de la estructura.
+    - Subir el centro de gravedad.
+
+- Title: 12
+  Question: Dame dos ejemplos de la utilización de un contrapeso para
+            evitar el vuelco de una estructura.
+  Choices:
+    - Contrapesos en grúas de obra o en camiones grúa.
+    - Contrapesos en coches de fórmula 1 y automóviles.
+    - Contrapesos en antenas de radio y televisión.
+    - Contrapesos en puentes oscilantes.
+
+- Title: 13
+  Question: Dame dos ejemplos de ampliación de la base de apoyo para
+            evitar el vuelco de una estructura.
+  Choices:
+    - Camión grúa con apoyos extensibles. Coche deportivo muy ancho.
+    - Antena con base de apoyo mayor.
+    - Automóviles deportivos con centro de gravedad bajo.
+    - Contrapesos en antenas de radio y televisión. 
+    
+- Title: 14
+  Question: Dame un ejemplo de bajar el centro de gravedad para
+            evitar el vuelco de una estructura.
+  Choices:
+    - Automóviles deportivos con centro de gravedad bajo.
+    - Antenas de radio con centro de gravedad bajo.
+    - Camión grúa con apoyos extensibles.
+    - Contrapesos en antenas de radio.
+
+- Title: 15
+  Question: Dame dos ejemplos de anclar la estructura al suelo para
+            evitar el vuelco de una estructura.
+  Choices:
+    - Cables de anclaje de una antena. Farola anclada al suelo.
+    - Cables de anclaje de un camión grúa y de un coche deportivo.
+    - Contrapesos en grúas de obra o en camiones grúa.
+    - Automóviles deportivos con centro de gravedad bajo.
+
+#
+# Pandeo
+#
+
+- Title: 16
+  Question: ¿Qué tipo de barras y columnas sufren pandeo?
+  Choices:
+    - Barras y columnas esbeltas sometidas a compresión.
+    - Barras y columnas esbeltas sometidas a tracción.
+    - Barras y columnas esbeltas sometidas a flexión.
+    - Barras y columnas gruesas sometidas a compresión.
+
+- Title: 17
+  Question: ¿Qué representa esta imagen?
+  Image: ../images/mecan-pandeo-01.png
+  Image_width: 120  
+  Choices:
+    - Una columna esbelta sometida a compresión que falla por pandeo.
+    - Una columna esbelta sometida a tracción que falla por pandeo.
+    - Una columna esbelta sometida a flexión que falla por pandeo.
+    - Una columna esbelta sometida a compresión que falla por oscilación.
+
+- Title: 18
+  Question: ¿En qué consiste el pandeo?
+  Choices:
+    - Una columna esbelta sometida a compresión se dobla hasta romperse.
+    - Una columna esbelta sometida a compresión se dobla sin romperse.
+    - Una columna esbelta sometida a flexión se dobla hasta romperse.
+    - Una columna gruesa sometida a flexión se dobla hasta romperse.
+
+#
+# Soluciones al pandeo
+#
+
+- Title: 19
+  Question: ¿Cómo se soluciona el pandeo de una barra esbelta?
+  Choices:
+    - Haciendo el perfil más grueso. Sujetando el centro de la barra.
+    - Haciendo el perfil más esbelto. Sujetando el centro de la barra.
+    - Haciendo el perfil más grueso. Sujetando la parte superior de la barra.
+    - Haciendo el perfil más esbelto. Sujetando la parte superior de la barra.
+
+- Title: 20
+  Question: Dame un ejemplo de cómo al hacer el perfil más grueso se
+            soluciona el pandeo de las barras del cuadro de una bicicleta.
+  Choices:
+    - Utilizar tubos gruesos y huecos, en vez de barras macizas y esbeltas.
+    - Utilizar perfiles cuadrados, en vez de perfiles redondos.
+    - Utilizar tubos gruesos y macizos, en vez de barras esbeltas y huecas.
+    - Utilizar perfiles redondos, en vez de perfiles cuadrados.
+
+- Title: 21
+  Question: Dame un ejemplo de perfil esbelto que pandea
+            y otro perfil que no pandea, con el mismo material.
+  Choices:
+    - Una barra maciza redonda pandeará, mientras que una
+      barra con perfil en L de la misma masa, no pandeará.
+    - Una barra maciza redonda no pandeará, mientras que una
+      barra con perfil en L de la misma masa, pandeará.
+    - Una barra maciza redonda pandeará, mientras que una
+      barra con perfil redondo de la misma masa, no pandeará.
+    - Una barra con perfil en L pandeará, mientras que una
+      barra maciza redonda de la misma masa, no pandeará.
+
+- Title: 22
+  Question: ¿Qué soluciona hacer más grueso el perfil de una barra?
+  Choices:
+    - Soluciona el problema del pandeo en una barra sometida a compresión.
+    - Soluciona el problema del pandeo en una barra sometida a tracción.
+    - Soluciona el problema del vuelco en una estructura.
+    - Soluciona el problema de las oscilaciones en una estructura.
+
+- Title: 23
+  Question: ¿Qué soluciona sujetar el centro de una barra esbelta?
+  Choices:
+    - Soluciona el problema del pandeo en una barra sometida a compresión.
+    - Soluciona el problema del pandeo en una barra sometida a tracción.
+    - Soluciona el problema del vuelco en una estructura.
+    - Soluciona el problema de las oscilaciones en una estructura.
+
+#
+# Oscilaciones
+#
+
+- Title: 23
+  Question: ¿Qué le pasó al puente de Tacoma Narrows con el viento de otoño?
+  Choices:
+    - Comenzó a oscilar hasta que se derrumbó por completo.
+    - Comenzó a oscilar un poco, sin afectar al tráfico.
+    - Pudo resistir el viento gracias a que estaba bien diseñado.
+    - El viento no afecta a las estructuras bien construidas.
+
+- Title: 24
+  Question: ¿Qué es la frecuencia de resonancia de una estructura?
+  Choices:
+    - Es la frecuencia a la que oscila la estructura de forma natural,
+      como un columpio.
+    - Es la frecuencia de oscilación a la que se derrumba la estructura.
+    - Es la frecuencia de oscilación que refuerza la estructura.
+    - Las estructuras no tienen frecuencia de resonancia.
+
+- Title: 25
+  Question: ¿Es verdad que los rascacielos oscilan durante un terremoto
+            para evitar su colapso?
+  Choices:
+    - Si, el extremo superior de un rascacielos puede oscilar más de un metro.
+    - Si, el extremo inferior de un rascacielos puede oscilar más de un metro.
+    - No, los rascacielos no oscilan nunca en ningún punto.
+    - No, porque si oscila un rascacielos se derrumbaría de inmediato.
+
+- Title: 26
+  Question: Las alas de un avión pueden doblarse varios centímetros en su
+            extremo.
+  Choices:
+    - Si, oscilan varios centímetros para adaptarse a las fuertes cargas.
+    - Si, oscilan varios metros para adaptarse a las fuertes cargas.
+    - No, las alas siempre permanecen rígidas sin doblarse nada.
+    - No, las alas no pueden doblarse porque se romperían.
+
+- Title: 27
+  Question: ¿Qué soluciones hay para evitar las oscilaciones excesivas en
+            las estructuras?
+  Choices:
+    - Evitar cargas oscilantes. Amortiguar la estructura.
+    - Amortiguar la estructura. Construir la estructura más rígida.
+    - Evitar cargas oscilantes. Construir la estructura más rígida.
+    - No hay ninguna solución para evitar las oscilaciones excesivas en
+      las estructuras.
+
+- Title: 28
+  Question: ¿Qué es un amortiguador en una estructura?
+  Choices:
+    - Es un elemento que absorbe la energía de las oscilaciones y reduce
+      la resonancia.
+    - Es un elemento que evita el pandeo de las estructuras y reduce 
+      la resonancia.
+    - Es un elemento que evita el vuelco de las estructuras y reduce 
+      la resonancia.
+    - Es un elemento que absorbe el exceso de humedad en las estructuras
+      para evitar que se oxiden.
+
+#
+# Resumen
+#
+
+- Title: 29
+  Question: ¿Qué problemas de estabilidad pueden tener las estructuras?
+  Choices:
+    - Vuelco, pandeo y oscilaciones.
+    - Vuelco, centro de gravedad y oscilaciones.
+    - Vuelco, pandeo y amortiguación.
+    - Vuelco, esbeltez y amortiguación.
+
+- Title: 30
+  Question: ¿Qué solución al vuelco presenta el camión de la imagen?
+  Image: ../images/mecan-camion-grua-bomberos.jpg
+  Image_width: 360  
+  Choices:
+    - Ampliar la base de apoyo.
+    - Bajar el centro de gravedad.
+    - Añadir un contrapeso.
+    - Anclar la estructura al suelo.
+
+- Title: 31
+  Question: ¿Qué solución al vuelco presenta el automóvil de la imagen?
+  Image: ../images/mecan-coche-carreras.jpg
+  Image_width: 360  
+  Choices:
+    - Bajar el centro de gravedad.
+    - Ampliar la base de apoyo.
+    - Añadir un contrapeso.
+    - Anclar la estructura al suelo.
+
+- Title: 32
+  Question: ¿Qué solución al vuelco presenta la grúa de la imagen?
+  Image: ../images/mecan-grua-obra.jpg
+  Image_width: 480  
+  Choices:
+    - Añadir un contrapeso.
+    - Bajar el centro de gravedad.
+    - Ampliar la base de apoyo.
+    - Anclar la estructura al suelo.
+
+- Title: 32
+  Question: ¿Qué solución al vuelco presentan las antenas de la imagen?
+  Image: ../images/mecan-antenas-radio.jpg
+  Image_width: 480  
+  Choices:
+    - Anclar la estructura al suelo.
+    - Añadir un contrapeso.
+    - Bajar el centro de gravedad.
+    - Ampliar la base de apoyo.

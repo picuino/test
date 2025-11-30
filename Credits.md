@@ -488,7 +488,9 @@ https://creativecommons.org/licenses/by-sa/4.0/deed.es
 ![](images/thumbs/esfuerzo-torsion.png)
 ![](images/thumbs/esfuerzo-cortante.png)
 
-
+![](images/thumbs/centro-gravedad-02.png)
+![](images/thumbs/centro-gravedad-04.png)
+![](images/thumbs/mecan-pandeo-01.png)
 
 
 
