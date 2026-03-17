@@ -20,7 +20,6 @@
 
 import re
 import os
-import codecs
 import base64
 import random
 import copy
@@ -97,7 +96,7 @@ class Questionary():
       """Read questions from Yaml file"""
       yaml_filename = os.path.join(path, filename)
       self.mtime = os.path.getmtime(yaml_filename)
-      with codecs.open(yaml_filename, 'r', encoding='utf-8') as fi:
+      with open(yaml_filename, 'r', encoding='utf-8') as fi:
          yamldata = fi.read()
       yaml_files = list(yaml.load_all(yamldata, Loader=yaml.SafeLoader))
       self.header = yaml_files[0]
@@ -122,10 +121,10 @@ class Questionary():
       else:
          old_data = None
          if os.path.exists(filename):
-            with codecs.open(filename, 'r', encoding='utf-8') as fi:
+            with open(filename, 'r', encoding='utf-8') as fi:
                old_data = fi.read()
          if data != old_data:
-            with codecs.open(filename, 'w', encoding='utf-8') as fo:
+            with open(filename, 'w', encoding='utf-8') as fo:
                fo.write(data)
 
 

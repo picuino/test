@@ -1,8 +1,7 @@
 @echo off
-cd source-cloze
-
-set PATH=..\venv\Scripts;%PATH%
+set PATH=./venv/Scripts;%PATH%
 call activate.bat
 
+cd source-cloze
 python.exe _make_cloze.py
 pause

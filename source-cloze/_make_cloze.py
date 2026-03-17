@@ -20,7 +20,6 @@
 
 import re
 import os
-import codecs
 import base64
 import random
 import copy
@@ -86,7 +85,7 @@ class Cloze():
 
    def read_yaml(self, filename, path='./'):
       """Read questions from Yaml file"""
-      with codecs.open(os.path.join(path, filename), 'r', encoding='utf-8') as yamlfile:
+      with open(os.path.join(path, filename), 'r', encoding='utf-8') as yamlfile:
          yamldata = yamlfile.read()
       yaml_files = list(yaml.load_all(yamldata, Loader=yaml.SafeLoader))
       self.header = yaml_files[0]
@@ -106,12 +105,12 @@ class Cloze():
 
    def write_file(self, filename, data):
       if os.path.exists(filename):
-         with codecs.open(filename, 'r', encoding='utf-8') as infile:
+         with open(filename, 'r', encoding='utf-8') as infile:
             old_data = infile.read()
          if old_data == data:
             return
       print('   Writing: ' + filename)
-      with codecs.open(filename, 'w', encoding='utf-8') as outfile:
+      with open(filename, 'w', encoding='utf-8') as outfile:
          outfile.write(data)
 
 
@@ -196,7 +195,7 @@ class Cloze():
       for words in match:
          words = words.strip('{}')
          if '|' in words:
-            words = re.split('\|', words)
+            words = re.split('\\|', words)
             gap = '{1:SHORTANSWER:=%s' % words[0]
             for word in words[1:]:
                gap = gap + '~%100%{0}'.format(word)
@@ -223,7 +222,7 @@ class Cloze():
       for gap in match:
          gap = gap.strip('{}')
          if '|' in gap:
-            gap = [self.b64encode(word) for word in re.split('\|', gap)]
+            gap = [self.b64encode(word) for word in re.split('\\|', gap)]
          else:
             gap = self.b64encode(gap)
          gaps.append(gap)
