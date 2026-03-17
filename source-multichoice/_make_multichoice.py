@@ -81,7 +81,7 @@ class DictCounter():
 
 class Questionary():
 
-   def __init__(self, overwrite=False):
+   def __init__(self, overwrite=True):
       self.templates_path = 'templates'
       self.px_cm = 59    # Pixel per centimeter. Used in docx images. 59 px_cm = 150dpi
       self.hash_len = 20
