@@ -16,7 +16,6 @@
 #
 
 import os
-import codecs
 from jinja2 import Template
 
 
@@ -135,11 +134,12 @@ index_template = """<!DOCTYPE html>
    <!-- FOOTER -->
    <div class="footer">
    <a href="../en/contacto.html" target="_blank">Contact</a>
+   <a href="../en/about.html" target="_blank">About Picuino</a>
    <a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a>
    <a href="../en/legal-cookies.html" target="_blank">Cookie policy</a>
    <a href="https://github.com/picuino/test/blob/master/Licenses.md" target="_blank">Credits</a>
    <a href="https://github.com/picuino/test/" target="_blank">GitHub</a>
-   <a href="../test/index.html" target="_blank">Index</a>
+   <a href="index.html" target="_blank">Index</a>
    <p>Copyright © 2021 by Carlos Félix Pardo Martín.</p>
    <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
    <p>{{ sp.sumtest }} Technology test</p>
@@ -154,7 +154,7 @@ index_template = """<!DOCTYPE html>
 def main():
    template = Template(index_template)
    data = template.render(data = index_data)
-   with codecs.open("index-en.html", 'w', encoding="utf-8") as fo:
+   with open("index-en.html", 'w', encoding="utf-8") as fo:
        fo.write(data)
    input('Pulsa Enter')
 

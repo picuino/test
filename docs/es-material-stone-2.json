@@ -39,7 +39,7 @@
     "choices": [
        "RW4gcmVjdWJyaW1pZW50b3MgZGUgZWRpZmljaW9zIHDDumJsaWNvcyB5IG1vbnVtZW50b3Mu",
        "U29sbyBlbiBvYmpldG9zIGNvdGlkaWFub3Mu",
-       "RW4gY29uc3RydWNjaW9uZXMgYSBsYSBpbnRlbXBlcmllLg==",
+       "U29sbyBlbiBlc3RhdHVhcy4=",
        "RW4gbGEgYW50aWfDvGVkYWQgcGFyYSBlc2NyaWJpciBjb24gdGl6YS4="
     ]
   },
@@ -137,7 +137,7 @@
     "image": "",
     "choices": [
        "TGEgR3JhbiBQaXLDoW1pZGUgZGUgR3VpemEu",
-       "TGEgY2F0ZWRyYWwgZGUgQnVyZ29zLg==",
+       "TGEgY2F0ZWRyYWwgZGUgVGVydWVsLg==",
        "TGEgdG9ycmUgRWlmZmVsLg==",
        "TGEgR3JhbiBNdXJhbGxhIENoaW5hLg=="
     ]

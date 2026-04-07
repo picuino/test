@@ -46,7 +46,7 @@ Show_max: 0
   Choices:
     - En recubrimientos de edificios públicos y monumentos.
     - Solo en objetos cotidianos.
-    - En construcciones a la intemperie.
+    - Solo en estatuas.
     - En la antigüedad para escribir con tiza.
 
 - Title:
@@ -121,7 +121,7 @@ Show_max: 0
             piedra caliza?
   Choices:
     - La Gran Pirámide de Guiza.
-    - La catedral de Burgos.
+    - La catedral de Teruel.
     - La torre Eiffel.
     - La Gran Muralla China.
 
