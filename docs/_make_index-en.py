@@ -137,7 +137,7 @@ index_template = """<!DOCTYPE html>
    <a href="../en/about.html" target="_blank">About Picuino</a>
    <a href="../es/legal-aviso.html" target="_blank">Terms Of Service</a>
    <a href="../en/legal-cookies.html" target="_blank">Cookie policy</a>
-   <a href="https://github.com/picuino/test/blob/master/Licenses.md" target="_blank">Credits</a>
+   <a href="https://github.com/picuino/test/blob/master/Credits.md" target="_blank">Credits</a>
    <a href="https://github.com/picuino/test/" target="_blank">GitHub</a>
    <a href="index.html" target="_blank">Index</a>
    <p>Copyright © 2021 by Carlos Félix Pardo Martín.</p>
