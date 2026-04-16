@@ -20,6 +20,7 @@
 
 import re
 import os
+import io
 import base64
 import random
 import copy
@@ -81,13 +82,13 @@ class DictCounter():
 
 class Questionary():
 
-   def __init__(self, overwrite=True):
+   def __init__(self, overwrite_docx=False):
       self.templates_path = 'templates'
       self.px_cm = 59    # Pixel per centimeter. Used in docx images. 59 px_cm = 150dpi
       self.hash_len = 20
       self.csv_delimiter = ','
       self.questions = []
-      self.overwrite = overwrite
+      self.overwrite_docx = overwrite_docx
       self.mtime = 0
       random.seed(1000)
       
@@ -115,7 +116,7 @@ class Questionary():
 
    def write_file(self, filename, data):
       if isinstance(data, docx.document.Document):
-         if self.overwrite or self.file_older(filename):
+         if self.overwrite_docx or self.file_older(filename):
             print('   Writing: ' + filename)
             data.save(filename)
       else:
@@ -125,6 +126,7 @@ class Questionary():
                old_data = fi.read()
          if data != old_data:
             with open(filename, 'w', encoding='utf-8') as fo:
+               print('   Writing: ' + filename)
                fo.write(data)
 
 
