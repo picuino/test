@@ -166,6 +166,11 @@
          "Gaps": [["Y29uZWN0b3I="]]
       },
       {
+         "Image": ["images/425fdbcc2b7521c83035.png", "180"],
+         "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfS4=",
+         "Gaps": [["Ym9ybmE="]]
+      },
+      {
          "Image": ["images/ed5c8fb1d47c32f0465c.png", "180"],
          "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSB7MX0u",
          "Gaps": [["Y29uZGVuc2Fkb3I="], ["cG9sYXJpemFkbw=="]]

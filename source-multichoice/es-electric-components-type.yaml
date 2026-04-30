@@ -269,6 +269,16 @@ Show_max: 0
     - Generador
     - Elemento de control
 
+- Title:
+  Question: ¿Qué tipo de componente es una borna?
+  Image: ../images/electric-simbolo-borna.png
+  Image_width: 180
+  Choices:
+    - Conductor
+    - Receptor
+    - Generador
+    - Elemento de control
+
 # --------------- COMPONENTES ELECTRÓNICOS ---------------
 
 - Title:

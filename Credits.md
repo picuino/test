@@ -197,6 +197,7 @@ https://creativecommons.org/licenses/by-sa/4.0/deed.es
 ![](images/thumbs/electric-simbolo-condensador-pol.png)
 ![](images/thumbs/electric-simbolo-condensador.png)
 ![](images/thumbs/electric-simbolo-conector.png)
+![](images/thumbs/electric-simbolo-borna.png)
 ![](images/thumbs/electric-simbolo-conmutador.png)
 ![](images/thumbs/electric-simbolo-diodo.png)
 ![](images/thumbs/electric-simbolo-final-carrera.png)

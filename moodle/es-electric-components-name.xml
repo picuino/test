@@ -1513,6 +1513,53 @@
 
 
   <question type="multichoice">
+    <name> <text>Identificar Borna</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿A qué componente corresponde el símbolo de la figura?</p> 
+         <p><img src="@@PLUGINFILE@@/425fdbcc2b7521c83035.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="180"></p>
+         ]]></text>
+      <file name="425fdbcc2b7521c83035.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+oEHRMcB0qLbhEAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAA1RJREFUeNrt3D1vXEUUBuBp7Jgkzurd2IlBgLQSVEBQJEoaQwVVQsNHg91FFAgXtCgpSMmHBA00IAESDbLoqAjwBxx+QeICEJWFhIREQ+HY3r13K0trLT7P0/k213v83tmZM3PdGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAp8QfH6hBa21xNLypCq1dT66oQltIslbzow/2JuNQsg7/vv/iaPjcaz+OxaHgc3Hh01GSJMPX7x3GIRvVynB+K4cu3zmIw2q1MixvZsylnQdxuFatDluZcLloHH5Jx/Ml43B2lGnKxeHW/udeufHZt7fXj+pQLQ5n9r8v39hrrbXB16PScRh+ePDjP6OacTibJHn76MJvNePwc5I8NX5lPUkerVaHq0ku7nQWmsnFiqPkm52+Q5K8U6sOd5Nc3OvFIXmsVh2uJ3lmShyKDZTnk2S7G4eVJLlTqQ6LSS714nBts1rzYbfTdXqw0Nyt1oz6OMnNXhzaUpKHiw2Tw71eHNpgVGugHIwmh4fDvsPmZH0qLC4e6cehtS+TfFGnDktJnp0Sh/ZXZ9w45RYmFthjXcmFOVx5f5WZ2pgSh7Y423u+fMy/2SzdnBKHtjTjmx4ja/dn/Ct9NCUO7aEZ3/TxY/bNZmh7ShzauRnfdG1+6zCxZzGHdTih52JyC2sOn4sTGicnt7DmcJw8me/Nzo7mHH5vnsw8qrOjOY/zqJOYV3c3uIvNqw/XWd0N7mLrrIN1d++8Q7F190EfphuHan2YB325XhzK9eXuJ7nSPw21e7ypzv/XYpLL/dNQW9X69ueTZL0bh3Pl9nGmb+P9Wu8AxN0pE/7Ber193jNT4vB3wX3/drUXh+X1gudA2k9JsjJ+5fskebpaHfYHyveOLvye1FpcjHd5uucG12rGIRm+tX+O9JtRKr55Mdb0e/LG5z/cfuXgxH3ROEwalhwdVvvvHZSMw7X+eygl49Da8sTjsbpTNA6tnRt7QevSdrUyLB6tLC58clCGl+5VK0PbHV9Z/PnuC8kTr37X6rnVWWgO9lpJtyq+ozn9uVhVhdaWRsMNVWj+8wkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJxS/wHNqP1WLlPD4gAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNC0yOVQxNzoyODowNiswMjowMPxcTCMAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDQtMjlUMTc6Mjg6MDcrMDI6MDArdv8rAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Borna</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Conector</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Conexión a Tierra</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Conexión a Masa</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
     <name> <text>Identificar Condensador polarizado</text> </name>
     <questiontext format="html">
       <text><![CDATA[

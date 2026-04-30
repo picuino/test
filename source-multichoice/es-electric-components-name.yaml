@@ -329,6 +329,16 @@ Show_max: 0
     - Conexión a Tierra
     - Conexión a Masa
 
+- Title: Identificar Borna
+  Question: ¿A qué componente corresponde el símbolo de la figura?
+  Image: ../images/electric-simbolo-borna.png
+  Image_width: 180
+  Choices:
+    - Borna
+    - Conector
+    - Conexión a Tierra
+    - Conexión a Masa
+
 - Title: Identificar Condensador polarizado
   Question: ¿A qué componente corresponde el símbolo de la figura?
   Image: ../images/electric-simbolo-condensador-pol.png

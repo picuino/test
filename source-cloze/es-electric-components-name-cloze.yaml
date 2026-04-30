@@ -169,6 +169,11 @@ Show_max: 0
   Image_width: 180
   Cloze: Este componente se llama {conector}.
 
+- Title: Identificar Borna
+  Image: ../images/electric-simbolo-borna.png
+  Image_width: 180
+  Cloze: Este componente se llama {borna}.
+
 - Title: Identificar Condensador polarizado
   Image: ../images/electric-simbolo-condensador-pol.png
   Image_width: 180
