@@ -532,7 +532,7 @@
               gaps_not_solved -= 1;
               continue;
            };
-           var gap_text = gap_element.value.toLowerCase().trim();
+           var gap_text = gap_element.value.trim();
            gap_text.replace(/\s\s+/g, ' ');
            if (gap_text === "") {
               continue;
@@ -563,7 +563,7 @@
         var num_answers = questions_sorted[page]["Gaps"][num_gap].length;
         for (var j=0; j<num_answers; j++) {
            var answer = questions_sorted[page]["Gaps"][num_gap][j];
-           if (gap_text === answer.toLowerCase()) {
+           if (gap_text === answer) {
               return answer;
            };
         };
@@ -611,7 +611,7 @@
                  break;
               };
            }
-           var gap_text = gap_element.value.toLowerCase();
+           var gap_text = gap_element.value;
            var i = 0;
            while (true) {
               if (i >= correct_answer.length) {
@@ -635,7 +635,7 @@
                  gaps_values[page][gap_selected][i] = 0;
                  return;
               };
-              if (gap_text.charAt(i).toLowerCase() !== correct_answer.charAt(i).toLowerCase()) {
+              if (gap_text.charAt(i) !== correct_answer.charAt(i)) {
                  gap_text = correct_answer.substr(0, i+1);
                  gap_element.value = gap_text;
                  gaps_values[page][gap_selected][i] = 0;
